@@ -817,6 +817,15 @@ function theme_vive_products_prepare_html( $html, $file ) {
 
 	$in_stock_html = '<span class="vive-in-stock-badge">Còn hàng</span>';
 
+	// Tự động dịch các chuỗi banner shop tiếng Anh
+	$shop_strings = array(
+		'Get the right setup — VIVE VR headsets, glasses, and accessories for immersive virtual and mixed reality experiences.' => 'Lựa chọn thiết bị phù hợp — Kính thực tế ảo VIVE VR, kính thông minh AI và phụ kiện chính hãng cho trải nghiệm thực tế ảo &amp; thực tế hỗn hợp đỉnh cao.',
+		'Browse VIVE Store' => 'Khám phá VIVE Store',
+		'Shop by category for VIVE Eagle AI Glasses, VR headsets, Full body trackers, and more.' => 'Mua sắm theo danh mục: Kính AI VIVE Eagle, Kính thực tế ảo VR, Thiết bị theo dõi chuyển động và Phụ kiện chính hãng.',
+		'>Categories<' => '>Danh mục sản phẩm<',
+	);
+	$html = str_replace( array_keys( $shop_strings ), array_values( $shop_strings ), $html );
+
 	if ( $is_collection ) {
 		// Price sorting is intentionally unavailable. Remove the options from
 		// the markup and normalize stale/query-driven selections to best-selling.
@@ -866,6 +875,12 @@ function theme_vive_products_prepare_html( $html, $file ) {
 					$id = $p->get_id();
 					$name = $p->get_name();
 					$p_slug = (string) get_post_meta( $id, THEME_VIVE_PRODUCT_META, true ) ?: $p->get_slug();
+
+					// Ẩn các biến thể SKU con của VIVE Eagle (đã được gom vào bên trong trang VIVE Eagle chính)
+					if ( preg_match( '#^(?:htc-)?vive-eagle-(?:pantos|square|glossy)-#i', $p_slug ) ) {
+						continue;
+					}
+
 					$p_url = home_url( '/shop/products/' . $p_slug . '/' );
 
 					// Resolve product thumbnail image
@@ -972,8 +987,8 @@ function theme_vive_products_prepare_html( $html, $file ) {
 	if ( $is_shop_product && $detail_slug ) {
 		$product_info = $catalogue[ $detail_slug ] ?? array( 'id' => 0, 'name' => $detail_slug );
 		$zalo_url = 'https://zalo.me/0917834532';
-		$quantity_html = '<div class="product-quantity quantity-selector-holder">'
-			. '<span class="product-quantity__title" style="font-weight:700;font-size:14px;color:#111;margin-right:12px;">Số lượng:</span>'
+		$quantity_html = '<div class="product-quantity quantity-selector-holder" style="display:flex!important;align-items:center!important;margin:18px 0 20px!important;gap:10px!important;flex-wrap:nowrap!important;">'
+			. '<span class="product-quantity__title" style="white-space:nowrap!important;font-weight:700!important;font-size:14px!important;color:#111!important;margin-right:8px!important;flex-shrink:0!important;">Số lượng:</span>'
 			. '<button type="button" class="qty-button qty-minus" aria-label="Giảm số lượng">−</button>'
 			. '<input type="number" name="quantity" value="1" min="1" max="99" class="qty qty-selector product__quantity" aria-label="Số lượng">'
 			. '<button type="button" class="qty-button qty-plus" aria-label="Tăng số lượng">+</button>'
@@ -1007,10 +1022,23 @@ function theme_vive_products_prepare_html( $html, $file ) {
 			$html = preg_replace( '#<form\b[^>]*action=["\'][^"\']*/cart/add[^"\']*["\'][^>]*>.*?</form>#is', $actions_html, $html, 1 );
 		}
 
-		// Clean up any remaining payment buttons / installment terms
+		// Clean up try-on CTA, try-on modal, and model viewer elements from DOM
+		$html = preg_replace( '#<div\b[^>]*class=["\'][^"\']*\b(?:tryon__cta|tryon__modal|tryon-block)\b[^"\']*["\'][^>]*>[\s\S]*?</div>\s*</div>#is', '', $html );
+		$html = preg_replace( '#<div\b[^>]*class=["\'][^"\']*\btryon__cta\b[^"\']*["\'][^>]*>[\s\S]*?</div>#is', '', $html );
+		$html = preg_replace( '#<div\b[^>]*class=["\'][^"\']*\btryon__modal\b[^"\']*["\'][^>]*>[\s\S]*?</div>#is', '', $html );
+		$html = preg_replace( '#<script\b[^>]*>\s*\(function\(\)\{\s*\'use strict\';\s*var RELEASE_ON_CLOSE[\s\S]*?</script>#is', '', $html );
+		$html = preg_replace_callback( '#<script\b[^>]*>.*?</script>#is', static function ( $m ) {
+			return ( false !== strpos( $m[0], '_RestockRocketConfig' ) || false !== strpos( $m[0], 'RestockRocket' ) || false !== strpos( $m[0], 'BndlrScriptAppended' ) ) ? '' : $m[0];
+		}, (string) $html );
+
+		// Disable Shopify variant page-redirect behavior so users can switch variants in-place
+		$html = preg_replace( '#\bdata-product-url=["\'][^"\']*["\']#i', 'data-product-url=""', $html );
+
+		// Clean up any remaining payment buttons / installment terms / preorder shipping notices
 		$html = preg_replace( '#<shopify-payment-terms\b[^>]*>.*?</shopify-payment-terms>#is', '', $html );
 		$html = preg_replace( '#<div\b[^>]*class=["\'][^"\']*\bshopify-payment-button\b[^"\']*["\'][^>]*>.*?</div>#is', '', $html );
 		$html = preg_replace( '#<form\b[^>]*class=["\'][^"\']*product-form-installment[^"\']*["\'][^>]*>.*?</form>#is', '', $html );
+		$html = preg_replace( '#<div\b[^>]*class=["\'][^"\']*\b(?:restock-rocket|stoq|preorder-button-description|shipping-info)\b[^"\']*["\'][^>]*>.*?</div>#is', '', $html );
 
 		// Ensure breadcrumb shows full Vietnamese product title and valid link to collections
 		$product_full_name = ! empty( $product_info['name'] ) ? $product_info['name'] : ( $catalogue[ $detail_slug ]['name'] ?? $detail_slug );
@@ -1070,7 +1098,7 @@ function theme_vive_products_prepare_html( $html, $file ) {
 			return '<a' . $attrs . '>' . $match['label'] . '</a>';
 		}, $html );
 	}
-	$style = '<style id="theme-vive-woo-product-buttons">.tryon__cta,.tryon__modal,.tryon-block,[class*="tryon"],[id*="tryon"],.shopify-model-viewer-ui,[data-shopify-model-viewer-ui],model-viewer,.model-viewer{display:none!important}.vive-in-stock-badge{display:inline-flex!important;align-items:center!important;gap:6px!important;color:#0d8a4f!important;font-weight:700!important;font-size:18px!important;line-height:1.3!important}.vive-in-stock-badge::before{content:"✓";display:inline-flex;align-items:center;justify-content:center;width:20px;height:20px;border-radius:50%;background:#e6f4ea;color:#0d8a4f;font-size:13px;font-weight:900}.theme-vive-product-actions{display:flex!important;align-items:center;flex-wrap:wrap;gap:12px;margin-top:22px}.theme-vive-product-actions a{display:inline-flex!important;align-items:center;justify-content:center;box-sizing:border-box;min-width:132px;padding:11px 24px;border:1px solid #00b5e2;border-radius:2px;font:600 15px/1.35 "Be Vietnam Pro",Arial,sans-serif;text-decoration:none!important;transition:background .2s,border-color .2s,color .2s}.theme-vive-detail-button{background:#fff;color:#008fb3!important}.theme-vive-buy-button{background:#00b5e2;color:#fff!important}.theme-vive-detail-buy-button{display:inline-flex!important;align-items:center;justify-content:center;align-self:center;box-sizing:border-box;margin:0 22px 0 0;padding:8px 20px;border:1px solid #00b5e2;border-radius:2px;background:#00b5e2;color:#fff!important;font:600 14px/1.35 "Be Vietnam Pro",Arial,sans-serif;white-space:nowrap;cursor:pointer;transition:background .2s,border-color .2s}.theme-vive-detail-buy-button:hover,.theme-vive-detail-buy-button:focus{border-color:#008fb3;background:#008fb3}.theme-vive-product-actions a:hover,.theme-vive-product-actions a:focus{border-color:#008fb3;background:#008fb3;color:#fff!important}.product-list .theme-vive-product-actions{justify-content:center;margin-top:16px}.theme-vive-order-modal[hidden]{display:none!important}.theme-vive-order-modal{position:fixed;z-index:2147483640;inset:0;display:flex!important;align-items:center;justify-content:center;padding:20px;background:rgba(0,0,0,.62)}.theme-vive-order-dialog{position:relative;box-sizing:border-box;width:min(560px,100%);max-height:calc(100vh - 40px);overflow:auto;padding:30px;border-radius:8px;background:#fff;color:#202124;box-shadow:0 20px 60px rgba(0,0,0,.35)}.theme-vive-order-close{position:absolute;top:10px;right:12px;border:0;background:transparent;font-size:30px;line-height:1;cursor:pointer}.theme-vive-order-dialog h2{margin:0 35px 20px 0;font-size:25px}.theme-vive-order-product{display:grid;grid-template-columns:118px 1fr;gap:16px;align-items:center;margin-bottom:18px;padding:14px;border-radius:6px;background:#f5f7f8}.theme-vive-order-product img{display:block;width:118px;height:90px;margin:0!important;object-fit:contain}.theme-vive-order-product h3{margin:0 0 5px;font-size:19px}.theme-vive-order-product p{margin:0 0 5px;font-size:14px;line-height:1.45}.theme-vive-order-product-meta{color:#697077;font-size:12px}.theme-vive-order-dialog label{display:block;margin:12px 0 5px;font-weight:600}.theme-vive-order-dialog input,.theme-vive-order-dialog textarea{box-sizing:border-box;width:100%;padding:11px 12px;border:1px solid #c8cdd0;border-radius:4px;font:inherit}.theme-vive-order-quantity{max-width:120px}.theme-vive-order-submit{width:100%;margin-top:20px;padding:12px;border:0;border-radius:4px;background:#00b5e2;color:#fff;font-weight:700;cursor:pointer}.theme-vive-order-message{margin:14px 0 0}.theme-vive-order-message.is-error{color:#b42318}@media(max-width:767px){.theme-vive-product-actions{margin-top:16px}.theme-vive-product-actions a{padding:10px 20px}.theme-vive-detail-buy-button{margin-right:10px;padding:7px 12px;font-size:12px}.theme-vive-order-dialog{padding:24px 20px}.theme-vive-order-product{grid-template-columns:88px 1fr}.theme-vive-order-product img{width:88px;height:76px}}</style>';
+	$style = '<style id="theme-vive-woo-product-buttons">.tryon__cta,.tryon__modal,.tryon-block,[class*="tryon"],[id*="tryon"],.shopify-model-viewer-ui,[data-shopify-model-viewer-ui],model-viewer,.model-viewer,[class*="restock"],[id*="restock"],[class*="stoq"],[id*="stoq"],.preorder-button-description,[class*="preorder-button-description"],[class*="shipping-text"],[class*="preorder-badge"],[class*="preorder_button"],.shipping-info,[data-shipping],[data-preorder],.product-form__shipping{display:none!important;visibility:hidden!important;opacity:0!important;pointer-events:none!important;height:0!important;width:0!important;overflow:hidden!important;margin:0!important;padding:0!important}.vive-in-stock-badge{display:inline-flex!important;align-items:center!important;gap:6px!important;color:#0d8a4f!important;font-weight:700!important;font-size:18px!important;line-height:1.3!important}.vive-in-stock-badge::before{content:"✓";display:inline-flex;align-items:center;justify-content:center;width:20px;height:20px;border-radius:50%;background:#e6f4ea;color:#0d8a4f;font-size:13px;font-weight:900}.theme-vive-product-actions{display:flex!important;align-items:center;flex-wrap:wrap;gap:12px;margin-top:22px}.theme-vive-product-actions a{display:inline-flex!important;align-items:center;justify-content:center;box-sizing:border-box;min-width:132px;padding:11px 24px;border:1px solid #00b5e2;border-radius:2px;font:600 15px/1.35 "Be Vietnam Pro",Arial,sans-serif;text-decoration:none!important;transition:background .2s,border-color .2s,color .2s}.theme-vive-detail-button{background:#fff;color:#008fb3!important}.theme-vive-buy-button{background:#00b5e2;color:#fff!important}.theme-vive-detail-buy-button{display:inline-flex!important;align-items:center;justify-content:center;align-self:center;box-sizing:border-box;margin:0 22px 0 0;padding:8px 20px;border:1px solid #00b5e2;border-radius:2px;background:#00b5e2;color:#fff!important;font:600 14px/1.35 "Be Vietnam Pro",Arial,sans-serif;white-space:nowrap;cursor:pointer;transition:background .2s,border-color .2s}.theme-vive-detail-buy-button:hover,.theme-vive-detail-buy-button:focus{border-color:#008fb3;background:#008fb3}.theme-vive-product-actions a:hover,.theme-vive-product-actions a:focus{border-color:#008fb3;background:#008fb3;color:#fff!important}.product-list .theme-vive-product-actions{justify-content:center;margin-top:16px}.theme-vive-order-modal[hidden]{display:none!important}.theme-vive-order-modal{position:fixed;z-index:2147483640;inset:0;display:flex!important;align-items:center;justify-content:center;padding:20px;background:rgba(0,0,0,.62)}.theme-vive-order-dialog{position:relative;box-sizing:border-box;width:min(560px,100%);max-height:calc(100vh - 40px);overflow:auto;padding:30px;border-radius:8px;background:#fff;color:#202124;box-shadow:0 20px 60px rgba(0,0,0,.35)}.theme-vive-order-close{position:absolute;top:10px;right:12px;border:0;background:transparent;font-size:30px;line-height:1;cursor:pointer}.theme-vive-order-dialog h2{margin:0 35px 20px 0;font-size:25px}.theme-vive-order-product{display:grid;grid-template-columns:118px 1fr;gap:16px;align-items:center;margin-bottom:18px;padding:14px;border-radius:6px;background:#f5f7f8}.theme-vive-order-product img{display:block;width:118px;height:90px;margin:0!important;object-fit:contain}.theme-vive-order-product h3{margin:0 0 5px;font-size:19px}.theme-vive-order-product p{margin:0 0 5px;font-size:14px;line-height:1.45}.theme-vive-order-product-meta{color:#697077;font-size:12px}.theme-vive-order-dialog label{display:block;margin:12px 0 5px;font-weight:600}.theme-vive-order-dialog input,.theme-vive-order-dialog textarea{box-sizing:border-box;width:100%;padding:11px 12px;border:1px solid #c8cdd0;border-radius:4px;font:inherit}.theme-vive-order-quantity{max-width:120px}.theme-vive-order-submit{width:100%;margin-top:20px;padding:12px;border:0;border-radius:4px;background:#00b5e2;color:#fff;font-weight:700;cursor:pointer}.theme-vive-order-message{margin:14px 0 0}.theme-vive-order-message.is-error{color:#b42318}@media(max-width:767px){.theme-vive-product-actions{margin-top:16px}.theme-vive-product-actions a{padding:10px 20px}.theme-vive-detail-buy-button{margin-right:10px;padding:7px 12px;font-size:12px}.theme-vive-order-dialog{padding:24px 20px}.theme-vive-order-product{grid-template-columns:88px 1fr}.theme-vive-order-product img{width:88px;height:76px}}</style>';
 	// Actions, variants & callback styling
 	$style .= '<style id="theme-vive-shop-actions-style">'
 		. '.show-block-if-variant-selected,.product-variants,.product-variants.no-js-hidden,.sidebar-widget,.sidebar-widget--outline,.sidebar-widget__content,.product-variant,.product-actions{display:block!important;visibility:visible!important;opacity:1!important}'
@@ -1087,7 +1115,11 @@ function theme_vive_products_prepare_html( $html, $file ) {
 		. '.product-variant__input:checked+.product-variant__label .product-variant__item-swatch,.product-variant__item--color input:checked+label .product-variant__item-swatch{border-color:#00b5e2!important;box-shadow:0 0 0 3px rgba(0,181,226,.35)!important;transform:scale(1.12)!important}'
 		. '.product-variant__label{cursor:pointer!important;display:inline-flex!important;align-items:center!important}'
 		. '.product-variant__item-text-label{display:block!important;font-size:13px!important;color:#666!important;margin-top:6px!important}'
-		. '.product-quantity,product-quantity,.product-quantity.hide{display:inline-flex!important;align-items:center!important;gap:8px!important;margin:16px 0 20px!important;visibility:visible!important;opacity:1!important}'
+		. '.product-quantity,product-quantity,.product-quantity.hide{display:flex!important;align-items:center!important;gap:8px!important;margin:18px 0 20px!important;visibility:visible!important;opacity:1!important;flex-wrap:nowrap!important;width:auto!important;}'
+		. '.product-quantity__title{white-space:nowrap!important;display:inline-block!important;font-weight:700!important;font-size:14px!important;color:#111!important;margin-right:8px!important;flex-shrink:0!important;}'
+		. '.product-quantity .qty-button{display:inline-flex!important;align-items:center!important;justify-content:center!important;width:38px!important;height:38px!important;border:1px solid #c8d2d6!important;background:#fff!important;border-radius:4px!important;cursor:pointer!important;font-size:18px!important;font-weight:700!important;transition:border-color .2s,background .2s}'
+		. '.product-quantity .qty-button:hover{border-color:#00b5e2!important;background:#f0f9fc!important}'
+		. '.product-quantity input.product__quantity{display:inline-block!important;width:64px!important;height:38px!important;text-align:center!important;border:1px solid #c8d2d6!important;border-radius:4px!important;font-size:16px!important;font-weight:700!important;background:#fff!important}'
 		. '.product-quantity .qty-button{display:inline-flex!important;align-items:center!important;justify-content:center!important;width:38px!important;height:38px!important;border:1px solid #c8d2d6!important;background:#fff!important;border-radius:4px!important;cursor:pointer!important;font-size:18px!important;font-weight:700!important;transition:border-color .2s,background .2s}'
 		. '.product-quantity .qty-button:hover{border-color:#00b5e2!important;background:#f0f9fc!important}'
 		. '.product-quantity input.product__quantity{display:inline-block!important;width:64px!important;height:38px!important;text-align:center!important;border:1px solid #c8d2d6!important;border-radius:4px!important;font-size:16px!important;font-weight:700!important;background:#fff!important}'
@@ -1142,7 +1174,7 @@ function theme_vive_products_prepare_html( $html, $file ) {
 		'endpoint'=>admin_url( 'admin-post.php' ),
 		'nonce'=>wp_create_nonce( 'theme_vive_submit_order' ),
 	);
-	$script = '<script id="theme-vive-woo-products">window.themeViveProductOrder=' . wp_json_encode( $config, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES ) . ';</script><script src="' . esc_url( get_template_directory_uri() . '/inc/product-order.js' ) . '" defer></script>';
+	$script = '<script id="theme-vive-woo-products">window.themeViveProductOrder=' . wp_json_encode( $config, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES ) . ';</script><script src="' . esc_url( get_template_directory_uri() . '/inc/product-order.js?v=' . ( file_exists( get_template_directory() . '/inc/product-order.js' ) ? filemtime( get_template_directory() . '/inc/product-order.js' ) : '20260907' ) ) . '" defer></script>';
 	return preg_replace( '#</body>#i', $style . $script . '</body>', $html, 1 );
 }
 

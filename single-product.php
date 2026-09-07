@@ -255,7 +255,7 @@ while ( have_posts() ) :
 	})();
 	</script>
 	<script>window.themeViveProductOrder=<?php echo wp_json_encode( array( 'products'=>theme_vive_catalogue_products(), 'endpoint'=>admin_url( 'admin-post.php' ), 'nonce'=>wp_create_nonce( 'theme_vive_submit_order' ) ), JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES ); ?>;</script>
-	<script src="<?php echo esc_url( get_template_directory_uri() . '/inc/product-order.js' ); ?>"></script>
+	<script src="<?php echo esc_url( get_template_directory_uri() . '/inc/product-order.js?v=' . ( file_exists( get_template_directory() . '/inc/product-order.js' ) ? filemtime( get_template_directory() . '/inc/product-order.js' ) : '20260907' ) ); ?>"></script>
 	<script>
 	(function(){
 		var form=document.querySelector('[data-vive-callback-form]');

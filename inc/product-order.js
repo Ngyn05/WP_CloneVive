@@ -206,18 +206,192 @@
       }
     });
 
-    // Swatch click feedback
-    document.querySelectorAll('.product-variant__item--color input[type="radio"]').forEach(function (radio) {
-      if (radio._swatchBound) return;
-      radio._swatchBound = true;
-      radio.addEventListener('change', function () {
-        var container = radio.closest('.product-variant');
-        if (container) {
-          var label = container.querySelector('.product-variant__item-text-label');
-          if (label) label.textContent = radio.value;
+    // Color and option translations dictionary
+    var variantTranslations = {
+      'black': 'Đen (Black)',
+      'charcoal black': 'Đen than (Charcoal Black)',
+      'charcoal': 'Đen than (Charcoal Black)',
+      'clear brown': 'Nâu sáng (Clear Brown)',
+      'light brown': 'Nâu sáng (Light Brown)',
+      'brown': 'Nâu (Brown)',
+      'white': 'Trắng (White)',
+      'grey': 'Xám (Grey)',
+      'gray': 'Xám (Gray)',
+      'blue': 'Xanh dương (Blue)',
+      'navy': 'Xanh navy (Navy)',
+      'berry': 'Đỏ berry (Berry)',
+      'coffee': 'Cà phê (Coffee)',
+      'transitions': 'Tròng kính đổi màu Transitions',
+      'clear lens (blue-light blocking)': 'Tròng kính trong suốt (Lọc ánh sáng xanh)',
+      'sunglasses': 'Kính râm chống nắng (Sunglasses)',
+      'square': 'Gọng Square (Vuông hiện đại)',
+      'pantos': 'Gọng Pantos (Tròn cổ điển)'
+    };
+
+    function translateText(str) {
+      if (!str) return '';
+      var clean = String(str).trim().toLowerCase();
+      return variantTranslations[clean] || str;
+    }
+
+    function sanitizeVariantLabels() {
+      var colorRadio = document.querySelector('.product-variant input[name*="color"]:checked');
+      var currentColorVal = colorRadio ? colorRadio.value : '';
+      var colorLabel = document.querySelector('.product-variant[data-name*="color"] .product-variant__item-text-label, [data-name*="color"] .product-variant__item-text-label, .product-variant__item-text-label');
+      if (colorLabel && currentColorVal) {
+        var correctText = translateText(currentColorVal);
+        if (colorLabel.textContent !== correctText) {
+          colorLabel.textContent = correctText;
         }
-      });
+      }
+    }
+
+    var labelObserver = new MutationObserver(function () {
+      labelObserver.disconnect();
+      sanitizeVariantLabels();
+      observeLabels();
     });
+
+    function observeLabels() {
+      document.querySelectorAll('.product-variant__item-text-label').forEach(function (label) {
+        labelObserver.observe(label, { childList: true, characterData: true, subtree: true });
+      });
+    }
+
+    function updateVariantGalleryAndLabels(changedInput) {
+      if (changedInput && changedInput.tagName === 'INPUT' && changedInput.type === 'radio') {
+        changedInput.checked = true;
+      }
+      var styleInput = document.querySelector('.product-variant select[id*="style"], .product-variant input[name*="style"]:checked');
+      var lensInput = document.querySelector('.product-variant select[id*="lens"], .product-variant input[name*="lens"]:checked');
+      var colorRadio = document.querySelector('.product-variant input[name*="color"]:checked');
+      if (changedInput && (changedInput.name || '').indexOf('color') !== -1 && changedInput.checked) {
+        colorRadio = changedInput;
+      }
+
+      var styleVal = styleInput ? styleInput.value : '';
+      var lensVal = lensInput ? lensInput.value : '';
+      var colorVal = colorRadio ? colorRadio.value : '';
+
+      // Auto-sync style, lens & color matrix
+      if (changedInput && (changedInput.name || '').indexOf('color') !== -1) {
+        if (colorVal === 'Clear Brown' || colorVal === 'Charcoal Black') {
+          if (styleInput && styleInput.value !== 'Pantos') {
+            styleInput.value = 'Pantos';
+            styleVal = 'Pantos';
+          }
+          // Pantos does not have Transitions, auto-switch to Clear Lens
+          if (lensInput && lensInput.value === 'Transitions') {
+            lensInput.value = 'Clear Lens (Blue-Light Blocking)';
+            lensVal = 'Clear Lens (Blue-Light Blocking)';
+          }
+        } else if (colorVal === 'Black') {
+          if (styleInput && styleInput.value !== 'Square') {
+            styleInput.value = 'Square';
+            styleVal = 'Square';
+          }
+        }
+      } else if (changedInput && ((changedInput.id || '').indexOf('style') !== -1 || (changedInput.name || '').indexOf('style') !== -1)) {
+        if (styleVal === 'Square') {
+          var blackRadio = document.querySelector('.product-variant input[name*="color"][value="Black"]');
+          if (blackRadio) {
+            blackRadio.checked = true;
+            colorVal = 'Black';
+          }
+        } else if (styleVal === 'Pantos') {
+          if (lensInput && lensInput.value === 'Transitions') {
+            lensInput.value = 'Clear Lens (Blue-Light Blocking)';
+            lensVal = 'Clear Lens (Blue-Light Blocking)';
+          }
+          if (colorVal === 'Black') {
+            var charcoalRadio = document.querySelector('.product-variant input[name*="color"][value="Charcoal Black"]');
+            if (charcoalRadio) {
+              charcoalRadio.checked = true;
+              colorVal = 'Charcoal Black';
+            }
+          }
+        }
+      } else if (changedInput && ((changedInput.id || '').indexOf('lens') !== -1 || (changedInput.name || '').indexOf('lens') !== -1)) {
+        if (lensVal === 'Transitions') {
+          // Transitions only exists in Square / Black
+          if (styleInput && styleInput.value !== 'Square') {
+            styleInput.value = 'Square';
+            styleVal = 'Square';
+          }
+          var bRadio = document.querySelector('.product-variant input[name*="color"][value="Black"]');
+          if (bRadio) {
+            bRadio.checked = true;
+            colorVal = 'Black';
+          }
+        }
+      }
+
+      // Update color text label in Vietnamese
+      var colorLabel = document.querySelector('.product-variant[data-name*="color"] .product-variant__item-text-label, [data-name*="color"] .product-variant__item-text-label, .product-variant__item-text-label');
+      if (colorLabel && colorVal) {
+        colorLabel.textContent = translateText(colorVal);
+      }
+
+      // Calculate target thumbnail image index
+      var targetIndex = -1;
+      if (colorVal === 'Clear Brown' || colorVal.indexOf('Brown') !== -1) {
+        if (lensVal.indexOf('Sun') !== -1) targetIndex = 3;
+        else targetIndex = 2;
+      } else if (colorVal === 'Charcoal Black' || colorVal.indexOf('Charcoal') !== -1) {
+        if (lensVal.indexOf('Sun') !== -1) targetIndex = 14;
+        else targetIndex = 13;
+      } else { // Black / Square
+        if (lensVal.indexOf('Clear') !== -1) targetIndex = 1;
+        else if (lensVal.indexOf('Sun') !== -1) targetIndex = 4;
+        else targetIndex = 0;
+      }
+
+      // Switch gallery image via CSSSlider API + Thumbnail click
+      if (targetIndex >= 0) {
+        var slider = document.querySelector('css-slider');
+        if (slider && typeof slider.changeSlide === 'function') {
+          slider.changeSlide(targetIndex);
+        }
+        var thumb = document.querySelector('.thumbnail[data-index="' + targetIndex + '"]');
+        if (thumb) {
+          thumb.click();
+          document.querySelectorAll('.thumbnail').forEach(function (t) { t.classList.remove('active'); });
+          thumb.classList.add('active');
+        }
+      }
+    }
+
+    // Swatch & dropdown change feedback (preventing redirects and updating labels & gallery)
+    document.querySelectorAll('.product-variant select, .product-variant input[type="radio"], .product-variant__label, .product-variant__item-swatch').forEach(function (el) {
+      if (el.tagName === 'SELECT' || el.tagName === 'INPUT') {
+        el.removeAttribute('data-product-url');
+      }
+      if (el._boundVariant) return;
+      el._boundVariant = true;
+
+      if (el.tagName === 'LABEL' || el.classList.contains('product-variant__item-swatch')) {
+        el.addEventListener('click', function () {
+          var radio = el.tagName === 'LABEL' ? document.getElementById(el.getAttribute('for')) : (el.closest('.product-variant__item') ? el.closest('.product-variant__item').querySelector('input[type="radio"]') : null);
+          if (radio) {
+            radio.checked = true;
+            [0, 50, 150].forEach(function (ms) {
+              setTimeout(function () { updateVariantGalleryAndLabels(radio); }, ms);
+            });
+          }
+        });
+      } else {
+        el.addEventListener('change', function () {
+          [0, 50, 150].forEach(function (ms) {
+            setTimeout(function () { updateVariantGalleryAndLabels(el); }, ms);
+          });
+        });
+      }
+    });
+
+    // Run once on load to set initial Vietnamese color label & observe changes
+    updateVariantGalleryAndLabels();
+    sanitizeVariantLabels();
+    observeLabels();
 
     document.querySelectorAll('.js-slug-product[data-slug]').forEach(function (marker) {
       renderedSlugs[marker.getAttribute('data-slug')] = true;

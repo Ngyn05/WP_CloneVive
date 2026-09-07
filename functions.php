@@ -1,6 +1,9 @@
 <?php
 /** VIVE Complete Mirror theme. */
 if ( ! defined( 'ABSPATH' ) ) { exit; }
+if ( file_exists( get_template_directory() . '/inc/security-hardening.php' ) ) {
+	require_once get_template_directory() . '/inc/security-hardening.php';
+}
 require_once get_template_directory() . '/inc/translation-cms.php';
 require_once get_template_directory() . '/inc/blog-cms.php';
 require_once get_template_directory() . '/inc/rest-api.php';
@@ -1289,6 +1292,9 @@ function theme_vive_render( $file ) {
 	$html = preg_replace( '#<div\b[^>]*class=["\'][^"\']*\bshopify-app-block\b[^"\']*["\'][^>]*>.*?</div>#is', '', $html );
 	$html = preg_replace( '#(?:Cấu hình và thiết lập JS|JS configuration and setup)#u', '', $html );
 	$html = preg_replace( '#<script\b[^>]*?(?:getsitecontrol|socialchat|loup\.ai|marketo\.com|MktoForms2|shopify-forms|forms-2526|01a048ca-fd00-7dc3-902b-36c103d51f9e|restockrocket|RestockRocket)[^>]*>.*?</script>#is', '', $html );
+	$html = preg_replace_callback( '#<script\b[^>]*>.*?</script>#is', static function ( $m ) {
+		return ( false !== strpos( $m[0], '_RestockRocketConfig' ) || false !== strpos( $m[0], 'RestockRocket' ) || false !== strpos( $m[0], 'BndlrScriptAppended' ) ) ? '' : $m[0];
+	}, (string) $html );
 	$html = preg_replace( '#<link\b[^>]*?(?:getsitecontrol|socialchat|loup\.ai|dev\.visualwebsiteoptimizer\.com|marketo\.com|shopify-forms|restockrocket)[^>]*>#i', '', $html );
 	$html = preg_replace( '#<script\b[^>]*?id=[\'"]vwoCode[\'"][^>]*>.*?</script>#is', '', $html );
 	$html = preg_replace( '#<style\b[^>]*?id=[\'"]_vis_opt_path_hides[\'"][^>]*>.*?</style>#is', '', $html );
@@ -1375,9 +1381,8 @@ function theme_vive_render( $file ) {
 	// and CPU cost and can exhaust smaller production PHP workers before a byte is
 	// returned. The compact curated dictionary still translates shared navigation.
 	$normalized_mirror_file = str_replace( '\\', '/', (string) $file );
-	$is_shop_collection = 'shop-us.vive.com' === $source_host
-		&& (bool) preg_match( '#/(?:shop-us|shop-us\.vive\.com)/collections/[^/]+/index\.html?$#i', $normalized_mirror_file );
-	$html = theme_vive_translate_html( $html, 'blog.vive.com' !== $source_host && ! $is_shop_collection );
+	$is_shop = 'shop-us.vive.com' === $source_host || 'shop' === $source_host;
+	$html = theme_vive_translate_html( $html, 'blog.vive.com' !== $source_host && ! $is_shop );
 	// Use a clear Vietnamese hardware term in translated copy while leaving
 	// technical attributes and URL slugs containing "dongle" untouched.
 	$html = str_replace(
@@ -1774,6 +1779,13 @@ function theme_vive_prepare_fallback_html( $html, $file ) {
 			}
 		}
 	}
+	if ( function_exists( 'theme_vive_products_prepare_html' ) ) {
+		try {
+			$html = theme_vive_products_prepare_html( $html, $file );
+		} catch ( Throwable $error ) {
+			error_log( 'theme_vive_products fallback data failed: ' . $error->getMessage() ); // phpcs:ignore WordPress.PHP.DevelopmentFunctions
+		}
+	}
 	$html = theme_vive_remove_header_cart( $html );
 	$html = preg_replace_callback(
 		'#(?:(?:https?:)?//(?<host>(?:[^/]+\.)?vive\.com))?(?<path>/(?:static|media|express_static|express_media)/[^"\'\s<>\),;]+)#i',
@@ -1861,7 +1873,7 @@ function theme_vive_send_page( $file ) {
 		status_header( 200 );
 	}
 	header( 'Content-Type: text/html; charset=UTF-8' );
-	header( 'X-Theme-Vive-Build: 20260905-blog-header-14' );
+	header( 'X-Theme-Vive-Build: 20260907-product-fix-5' );
 	header( 'X-Theme-Vive-Render: ' . $mode );
 	if ( $error_class ) { header( 'X-Theme-Vive-Error-Class: ' . sanitize_key( $error_class ) ); }
 	nocache_headers();
@@ -2071,6 +2083,13 @@ function theme_vive_router() {
 	// 4. Kiểm tra URL sản phẩm dạng /shop/products/{slug}/
 	if ( preg_match( '#^/shop/products/(?<slug>[^/]+)/?$#i', $request, $m_prod ) && 'comparison' !== strtolower( $m_prod['slug'] ) ) {
 		$prod_slug = strtolower( trim( $m_prod['slug'] ) );
+
+		// Tự động chuyển hướng các biến thể SKU con của VIVE Eagle về trang chính Kính AI VIVE Eagle
+		if ( preg_match( '#^(?:htc-)?vive-eagle-(?:pantos|square|glossy)-#i', $prod_slug ) ) {
+			wp_safe_redirect( home_url( '/shop/products/vive-eagle/' ), 301 );
+			exit;
+		}
+
 		$file = theme_vive_page_file( 'shop-us.vive.com', '/products/' . $prod_slug . '/' );
 		$database_product = function_exists( 'theme_vive_find_product' ) ? theme_vive_find_product( $prod_slug ) : null;
 		$is_dynamic = false;
