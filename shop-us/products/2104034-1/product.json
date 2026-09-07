@@ -1,0 +1,55 @@
+{
+  "id": 10039428022589,
+  "title": "VIVE Default-on Link Box for VIVE Pro 2",
+  "handle": "2104034-1",
+  "body_html": "<div class=\"main-product-description py-3\">\n<meta charset=\"utf-8\">\n<div class=\"main-product-description py-3\">Designed for applications where the link box needs to be placed in a difficult to reach location. Default-on Link Box for VIVE Pro 2 will turn on as soon as power is applied so the on-off button does not need to be pressed.</div>\n<div class=\"main-product-description py-3\"></div>\n<div class=\"txt-disclaimer\">*Compatible with VIVE Pro series when paired with VIVE Headset Cable (2.0).<br>*Power adapter sold separately.</div>\n</div>",
+  "published_at": "2025-11-10T17:57:42-08:00",
+  "created_at": "2025-08-27T23:15:30-07:00",
+  "updated_at": "2026-09-05T09:35:04-07:00",
+  "vendor": "HTC VIVE Online Store",
+  "product_type": "Simple",
+  "tags": [],
+  "variants": [
+    {
+      "id": 50674045321533,
+      "title": "Default Title",
+      "option1": "Default Title",
+      "option2": null,
+      "option3": null,
+      "sku": "99HASU007-00",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": null,
+      "available": true,
+      "price": "69.00",
+      "grams": 1000,
+      "compare_at_price": null,
+      "position": 1,
+      "product_id": 10039428022589,
+      "created_at": "2025-08-27T23:15:30-07:00",
+      "updated_at": "2026-09-05T09:35:04-07:00"
+    }
+  ],
+  "images": [
+    {
+      "id": 58918166626621,
+      "created_at": "2025-08-27T23:48:52-07:00",
+      "position": 1,
+      "updated_at": "2025-08-27T23:48:55-07:00",
+      "product_id": 10039428022589,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0926/0489/1453/files/vive_pro_always-on_link_box_1.png?v=1756363735",
+      "width": 800,
+      "height": 576
+    }
+  ],
+  "options": [
+    {
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Default Title"
+      ]
+    }
+  ]
+}

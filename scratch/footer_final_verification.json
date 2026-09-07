@@ -1,0 +1,254 @@
+[
+  {
+    "name": "VIVE Eagle",
+    "href": "http://vive-vn.local/product/vive-eagle/overview/",
+    "status": 200,
+    "final_url": "http://vive-vn.local/product/vive-eagle/overview/",
+    "error": null
+  },
+  {
+    "name": "VIVE Flow",
+    "href": "http://vive-vn.local/product/vive-flow/overview/",
+    "status": 200,
+    "final_url": "http://vive-vn.local/product/vive-flow/overview/",
+    "error": null
+  },
+  {
+    "name": "Dòng Focus",
+    "href": "http://vive-vn.local/accessory/facial-tracker-for-vive-focus-series/",
+    "status": 200,
+    "final_url": "http://vive-vn.local/accessory/facial-tracker-for-vive-focus-series/",
+    "error": null
+  },
+  {
+    "name": "Phụ kiện",
+    "href": "http://vive-vn.local/accessory/",
+    "status": 200,
+    "final_url": "http://vive-vn.local/accessory/",
+    "error": null
+  },
+  {
+    "name": "Tất cả sản phẩm",
+    "href": "http://vive-vn.local/product/",
+    "status": 200,
+    "final_url": "http://vive-vn.local/product/",
+    "error": null
+  },
+  {
+    "name": "So sánh sản phẩm",
+    "href": "http://vive-vn.local/product/comparison/",
+    "status": 200,
+    "final_url": "http://vive-vn.local/shop/products/comparison/",
+    "error": null
+  },
+  {
+    "name": "Giải pháp",
+    "href": "http://vive-vn.local/solution/vive-streaming/",
+    "status": 200,
+    "final_url": "http://vive-vn.local/solution/vive-streaming/",
+    "error": null
+  },
+  {
+    "name": "VIVE Mars",
+    "href": "http://vive-vn.local/mars/",
+    "status": 200,
+    "final_url": "http://vive-vn.local/mars/",
+    "error": null
+  },
+  {
+    "name": "Cài đặt | Tải xuống",
+    "href": "http://vive-vn.local/setup/",
+    "status": 200,
+    "final_url": "http://vive-vn.local/setup/",
+    "error": null
+  },
+  {
+    "name": "Liên hệ",
+    "href": "http://vive-vn.local/contact/",
+    "status": 200,
+    "final_url": "http://vive-vn.local/contact/",
+    "error": null
+  },
+  {
+    "name": "VIVEPORT",
+    "href": "http://vive-vn.local/",
+    "status": 200,
+    "final_url": "http://vive-vn.local/",
+    "error": null
+  },
+  {
+    "name": "VIVE Eagle",
+    "href": "http://vive-vn.local/tw/product/vive-eagle/overview/",
+    "status": 200,
+    "final_url": "http://vive-vn.local/product/vive-eagle/overview/",
+    "error": null
+  },
+  {
+    "name": "VIVE XR Elite",
+    "href": "http://vive-vn.local/product/vive-xr-elite/overview/",
+    "status": 200,
+    "final_url": "http://vive-vn.local/product/vive-xr-elite/overview/",
+    "error": null
+  },
+  {
+    "name": "Dòng Focus",
+    "href": "http://vive-vn.local/product/#focus%20series/",
+    "status": 200,
+    "final_url": "http://vive-vn.local/product/#focus%20series/",
+    "error": null
+  },
+  {
+    "name": "Dòng Pro",
+    "href": "http://vive-vn.local/product/#pro%20series/",
+    "status": 200,
+    "final_url": "http://vive-vn.local/product/#pro%20series/",
+    "error": null
+  },
+  {
+    "name": "Máy tính đạt chuẩn VIVE",
+    "href": "http://vive-vn.local/ready/",
+    "status": 200,
+    "final_url": "http://vive-vn.local/vive-ready/",
+    "error": null
+  },
+  {
+    "name": "Thuê thiết bị",
+    "href": "http://vive-vn.local/rental/",
+    "status": 200,
+    "final_url": "http://vive-vn.local/business/",
+    "error": null
+  },
+  {
+    "name": "Hỗ trợ đơn hàng",
+    "href": "http://vive-vn.local/shop/pages/faq/",
+    "status": 200,
+    "final_url": "http://vive-vn.local/shop/pages/faq/",
+    "error": null
+  },
+  {
+    "name": "Giải pháp",
+    "href": "http://vive-vn.local/business/",
+    "status": 200,
+    "final_url": "http://vive-vn.local/business/",
+    "error": null
+  },
+  {
+    "name": "Đối tác ISV",
+    "href": "http://vive-vn.local/business/isv/program/",
+    "status": 200,
+    "final_url": "http://vive-vn.local/business/isv/program/",
+    "error": null
+  },
+  {
+    "name": "Câu chuyện",
+    "href": "http://vive-vn.local/business/stories/",
+    "status": 200,
+    "final_url": "http://vive-vn.local/business/stories/",
+    "error": null
+  },
+  {
+    "name": "Tài nguyên",
+    "href": "http://vive-vn.local/developer/resources/",
+    "status": 200,
+    "final_url": "http://vive-vn.local/developer/resources/",
+    "error": null
+  },
+  {
+    "name": "Tải SDK",
+    "href": "http://vive-vn.local/developer/resources/downloads/",
+    "status": 200,
+    "final_url": "http://vive-vn.local/developer/resources/downloads/",
+    "error": null
+  },
+  {
+    "name": "Hỗ trợ sản phẩm",
+    "href": "http://vive-vn.local/support/",
+    "status": 200,
+    "final_url": "http://vive-vn.local/support/",
+    "error": null
+  },
+  {
+    "name": "Ghi chú phát hành",
+    "href": "http://vive-vn.local/release-notes/",
+    "status": 200,
+    "final_url": "http://vive-vn.local/release-notes/",
+    "error": null
+  },
+  {
+    "name": "Bảo hành",
+    "href": "http://vive-vn.local/warranty/",
+    "status": 200,
+    "final_url": "http://vive-vn.local/warranty/",
+    "error": null
+  },
+  {
+    "name": "Không bán hoặc chia sẻ thông tin cá nhân của tôi",
+    "href": "http://vive-vn.local/",
+    "status": 200,
+    "final_url": "http://vive-vn.local/",
+    "error": null
+  },
+  {
+    "name": "Phòng báo chí",
+    "href": "http://vive-vn.local/newsroom/",
+    "status": 200,
+    "final_url": "http://vive-vn.local/blog/",
+    "error": null
+  },
+  {
+    "name": "Blog",
+    "href": "http://vive-vn.local/blog/",
+    "status": 200,
+    "final_url": "http://vive-vn.local/blog/",
+    "error": null
+  },
+  {
+    "name": "VIVE Arts",
+    "href": "http://vive-vn.local/arts/",
+    "status": 200,
+    "final_url": "http://vive-vn.local/arts/",
+    "error": null
+  },
+  {
+    "name": "VIVE Sync",
+    "href": "http://vive-vn.local/sync/",
+    "status": 200,
+    "final_url": "http://vive-vn.local/sync/",
+    "error": null
+  },
+  {
+    "name": "VIVE X",
+    "href": "http://vive-vn.local/vivex/",
+    "status": 200,
+    "final_url": "http://vive-vn.local/vivex/",
+    "error": null
+  },
+  {
+    "name": "VR vì cộng đồng",
+    "href": "http://vive-vn.local/",
+    "status": 200,
+    "final_url": "http://vive-vn.local/",
+    "error": null
+  },
+  {
+    "name": "Thư viện truyền thông",
+    "href": "http://vive-vn.local/7-miracles/",
+    "status": 200,
+    "final_url": "http://vive-vn.local/7-miracles/",
+    "error": null
+  },
+  {
+    "name": "Chính sách quyền riêng tư",
+    "href": "http://vive-vn.local/",
+    "status": 200,
+    "final_url": "http://vive-vn.local/",
+    "error": null
+  },
+  {
+    "name": "Sách trắng về bảo mật và quyền riêng tư",
+    "href": "http://vive-vn.local/",
+    "status": 200,
+    "final_url": "http://vive-vn.local/",
+    "error": null
+  }
+]

@@ -1,0 +1,1114 @@
+
+<!DOCTYPE html>
+
+<html dir="ltr" lang="en">
+<head>
+<link href="/express_static/vive_blog/dist/index.css" rel="stylesheet" type="text/css"/>
+<link href="/express_static/vive_blog/dist/vendor.css" rel="stylesheet" type="text/css"/>
+<link href="/static/app/dist_2020/other-styles.css?v=202608100232" rel="stylesheet" type="text/css"/><link href="/static/app/dist_2020/original-styles.css?v=202608100232" rel="stylesheet" type="text/css"/><link href="/static/app/dist_2020/new-styles.css?v=202608100232" rel="stylesheet" type="text/css"/>
+<script src="/static/js/vendor/jquery-3.6.3.min.js?v=202608100232" type="text/javascript"></script><script src="/static/js/vendor/jquery-migrate-3.4.0.min.js?v=202608100232" type="text/javascript"></script><script src="/redirect/ecmapping/us/" type="text/javascript"></script>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="HTC đang hoàn thiện một XR tương lai vững chắc" name="title"/>
+<meta content="website" property="og:type"/>
+<meta content="https://blog.vive.com/us/htc-vive-is-driving-a-sustainable-xr-future/" property="og:url"/>
+<meta content="HTC đang hoàn thiện một XR tương lai vững chắc" property="og:title"/>
+<meta content="HTC đang hoàn thiện một XR tương lai vững chắc" name="twitter:title"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="@htcvive" name="twitter:site"/>
+<meta content="HTC đang hoàn thiện một XR tương lai vững chắc" name="description"/>
+<meta content="https://blog.vive.com/express_media/images/Asset1-cover.2e16d0ba.fill-730x395.jpg" property="og:image"/>
+<title>Cách tạo Hình đại diện VRChat vào năm 2025 [Hướng dẫn cho người mới bắt đầu] | HTC VIVE Blog</title>
+<link href="/express_static/vive_blog/img/favicon.ico" rel="shortcut icon" type="image/png"/>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-TPVW3M');</script>
+
+
+<style id="custom-vive-blog-fixes">
+    body.revamp-2020 {
+        background-color: #ffffff !important;
+        color: #111111 !important;
+        padding-top: 0 !important;
+    }
+    #nav20-main-menu {
+        position: fixed !important;
+        top: 0 !important;
+        left: 0 !important;
+        width: 100% !important;
+        z-index: 9999 !important;
+        background: #000000 !important;
+    }
+    /* Ẩn submenu dropdown mặc định, chỉ hiện khi hover */
+    .nav20-link-2-content {
+        display: none !important;
+    }
+    .nav20-link-1-item:hover > .nav20-link-2-content {
+        display: block !important;
+    }
+    .nav20-link-3-content {
+        display: none !important;
+    }
+    .nav20-link-2-item:hover > .nav20-link-3-content {
+        display: block !important;
+    }
+    /* Khoảng cách an toàn tuyệt đối tránh che khuất nội dung */
+    .blog-main-layout {
+        max-width: 1240px !important;
+        margin: 130px auto 60px !important;
+        padding: 0 24px !important;
+        display: flex !important;
+        flex-direction: row !important;
+        gap: 40px !important;
+        min-height: 850px !important;
+        position: relative !important;
+        z-index: 2 !important;
+        clear: both !important;
+    }
+    .article-container {
+        max-width: 960px !important;
+        margin: 130px auto 60px !important;
+        padding: 0 20px !important;
+        min-height: 850px !important;
+        position: relative !important;
+        z-index: 2 !important;
+        clear: both !important;
+    }
+    .footer {
+        clear: both !important;
+        position: relative !important;
+        z-index: 10 !important;
+    }
+</style>
+</head>
+<body class="www us gfont-support revamp-2020" data-search-index="blog" data-search-vhost="www.vive.com" data-site="us" data-site-id="6214">
+<noscript>
+<iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-TPVW3M" style="display:none;visibility:hidden" width="0"></iframe>
+</noscript>
+<header data-login-extra-links="[]" data-my-account-link="None" data-my-order-link="None" data-my-user-html="" data-search-index='[{"index": "cms_prod_www_us_content", "display_name": "Products", "version": "v1", "tags": "product", "mapping_key": "product"}, {"index": "cms_prod_www_us_support", "display_name": "Support", "version": "v1", "tags": "support", "mapping_key": "support"}, {"index": "cms_blog_us_prod_wagtail", "display_name": "BLOG", "version": "0", "tags": "0", "mapping_key": "blog"}, {"index": "cms_prod_developer_resources", "display_name": "Developer", "version": "v1", "tags": "resources", "mapping_key": "resources"}, {"index": "cms_prod_www_us_order", "display_name": "Orders", "version": "v1", "tags": "others", "mapping_key": "others"}]'>
+<div id="nav20-main-menu">
+<div class="nav20-desktop-menu">
+<button aria-label="menu-toggle-btn" class="nav20-menu-btn js-nav20-menu-toggle-btn btn">
+<div class="menu-icon"></div>
+</button>
+<div class="nav20-logo-block">
+<a aria-label="VIVE" class="nav20-logo-block__image" href="/us/"></a>
+</div>
+<div class="nav20-center-content">
+<div class="nav20-main-list-content">
+<div class="nav20-main-list nav20-list--left">
+<div class="nav20-link-1-item">
+<a class="nav20-link-1 nav20-txt-title nav20-sub-link" href="/us/product/" id="func3" rel="" target="_self">
+<span>Sản phẩm</span>
+</a>
+<div class="nav20-link-2-content">
+<div class="nav20-link-2-item">
+<a class="nav20-link-2 nav20-txt-series" href="/us/product/vive-eagle/overview/" id="func14652" rel="" target="_self">
+<span>VIVE Eagle</span>
+<span class="nav20-txt-new">Mới</span>
+</a>
+</div>
+<div class="nav20-link-2-item">
+<a class="nav20-link-2 nav20-txt-series nav20-sun-link nav-icon nav-icon__vive-focus" href="/us/product/#focus%20series" id="func8398" rel="" target="_self">
+<span>Dòng VIVE Focus</span>
+</a>
+<div class="nav20-link-3-content func8398">
+<button aria-label="close" class="nav20-sun-close btn"></button>
+<a class="nav20-link-3 nav20-txt-items-title" href="/us/product/#focus%20series" rel="" target="_self">
+<span>Dòng VIVE Focus</span>
+</a>
+<a class="nav20-link-3 nav20-txt-items" href="/us/product/vive-focus-vision/overview/" rel="" target="_self">
+<span>Focus Vision</span>
+</a>
+</div>
+</div>
+<div class="nav20-link-2-item">
+<a class="nav20-link-2 nav20-txt-series" href="/us/product/vive-flow/overview" id="func11480" rel="" target="_self">
+<span>VIVE Flow</span>
+</a>
+</div>
+<div class="nav20-link-2-item">
+<a class="nav20-link-2 nav20-txt-series nav20-sun-link nav-icon nav-icon__accessory" href="/us/accessory-comparison/" id="func498" rel="" target="_self">
+<span>VIVE Tracking</span>
+</a>
+<div class="nav20-link-3-content func498">
+<button aria-label="close" class="nav20-sun-close btn"></button>
+<a class="nav20-link-3 nav20-txt-items-title" href="/us/accessory-comparison/" rel="" target="_self">
+<span>VIVE Tracking</span>
+</a>
+<a class="nav20-link-3 nav20-txt-items" href="/us/accessory/vive-ultimate-tracker/" rel="" target="_self">
+<span>Ultimate Tracker</span>
+</a>
+<a class="nav20-link-3 nav20-txt-items" href="/us/accessory/facial-tracker-for-vive-focus-series/" rel="" target="_self">
+<span>Facial Tracker for VIVE Focus Series</span>
+</a>
+<a class="nav20-link-3 nav20-txt-items" href="/us/accessory/tracker3/" rel="" target="_self">
+<span>Tracker (3.0)</span>
+</a>
+<a class="nav20-link-3 nav20-txt-items" href="/us/accessory/base-station2/" rel="" target="_self">
+<span>Base Station 2.0</span>
+</a>
+</div>
+</div>
+<div class="nav20-link-2-item">
+<a class="nav20-link-2 nav20-txt-series" href="/us/accessory/" id="func14674" rel="" target="_self">
+<span>Tất cả phụ kiện</span>
+</a>
+</div>
+<div class="nav20-link-2-item">
+<a class="nav20-link-2 nav20-txt-series nav20-sun-link" href="/us/product/" id="func10681" rel="" target="_self">
+<span>Tất cả sản phẩm</span>
+</a>
+<div class="nav20-link-3-content func10681">
+<button aria-label="close" class="nav20-sun-close btn"></button>
+<a class="nav20-link-3 nav20-txt-items-title" href="/us/product/" rel="" target="_self">
+<span>Tất cả sản phẩm</span>
+</a>
+<a class="nav20-link-3 nav20-txt-items" href="/us/product/comparison/" rel="" target="_self">
+<span>So sánh sản phẩm</span>
+</a>
+<a class="nav20-link-3 nav20-txt-items" href="/us/accessory-comparison/" rel="" target="_self">
+<span>Compare trackers</span>
+</a>
+</div>
+</div>
+<div class="nav20-link-2-item">
+<a class="nav20-link-2 nav20-txt-series" href="/us/solution/location-based-experiences/" id="func14658" rel="" target="_self">
+<span>LBE VR Entertainment</span>
+<span class="nav20-txt-new">Mới</span>
+</a>
+</div>
+<div class="nav20-link-2-item">
+<a class="nav20-link-2 nav20-txt-series nav20-sun-link" href="/us/solution/vive-streaming/" id="func14148" rel="" target="_self">
+<span>Solutions for VR Products</span>
+</a>
+<div class="nav20-link-3-content func14148">
+<button aria-label="close" class="nav20-sun-close btn"></button>
+<a class="nav20-link-3 nav20-txt-items-title" href="/us/solution/vive-streaming/" rel="" target="_self">
+<span>Solutions for VR Products</span>
+</a>
+<a class="nav20-link-3 nav20-txt-items" href="/us/solution/vive-streaming/" rel="" target="_self">
+<span>VIVE Streaming</span>
+</a>
+<a class="nav20-link-3 nav20-txt-items" href="/us/solution/vive-desk/" rel="" target="_self">
+<span>VIVE Desk</span>
+</a>
+</div>
+</div>
+<div class="nav20-link-2-item">
+<a class="nav20-link-2 nav20-txt-series nav20-sun-link" href="https://mars.vive.com" id="func13460" rel="noreferrer noopener" target="_blank">
+<span>Sản xuất ảo (Virtual Production)</span>
+</a>
+<div class="nav20-link-3-content func13460">
+<button aria-label="close" class="nav20-sun-close btn"></button>
+<a class="nav20-link-3 nav20-txt-items-title" href="https://mars.vive.com" rel="noreferrer noopener" target="_blank">
+<span>Sản xuất ảo (Virtual Production)</span>
+</a>
+<a class="nav20-link-3 nav20-txt-items" href="https://mars.vive.com" rel="noreferrer noopener" target="_blank">
+<span>VIVE Mars CamTrack</span>
+</a>
+</div>
+</div>
+<div class="nav20-link-2-item">
+<a class="nav20-link-2 nav20-txt-series" href="https://roundtable.vive.com/" id="func14774" rel="noreferrer noopener" target="_blank">
+<span>VIVE Roundtable Beta</span>
+<span class="nav20-txt-new">Mới</span>
+</a>
+</div>
+</div>
+</div>
+<div class="nav20-link-1-item">
+<a class="nav20-link-1 nav20-txt-title" href="//www.viverse.com/?utm_source=vive.com&amp;utm_medium=header&amp;utm_campaign=header-220803" id="func13319" rel="noreferrer noopener" target="_blank">
+<span>VIVERSE</span>
+</a>
+</div>
+<div class="nav20-link-1-item">
+<a class="nav20-link-1 nav20-txt-title" href="https://business.vive.com/us" id="func13320" rel="noreferrer noopener" target="_blank">
+<span>Doanh nghiệp</span>
+</a>
+</div>
+<div class="nav20-link-1-item">
+<a class="nav20-link-1 nav20-txt-title nav20-sub-link" href="/us/support/" id="func36" rel="" target="_self">
+<span>Hỗ trợ</span>
+</a>
+<div class="nav20-link-2-content">
+<div class="nav20-link-2-item">
+<a class="nav20-link-2 nav20-txt-series" href="/us/support/" id="func10697" rel="" target="_self">
+<span>Hỗ trợ</span>
+</a>
+</div>
+<div class="nav20-link-2-item">
+<a class="nav20-link-2 nav20-txt-series" href="/us/setup/" id="func960" rel="" target="_self">
+<span>Cài đặt | Tải xuống</span>
+</a>
+</div>
+<div class="nav20-link-2-item">
+<a class="nav20-link-2 nav20-txt-series" href="https://contact.vive.com/hc/en-us" id="func965" rel="noreferrer noopener" target="_blank">
+<span>Liên hệ</span>
+</a>
+</div>
+</div>
+</div>
+<div class="nav20-link-1-item">
+<a class="nav20-link-1 nav20-txt-title nav20-sub-link" href="https://shop-us.vive.com/pages/best-vr-deals" id="func13876" rel="noreferrer noopener" target="_blank">
+<span>Cửa hàng | Ưu đãi</span>
+</a>
+<div class="nav20-link-2-content">
+<div class="nav20-link-2-item">
+<a class="nav20-link-2 nav20-txt-series" href="https://shop-us.vive.com/pages/best-vr-deals" id="func14692" rel="noreferrer noopener" target="_blank">
+<span>Ưu đãi tốt nhất</span>
+</a>
+</div>
+<div class="nav20-link-2-item">
+<a class="nav20-link-2 nav20-txt-series" href="https://shop-us.vive.com/" id="func14693" rel="noreferrer noopener" target="_blank">
+<span>Cửa hàng</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="nav20-main-list nav20-list--right">
+<div class="nav20-link-1-item nav20-link-1-item--mobile">
+<a class="nav20-link-1 nav20-txt-title nav20-sub-link" href="#" target="_self">
+<span>Hồ sơ của tôi</span>
+</a>
+</div>
+</div>
+</div>
+<div class="nav20-search-content">
+<div class="search-box" id="search-box"></div>
+</div>
+</div>
+<div class="nav20-right-content" data-order-help="None" data-orders="None">
+<a class="nav20-mini-cart nav20-right-item" href="https://shop-us.vive.com/cart/" rel="nofollow noopener noreferrer" target="_blank"></a>
+</div>
+</div>
+</div>
+<div class="jqmWindow vive-modal ec-select-country ec-select-country-func">
+<div class="centered">
+<a class="jqmClose" href="#"></a>
+<div class="content-block">
+<div class="contry-list-block">
+<div class="earth-icon"></div>
+<div class="select-your-country">
+<div class="h2 mb-4">Please Select Your Location</div>
+</div>
+<div class="country-list">
+<div class="flex-item">
+<span data-cart-provider-type="MAGENTO" data-countrycode="AU" data-currency="AUD" data-ec-locale="vive_au" data-enable-json="0" data-english-country-name="Australia" data-fiter-country="en_au_M2_0924" data-locale="vive_au" data-mini-cart-api-link="{'key': '5hmTykNvjCM5CCAd05TV3W9GFMq1My84AoSwdnAd', 'addItem': 'https://myshop-apac.vive.com/vive_au/rest/V1/api/minicart/add/product/', 'getCart': 'https://myshop-apac.vive.com/vive_au/rest/V1/api/minicart/', 'getProduct': 'https://customer-api-au.vive.com/cache-api/v1/prodinfo', 'removeItem': 'https://myshop-apac.vive.com/vive_au/rest/V1/api/minicart/delete/product/{pid}'}" data-outer-link="" data-site-id="au" data-store-locale="en_au_M2_0924" data-theme-id="40383500">
+                                    Australia
+                                </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="MAGENTO" data-countrycode="AT" data-currency="EUR" data-ec-locale="vive_de" data-enable-json="0" data-english-country-name="Austria" data-fiter-country="en_at_m2_0312" data-locale="vive_de" data-mini-cart-api-link="{'key': '8wYf3jL2522rDNAQSbiKs1C7vRhiKSwS9oR69d8F', 'addItem': 'https://myshop.vive.com/vive_de/rest/V1/api/minicart/add/product/', 'getCart': 'https://myshop.vive.com/vive_de/rest/V1/api/minicart/', 'getProduct': 'https://customer-api-eu.vive.com/cache-api/v1/prodinfo', 'removeItem': 'https://myshop.vive.com/vive_de/rest/V1/api/minicart/delete/product/{pid}'}" data-outer-link="" data-site-id="de" data-store-locale="en_at_m2_0312" data-theme-id="40354400">
+                                    Österreich
+                                </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="MAGENTO" data-countrycode="BE" data-currency="EUR" data-ec-locale="vive_eu" data-enable-json="0" data-english-country-name="Belgium" data-fiter-country="en_be_m2_0312" data-locale="vive_eu" data-mini-cart-api-link="{'key': '8wYf3jL2522rDNAQSbiKs1C7vRhiKSwS9oR69d8F', 'addItem': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/add/product/', 'getCart': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/', 'getProduct': 'https://customer-api-eu.vive.com/cache-api/v1/prodinfo', 'removeItem': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/delete/product/{pid}'}" data-outer-link="" data-site-id="eu" data-store-locale="en_be_m2_0312" data-theme-id="40354400">
+                                    België
+                                </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="SHOPIFY" data-countrycode="CA-SHOPIFY" data-currency="CAD" data-ec-locale="vive_ca_shopify" data-enable-json="0" data-english-country-name="Canada" data-fiter-country="en_ca_s1_v1_0526" data-locale="vive_ca_shopify" data-mini-cart-api-link="{'key': '1865f9d7f9560f4173b0709e5176b9f3', 'addItem': '', 'getCart': 'https://shop-ca.vive.com/api/2025-01/graphql.json', 'getProduct': ' https://vive-store-ca.myshopify.com/api/2025-01/graphql.json', 'removeItem': ''}" data-outer-link="" data-site-id="ca" data-store-locale="en_ca_s1_v1_0526" data-theme-id="4773718000">
+                                    Canada
+                                </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="SHOPIFY" data-countrycode="CA-FR-SHOPIFY" data-currency="CAD" data-ec-locale="vive_cafr_shopify" data-enable-json="0" data-english-country-name="Canada French" data-fiter-country="fr_ca_s1_v1_0526" data-locale="vive_cafr_shopify" data-mini-cart-api-link="{'key': '1865f9d7f9560f4173b0709e5176b9f3', 'addItem': '', 'getCart': 'https://shop-ca.vive.com/api/2025-01/graphql.json', 'getProduct': ' https://vive-store-ca.myshopify.com/api/2025-01/graphql.json', 'removeItem': ''}" data-outer-link="" data-site-id="ca-fr" data-store-locale="fr_ca_s1_v1_0526" data-theme-id="4773718000">
+                                    Canada - Français
+                                </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="" data-countrycode="CN" data-currency="RMB" data-ec-locale="zh_cn" data-enable-json="0" data-english-country-name="China" data-fiter-country="zh_cn_0312" data-locale="zh_cn" data-mini-cart-api-link="{}" data-outer-link="" data-site-id="cn" data-store-locale="zh_cn_0312" data-theme-id="123456789">
+                                    中国
+                                </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="MAGENTO" data-countrycode="CZ" data-currency="EUR" data-ec-locale="vive_eu" data-enable-json="0" data-english-country-name="Czech Republic" data-fiter-country="en_cz_m2_0312" data-locale="vive_eu" data-mini-cart-api-link="{'key': '8wYf3jL2522rDNAQSbiKs1C7vRhiKSwS9oR69d8F', 'addItem': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/add/product/', 'getCart': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/', 'getProduct': 'https://customer-api-eu.vive.com/cache-api/v1/prodinfo', 'removeItem': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/delete/product/{pid}'}" data-outer-link="" data-site-id="eu" data-store-locale="en_cz_m2_0312" data-theme-id="40354400">
+                                    Česká republika
+                                </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="MAGENTO" data-countrycode="DK" data-currency="DKK" data-ec-locale="vive_dk" data-enable-json="0" data-english-country-name="Denmark" data-fiter-country="en_dk_m2_0312" data-locale="vive_dk" data-mini-cart-api-link="{'key': '8wYf3jL2522rDNAQSbiKs1C7vRhiKSwS9oR69d8F', 'addItem': 'https://myshop.vive.com/vive_dk/rest/V1/api/minicart/add/product/', 'getCart': 'https://myshop.vive.com/vive_dk/rest/V1/api/minicart/', 'getProduct': 'https://customer-api-eu.vive.com/cache-api/v1/prodinfo', 'removeItem': 'https://myshop.vive.com/vive_dk/rest/V1/api/minicart/delete/product/{pid}'}" data-outer-link="" data-site-id="eu" data-store-locale="en_dk_m2_0312" data-theme-id="40354400">
+                                    Denmark
+                                </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="MAGENTO" data-countrycode="DE" data-currency="EUR" data-ec-locale="vive_de" data-enable-json="0" data-english-country-name="Deutschland" data-fiter-country="de_de_m2_0312" data-locale="vive_de" data-mini-cart-api-link="{'key': '8wYf3jL2522rDNAQSbiKs1C7vRhiKSwS9oR69d8F', 'addItem': 'https://myshop.vive.com/vive_de/rest/V1/api/minicart/add/product/', 'getCart': 'https://myshop.vive.com/vive_de/rest/V1/api/minicart/', 'getProduct': 'https://customer-api-eu.vive.com/cache-api/v1/prodinfo', 'removeItem': 'https://myshop.vive.com/vive_de/rest/V1/api/minicart/delete/product/{pid}'}" data-outer-link="" data-site-id="de" data-store-locale="de_de_m2_0312" data-theme-id="40354400">
+                                    Deutschland
+                                </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="MAGENTO" data-countrycode="FR" data-currency="EUR" data-ec-locale="vive_fr" data-enable-json="0" data-english-country-name="France" data-fiter-country="fr_fr_m2_03121" data-locale="vive_fr" data-mini-cart-api-link="{'key': '8wYf3jL2522rDNAQSbiKs1C7vRhiKSwS9oR69d8F', 'addItem': 'https://myshop.vive.com/vive_fr/rest/V1/api/minicart/add/product/', 'getCart': 'https://myshop.vive.com/vive_fr/rest/V1/api/minicart/', 'getProduct': 'https://customer-api-eu.vive.com/cache-api/v1/prodinfo', 'removeItem': 'https://myshop.vive.com/vive_fr/rest/V1/api/minicart/delete/product/{pid}'}" data-outer-link="" data-site-id="fr" data-store-locale="fr_fr_m2_03121" data-theme-id="40354400">
+                                    France
+                                </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="MAGENTO" data-countrycode="HK" data-currency="HKD" data-ec-locale="hk_en" data-enable-json="0" data-english-country-name="Hong Kong" data-fiter-country="hk_en_M2_0604" data-locale="hk_en" data-mini-cart-api-link="{'key': 'OmEFVn9Bng88TtvvoUUmY7uUNFKz9c1c56WoLxoK', 'addItem': 'https://myhtcstore.htc.com/hk_en/rest/V1/api/minicart/add/product/', 'getCart': 'https://myhtcstore.htc.com/hk_en/rest/V1/api/minicart/', 'getProduct': 'https://customer-api2.vive.com/cache-api/v1/prodinfo', 'removeItem': 'https://myhtcstore.htc.com/hk_en/rest/V1/api/minicart/delete/product/{pid}'}" data-outer-link="" data-site-id="hk" data-store-locale="hk_en_M2_0604" data-theme-id="40383500">
+                                    HongKong
+                                </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="MAGENTO" data-countrycode="IS" data-currency="EUR" data-ec-locale="vive_eu" data-enable-json="0" data-english-country-name="Iceland" data-fiter-country="en_is_m2_0312" data-locale="vive_eu" data-mini-cart-api-link="{'key': '8wYf3jL2522rDNAQSbiKs1C7vRhiKSwS9oR69d8F', 'addItem': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/add/product/', 'getCart': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/', 'getProduct': 'https://customer-api-eu.vive.com/cache-api/v1/prodinfo', 'removeItem': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/delete/product/{pid}'}" data-outer-link="" data-site-id="eu" data-store-locale="en_is_m2_0312" data-theme-id="40354400">
+                                    Iceland
+                                </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="MAGENTO" data-countrycode="IE" data-currency="EUR" data-ec-locale="vive_ie" data-enable-json="0" data-english-country-name="Ireland" data-fiter-country="en_ie_m2_0312" data-locale="vive_ie" data-mini-cart-api-link="{'key': '8wYf3jL2522rDNAQSbiKs1C7vRhiKSwS9oR69d8F', 'addItem': 'https://myshop.vive.com/vive_ie/rest/V1/api/minicart/add/product/', 'getCart': 'https://myshop.vive.com/vive_ie/rest/V1/api/minicart/', 'getProduct': 'https://customer-api-eu.vive.com/cache-api/v1/prodinfo', 'removeItem': 'https://myshop.vive.com/vive_ie/rest/V1/api/minicart/delete/product/{pid}'}" data-outer-link="" data-site-id="eu" data-store-locale="en_ie_m2_0312" data-theme-id="40354400">
+                                    Ireland
+                                </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="MAGENTO" data-countrycode="IT" data-currency="EUR" data-ec-locale="vive_it" data-enable-json="0" data-english-country-name="Italia" data-fiter-country="it_it_m2_0312" data-locale="vive_it" data-mini-cart-api-link="{'key': '8wYf3jL2522rDNAQSbiKs1C7vRhiKSwS9oR69d8F', 'addItem': 'https://myshop.vive.com/vive_it/rest/V1/api/minicart/add/product/', 'getCart': 'https://myshop.vive.com/vive_it/rest/V1/api/minicart/', 'getProduct': 'https://customer-api-eu.vive.com/cache-api/v1/prodinfo', 'removeItem': 'https://myshop.vive.com/vive_it/rest/V1/api/minicart/delete/product/{pid}'}" data-outer-link="" data-site-id="eu" data-store-locale="it_it_m2_0312" data-theme-id="40354400">
+                                    Italia
+                                </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="MAGENTO" data-countrycode="JP" data-currency="JPY" data-ec-locale="vive_jp" data-enable-json="0" data-english-country-name="Japan" data-fiter-country="ja_jp_m2_031201" data-locale="vive_jp" data-mini-cart-api-link="{'key': '5hmTykNvjCM5CCAd05TV3W9GFMq1My84AoSwdnAd', 'addItem': 'https://myshop-apac.vive.com/vive_jp/rest/V1/api/minicart/add/product/', 'getCart': 'https://myshop-apac.vive.com/vive_jp/rest/V1/api/minicart/', 'getProduct': 'https://customer-api-au.vive.com/cache-api/v1/prodinfo', 'removeItem': 'https://myshop-apac.vive.com/vive_jp/rest/V1/api/minicart/delete/product/{pid}'}" data-outer-link="" data-site-id="jp" data-store-locale="ja_jp_m2_031201" data-theme-id="40383500">
+                                    日本
+                                </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="MAGENTO" data-countrycode="KR" data-currency="KRW" data-ec-locale="vive_kr" data-enable-json="0" data-english-country-name="Korea" data-fiter-country="ko_kr_M2_0901" data-locale="vive_kr" data-mini-cart-api-link="{'key': '5hmTykNvjCM5CCAd05TV3W9GFMq1My84AoSwdnAd', 'addItem': 'https://myshop-apac.vive.com/vive_kr/rest/V1/api/minicart/add/product/', 'getCart': 'https://myshop-apac.vive.com/vive_kr/rest/V1/api/minicart/', 'getProduct': 'https://customer-api-au.vive.com/cache-api/v1/prodinfo', 'removeItem': 'https://myshop-apac.vive.com/vive_kr/rest/V1/api/minicart/delete/product/{pid}'}" data-outer-link="" data-site-id="kr" data-store-locale="ko_kr_M2_0901" data-theme-id="40354400">
+                                    Korea
+                                </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="MAGENTO" data-countrycode="LV" data-currency="EUR" data-ec-locale="vive_eu" data-enable-json="0" data-english-country-name="Latvija" data-fiter-country="en_lv_m2_0312" data-locale="vive_eu" data-mini-cart-api-link="{'key': '8wYf3jL2522rDNAQSbiKs1C7vRhiKSwS9oR69d8F', 'addItem': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/add/product/', 'getCart': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/', 'getProduct': 'https://customer-api-eu.vive.com/cache-api/v1/prodinfo', 'removeItem': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/delete/product/{pid}'}" data-outer-link="" data-site-id="eu" data-store-locale="en_lv_m2_0312" data-theme-id="40354400">
+                                    Latvija
+                                </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="MAGENTO" data-countrycode="LT" data-currency="EUR" data-ec-locale="vive_eu" data-enable-json="0" data-english-country-name="Lietuva" data-fiter-country="en_lt_m2_0312" data-locale="vive_eu" data-mini-cart-api-link="{'key': '8wYf3jL2522rDNAQSbiKs1C7vRhiKSwS9oR69d8F', 'addItem': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/add/product/', 'getCart': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/', 'getProduct': 'https://customer-api-eu.vive.com/cache-api/v1/prodinfo', 'removeItem': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/delete/product/{pid}'}" data-outer-link="" data-site-id="eu" data-store-locale="en_lt_m2_0312" data-theme-id="40354400">
+                                    Lietuva
+                                </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="MAGENTO" data-countrycode="LU" data-currency="EUR" data-ec-locale="vive_eu" data-enable-json="0" data-english-country-name="Luxembourg" data-fiter-country="en_lu_m2_0312" data-locale="vive_eu" data-mini-cart-api-link="{'key': '8wYf3jL2522rDNAQSbiKs1C7vRhiKSwS9oR69d8F', 'addItem': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/add/product/', 'getCart': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/', 'getProduct': 'https://customer-api-eu.vive.com/cache-api/v1/prodinfo', 'removeItem': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/delete/product/{pid}'}" data-outer-link="" data-site-id="eu" data-store-locale="en_lu_m2_0312" data-theme-id="40354400">
+                                    Lëtzebuerg
+                                </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="MAGENTO" data-countrycode="MT" data-currency="EUR" data-ec-locale="vive_eu" data-enable-json="0" data-english-country-name="Malta" data-fiter-country="en_mt_m2_0312" data-locale="vive_eu" data-mini-cart-api-link="{'key': '8wYf3jL2522rDNAQSbiKs1C7vRhiKSwS9oR69d8F', 'addItem': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/add/product/', 'getCart': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/', 'getProduct': 'https://customer-api-eu.vive.com/cache-api/v1/prodinfo', 'removeItem': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/delete/product/{pid}'}" data-outer-link="" data-site-id="eu" data-store-locale="en_mt_m2_0312" data-theme-id="40354400">
+                                    Malta
+                                </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="" data-countrycode="sa" data-currency="SAR" data-ec-locale="mea_sa" data-enable-json="0" data-english-country-name="Middle East Arabic" data-fiter-country="mea_sa" data-locale="mea_sa" data-mini-cart-api-link="" data-outer-link="" data-site-id="mea-ar" data-store-locale="mea_sa" data-theme-id="">
+                                    المملكة العربية السعودية (Arabic)
+                                </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="MAGENTO" data-countrycode="NL" data-currency="EUR" data-ec-locale="vive_eu" data-enable-json="0" data-english-country-name="Nederland" data-fiter-country="en_nl_m2_0312" data-locale="vive_eu" data-mini-cart-api-link="{'key': '8wYf3jL2522rDNAQSbiKs1C7vRhiKSwS9oR69d8F', 'addItem': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/add/product/', 'getCart': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/', 'getProduct': 'https://customer-api-eu.vive.com/cache-api/v1/prodinfo', 'removeItem': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/delete/product/{pid}'}" data-outer-link="" data-site-id="eu" data-store-locale="en_nl_m2_0312" data-theme-id="40354400">
+                                    Nederland
+                                </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="" data-countrycode="NZ" data-currency="USD" data-ec-locale="en_nz" data-enable-json="0" data-english-country-name="New Zealand" data-fiter-country="en_nz_0312" data-locale="en_nz" data-mini-cart-api-link="{}" data-outer-link="" data-site-id="nz" data-store-locale="en_nz_0312" data-theme-id="40383500">
+                                    New Zealand
+                                </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="MAGENTO" data-countrycode="NO" data-currency="NOK" data-ec-locale="vive_no" data-enable-json="0" data-english-country-name="Norge" data-fiter-country="no_no_m2_0312" data-locale="vive_no" data-mini-cart-api-link="{'key': '8wYf3jL2522rDNAQSbiKs1C7vRhiKSwS9oR69d8F', 'addItem': 'https://myshop.vive.com/vive_no/rest/V1/api/minicart/add/product/', 'getCart': 'https://myshop.vive.com/vive_no/rest/V1/api/minicart/', 'getProduct': 'https://customer-api-eu.vive.com/cache-api/v1/prodinfo', 'removeItem': 'https://myshop.vive.com/vive_no/rest/V1/api/minicart/delete/product/{pid}'}" data-outer-link="" data-site-id="eu" data-store-locale="no_no_m2_0312" data-theme-id="40354400">
+                                    Norge
+                                </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="MAGENTO" data-countrycode="PL" data-currency="PLN" data-ec-locale="vive_pl" data-enable-json="0" data-english-country-name="Polska" data-fiter-country="en_pl_m2_0312" data-locale="vive_pl" data-mini-cart-api-link="{'key': '8wYf3jL2522rDNAQSbiKs1C7vRhiKSwS9oR69d8F', 'addItem': 'https://myshop.vive.com/vive_pl/rest/V1/api/minicart/add/product/', 'getCart': 'https://myshop.vive.com/vive_pl/rest/V1/api/minicart/', 'getProduct': 'https://customer-api-eu.vive.com/cache-api/v1/prodinfo', 'removeItem': 'https://myshop.vive.com/vive_pl/rest/V1/api/minicart/delete/product/{pid}'}" data-outer-link="" data-site-id="eu" data-store-locale="en_pl_m2_0312" data-theme-id="40354400">
+                                    Polska
+                                </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="MAGENTO" data-countrycode="PT" data-currency="EUR" data-ec-locale="vive_eu" data-enable-json="0" data-english-country-name="Portugal" data-fiter-country="en_pt_m2_0312" data-locale="vive_eu" data-mini-cart-api-link="{'key': '8wYf3jL2522rDNAQSbiKs1C7vRhiKSwS9oR69d8F', 'addItem': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/add/product/', 'getCart': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/', 'getProduct': 'https://customer-api-eu.vive.com/cache-api/v1/prodinfo', 'removeItem': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/delete/product/{pid}'}" data-outer-link="" data-site-id="eu" data-store-locale="en_pt_m2_0312" data-theme-id="40354400">
+                                    Portugal
+                                </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="" data-countrycode="RU" data-currency="RUB" data-ec-locale="ru" data-enable-json="0" data-english-country-name="Russia" data-fiter-country="ru_ru" data-locale="ru" data-mini-cart-api-link="{}" data-outer-link="" data-site-id="cis" data-store-locale="ru_ru" data-theme-id="">
+                                    Russia
+                                </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="" data-countrycode="MEA-EN" data-currency="UAE" data-ec-locale="mea_en" data-enable-json="0" data-english-country-name="Saudi Arabia" data-fiter-country="mea_en_v8" data-locale="mea_en" data-mini-cart-api-link="" data-outer-link="" data-site-id="mea-en" data-store-locale="mea_en_v8" data-theme-id="">
+                                    Saudi Arabia
+                                </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="" data-countrycode="SEA" data-currency="USD" data-ec-locale="en_sea" data-enable-json="0" data-english-country-name="Southeast Asia" data-fiter-country="en_sea_031201" data-locale="en_sea" data-mini-cart-api-link="{}" data-outer-link="" data-site-id="sea" data-store-locale="en_sea_031201" data-theme-id="40354400">
+                                    Southeast Asia
+                                </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="MAGENTO" data-countrycode="ES" data-currency="EUR" data-ec-locale="vive_es" data-enable-json="0" data-english-country-name="Spain" data-fiter-country="es_es_m2_0319" data-locale="vive_es" data-mini-cart-api-link="{'key': '8wYf3jL2522rDNAQSbiKs1C7vRhiKSwS9oR69d8F', 'addItem': 'https://myshop.vive.com/vive_es/rest/V1/api/minicart/add/product/', 'getCart': 'https://myshop.vive.com/vive_es/rest/V1/api/minicart/', 'getProduct': 'https://customer-api-eu.vive.com/cache-api/v1/prodinfo', 'removeItem': 'https://myshop.vive.com/vive_es/rest/V1/api/minicart/delete/product/{pid}'}" data-outer-link="" data-site-id="eu" data-store-locale="es_es_m2_0319" data-theme-id="40354400">
+                                    España
+                                </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="MAGENTO" data-countrycode="CH" data-currency="CHF" data-ec-locale="vive_ch" data-enable-json="0" data-english-country-name="Suisse" data-fiter-country="de_ch_m2_0312" data-locale="vive_ch" data-mini-cart-api-link="{'key': '8wYf3jL2522rDNAQSbiKs1C7vRhiKSwS9oR69d8F', 'addItem': 'https://myshop.vive.com/vive_ch/rest/V1/api/minicart/add/product/', 'getCart': 'https://myshop.vive.com/vive_ch/rest/V1/api/minicart/', 'getProduct': 'https://customer-api-eu.vive.com/cache-api/v1/prodinfo', 'removeItem': 'https://myshop.vive.com/vive_ch/rest/V1/api/minicart/delete/product/{pid}'}" data-outer-link="" data-site-id="eu" data-store-locale="de_ch_m2_0312" data-theme-id="40354400">
+                                    Suisse
+                                </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="MAGENTO" data-countrycode="FI" data-currency="EUR" data-ec-locale="vive_eu" data-enable-json="0" data-english-country-name="Suomi" data-fiter-country="en_fi_m2_0312" data-locale="vive_eu" data-mini-cart-api-link="{'key': '8wYf3jL2522rDNAQSbiKs1C7vRhiKSwS9oR69d8F', 'addItem': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/add/product/', 'getCart': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/', 'getProduct': 'https://customer-api-eu.vive.com/cache-api/v1/prodinfo', 'removeItem': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/delete/product/{pid}'}" data-outer-link="" data-site-id="eu" data-store-locale="en_fi_m2_0312" data-theme-id="40354400">
+                                    Suomi
+                                </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="MAGENTO" data-countrycode="SE" data-currency="SEK" data-ec-locale="vive_se" data-enable-json="0" data-english-country-name="Sverige" data-fiter-country="en_se_m2_0312" data-locale="vive_se" data-mini-cart-api-link="{'key': '8wYf3jL2522rDNAQSbiKs1C7vRhiKSwS9oR69d8F', 'addItem': 'https://myshop.vive.com/vive_se/rest/V1/api/minicart/add/product/', 'getCart': 'https://myshop.vive.com/vive_se/rest/V1/api/minicart/', 'getProduct': 'https://customer-api-eu.vive.com/cache-api/v1/prodinfo', 'removeItem': 'https://myshop.vive.com/vive_se/rest/V1/api/minicart/delete/product/{pid}'}" data-outer-link="" data-site-id="eu" data-store-locale="en_se_m2_0312" data-theme-id="40354400">
+                                    Sverige
+                                </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="MAGENTO" data-countrycode="TW" data-currency="TWD" data-ec-locale="vive_tw" data-enable-json="0" data-english-country-name="Taiwan" data-fiter-country="zh_tw_M2_0312" data-locale="vive_tw" data-mini-cart-api-link="{'key': 'OmEFVn9Bng88TtvvoUUmY7uUNFKz9c1c56WoLxoK', 'addItem': 'https://myhtcstore.vive.com/vive_tw/rest/V1/api/minicart/add/product/', 'getCart': 'https://myhtcstore.vive.com/vive_tw/rest/V1/api/minicart/', 'getProduct': 'https://customer-api2.vive.com/cache-api/v1/prodinfo', 'removeItem': 'https://myhtcstore.vive.com/vive_tw/rest/V1/api/minicart/delete/product/{pid}'}" data-outer-link="" data-site-id="tw" data-store-locale="zh_tw_M2_0312" data-theme-id="123456789">
+                                    台灣
+                                </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="" data-countrycode="ua" data-currency="UAH" data-ec-locale="ua" data-enable-json="0" data-english-country-name="Ukraine" data-fiter-country="uk" data-locale="ua" data-mini-cart-api-link="{}" data-outer-link="" data-site-id="ua" data-store-locale="uk" data-theme-id="">
+                                    Ukraine
+                                </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="MAGENTO" data-countrycode="GB" data-currency="GBP" data-ec-locale="vive_uk" data-enable-json="0" data-english-country-name="United Kingdom" data-fiter-country="en_gb_m2_0312" data-locale="vive_uk" data-mini-cart-api-link="{'key': '8wYf3jL2522rDNAQSbiKs1C7vRhiKSwS9oR69d8F', 'addItem': 'https://myshop.vive.com/vive_uk/rest/V1/api/minicart/add/product/', 'getCart': 'https://myshop.vive.com/vive_uk/rest/V1/api/minicart/', 'getProduct': 'https://customer-api-eu.vive.com/cache-api/v1/prodinfo', 'removeItem': 'https://myshop.vive.com/vive_uk/rest/V1/api/minicart/delete/product/{pid}'}" data-outer-link="" data-site-id="uk" data-store-locale="en_gb_m2_0312" data-theme-id="40354400">
+                                    United Kingdom
+                                </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="SHOPIFY" data-countrycode="US_S1_V5" data-currency="USD" data-ec-locale="vive_us" data-enable-json="0" data-english-country-name="United States" data-fiter-country="en_us_s1_v5" data-locale="vive_us" data-mini-cart-api-link="{'key': '3db903952988a3ec38e7d7574e18efbb', 'addItem': '', 'getCart': 'https://shop-us.vive.com/api/2025-04/graphql.json', 'getProduct': 'https://shop-us.vive.com/api/2025-04/graphql.json', 'removeItem': ''}" data-outer-link="" data-site-id="us" data-store-locale="en_us_s1_v5" data-theme-id="">
+                                    United States
+                                </span>
+</div>
+<div class="flex-item buffer-item">
+</div>
+<div class="flex-item buffer-item">
+</div>
+<div class="flex-item buffer-item">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jqmWindow vive-modal ec-select-country eu-select-country-shop">
+<div class="centered">
+<a class="jqmClose" href="#"></a>
+<div class="content-block">
+<div class="contry-list-block">
+<div class="earth-icon"></div>
+<div class="select-your-country">
+<div class="h2 mb-4">Please Select Your Location</div>
+</div>
+<div class="country-list">
+<div class="flex-item">
+<span data-cart-provider-type="MAGENTO" data-countrycode="" data-currency="EUR" data-ec-locale="vive_eu" data-enable-json="0" data-english-country-name="Belgium" data-fiter-country="en_be_m2_0312" data-locale="vive_eu" data-mini-cart-api-link="{'key': '8wYf3jL2522rDNAQSbiKs1C7vRhiKSwS9oR69d8F', 'addItem': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/add/product/', 'getCart': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/', 'getProduct': 'https://customer-api-eu.vive.com/cache-api/v1/prodinfo', 'removeItem': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/delete/product/{pid}'}" data-outer-link="" data-site-id="eu" data-store-locale="en_be_m2_0312" data-theme-id="40354400">
+                                    België
+                            </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="MAGENTO" data-countrycode="" data-currency="EUR" data-ec-locale="vive_eu" data-enable-json="0" data-english-country-name="Czech Republic" data-fiter-country="en_cz_m2_0312" data-locale="vive_eu" data-mini-cart-api-link="{'key': '8wYf3jL2522rDNAQSbiKs1C7vRhiKSwS9oR69d8F', 'addItem': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/add/product/', 'getCart': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/', 'getProduct': 'https://customer-api-eu.vive.com/cache-api/v1/prodinfo', 'removeItem': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/delete/product/{pid}'}" data-outer-link="" data-site-id="eu" data-store-locale="en_cz_m2_0312" data-theme-id="40354400">
+                                    Česká republika
+                            </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="MAGENTO" data-countrycode="" data-currency="DKK" data-ec-locale="vive_dk" data-enable-json="0" data-english-country-name="Denmark" data-fiter-country="en_dk_m2_0312" data-locale="vive_dk" data-mini-cart-api-link="{'key': '8wYf3jL2522rDNAQSbiKs1C7vRhiKSwS9oR69d8F', 'addItem': 'https://myshop.vive.com/vive_dk/rest/V1/api/minicart/add/product/', 'getCart': 'https://myshop.vive.com/vive_dk/rest/V1/api/minicart/', 'getProduct': 'https://customer-api-eu.vive.com/cache-api/v1/prodinfo', 'removeItem': 'https://myshop.vive.com/vive_dk/rest/V1/api/minicart/delete/product/{pid}'}" data-outer-link="" data-site-id="eu" data-store-locale="en_dk_m2_0312" data-theme-id="40354400">
+                                    Denmark
+                            </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="MAGENTO" data-countrycode="" data-currency="EUR" data-ec-locale="vive_eu" data-enable-json="0" data-english-country-name="Iceland" data-fiter-country="en_is_m2_0312" data-locale="vive_eu" data-mini-cart-api-link="{'key': '8wYf3jL2522rDNAQSbiKs1C7vRhiKSwS9oR69d8F', 'addItem': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/add/product/', 'getCart': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/', 'getProduct': 'https://customer-api-eu.vive.com/cache-api/v1/prodinfo', 'removeItem': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/delete/product/{pid}'}" data-outer-link="" data-site-id="eu" data-store-locale="en_is_m2_0312" data-theme-id="40354400">
+                                    Iceland
+                            </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="MAGENTO" data-countrycode="" data-currency="EUR" data-ec-locale="vive_ie" data-enable-json="0" data-english-country-name="Ireland" data-fiter-country="en_ie_m2_0312" data-locale="vive_ie" data-mini-cart-api-link="{'key': '8wYf3jL2522rDNAQSbiKs1C7vRhiKSwS9oR69d8F', 'addItem': 'https://myshop.vive.com/vive_ie/rest/V1/api/minicart/add/product/', 'getCart': 'https://myshop.vive.com/vive_ie/rest/V1/api/minicart/', 'getProduct': 'https://customer-api-eu.vive.com/cache-api/v1/prodinfo', 'removeItem': 'https://myshop.vive.com/vive_ie/rest/V1/api/minicart/delete/product/{pid}'}" data-outer-link="" data-site-id="eu" data-store-locale="en_ie_m2_0312" data-theme-id="40354400">
+                                    Ireland
+                            </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="MAGENTO" data-countrycode="" data-currency="EUR" data-ec-locale="vive_it" data-enable-json="0" data-english-country-name="Italia" data-fiter-country="it_it_m2_0312" data-locale="vive_it" data-mini-cart-api-link="{'key': '8wYf3jL2522rDNAQSbiKs1C7vRhiKSwS9oR69d8F', 'addItem': 'https://myshop.vive.com/vive_it/rest/V1/api/minicart/add/product/', 'getCart': 'https://myshop.vive.com/vive_it/rest/V1/api/minicart/', 'getProduct': 'https://customer-api-eu.vive.com/cache-api/v1/prodinfo', 'removeItem': 'https://myshop.vive.com/vive_it/rest/V1/api/minicart/delete/product/{pid}'}" data-outer-link="" data-site-id="eu" data-store-locale="it_it_m2_0312" data-theme-id="40354400">
+                                    Italia
+                            </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="MAGENTO" data-countrycode="" data-currency="EUR" data-ec-locale="vive_eu" data-enable-json="0" data-english-country-name="Latvija" data-fiter-country="en_lv_m2_0312" data-locale="vive_eu" data-mini-cart-api-link="{'key': '8wYf3jL2522rDNAQSbiKs1C7vRhiKSwS9oR69d8F', 'addItem': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/add/product/', 'getCart': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/', 'getProduct': 'https://customer-api-eu.vive.com/cache-api/v1/prodinfo', 'removeItem': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/delete/product/{pid}'}" data-outer-link="" data-site-id="eu" data-store-locale="en_lv_m2_0312" data-theme-id="40354400">
+                                    Latvija
+                            </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="MAGENTO" data-countrycode="" data-currency="EUR" data-ec-locale="vive_eu" data-enable-json="0" data-english-country-name="Lietuva" data-fiter-country="en_lt_m2_0312" data-locale="vive_eu" data-mini-cart-api-link="{'key': '8wYf3jL2522rDNAQSbiKs1C7vRhiKSwS9oR69d8F', 'addItem': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/add/product/', 'getCart': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/', 'getProduct': 'https://customer-api-eu.vive.com/cache-api/v1/prodinfo', 'removeItem': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/delete/product/{pid}'}" data-outer-link="" data-site-id="eu" data-store-locale="en_lt_m2_0312" data-theme-id="40354400">
+                                    Lietuva
+                            </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="MAGENTO" data-countrycode="" data-currency="EUR" data-ec-locale="vive_eu" data-enable-json="0" data-english-country-name="Luxembourg" data-fiter-country="en_lu_m2_0312" data-locale="vive_eu" data-mini-cart-api-link="{'key': '8wYf3jL2522rDNAQSbiKs1C7vRhiKSwS9oR69d8F', 'addItem': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/add/product/', 'getCart': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/', 'getProduct': 'https://customer-api-eu.vive.com/cache-api/v1/prodinfo', 'removeItem': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/delete/product/{pid}'}" data-outer-link="" data-site-id="eu" data-store-locale="en_lu_m2_0312" data-theme-id="40354400">
+                                    Lëtzebuerg
+                            </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="MAGENTO" data-countrycode="" data-currency="EUR" data-ec-locale="vive_eu" data-enable-json="0" data-english-country-name="Malta" data-fiter-country="en_mt_m2_0312" data-locale="vive_eu" data-mini-cart-api-link="{'key': '8wYf3jL2522rDNAQSbiKs1C7vRhiKSwS9oR69d8F', 'addItem': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/add/product/', 'getCart': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/', 'getProduct': 'https://customer-api-eu.vive.com/cache-api/v1/prodinfo', 'removeItem': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/delete/product/{pid}'}" data-outer-link="" data-site-id="eu" data-store-locale="en_mt_m2_0312" data-theme-id="40354400">
+                                    Malta
+                            </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="MAGENTO" data-countrycode="" data-currency="EUR" data-ec-locale="vive_eu" data-enable-json="0" data-english-country-name="Nederland" data-fiter-country="en_nl_m2_0312" data-locale="vive_eu" data-mini-cart-api-link="{'key': '8wYf3jL2522rDNAQSbiKs1C7vRhiKSwS9oR69d8F', 'addItem': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/add/product/', 'getCart': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/', 'getProduct': 'https://customer-api-eu.vive.com/cache-api/v1/prodinfo', 'removeItem': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/delete/product/{pid}'}" data-outer-link="" data-site-id="eu" data-store-locale="en_nl_m2_0312" data-theme-id="40354400">
+                                    Nederland
+                            </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="MAGENTO" data-countrycode="" data-currency="NOK" data-ec-locale="vive_no" data-enable-json="0" data-english-country-name="Norge" data-fiter-country="no_no_m2_0312" data-locale="vive_no" data-mini-cart-api-link="{'key': '8wYf3jL2522rDNAQSbiKs1C7vRhiKSwS9oR69d8F', 'addItem': 'https://myshop.vive.com/vive_no/rest/V1/api/minicart/add/product/', 'getCart': 'https://myshop.vive.com/vive_no/rest/V1/api/minicart/', 'getProduct': 'https://customer-api-eu.vive.com/cache-api/v1/prodinfo', 'removeItem': 'https://myshop.vive.com/vive_no/rest/V1/api/minicart/delete/product/{pid}'}" data-outer-link="" data-site-id="eu" data-store-locale="no_no_m2_0312" data-theme-id="40354400">
+                                    Norge
+                            </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="MAGENTO" data-countrycode="" data-currency="PLN" data-ec-locale="vive_pl" data-enable-json="0" data-english-country-name="Polska" data-fiter-country="en_pl_m2_0312" data-locale="vive_pl" data-mini-cart-api-link="{'key': '8wYf3jL2522rDNAQSbiKs1C7vRhiKSwS9oR69d8F', 'addItem': 'https://myshop.vive.com/vive_pl/rest/V1/api/minicart/add/product/', 'getCart': 'https://myshop.vive.com/vive_pl/rest/V1/api/minicart/', 'getProduct': 'https://customer-api-eu.vive.com/cache-api/v1/prodinfo', 'removeItem': 'https://myshop.vive.com/vive_pl/rest/V1/api/minicart/delete/product/{pid}'}" data-outer-link="" data-site-id="eu" data-store-locale="en_pl_m2_0312" data-theme-id="40354400">
+                                    Polska
+                            </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="MAGENTO" data-countrycode="" data-currency="EUR" data-ec-locale="vive_eu" data-enable-json="0" data-english-country-name="Portugal" data-fiter-country="en_pt_m2_0312" data-locale="vive_eu" data-mini-cart-api-link="{'key': '8wYf3jL2522rDNAQSbiKs1C7vRhiKSwS9oR69d8F', 'addItem': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/add/product/', 'getCart': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/', 'getProduct': 'https://customer-api-eu.vive.com/cache-api/v1/prodinfo', 'removeItem': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/delete/product/{pid}'}" data-outer-link="" data-site-id="eu" data-store-locale="en_pt_m2_0312" data-theme-id="40354400">
+                                    Portugal
+                            </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="MAGENTO" data-countrycode="" data-currency="EUR" data-ec-locale="vive_es" data-enable-json="0" data-english-country-name="Spain" data-fiter-country="es_es_m2_0319" data-locale="vive_es" data-mini-cart-api-link="{'key': '8wYf3jL2522rDNAQSbiKs1C7vRhiKSwS9oR69d8F', 'addItem': 'https://myshop.vive.com/vive_es/rest/V1/api/minicart/add/product/', 'getCart': 'https://myshop.vive.com/vive_es/rest/V1/api/minicart/', 'getProduct': 'https://customer-api-eu.vive.com/cache-api/v1/prodinfo', 'removeItem': 'https://myshop.vive.com/vive_es/rest/V1/api/minicart/delete/product/{pid}'}" data-outer-link="" data-site-id="eu" data-store-locale="es_es_m2_0319" data-theme-id="40354400">
+                                    España
+                            </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="MAGENTO" data-countrycode="" data-currency="CHF" data-ec-locale="vive_ch" data-enable-json="0" data-english-country-name="Suisse" data-fiter-country="de_ch_m2_0312" data-locale="vive_ch" data-mini-cart-api-link="{'key': '8wYf3jL2522rDNAQSbiKs1C7vRhiKSwS9oR69d8F', 'addItem': 'https://myshop.vive.com/vive_ch/rest/V1/api/minicart/add/product/', 'getCart': 'https://myshop.vive.com/vive_ch/rest/V1/api/minicart/', 'getProduct': 'https://customer-api-eu.vive.com/cache-api/v1/prodinfo', 'removeItem': 'https://myshop.vive.com/vive_ch/rest/V1/api/minicart/delete/product/{pid}'}" data-outer-link="" data-site-id="eu" data-store-locale="de_ch_m2_0312" data-theme-id="40354400">
+                                    Suisse
+                            </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="MAGENTO" data-countrycode="" data-currency="EUR" data-ec-locale="vive_eu" data-enable-json="0" data-english-country-name="Suomi" data-fiter-country="en_fi_m2_0312" data-locale="vive_eu" data-mini-cart-api-link="{'key': '8wYf3jL2522rDNAQSbiKs1C7vRhiKSwS9oR69d8F', 'addItem': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/add/product/', 'getCart': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/', 'getProduct': 'https://customer-api-eu.vive.com/cache-api/v1/prodinfo', 'removeItem': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/delete/product/{pid}'}" data-outer-link="" data-site-id="eu" data-store-locale="en_fi_m2_0312" data-theme-id="40354400">
+                                    Suomi
+                            </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="MAGENTO" data-countrycode="" data-currency="SEK" data-ec-locale="vive_se" data-enable-json="0" data-english-country-name="Sverige" data-fiter-country="en_se_m2_0312" data-locale="vive_se" data-mini-cart-api-link="{'key': '8wYf3jL2522rDNAQSbiKs1C7vRhiKSwS9oR69d8F', 'addItem': 'https://myshop.vive.com/vive_se/rest/V1/api/minicart/add/product/', 'getCart': 'https://myshop.vive.com/vive_se/rest/V1/api/minicart/', 'getProduct': 'https://customer-api-eu.vive.com/cache-api/v1/prodinfo', 'removeItem': 'https://myshop.vive.com/vive_se/rest/V1/api/minicart/delete/product/{pid}'}" data-outer-link="" data-site-id="eu" data-store-locale="en_se_m2_0312" data-theme-id="40354400">
+                                    Sverige
+                            </span>
+</div>
+<div class="flex-item buffer-item">
+</div>
+<div class="flex-item buffer-item">
+</div>
+<div class="flex-item buffer-item">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</header>
+<section class="my-5">
+<div class="pt-4 container article-container">
+<a class="mt-4 back-to-button" href="/blog">&lt;&lt; Quay lại Blog</a>
+<h1 class="mt-4">Cách tạo Hình đại diện VRChat vào năm 2025 [Hướng dẫn cho người mới bắt đầu]</h1>
+<div class="meta">
+<div class="meta-author">Patrick R. • 2025-05-19</div>
+<div class="sharing" data-target="#shareModal" data-toggle="modal">Chia sẻ</div>
+</div>
+<div class="img-wrapper text-center my-3">
+<img alt="How to Make a VRChat Avatar in 2025 [Beginner’s Guide]" class="w-100 img-fluid" onerror="this.onerror=null; this.src='/express_media/images/Asset1-cover.scale-100.jpg';" src="https://blog.vive.com/express_media/images/vrc_avatar_1.max-688x400.png"/>
+</div>
+<h4><a class="article-tag" href="/blog/tag/extended-reality//">Thực tế mở rộng (XR)</a> | <a class="article-tag" href="/blog/tag/games//">Trò chơi &amp; Ứng dụng</a></h4>
+<p class="font-weight-bold"> 9 phút đọc </p>
+<div class="rich-text"><div class="rich-text"><p class="MsoNormal"><span lang="EN-US"><a href="https://hello.vrchat.com/" rel="noopener" target="_blank">VRChat</a></span><span lang="EN-US"> Hình đại diện là một phần quan trọng tạo nên sự hấp dẫn của nền tảng xã hội, với việc người dùng VRChat tham gia vào tất cả các loại tính cách ảo. Nếu bạn đã từng thắc mắc về cách tạo hình đại diện VRChat nhưng không chắc liệu mình có các công cụ hoặc kiến ​​thức chuyên môn cần thiết hay không thì bạn thật may mắn—hướng dẫn dành cho người mới bắt đầu này của HTC VIVE sẽ chỉ cho bạn mọi thứ bạn cần biết.</span></p>
+<p class="MsoNormal"><span lang="EN-US">Cho dù bạn yêu thích các nhân vật anime, meme hay lông thú, bạn đều có thể tận hưởng giao diện mà bạn mong muốn trong VRChat. Hãy đọc tiếp để tìm hiểu cách tạo hình đại diện VRChat của riêng bạn ngay hôm nay.</span><span lang="EN-US"> </span></p>
+<div class="videoWrapper"><iframe allowfullscreen="allowfullscreen" height="380" src="https://www.youtube.com/embed/ycwoCi8Ml-E?rel=0" width="760"></iframe></div>
+<p class="MsoNormal"><em><span lang="EN-US">Video hướng dẫn của chúng tôi cũng bao gồm tất cả các bước trong hướng dẫn này!</span></em></p>
+<h2 class="MsoNormal"><strong><span lang="EN-US">Làm cách nào để tạo hình đại diện VRChat?</span></strong></h2>
+<p class="MsoNormal"><span lang="EN-US">Có nhiều cách để tạo mô hình hình đại diện của riêng bạn cho VRChat, bao gồm xây dựng mô hình từ đầu bằng phần mềm tạo mô hình 3D tiên tiến như Maya hoặc Blender. Tuy nhiên, trong hướng dẫn này, chúng tôi sẽ thiết kế hình đại diện VR bằng chương trình thân thiện với người mới bắt đầu hơn có tên VRoid Studio, sau đó chuẩn bị mô hình cho VRChat bằng các công cụ Unity, VRChat Creator Companion và VRM Converter cho VRChat.</span></p>
+<p class="MsoNormal"><span lang="EN-US">Dưới đây là quy trình 6 bước trong nháy mắt:</span></p>
+<ol>
+<li class="MsoNormal"><span lang="EN-US">Thiết kế hình đại diện của bạn trong VRoid Studio.</span></li>
+<li class="MsoNormal"><!-- [if !supportLists]--><span lang="EN-US">Thiết lập sự đồng hành và thống nhất của VRChat Creator.</span></li>
+<li class="MsoNormal"><!--[endif]--><span lang="EN-US">Thêm VRM Converter cho VRChat vào dự án của bạn.</span></li>
+<li class="MsoNormal"><!--[endif]--><span lang="EN-US">Chuyển đổi tệp VRM của bạn thành mô hình avatar VRChat.</span>
+<p><strong>Mẹo chuyên nghiệp:</strong> Nếu bạn đang nhập mô hình 3D tùy chỉnh vào Unity thay vì sử dụng hình đại diện VRoid, bạn nên <a href="https://news.viverse.com/post/everything-you-need-to-know-about-retopology-the-complete-guide-to-optimizing-3d-models-with-blender" rel="noopener" target="_blank"><strong>retopology</strong></a> lưới trước khi gian lận và tải lên. Retopology giúp làm sạch các mô hình high-poly hoặc scan, đảm bảo hiệu suất tốt hơn và biến dạng xương chính xác hơn trong VRChat. Điều này đặc biệt hữu ích khi chuẩn bị hình đại diện để theo dõi toàn bộ cơ thể (FBT) hoặc hoạt hình khuôn mặt.</p>
+</li>
+<li class="MsoNormal"><!-- [if !supportLists]--><span lang="EN-US">Tải hình đại diện của bạn lên VRChat.</span></li>
+<li class="MsoNormal"><span lang="EN-US">Chọn hình đại diện của bạn trong VRChat.</span></li>
+</ol>
+<p class="MsoNormal"><span lang="EN-US">Trước khi bắt đầu, có một số điều quan trọng cần lưu ý:</span></p>
+<ul>
+<li class="MsoNormal"><strong><span lang="EN-US">Cần có một PC tương thích.</span></strong><span lang="EN-US">Hướng dẫn này giả định rằng bạn đang sử dụng VRChat với máy tính đáp ứng được yêu cầu của nó. </span><span lang="EN-US"><a href="https://store.steampowered.com/app/438100/VRChat/?utm-source=hello-home" rel="noopener" target="_blank">system requirements</a></span><span lang="EN-US">. Bạn cũng có thể muốn có một </span><span lang="EN-US"><a href="https://www.vive.com/us/product/" rel="noopener" target="_blank">VR headset</a></span><span lang="EN-US"> thuận tiện để thưởng thức hình đại diện mới tạo của bạn trong thực tế ảo. (Nhưng nếu không, bạn vẫn có thể sử dụng VRChat ở Chế độ máy tính để bàn.)</span></li>
+<li class="MsoNormal"><!-- [if !supportLists]--><strong><span lang="EN-US">Visitor accounts must wait. </span></strong><span lang="EN-US">Vì lý do an toàn, VRChat chỉ cho phép bạn tải hình đại diện lên khi tài khoản của bạn đã hoạt động trong một khoảng thời gian nhất định. Nếu bạn vừa tạo tài khoản VRChat, bạn sẽ bắt đầu với tư cách là Khách truy cập và cần đợi cho đến khi bạn đạt được trạng thái Người dùng mới. Hãy thử khám phá thế giới công cộng của VRChat và có thể thêm một hoặc hai người bạn để tích lũy kinh nghiệm. Xác nhận trạng thái tài khoản của bạn bằng cách kiểm tra hồ sơ của bạn tại </span><span lang="EN-US"><a href="https://hello.vrchat.com/" rel="noopener" target="_blank">VRChat.com</a></span><span lang="EN-US">.</span></li>
+</ul>
+<p class="MsoNormal"><span lang="EN-US">Bạn đã sẵn sàng tạo hình đại diện VRChat của riêng mình chưa? Hãy đi sâu vào ngay.</span></p>
+<h2 class="MsoNormal"><strong><span lang="EN-US">1. Thiết kế hình đại diện của bạn trong VRoid Studio.</span></strong></h2>
+<p class="MsoNormal"><span lang="EN-US">Bước đầu tiên để tạo hình đại diện VRChat mới là thiết kế mô hình 3D với giao diện bạn muốn. <strong>VRoid Studio</strong> là một công cụ tạo hình đại diện miễn phí, thân thiện với người mới bắt đầu, cho phép bạn nhanh chóng xây dựng một mô hình hình người và tùy chỉnh hầu như mọi chi tiết cuối cùng, từ kiểu tóc và đặc điểm khuôn mặt cho đến trang phục và phụ kiện. </span></p>
+<p class="MsoNormal"><span lang="EN-US"><a href="https://vroid.com/en/studio" rel="noopener" target="_blank">Tải xuống và cài đặt VRoid Studio</a></span><span lang="EN-US"> để xem nó có khả năng gì. Bạn có một vài lựa chọn ở đây:</span></p>
+<ul>
+<li class="MsoNormal"><strong><span lang="EN-US">Nhảy ngay vào và thử nghiệm.</span></strong><span lang="EN-US"> Điều này thật tuyệt nếu bạn không muốn dành quá nhiều thời gian để suy nghĩ về thiết kế của hình đại diện và muốn thử nghiệm phần mềm cho đến khi tìm thấy thứ gì đó phù hợp với mình.</span></li>
+<li class="MsoNormal"><strong><span lang="EN-US">Xây dựng một bảng tâm trạng để tham khảo. Bạn</span></strong><span lang="EN-US"> có thể lấy cảm hứng cho hình đại diện của bạn bằng cách tìm kiếm hình ảnh bạn thích trên nền tảng như </span><span lang="EN-US"><a href="https://www.pinterest.com/" rel="noopener" target="_blank">Pinterest</a></span><span lang="EN-US"> hoặc </span><span lang="EN-US"><a href="https://www.artstation.com/" rel="noopener" target="_blank">ArtStation</a></span><span lang="EN-US"> và sắp xếp chúng ở một nơi bằng một công cụ như </span><span lang="EN-US"><a href="https://www.pureref.com/" rel="noopener" target="_blank">PureRef</a></span><span lang="EN-US">.</span></li>
+<li class="MsoNormal"><strong><span lang="EN-US">Create a character concept sheet.</span></strong><span lang="EN-US"> Điều này có nghĩa là vẽ hình đại diện mà bạn nghĩ đến từ các góc độ khác nhau, trong nhiều trang phục hoặc màu sắc khác nhau hoặc với nhiều cảm xúc khác nhau để hiểu hơn về phong cách và cá tính của nó.</span></li>
+</ul>
+<p><img alt="VRoid Studio interface with a 3D character model being created." class="richtext-image full-width" contenteditable="false" data-alt="VRoid Studio interface with a 3D character model being created." data-embedtype="image" data-format="fullwidth" data-id="5598" data-mce-src="/express_media/images/vrc_avatar_2_vNJyjbk.width-800.png" height="414" onerror="this.onerror=null; this.src='https://blog.vive.com/express_media/images/Asset1-cover.scale-100.jpg';" src="https://blog.vive.com/express_media/images/vrc_avatar_2_vNJyjbk.width-800.png" width="800"/></p>
+<p><em><span lang="EN-US">Hình đại diện VRChat của bạn trông như thế nào hoàn toàn tùy thuộc vào bạn.</span></em></p>
+<p class="MsoNormal"><span lang="EN-US">Khi bạn hài lòng với hình đại diện mình đã thiết kế trong VRoid Studio, hãy lưu nó dưới dạng tệp VRM vào một vị trí thuận tiện trên máy tính của bạn. Bạn sẽ cần truy cập tệp này ở bước 4.</span></p>
+<p class="MsoNormal"><span lang="EN-US">Thay vào đó, bạn muốn sử dụng sẵn mô hình hình đại diện? </span><span lang="EN-US"><a href="https://www.news.viverse.com/post/search-and-download-vrchat-avatars-for-an-enhanced-social-experience" rel="noopener" target="_blank">Tìm nơi bạn có thể tải xuống hình đại diện VRChat.</a></span></p>
+<p class="MsoNormal"><strong><span lang="EN-US">Note:</span></strong> <span lang="EN-US"><a href="https://vrm-consortium.org/en/#vrm" rel="noopener" target="_blank">VRM</a></span><span lang="EN-US">, viết tắt của mô hình thực tế ảo, là loại tệp được sử dụng cho hình đại diện 3D trên nhiều nền tảng ảo, bao gồm </span><span lang="EN-US"><a href="https://www.viverse.com/" rel="noopener" target="_blank">VIVERSE</a></span><span lang="EN-US">. Nhưng để làm cho mô hình bạn đã tạo tương thích với VRChat, cần thiết lập thêm một chút. Chúng ta sẽ nói đến điều đó tiếp theo.</span></p>
+<h2 class="MsoNormal"><strong><span lang="EN-US">2. Thiết lập Đồng hành và Thống nhất VRChat Creator.</span></strong></h2>
+<p class="MsoNormal"><strong><span lang="EN-US">VRChat Creator Companion</span></strong><span lang="EN-US">, đôi khi được viết tắt là VCC, là công cụ chính thức để tạo thế giới và hình đại diện VRChat. Nó bao gồm bộ phát triển phần mềm (SDK) của VRChat, tài sản do người dùng tạo, tài nguyên học tập, v.v.</span></p>
+<p class="MsoNormal"><span lang="EN-US"><a href="https://vrchat.com/home/download" rel="noopener" target="_blank">Tải xuống và cài đặt VRChat Creator Companion tại đây.</a></span><span lang="EN-US"> Bạn sẽ cần phải đăng nhập bằng tài khoản VRChat của mình nếu chưa đăng nhập. Sau khi cài đặt, khởi chạy ứng dụng.</span></p>
+<p class="MsoNormal"><span lang="EN-US">VRChat Creator Companion sẽ tự động kiểm tra xem PC của bạn có cài đặt Unity hay không. Unity là công cụ trò chơi chạy VRChat và bạn sẽ cần nó để tiếp tục thiết lập hình đại diện VRChat của mình. Thực tế có hai thành phần liên quan ở đây:</span></p>
+<ul>
+<li class="MsoNormal"><strong><span lang="EN-US">Unity Hub:</span></strong><span lang="EN-US"> Được sử dụng để quản lý các phiên bản và dự án Unity của bạn.</span></li>
+<li class="MsoNormal"><strong><span lang="EN-US">Unity Editor:</span></strong><span lang="EN-US"> Được sử dụng để xây dựng đối tượng hoặc cảnh 3D của bạn.</span></li>
+</ul>
+<p class="MsoNormal"><span lang="EN-US">Nếu vì lý do nào đó mà bạn không được nhắc tải những thứ này, hãy kiểm tra phiên bản Unity Editor được yêu cầu trong VRChat Creator Companion (ví dụ: Unity 2022.3.22f1) và cài đặt thủ công từ </span><span lang="EN-US"><a href="https://unity.com/releases/editor/archive" rel="noopener" target="_blank">Unity download archive</a></span><span lang="EN-US">. Một lần nữa, hãy đảm bảo bạn đã cài đặt cả Unity Editor và Unity Hub.</span></p>
+<p class="MsoNormal"><span lang="EN-US">Nếu đây là lần đầu tiên bạn sử dụng Unity, bạn có thể thấy thông báo lỗi nhắc bạn kích hoạt giấy phép của mình. Bạn sẽ cần tạo tài khoản Unity, đăng nhập vào <strong>Unity Hub</strong>, và đi đến <strong>Licenses</strong> &gt; <strong>Add</strong>. </span></p>
+<p class="MsoNormal"><strong><span lang="EN-US">Tip: </span></strong><span lang="EN-US">Kiểm tra các điều khoản và điều kiện của Unity để xem bạn có đủ điều kiện nhận giấy phép miễn phí hay không.</span></p>
+<p class="MsoNormal"><span lang="EN-US">Bạn gặp bất kỳ rắc rối nào trong quá trình cài đặt? Kiểm tra </span><span lang="EN-US"><a href="https://vcc.docs.vrchat.com/guides/getting-started/" rel="noopener" target="_blank">VRChat Creator Companion documentation</a></span><span lang="EN-US"> để tìm giải pháp cho những vấn đề phổ biến nhất.</span></p>
+<p class="MsoNormal"><span lang="EN-US">Khi đã xong, bạn sẽ thấy thông báo cho biết Unity đã được cài đặt thành công. Tiếp tục trong VRChat Creator Companion và nhấn <strong>Create New Project</strong> &gt; <strong>Unity 2022 Avatar Project</strong>. Đặt tên cho dự án của bạn và chọn <strong>Create Project.</strong></span></p>
+<p><img alt="VRChat Creator Companion interface showing how to start a new project." class="richtext-image full-width" contenteditable="false" data-alt="VRChat Creator Companion interface showing how to start a new project." data-embedtype="image" data-format="fullwidth" data-id="5593" data-mce-src="/express_media/images/vrc_avatar_3.width-800.png" height="425" onerror="this.onerror=null; this.src='https://blog.vive.com/express_media/images/Asset1-cover.scale-100.jpg';" src="https://blog.vive.com/express_media/images/vrc_avatar_3.width-800.png" width="800"/></p>
+<p class="MsoNormal"><em><span lang="EN-US">Bất cứ điều gì bạn làm trong chương trình này (chẳng hạn như mô hình 3D) đều được coi là một dự án.</span></em></p>
+<p class="MsoNormal"><span lang="EN-US">Tại thời điểm này, bạn cũng sẽ cần đăng nhập bằng tài khoản VRChat của mình nếu chưa đăng nhập.</span></p>
+<h2 class="MsoNormal"><strong><span lang="EN-US">3. Thêm VRM Converter cho VRChat vào dự án của bạn.</span></strong></h2>
+<p class="MsoNormal"><span lang="EN-US">Còn một thứ nữa bạn cần cài đặt để hình đại diện của bạn sẵn sàng cho VRChat và đó là một gói (tức là một tập hợp các tệp) có tên <strong>Bộ chuyển đổi VRM cho VRChat</strong>. Nó được tạo ra bởi nhà phát triển Nhật Bản </span><span lang="EN-US"><a href="https://github.com/esperecyan/VRMConverterForVRChat" rel="noopener" target="_blank">Esperecyan</a></span><span lang="EN-US"> như một phần mở rộng đặc biệt cho Unity.</span></p>
+<p class="MsoNormal"><span lang="EN-US">Để có được gói chuyển đổi, trước tiên bạn cần hiển thị VRChat Creator Companion nơi lưu trữ của nó. Hãy coi kho lưu trữ như một loại không gian lưu trữ mã và các tệp liên quan.</span></p>
+<p class="MsoNormal"><span lang="EN-US">đi đến <strong>VRChat Creator Companion</strong> &gt; <strong>Settings</strong> &gt; <strong>Packages </strong>&gt; <strong>Add</strong> <strong>Repository</strong>. Nhập URL </span><strong><span lang="EN-US">https://esperecyan.github.io/VRMConverterForVRChat/registry.json</span></strong><span lang="EN-US"> và tiếp tục.</span></p>
+<p class="MsoNormal"><span lang="EN-US">Bây giờ bạn thực sự có thể tải xuống và cài đặt gói bằng cách truy cập <strong>Projects</strong> &gt; <strong>Manage Packages</strong> &gt; <strong>Bộ chuyển đổi VRM cho VRChat</strong>và nhấn nút dấu cộng (<strong>+</strong>) ở bên phải.</span></p>
+<p><img alt="VRoid Studio interface showing a completed 3D avatar model." class="richtext-image full-width" contenteditable="false" data-alt="VRoid Studio interface showing a completed 3D avatar model." data-embedtype="image" data-format="fullwidth" data-id="5594" data-mce-src="/express_media/images/vrc_avatar_4.width-800.png" height="428" onerror="this.onerror=null; this.src='https://blog.vive.com/express_media/images/Asset1-cover.scale-100.jpg';" src="https://blog.vive.com/express_media/images/vrc_avatar_4.width-800.png" width="800"/></p>
+<p class="MsoNormal"><em><span lang="EN-US"><a href="https://booth.pm/en/items/1025226" rel="noopener" target="_blank">Tìm hiểu thêm về Bộ chuyển đổi VRM cho VRChat trên BOOTH.</a></span></em></p>
+<h2 class="MsoNormal"><strong><span lang="EN-US">4. Chuyển đổi tệp VRM của bạn thành mô hình hình đại diện VRChat.</span></strong></h2>
+<p class="MsoNormal"><span lang="EN-US">Với tất cả các công cụ phù hợp đã sẵn sàng, đã đến lúc làm cho hình đại diện bạn thiết kế ở bước 1 tương thích với VRChat.</span></p>
+<p class="MsoNormal"><span lang="EN-US">VRChat Creator Companion lẽ ra phải tự động khởi chạy Unity Editor (tức là Unity 2022.3.22f1). đi đến <strong>SDK VRChat</strong> &gt; <strong>Show Control Panel</strong>. Nhập tên người dùng hoặc địa chỉ email VRChat và mật khẩu của bạn, sau đó đăng nhập.</span></p>
+<p class="MsoNormal"><span lang="EN-US">Xem bảng điều khiển trong Unity có tên <strong>Assets</strong>? Tìm tệp VRM bạn đã lưu trên PC rồi kéo và thả nó vào <strong>Assets </strong>bảng điều khiển. Unity sẽ nhập hình đại diện của bạn.</span></p>
+<p class="MsoNormal"><span lang="EN-US">Bạn sẽ thấy mô hình 3D của mình trong <strong>Assets</strong>. Chọn nó và sau đó nhấp vào <strong>VRM0</strong> &gt; <strong>Sao chép và chuyển đổi cho VRChat</strong> &gt; <strong>Sao chép và chuyển đổi</strong>. Nhập tên tập tin và nhấn <strong>Save</strong>.</span></p>
+<p class="MsoNormal"><span lang="EN-US">Kiểm tra xem góc nhìn của hình đại diện của bạn đã được đặt chính xác chưa. Góc nhìn là vị trí và góc nhìn mà bạn sẽ nhìn thấy thế giới ảo khi sử dụng hình đại diện cụ thể này trong VRChat.</span></p>
+<p><img alt="Avatar model in Unity with its viewpoint position and orientation being adjusted." class="richtext-image full-width" contenteditable="false" data-alt="Avatar model in Unity with its viewpoint position and orientation being adjusted." data-embedtype="image" data-format="fullwidth" data-id="5595" data-mce-src="/express_media/images/vrc_avatar_5.width-800.png" height="423" onerror="this.onerror=null; this.src='https://blog.vive.com/express_media/images/Asset1-cover.scale-100.jpg';" src="https://blog.vive.com/express_media/images/vrc_avatar_5.width-800.png" width="800"/></p>
+<p class="MsoNormal"><em><span lang="EN-US">Nói chung, bạn muốn góc nhìn phù hợp với mắt của hình đại diện để có góc nhìn tự nhiên hơn.</span></em></p>
+<p class="MsoNormal"><span lang="EN-US">Để thay đổi góc nhìn, hãy nhấp vào <strong>left arrow</strong> ở trên cùng bên trái của cửa sổ Unity, chọn mô hình 3D của bạn trong <strong>Assets</strong> bảng điều khiển và ở bên phải màn hình, hãy điều hướng đến <strong>VRC Avatar Descriptor (Script)</strong> &gt; <strong>View Position</strong> &gt; <strong>Edit</strong>.</span><span lang="EN-US"> </span></p>
+<p class="MsoNormal"><span lang="EN-US">Dưới <strong>Hierarchy</strong> ở bên trái màn hình, chọn hình đại diện của bạn. Bấm và di chuyển <strong>3D arrows</strong> dường như di chuyển góc nhìn đến giữa trán của hình đại diện. Khi bạn hài lòng với vị trí đó, hãy nhấn <strong>File</strong> &gt; <strong>Save</strong>.</span></p>
+<h2 class="MsoNormal"><strong><span lang="EN-US">5. Tải hình đại diện của bạn lên VRChat.</span></strong></h2>
+<p class="MsoNormal"><span lang="EN-US">Mô hình hình đại diện 3D của bạn sắp sẵn sàng cho VRChat. Bạn chỉ cần cung cấp cho VRChat một ít thông tin về nó.</span></p>
+<p class="MsoNormal"><span lang="EN-US">Trong Unity, đi đến <strong>SDK VRChat</strong> &gt; <strong>Builder</strong>. Điền thông tin chi tiết về hình đại diện của bạn. Chúng bao gồm:</span></p>
+<ul>
+<li class="MsoNormal"><strong><span lang="EN-US">Tên:</span></strong><span lang="EN-US"> Đây là những gì sẽ xuất hiện cùng với hình ảnh thu nhỏ của hình đại diện trong menu VRChat của bạn sau khi bạn tải mô hình lên.</span></li>
+<li class="MsoNormal"><strong><span lang="EN-US">Description:</span></strong><span lang="EN-US"> Một không gian để thêm bất cứ điều gì đáng chú ý về hình đại diện của bạn. Bạn có thể ghi nhận mình là người tạo ra nó hoặc đề cập đến việc liệu nó có được định cấu hình theo bất kỳ cách đặc biệt nào hay không.</span></li>
+<li class="MsoNormal"><strong><span lang="EN-US">Content Warnings:</span></strong><span lang="EN-US"> Nếu hình đại diện của bạn được đặt ở chế độ có thể truy cập công khai, hãy cho cộng đồng biết liệu hình đại diện của nó có khả năng gây khó chịu hay không. </span></li>
+<li class="MsoNormal"><strong><span lang="EN-US">Visibility:</span></strong><span lang="EN-US"> Kiểm soát những người bạn muốn có quyền truy cập vào hình đại diện này. Nếu bạn không muốn người khác có thể sử dụng nó, hãy đặt tùy chọn này thành Riêng tư.</span></li>
+</ul>
+<p class="MsoNormal"><span lang="EN-US">Bạn cũng cần tạo hình thu nhỏ cho hình đại diện của mình. Hình thu nhỏ này sẽ xuất hiện cùng với tên của nó trong menu VRChat. Dưới <strong>Thumbnail</strong>, sử dụng <strong>Chiếm lấy</strong> để có được chế độ xem tĩnh từ cảnh trong Unity. Bạn sẽ thấy một số tùy chọn nâng cao cho phép bạn kiểm soát hình thức thu nhỏ hình đại diện của mình:</span></p>
+<ul>
+<li class="MsoNormal"><strong><span lang="EN-US">Fill Background:</span></strong><span lang="EN-US"> Tô nền của hình ảnh bằng một màu đồng nhất.</span></li>
+<li class="MsoNormal"><strong><span lang="EN-US">Use PostProcessing:</span></strong><span lang="EN-US">Nếu bạn có một số hiệu ứng nhất định hoạt động trong cảnh Unity của mình như đặc biệt<a href="https://news.viverse.com/post/3d-lighting-101-a-complete-beginner-s-guide-to-realistic-scenes" rel="noopener" target="_blank">thắp sáng</a>, nó có thể thêm những thứ này vào hình ảnh thu nhỏ.</span></li>
+<li class="MsoNormal"><strong><span lang="EN-US">Use Custom Camera:</span></strong><span lang="EN-US">Cho phép bạn hiển thị hình thu nhỏ bằng đối tượng Máy ảnh trong cảnh của Unity thay vì góc mặc định.</span></li>
+</ul>
+<p class="MsoNormal"><span lang="EN-US">Hãy bỏ qua những hộp này nếu bạn muốn. Nếu bạn có hình ảnh nhân vật muốn sử dụng làm hình thu nhỏ thay vì chụp cảnh, bạn có thể nhấn<strong>Select New Thumbnail</strong>, chọn hình ảnh bạn muốn trên PC và nhấn<strong>Open</strong>để tải tập tin đó lên.</span></p>
+<p class="MsoNormal"><span lang="EN-US">Khi bạn hài lòng với chi tiết và hình thu nhỏ của hình đại diện, hãy cuộn xuống hết cỡ và chọn hộp bên dưới<strong>Online Publishing</strong>. Then hit <strong>Build &amp; Publish</strong>để gửi hình đại diện của bạn vào VRChat.</span></p>
+<p class="MsoNormal"><span lang="EN-US">Khi đã xong, Unity sẽ hiển thị “Tải lên thành công!”</span></p>
+<h2 class="MsoNormal"><strong><span lang="EN-US">6. Chọn hình đại diện của bạn trong VRChat.</span></strong></h2>
+<p class="MsoNormal"><span lang="EN-US">Cuộc vui bắt đầu. Đăng nhập vào VRChat bằng kính thực tế ảo VR của bạn và trong<strong>Launch Pad</strong>, đi đến<strong>Avatars</strong> &gt; <strong>Uploaded</strong>.</span></p>
+<p><img alt="Avatar being selected from avatar menu in VRChat." class="richtext-image full-width" contenteditable="false" data-alt="Avatar being selected from avatar menu in VRChat." data-embedtype="image" data-format="fullwidth" data-id="5596" data-mce-src="/express_media/images/vrc_avatar_6.width-800.png" height="445" onerror="this.onerror=null; this.src='https://blog.vive.com/express_media/images/Asset1-cover.scale-100.jpg';" src="https://blog.vive.com/express_media/images/vrc_avatar_6.width-800.png" width="800"/></p>
+<p class="MsoNormal"><em><span lang="EN-US">Tải một vài hình đại diện khác nhau lên VRChat và thay đổi diện mạo của bạn theo ý muốn.</span></em></p>
+<p class="MsoNormal"><span lang="EN-US">Bạn sẽ thấy hình thu nhỏ của hình đại diện bạn vừa tải lên. Chọn nó để chuyển sang mô hình 3D đó. Bây giờ bạn đã có hình đại diện VRChat tùy chỉnh của riêng mình!</span></p>
+<p class="MsoNormal"><span lang="EN-US">Hãy thử kéo gương hình đại diện của bạn ra và nhìn xung quanh để đảm bảo rằng bạn đặt góc nhìn chính xác. Bạn cũng có thể quan sát ngôn ngữ cơ thể của mình bằng cách di chuyển bộ điều khiển VR.</span></p>
+<h2 class="MsoNormal"><strong><span lang="EN-US">Tận dụng tối đa hình đại diện VRChat của bạn.</span></strong></h2>
+<p class="MsoNormal"><span lang="EN-US">Bạn muốn hình đại diện mới phản ánh nét mặt ngoài đời thực của bạn? Bạn có thể muốn thêm</span><span lang="EN-US"><a href="https://blog.vive.com/us/vr-eye-tracking-what-is-it-which-vr-headsets-have-it/" rel="noopener" target="_blank">theo dõi mắt và khuôn mặt</a></span><span lang="EN-US">vào thiết lập VR của bạn bằng một phụ kiện như</span><span lang="EN-US"><a href="https://www.vive.com/us/accessory/vive-full-face-tracker/" rel="noopener" target="_blank">VIVE Full Face Tracker</a></span><span lang="EN-US"> for </span><span lang="EN-US"><a href="https://www.vive.com/us/product/vive-xr-elite/overview/" rel="noopener" target="_blank">VIVE XR Elite</a></span><span lang="EN-US">. </span></p>
+<p class="MsoNormal"><span lang="EN-US">Hoặc có thể bạn muốn kiểm soát chuyển động chân của hình đại diện—hãy cân nhắc việc nhận</span><span lang="EN-US"><a href="https://blog.vive.com/us/full-body-tracking-in-vrchat-how-to-get-fbt-and-more/" rel="noopener" target="_blank">full-body tracking (FBT)</a></span><span lang="EN-US"> cho VRChat. </span><span lang="EN-US"><a href="https://www.vive.com/us/accessory/tracker3/" rel="noopener" target="_blank">VIVE Tracker (3.0)</a></span><span lang="EN-US">là lựa chọn hàng đầu của chúng tôi nếu bạn đang sử dụng kính thực tế ảo HTC VIVE PC VR, trong khi</span><span lang="EN-US"><a href="https://www.vive.com/us/accessory/vive-ultimate-tracker/" rel="noopener" target="_blank">VIVE Ultimate Tracker</a></span><span lang="EN-US">hỗ trợ mọi kính thực tế ảo tương thích với SteamVR.</span></p>
+<p><img alt="Person wearing VIVE Ultimate Trackers for full-body tracking in VR." class="richtext-image full-width" contenteditable="false" data-alt="Person wearing VIVE Ultimate Trackers for full-body tracking in VR." data-embedtype="image" data-format="fullwidth" data-id="5597" data-mce-src="/express_media/images/vrc_avatar_7.width-800.png" height="445" onerror="this.onerror=null; this.src='https://blog.vive.com/express_media/images/Asset1-cover.scale-100.jpg';" src="https://blog.vive.com/express_media/images/vrc_avatar_7.width-800.png" width="800"/></p>
+<p class="MsoNormal"><em><span lang="EN-US">Đeo thiết bị theo dõi VR cho phép bạn làm được nhiều việc hơn với hình đại diện của mình.</span></em></p>
+<p class="MsoNormal"><span lang="EN-US">Và để có trải nghiệm hình đại diện VRChat tốt nhất, chúng tôi khuyên bạn nên</span><span lang="EN-US"><a href="https://www.vive.com/us/product/vive-focus-vision/overview/" rel="noopener" target="_blank">VIVE Focus Vision</a></span><span lang="EN-US">. Kính thực tế ảo được tích hợp tính năng theo dõi mắt cùng với hỗ trợ theo dõi khuôn mặt và toàn thân, nghĩa là bạn có thể tối đa hóa phạm vi chuyển động của hình đại diện và khiến thời gian của bạn trong VRChat trở nên phong phú hơn.</span></p>
+<p class="MsoNormal"><span lang="EN-US">Cho dù bạn đang sử dụng thiết bị nào, hãy nhớ khám phá VRChat với hình đại diện tùy chỉnh của bạn nhé!</span></p>
+<p class="MsoNormal"><span lang="EN-US"><a href="https://blog.vive.com/us/tracking-in-virtual-reality-and-beyond-vr-101-part-iii/" rel="noopener" target="_blank">Tìm hiểu thêm về chuyển động và theo dõi hình đại diện trong thực tế ảo.</a></span></p></div></div>
+<div class="related-posts">
+<h4 class="related-posts-title">Bài viết liên quan</h4>
+<a href="/blog/cineon-secures-world-first-caa-approval-for-vr-pilot-walkaround-trainer/">
+<div class="related-post d-flex flex-md-row flex-column-reverse">
+<div class="related-post-body">
+<div class="text-muted pb-2">Thực tế mở rộng (XR) | Giải pháp doanh nghiệp | Trí tuệ nhân tạo (AI)</div>
+<h5 class="related-post-title text-dark">Cineon đảm bảo chấp thuận CAA đầu tiên trên thế giới cho huấn luyện viên đi bộ thí điểm VR</h5>
+<div class="related-post-author text-muted small">VIVE Team • 2026-03-10</div>
+</div>
+<div class="related-post-img-wrapper">
+<img alt="Cineon secures world-first CAA approval for VR pilot walkaround trainer" class="img-fluid" onerror="this.onerror=null; this.src='/express_media/images/Asset1-cover.scale-100.jpg';" src="https://blog.vive.com/express_media/images/Screenshot_2026-03-10_at_09.43.12_ILpplCq.max-688x400.png"/>
+</div>
+</div>
+</a>
+<a href="/blog/htc-viverse-hits-1-million-users-announces-winners-of-first-global-spark-hackathon/">
+<div class="related-post d-flex flex-md-row flex-column-reverse">
+<div class="related-post-body">
+<div class="text-muted pb-2">Vũ trụ ảo (Metaverse) | Trò chơi &amp; Ứng dụng | Tin tức doanh nghiệp</div>
+<h5 class="related-post-title text-dark">HTC VIVERSE đạt 1 triệu người dùng, công bố người chiến thắng cuộc thi Hackathon “Spark” toàn cầu đầu tiên</h5>
+<div class="related-post-author text-muted small">VIVE Team • 2025-12-10</div>
+</div>
+<div class="related-post-img-wrapper">
+<img alt="HTC VIVERSE Hits 1 Million Users, Announces Winners of First Global “Spark” Hackathon" class="img-fluid" onerror="this.onerror=null; this.src='/express_media/images/Asset1-cover.scale-100.jpg';" src="https://blog.vive.com/express_media/images/VIVERSE-Spark-Announcement-1x1.max-688x400.jpg"/>
+</div>
+</div>
+</a>
+</div>
+</div>
+</section>
+<script src="/express_static/vive_blog/dist/vendor.js" type="text/javascript"></script>
+<script src="/express_static/vive_blog/dist/blog.js" type="text/javascript"></script>
+<script>
+    function copyToClipBoard() {
+        const content = document.getElementById('url-field');
+        content.select();
+        document.execCommand('copy');
+        $('#shareModal').modal('hide')
+        $('#messageModal').modal('show')
+        setTimeout(() => {
+            $('#messageModal').modal('hide')
+        }, "800")
+    }
+
+    $('#shareModal').on('hidden.bs.modal', function (e) {
+        // document.querySelector('.copy-message').style.display="none";
+    })
+
+    $('.copy-link').on('click', function() {
+        copyToClipBoard();
+    })
+</script>
+<footer class="footer">
+<div class="marketo-form-pop-up-section">
+<div id="chatbot-root"></div>
+<div data-legal="https://www.htc.com/us/terms/privacy/" data-privacy="https://dl.vive.com/EULA/unified_eula_20230721_eng.pdf" data-vhost="www" id="marketo-form"></div>
+</div>
+<div class="nav20-cookie-notice-block" id="vive-cookie-notice">
+<div class="nav20-cookie-notice-bg"></div>
+<div class="nav20-cookie-notice-content">
+<div class="nav20-cookie-notice-left">This site uses cookies to optimize website functionality, analyze website performance, and provide personalized experience and advertisement. You can accept our cookies by clicking on the button below or manage your preference on Cookie Preferences. You can also find more information about our <a class="text-vive" href="https://www.htc.com/us/terms/cookies/" target="_blank">Cookie Policy</a> here.</div>
+<div class="nav20-cookie-notice-right">
+<div aria-label="Accept" class="vive20-btn close-button" id="close-button">Accept</div>
+<a aria-label="Cookie preferences" class="settings-button vive20-get-detail vive20-get-detail--white" href="/us/cookie-preferences/" id="btn-cookie-preferences">Cookie preferences</a>
+</div>
+</div>
+</div>
+<div class="nav20-main-footer">
+<div class="nav20-footer-top-content">
+<div class="nav20-footer-link-1-item">
+<div class="nav20-footer-link-1 nav20-txt-footer-title">
+<span>Cửa hàng</span>
+</div>
+<div class="nav20-footer-link-2-content">
+<div class="nav20-link-2-item nav20-txt-footer-item">
+<a class="nav20-link-2 nav20-txt-footer-item" href="/us/product/" rel="" target="_self">
+<span>Tất cả sản phẩm</span>
+</a>
+</div>
+<div class="nav20-link-2-item nav20-txt-footer-item">
+<a class="nav20-link-2 nav20-txt-footer-item" href="/tw/product/vive-eagle/overview/" rel="" target="_self">
+<span>VIVE Eagle</span>
+</a>
+</div>
+<div class="nav20-link-2-item nav20-txt-footer-item">
+<a class="nav20-link-2 nav20-txt-footer-item" href="/us/product/vive-xr-elite/overview/" rel="" target="_self">
+<span>VIVE XR Elite</span>
+</a>
+</div>
+<div class="nav20-link-2-item nav20-txt-footer-item">
+<a class="nav20-link-2 nav20-txt-footer-item" href="/us/product/vive-flow/overview" rel="" target="_self">
+<span>VIVE Flow</span>
+</a>
+</div>
+<div class="nav20-link-2-item nav20-txt-footer-item">
+<a class="nav20-link-2 nav20-txt-footer-item" href="/us/product/#focus%20series" rel="" target="_self">
+<span>Dòng Focus</span>
+</a>
+</div>
+<div class="nav20-link-2-item nav20-txt-footer-item">
+<a class="nav20-link-2 nav20-txt-footer-item" href="/us/product/#pro%20series" rel="" target="_self">
+<span>Dòng Pro</span>
+</a>
+</div>
+<div class="nav20-link-2-item nav20-txt-footer-item">
+<a class="nav20-link-2 nav20-txt-footer-item" href="/us/product/comparison/" rel="" target="_self">
+<span>So sánh sản phẩm</span>
+</a>
+</div>
+<div class="nav20-link-2-item nav20-txt-footer-item">
+<a class="nav20-link-2 nav20-txt-footer-item" href="/us/accessory/" rel="" target="_self">
+<span>Phụ kiện</span>
+</a>
+</div>
+<div class="nav20-link-2-item nav20-txt-footer-item">
+<a class="nav20-link-2 nav20-txt-footer-item" href="//www.vive.com/us/ready/" rel="" target="_self">
+<span>VIVE ready</span>
+</a>
+</div>
+<div class="nav20-link-2-item nav20-txt-footer-item">
+<a class="nav20-link-2 nav20-txt-footer-item" href="https://www.vive.com/us/rental/" rel="" target="_self">
+<span>Rental</span>
+</a>
+</div>
+<div class="nav20-link-2-item nav20-txt-footer-item">
+<a class="nav20-link-2 nav20-txt-footer-item" href="https://shop-us.vive.com/pages/faq" rel="noreferrer noopener" target="_blank">
+<span>Hỗ trợ đơn hàng</span>
+</a>
+</div>
+</div>
+</div>
+<div class="nav20-footer-link-1-item">
+<div class="nav20-footer-link-1 nav20-txt-footer-title">
+<span>Dành cho doanh nghiệp</span>
+</div>
+<div class="nav20-footer-link-2-content">
+<div class="nav20-link-2-item nav20-txt-footer-item">
+<a class="nav20-link-2 nav20-txt-footer-item" href="//business.vive.com/us/" rel="noreferrer noopener" target="_blank">
+<span>Giải pháp</span>
+</a>
+</div>
+<div class="nav20-link-2-item nav20-txt-footer-item">
+<a class="nav20-link-2 nav20-txt-footer-item" href="//business.vive.com/isv/program/" rel="noreferrer noopener" target="_blank">
+<span>Đối tác ISV</span>
+</a>
+</div>
+<div class="nav20-link-2-item nav20-txt-footer-item">
+<a class="nav20-link-2 nav20-txt-footer-item" href="//business.vive.com/us/stories/" rel="noreferrer noopener" target="_blank">
+<span>Câu chuyện thành công</span>
+</a>
+</div>
+</div>
+</div>
+<div class="nav20-footer-link-1-item">
+<div class="nav20-footer-link-1 nav20-txt-footer-title">
+<span>Dành cho nhà phát triển</span>
+</div>
+<div class="nav20-footer-link-2-content">
+<div class="nav20-link-2-item nav20-txt-footer-item">
+<a class="nav20-link-2 nav20-txt-footer-item" href="https://developer.vive.com/resources/" rel="" target="_self">
+<span>Tài nguyên</span>
+</a>
+</div>
+<div class="nav20-link-2-item nav20-txt-footer-item">
+<a class="nav20-link-2 nav20-txt-footer-item" href="https://developer.vive.com/resources/downloads/" rel="" target="_self">
+<span>Tải SDK</span>
+</a>
+</div>
+</div>
+</div>
+<div class="nav20-footer-link-1-item">
+<div class="nav20-footer-link-1 nav20-txt-footer-title">
+<span>Hỗ trợ</span>
+</div>
+<div class="nav20-footer-link-2-content">
+<div class="nav20-link-2-item nav20-txt-footer-item">
+<a class="nav20-link-2 nav20-txt-footer-item" href="/us/support/" rel="" target="_self">
+<span>Hỗ trợ sản phẩm</span>
+</a>
+</div>
+<div class="nav20-link-2-item nav20-txt-footer-item">
+<a class="nav20-link-2 nav20-txt-footer-item" href="https://contact.vive.com/hc/en-us" rel="noreferrer noopener" target="_blank">
+<span>Liên hệ</span>
+</a>
+</div>
+<div class="nav20-link-2-item nav20-txt-footer-item">
+<a class="nav20-link-2 nav20-txt-footer-item" href="//www.vive.com/us/setup/" rel="" target="_self">
+<span>Cài đặt | Tải xuống</span>
+</a>
+</div>
+<div class="nav20-link-2-item nav20-txt-footer-item">
+<a class="nav20-link-2 nav20-txt-footer-item" href="//www.vive.com/release-notes/" rel="noreferrer noopener" target="_blank">
+<span>Ghi chú phát hành</span>
+</a>
+</div>
+<div class="nav20-link-2-item nav20-txt-footer-item">
+<a class="nav20-link-2 nav20-txt-footer-item" href="//www.vive.com/us/warranty/" rel="" target="_self">
+<span>Bảo hành</span>
+</a>
+</div>
+<div class="nav20-link-2-item nav20-txt-footer-item">
+<a class="nav20-link-2 nav20-txt-footer-item" href="https://www.htc.com/us/terms/do-not-sell-or-share-my-personal-information/" rel="noreferrer noopener" target="_blank">
+<span>Không bán hoặc chia sẻ thông tin cá nhân của tôi</span>
+</a>
+</div>
+</div>
+</div>
+<div class="nav20-footer-link-1-item">
+<div class="nav20-footer-link-1 nav20-txt-footer-title">
+<span>Khám phá VIVE</span>
+</div>
+<div class="nav20-footer-link-2-content">
+<div class="nav20-link-2-item nav20-txt-footer-item">
+<a class="nav20-link-2 nav20-txt-footer-item" href="//www.vive.com/us/newsroom/" rel="" target="_self">
+<span>Tin tức báo chí</span>
+</a>
+</div>
+<div class="nav20-link-2-item nav20-txt-footer-item">
+<a class="nav20-link-2 nav20-txt-footer-item" href="//blog.vive.com/us/" rel="" target="_self">
+<span>Blog</span>
+</a>
+</div>
+<div class="nav20-link-2-item nav20-txt-footer-item">
+<a class="nav20-link-2 nav20-txt-footer-item" href="//www.viveport.com/" rel="noreferrer noopener" target="_blank">
+<span>Viveport ↗</span>
+</a>
+</div>
+<div class="nav20-link-2-item nav20-txt-footer-item">
+<a class="nav20-link-2 nav20-txt-footer-item" href="https://arts.vive.com/us/" rel="noreferrer noopener" target="_blank">
+<span>VIVE Arts ↗</span>
+</a>
+</div>
+<div class="nav20-link-2-item nav20-txt-footer-item">
+<a class="nav20-link-2 nav20-txt-footer-item" href="https://mars.vive.com" rel="noreferrer noopener" target="_blank">
+<span>VIVE Mars</span>
+</a>
+</div>
+<div class="nav20-link-2-item nav20-txt-footer-item">
+<a class="nav20-link-2 nav20-txt-footer-item" href="//sync.vive.com" rel="" target="_self">
+<span>VIVE Sync</span>
+</a>
+</div>
+<div class="nav20-link-2-item nav20-txt-footer-item">
+<a class="nav20-link-2 nav20-txt-footer-item" href="//vivex.vive.com/us/" rel="" target="_self">
+<span>VIVE X</span>
+</a>
+</div>
+<div class="nav20-link-2-item nav20-txt-footer-item">
+<a class="nav20-link-2 nav20-txt-footer-item" href="https://vr4impact.com/" rel="noreferrer noopener" target="_blank">
+<span>VR for Impact ↗</span>
+</a>
+</div>
+<div class="nav20-link-2-item nav20-txt-footer-item">
+<a class="nav20-link-2 nav20-txt-footer-item" href="//www.vive.com/us/7-miracles/" rel="" target="_self">
+<span>Media</span>
+</a>
+</div>
+<div class="nav20-link-2-item nav20-txt-footer-item">
+<a class="nav20-link-2 nav20-txt-footer-item" href="https://www.htc.com/us/terms/privacy/" rel="" target="_self">
+<span>Chính sách bảo mật</span>
+</a>
+</div>
+<div class="nav20-link-2-item nav20-txt-footer-item">
+<a class="nav20-link-2 nav20-txt-footer-item" href="https://dl.htc.com/report_materials/htc_security_and_privacy_whitepaper.pdf" rel="" target="_self">
+<span>Bạch thư An ninh &amp; Bảo mật</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="nav20-footer-bottom-content">
+<div class="nav20-footer-social-location">
+<div class="region-selector">
+<div class="nav20-footer-language nav20-txt-footer-link">
+<label class="nav20-footer-language-label" for="language">
+                        Location
+                        <div class="nav20-footer-i-triangle"></div>
+<select id="language" name="language">
+<option data-short="kr" value="kr">
+                                    한국
+                                </option>
+<option data-short="au" value="au">
+                                    Australia
+                                </option>
+<option data-short="ca" value="ca">
+                                    Canada - En
+                                </option>
+<option data-short="ca-fr" value="ca-fr">
+                                    Canada - Français
+                                </option>
+<option data-short="de" value="de">
+                                    Deutschland
+                                </option>
+<option data-short="eu" value="eu">
+                                    European Union
+                                </option>
+<option data-short="fr" value="fr">
+                                    France
+                                </option>
+<option data-short="hk" value="hk">
+                                    Hong Kong
+                                </option>
+<option data-short="mea-en" value="mea-en">
+                                    Middle East
+                                </option>
+<option data-short="mea-ar" value="mea-ar">
+                                    Middle East Arabic
+                                </option>
+<option data-short="nz" value="nz">
+                                    New Zealand
+                                </option>
+<option data-short="sea" value="sea">
+                                    Southeast Asia
+                                </option>
+<option data-short="ua" value="ua">
+                                    Ukraine
+                                </option>
+<option data-short="uk" value="uk">
+                                    United Kingdom
+                                </option>
+<option data-short="us" selected="selected" value="us">
+                                    USA
+                                </option>
+<option data-short="cis" value="cis">
+                                    СНГ
+                                </option>
+<option data-short="cn" value="cn">
+                                    中国
+                                </option>
+<option data-short="tw" value="tw">
+                                    台灣
+                                </option>
+<option data-short="jp" value="jp">
+                                    日本
+                                </option>
+</select>
+</label>
+</div>
+</div>
+<div class="nav20-footer-social">
+<a aria-label="Facebook" href="//www.facebook.com/HTCVive" rel="nofollow noopener noreferrer" target="_blank">
+<i class="fa fa fa-facebook"></i>
+</a>
+<a aria-label="Twitter" href="//twitter.com/htcvive" rel="nofollow noopener noreferrer" target="_blank">
+<svg class="bi bi-twitter-x" fill="currentColor" height="14" viewbox="0 0 16 16" width="14" xmlns="http://www.w3.org/2000/svg"> <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"></path> </svg>
+</a>
+<a aria-label="Instagram" href="//www.instagram.com/htcvive/" rel="nofollow noopener noreferrer" target="_blank">
+<i class="fa fa-instagram"></i>
+</a>
+<a aria-label="Discord" href="https://discord.com/invite/QAtV6xXT5t" rel="nofollow noopener noreferrer" target="_blank">
+<i class="fa-icon fa-icon-discord"></i>
+</a>
+<a aria-label="TikTok" href="https://www.tiktok.com/@htc_vive" rel="nofollow noopener noreferrer" target="_blank">
+<i class="fa-icon fa-icon-tiktok"></i>
+</a>
+<div class="nav20-footer-social-bottom">
+<a aria-label="YouTube" href="https://www.youtube.com/htcvive" rel="nofollow noopener noreferrer" target="_blank">
+<i class="fa fa-youtube-play"></i>
+</a>
+<a aria-label="SteamVR" class="" href="//store.steampowered.com/steamvr" rel="noreferrer noopener" target="_blank">
+<i class="icon-img icon-img_steamvr-logo"></i>
+</a>
+</div>
+</div>
+</div>
+<div class="nav20-footer-info">
+<div class="nav20-footer-info-top">
+<a aria-label="HTC" class="nav20-footer-logo-link" href="//www.htc.com" rel="noreferrer noopener" target="_blank">
+<i class="icon-img icon-img_htc-logo-white"></i>
+</a>
+<div class="nav20-footer-link-content">
+<div class="nav20-txt-footer-link nav20-copyright-link">
+                        © 2011-2026 HTC Corporation
+                    </div>
+<div class="nav20-footer-legal-content">
+<div class="nav20-txt-footer-link">
+<a class="nav20-copyright-link nav20-txt-footer-link-hover" href="/us/legal/" target="_self">Điều khoản pháp lý</a>
+</div>
+<div class="nav20-txt-footer-link">
+<a class="nav20-txt-footer-link-hover" href="/us/cookie-preferences/">Cookie</a>
+</div>
+</div>
+</div>
+</div>
+<div class="nav20-footer-info-bottom">
+<br/><br/>
+Privacy Contact: <a href="mailto:Global-Privacy@htc.com">Global-Privacy@htc.com</a>
+</div>
+</div>
+</div>
+</div>
+<section class="js-i18n-data d-none" data-lang="en" lng-add-to-cart="Buy" lng-all-accessories="All accessories" lng-app-type-all="All Products" lng-app-type-vive="VIVE" lng-app-type-vive-focus="VIVE Focus" lng-app-type-vive-pro="VIVE Pro" lng-back-order="Back Order" lng-be-the-first-to-know="Be the first to know." lng-buy-now="Buy" lng-cart-remainder="Looks like you forgot something in your cart." lng-change-location="Change Location" lng-change-your-location="Change your location" lng-close="Close" lng-coming-soon="Coming Soon" lng-dont-miss-a-thing="Don’t miss a thing!" lng-e-mail="Email" lng-error-wrong-size="To add this item to your basket, choose a size." lng-external-url-notice-message="Please be aware that you are leaving www.vive.com and will be redirected to a third party web site. HTC Vive has no control over information at any third party site accessed from www.vive.com. In no event shall HTC Vive be responsible for your use of a third party site." lng-first-name="First name" lng-from="{{price}}" lng-get-details="Get details" lng-get-exclusive-deals="Get exclusive offers and updates on HTC VIVE products and services." lng-gtm-cta="Keep me posted" lng-gtm-desc="Be the first to find out about our upcoming events, product updates, and more!" lng-gtm-title="Get the latest on the VIVE XR Elite." lng-hi="Hi" lng-hi-user="Hi, {firstName}" lng-learn-more="Get Details" lng-login="Login" lng-logout="Logout" lng-mini-cart-order-help="Order Help" lng-mini-cart-orders="My Orders" lng-my-account="My Profile" lng-my-order="My Orders" lng-new="New" lng-new-releases="New Releases" lng-nothing-in-cart="Nothing's in my cart" lng-notify-me="Notify me" lng-out-of-stock="Out of Stock" lng-privacy-policy="Privacy Policy" lng-privacy-terms-checkbox="I have read and agree to HTC VIVE’s {{terms-of-use}} and {{privacy-policy}}" lng-register-interest="Register Interest" lng-result-for="{{count}} Result for {{cat}} :" lng-result-for_plural="{{count}} Results for {{cat}} :" lng-search="Search" lng-section-all="All" lng-section-art="Arts" lng-section-blog="Blog" lng-section-product="Product" lng-section-support="Support" lng-section-vive-port="VIVEPORT" lng-ship-to="Ship to" lng-sign-in="Sign in" lng-sign-out="Sign out" lng-size="Option" lng-sticky-btn="Buy {{productName}}" lng-subscribe="Get the latest news »" lng-subscription-disclaimer="By submitting this form, you agree to receive promotional emails from HTC VIVE. You can unsubscribe at any time via the unsubscribe like in each email." lng-terms-of-use="Terms and Conditions" lng-thank-you="Thank you!" lng-view-cart="View cart" lng-view-cart-remainder="Go to my cart" lng-view-more="View more {{count}} item" lng-view-more_plural="View {{count}} more items"></section>
+</footer>
+<script src="/static/compress/dist/js/original-vendor.a4a3fd2b881c.js?v=202608100232" type="text/javascript"></script><script src="/static/app/dist_2020/vendor_1.js?v=202608100232" type="text/javascript"></script><script src="/static/app/dist_2020/vendor_2.js?v=202608100232" type="text/javascript"></script><script src="/static/app/dist_2020/vendor_3.js?v=202608100232" type="text/javascript"></script><script src="/static/app/dist_2020/app.js?v=202608100232" type="text/javascript"></script>
+</body>
+</html>

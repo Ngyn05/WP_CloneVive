@@ -1,0 +1,326 @@
+{
+  "meta": {
+    "total_count": 29
+  },
+  "items": [
+    {
+      "id": 7331,
+      "meta": {
+        "type": "vive_blog.VIVEBlogArticleTag",
+        "detail_url": "/api/v2/pages/7331/",
+        "html_url": "https://vive.com.vn/blog/tag/corporate-news/",
+        "slug": "corporate-news",
+        "first_published_at": "2022-10-24T03:12:08.153394Z"
+      },
+      "title": "Tin tức doanh nghiệp"
+    },
+    {
+      "id": 7332,
+      "meta": {
+        "type": "vive_blog.VIVEBlogArticleTag",
+        "detail_url": "/api/v2/pages/7332/",
+        "html_url": "https://vive.com.vn/blog/tag/product-announcements/",
+        "slug": "product-announcements",
+        "first_published_at": "2022-10-24T03:12:32.557366Z"
+      },
+      "title": "Thông báo sản phẩm"
+    },
+    {
+      "id": 7417,
+      "meta": {
+        "type": "vive_blog.VIVEBlogArticleTag",
+        "detail_url": "/api/v2/pages/7417/",
+        "html_url": "https://vive.com.vn/blog/tag/product-announcements/headsets/",
+        "slug": "headsets",
+        "first_published_at": "2023-01-13T04:03:28.965599Z"
+      },
+      "title": "Kính thực tế ảo"
+    },
+    {
+      "id": 7333,
+      "meta": {
+        "type": "vive_blog.VIVEBlogArticleTag",
+        "detail_url": "/api/v2/pages/7333/",
+        "html_url": "https://vive.com.vn/blog/tag/metaverse/",
+        "slug": "metaverse",
+        "first_published_at": "2022-10-24T03:12:48.415653Z"
+      },
+      "title": "Vũ trụ ảo (Metaverse)"
+    },
+    {
+      "id": 9633,
+      "meta": {
+        "type": "vive_blog.VIVEBlogArticleTag",
+        "detail_url": "/api/v2/pages/9633/",
+        "html_url": "https://vive.com.vn/blog/tag/extended-reality/",
+        "slug": "extended-reality",
+        "first_published_at": "2023-09-13T09:35:12.241118Z"
+      },
+      "title": "Thực tế mở rộng (XR)"
+    },
+    {
+      "id": 9767,
+      "meta": {
+        "type": "vive_blog.VIVEBlogArticleTag",
+        "detail_url": "/api/v2/pages/9767/",
+        "html_url": "https://vive.com.vn/blog/tag/artificial-intelligence/",
+        "slug": "artificial-intelligence",
+        "first_published_at": "2024-05-06T10:37:37.413768Z"
+      },
+      "title": "Trí tuệ nhân tạo (AI)"
+    },
+    {
+      "id": 9781,
+      "meta": {
+        "type": "vive_blog.VIVEBlogArticleTag",
+        "detail_url": "/api/v2/pages/9781/",
+        "html_url": "https://vive.com.vn/blog/tag/current-events/",
+        "slug": "current-events",
+        "first_published_at": "2023-10-30T03:26:55.022082Z"
+      },
+      "title": "Sự kiện nổi bật"
+    },
+    {
+      "id": 12374,
+      "meta": {
+        "type": "vive_blog.VIVEBlogArticleTag",
+        "detail_url": "/api/v2/pages/12374/",
+        "html_url": "https://vive.com.vn/blog/tag/business/",
+        "slug": "business",
+        "first_published_at": "2024-01-25T08:39:13.841224Z"
+      },
+      "title": "Doanh nghiệp"
+    },
+    {
+      "id": 12591,
+      "meta": {
+        "type": "vive_blog.VIVEBlogArticleTag",
+        "detail_url": "/api/v2/pages/12591/",
+        "html_url": "https://vive.com.vn/blog/tag/games/",
+        "slug": "games",
+        "first_published_at": "2024-03-29T09:11:38.528803Z"
+      },
+      "title": "Trò chơi & Giải trí"
+    },
+    {
+      "id": 6224,
+      "meta": {
+        "type": "vive_blog.VIVEBlogArticleTag",
+        "detail_url": "/api/v2/pages/6224/",
+        "html_url": "http://blog.vive.com/mea-en/tag/enterprise-success-story/",
+        "slug": "enterprise-success-story",
+        "first_published_at": null
+      },
+      "title": "Enterprise Success Story"
+    },
+    {
+      "id": 6225,
+      "meta": {
+        "type": "vive_blog.VIVEBlogArticleTag",
+        "detail_url": "/api/v2/pages/6225/",
+        "html_url": "http://blog.vive.com/mea-en/tag/product-launch/",
+        "slug": "product-launch",
+        "first_published_at": null
+      },
+      "title": "Product Launch"
+    },
+    {
+      "id": 6226,
+      "meta": {
+        "type": "vive_blog.VIVEBlogArticleTag",
+        "detail_url": "/api/v2/pages/6226/",
+        "html_url": "http://blog.vive.com/mea-en/tag/vive-games/",
+        "slug": "vive-games",
+        "first_published_at": null
+      },
+      "title": "Vive Games"
+    },
+    {
+      "id": 6227,
+      "meta": {
+        "type": "vive_blog.VIVEBlogArticleTag",
+        "detail_url": "/api/v2/pages/6227/",
+        "html_url": "http://blog.vive.com/mea-en/tag/vive-news/",
+        "slug": "vive-news",
+        "first_published_at": null
+      },
+      "title": "Vive News"
+    },
+    {
+      "id": 6228,
+      "meta": {
+        "type": "vive_blog.VIVEBlogArticleTag",
+        "detail_url": "/api/v2/pages/6228/",
+        "html_url": "http://blog.vive.com/mea-en/tag/vive-news-events/",
+        "slug": "vive-news-events",
+        "first_published_at": null
+      },
+      "title": "Vive News & Events"
+    },
+    {
+      "id": 6229,
+      "meta": {
+        "type": "vive_blog.VIVEBlogArticleTag",
+        "detail_url": "/api/v2/pages/6229/",
+        "html_url": "http://blog.vive.com/mea-en/tag/viveport/",
+        "slug": "viveport",
+        "first_published_at": null
+      },
+      "title": "Viveport"
+    },
+    {
+      "id": 10611,
+      "meta": {
+        "type": "vive_blog.VIVEBlogArticleTag",
+        "detail_url": "/api/v2/pages/10611/",
+        "html_url": "http://blog.vive.com/tw/tag/%E6%9C%80%E6%96%B0%E6%B6%88%E6%81%AF/",
+        "slug": "最新消息",
+        "first_published_at": "2024-03-05T03:00:27.237287Z"
+      },
+      "title": "企業新聞"
+    },
+    {
+      "id": 10612,
+      "meta": {
+        "type": "vive_blog.VIVEBlogArticleTag",
+        "detail_url": "/api/v2/pages/10612/",
+        "html_url": "http://blog.vive.com/tw/tag/%E7%94%A2%E5%93%81%E6%B6%88%E6%81%AF/",
+        "slug": "產品消息",
+        "first_published_at": "2024-03-05T03:03:07.271561Z"
+      },
+      "title": "產品消息"
+    },
+    {
+      "id": 10613,
+      "meta": {
+        "type": "vive_blog.VIVEBlogArticleTag",
+        "detail_url": "/api/v2/pages/10613/",
+        "html_url": "http://blog.vive.com/tw/tag/%E7%94%A2%E5%93%81%E6%B6%88%E6%81%AF/%E9%A0%AD%E6%88%B4%E5%BC%8F%E9%A1%AF%E7%A4%BA%E5%99%A8/",
+        "slug": "頭戴式顯示器",
+        "first_published_at": "2024-03-05T03:08:48.007445Z"
+      },
+      "title": "頭戴式顯示器"
+    },
+    {
+      "id": 10614,
+      "meta": {
+        "type": "vive_blog.VIVEBlogArticleTag",
+        "detail_url": "/api/v2/pages/10614/",
+        "html_url": "http://blog.vive.com/tw/tag/metaverse-%E5%85%83%E5%AE%87%E5%AE%99/",
+        "slug": "metaverse-元宇宙",
+        "first_published_at": "2024-03-05T03:02:48.551918Z"
+      },
+      "title": "Metaverse 元宇宙"
+    },
+    {
+      "id": 10615,
+      "meta": {
+        "type": "vive_blog.VIVEBlogArticleTag",
+        "detail_url": "/api/v2/pages/10615/",
+        "html_url": "http://blog.vive.com/tw/tag/vr-information/",
+        "slug": "vr-information",
+        "first_published_at": "2024-03-05T03:02:27.760496Z"
+      },
+      "title": "XR 延伸實境"
+    },
+    {
+      "id": 10616,
+      "meta": {
+        "type": "vive_blog.VIVEBlogArticleTag",
+        "detail_url": "/api/v2/pages/10616/",
+        "html_url": "http://blog.vive.com/tw/tag/ai-%E4%BA%BA%E5%B7%A5%E6%99%BA%E6%85%A7/",
+        "slug": "ai-人工智慧",
+        "first_published_at": "2024-03-05T03:01:15.635752Z"
+      },
+      "title": "AI 人工智慧"
+    },
+    {
+      "id": 10617,
+      "meta": {
+        "type": "vive_blog.VIVEBlogArticleTag",
+        "detail_url": "/api/v2/pages/10617/",
+        "html_url": "http://blog.vive.com/tw/tag/%E7%9B%AE%E5%89%8D%E6%B4%BB%E5%8B%95/",
+        "slug": "目前活動",
+        "first_published_at": "2024-03-05T03:00:57.687640Z"
+      },
+      "title": "目前活動"
+    },
+    {
+      "id": 11381,
+      "meta": {
+        "type": "vive_blog.VIVEBlogArticleTag",
+        "detail_url": "/api/v2/pages/11381/",
+        "html_url": "http://blog.vive.com/kr/%ED%83%9C%EA%B7%B8-%EC%84%A4%EC%A0%95/%EA%B8%B0%EC%97%85-%EC%86%8C%EC%8B%9D/",
+        "slug": "기업-소식",
+        "first_published_at": "2023-11-15T06:05:54.431893Z"
+      },
+      "title": "HTC 소식"
+    },
+    {
+      "id": 11382,
+      "meta": {
+        "type": "vive_blog.VIVEBlogArticleTag",
+        "detail_url": "/api/v2/pages/11382/",
+        "html_url": "http://blog.vive.com/kr/%ED%83%9C%EA%B7%B8-%EC%84%A4%EC%A0%95/%EC%A0%9C%ED%92%88/",
+        "slug": "제품",
+        "first_published_at": "2023-11-15T06:04:59.481402Z"
+      },
+      "title": "제품 소식"
+    },
+    {
+      "id": 11384,
+      "meta": {
+        "type": "vive_blog.VIVEBlogArticleTag",
+        "detail_url": "/api/v2/pages/11384/",
+        "html_url": "http://blog.vive.com/kr/%ED%83%9C%EA%B7%B8-%EC%84%A4%EC%A0%95/%EB%A9%94%ED%83%80%EB%B2%84%EC%8A%A4/",
+        "slug": "메타버스",
+        "first_published_at": "2023-11-15T06:03:29.747359Z"
+      },
+      "title": "메타버스"
+    },
+    {
+      "id": 11385,
+      "meta": {
+        "type": "vive_blog.VIVEBlogArticleTag",
+        "detail_url": "/api/v2/pages/11385/",
+        "html_url": "http://blog.vive.com/kr/%ED%83%9C%EA%B7%B8-%EC%84%A4%EC%A0%95/vr-information/",
+        "slug": "vr-information",
+        "first_published_at": "2023-11-15T06:04:23.206297Z"
+      },
+      "title": "확장현실"
+    },
+    {
+      "id": 11386,
+      "meta": {
+        "type": "vive_blog.VIVEBlogArticleTag",
+        "detail_url": "/api/v2/pages/11386/",
+        "html_url": "http://blog.vive.com/kr/%ED%83%9C%EA%B7%B8-%EC%84%A4%EC%A0%95/ai/",
+        "slug": "ai",
+        "first_published_at": "2023-11-15T06:04:11.637489Z"
+      },
+      "title": "AI"
+    },
+    {
+      "id": 11387,
+      "meta": {
+        "type": "vive_blog.VIVEBlogArticleTag",
+        "detail_url": "/api/v2/pages/11387/",
+        "html_url": "http://blog.vive.com/kr/%ED%83%9C%EA%B7%B8-%EC%84%A4%EC%A0%95/%EC%9D%B4%EB%B2%A4%ED%8A%B8/",
+        "slug": "이벤트",
+        "first_published_at": "2023-11-15T06:03:58.104976Z"
+      },
+      "title": "이벤트/행사"
+    },
+    {
+      "id": 13246,
+      "meta": {
+        "type": "vive_blog.VIVEBlogArticleTag",
+        "detail_url": "/api/v2/pages/13246/",
+        "html_url": "http://blog.vive.com/kr/%ED%83%9C%EA%B7%B8-%EC%84%A4%EC%A0%95/%EA%B2%8C%EC%9E%84/",
+        "slug": "게임",
+        "first_published_at": "2024-11-08T09:40:16.696462Z"
+      },
+      "title": "게임"
+    }
+  ]
+}

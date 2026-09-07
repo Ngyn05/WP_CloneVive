@@ -1,0 +1,102 @@
+/* Custom styling for product variants in right column */
+product-variants,
+.product-variants,
+.product-variants.no-js-hidden,
+.sidebar-widget,
+.sidebar-widget--outline,
+.sidebar-widget__content,
+.product-variant {
+    display: block !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+.sidebar-widget--outline {
+    border: 1px solid #e1e8ed !important;
+    background: #f9fbfc !important;
+    padding: 18px 20px !important;
+    border-radius: 6px !important;
+    margin: 18px 0 !important;
+}
+.sidebar-widget__title {
+    font-weight: 700 !important;
+    font-size: 15px !important;
+    display: block !important;
+    margin-bottom: 14px !important;
+    color: #111 !important;
+}
+.product-variant {
+    margin-bottom: 16px !important;
+}
+.product-variant__name {
+    display: block !important;
+    font-weight: 700 !important;
+    margin-bottom: 8px !important;
+    color: #222 !important;
+    font-size: 14px !important;
+}
+.product-variant select,
+.product-variant .kt-select,
+.product-variant__container--select,
+select.kt-select {
+    display: block !important;
+    box-sizing: border-box !important;
+    width: 100% !important;
+    height: 42px !important;
+    padding: 0 14px !important;
+    border: 1px solid #c8d2d6 !important;
+    border-radius: 4px !important;
+    font-size: 14px !important;
+    background: #fff url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%23333' d='M6 8.5L1.5 4h9z'/%3E%3C/svg%3E") no-repeat right 12px center !important;
+    cursor: pointer !important;
+    color: #222 !important;
+    outline: none !important;
+    -webkit-appearance: none !important;
+    appearance: none !important;
+}
+.product-variant__container--radio {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 14px !important;
+    margin-top: 8px !important;
+    align-items: center !important;
+}
+.product-variant__item--color {
+    display: inline-flex !important;
+    align-items: center !important;
+    margin: 0 !important;
+    position: relative !important;
+}
+.product-variant__item--color input[type="radio"] {
+    position: absolute !important;
+    opacity: 0 !important;
+    width: 0 !important;
+    height: 0 !important;
+    margin: 0 !important;
+    pointer-events: none !important;
+}
+.product-variant__item-swatch {
+    display: inline-block !important;
+    width: 36px !important;
+    height: 36px !important;
+    border-radius: 50% !important;
+    border: 2px solid #ddd !important;
+    cursor: pointer !important;
+    transition: transform .2s, border-color .2s, box-shadow .2s !important;
+}
+.product-variant__item-swatch:hover {
+    transform: scale(1.1) !important;
+}
+.product-variant__item--color input:checked + label .product-variant__item-swatch,
+.product-variant__input:checked + .product-variant__label .product-variant__item-swatch {
+    border-color: #00b5e2 !important;
+    box-shadow: 0 0 0 3px rgba(0, 181, 226, .35) !important;
+    transform: scale(1.12) !important;
+}
+.product-variant__item-text-label {
+    display: block !important;
+    font-size: 13px !important;
+    color: #666 !important;
+    margin-top: 6px !important;
+}

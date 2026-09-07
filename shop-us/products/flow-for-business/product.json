@@ -1,0 +1,55 @@
+{
+  "id": 10048609976637,
+  "title": "VIVE Flow for Business",
+  "handle": "flow-for-business",
+  "body_html": null,
+  "published_at": "2025-11-10T17:57:17-08:00",
+  "created_at": "2025-09-04T02:38:34-07:00",
+  "updated_at": "2026-09-05T09:35:04-07:00",
+  "vendor": "HTC VIVE Online Store",
+  "product_type": "Bundle",
+  "tags": [],
+  "variants": [
+    {
+      "id": 50701842743613,
+      "title": "Default Title",
+      "option1": "Default Title",
+      "option2": null,
+      "option3": null,
+      "sku": "VBFLWBWS-US",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": null,
+      "available": true,
+      "price": "599.00",
+      "grams": 0,
+      "compare_at_price": null,
+      "position": 1,
+      "product_id": 10048609976637,
+      "created_at": "2025-09-04T02:38:34-07:00",
+      "updated_at": "2026-09-05T09:35:04-07:00"
+    }
+  ],
+  "images": [
+    {
+      "id": 59040448905533,
+      "created_at": "2025-09-04T02:38:43-07:00",
+      "position": 1,
+      "updated_at": "2025-10-30T01:59:25-07:00",
+      "product_id": 10048609976637,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0926/0489/1453/files/flow-475.png?v=1761814765",
+      "width": 650,
+      "height": 650
+    }
+  ],
+  "options": [
+    {
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Default Title"
+      ]
+    }
+  ]
+}

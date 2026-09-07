@@ -1,0 +1,55 @@
+{
+  "id": 10039429890365,
+  "title": "VIVE Business Warranty & Services for Focus Vision 2-Year Limited Commercial-Use Warranty",
+  "handle": "21067055",
+  "body_html": "<h2 class=\"section-heading\">Enterprise-grade support and services designed to protect your investment</h2>\n<p class=\"body-copy\">Keep your operation running smoothly with VIVE Business Warranty &amp; Services (BWS). The package includes a two-year limited commercial-use warranty, support, and services. Features like next business-day email response and expedited product repair or replacement minimize downtime.</p>\n<ul class=\"flow-bws--ksp-list\">\n<li class=\"body-copy body-heading flow-bws--ksp-list-item\">Premium Service</li>\n<li class=\"body-copy body-heading flow-bws--ksp-list-item\">Expedited Return and Replacement</li>\n<li class=\"body-copy body-heading flow-bws--ksp-list-item\">Two-year Commercial Warranty</li>\n<li class=\"body-copy body-heading flow-bws--ksp-list-item\">Access to<span> </span><a href=\"https://business.vive.com/us/solutions/business-plus/\" data-gtm=\"event-tracking\" data-event-label=\"detail-business-plus\" data-event-category=\"pdp\" data-event-action=\"click-detail\" class=\"vive-link\">VIVE Business+</a>\n</li>\n</ul>\n<p class=\"body-copy body-heading\"> </p>\n<h3 class=\"body-copy body-heading\">BWS Activation</h3>\n<p class=\"body-copy body-copy--sm\">Registration and activation required for use. Start by creating a VIVE Business account. Activation must be completed within 90 days of the hardware purchase. A service request cannot be submitted until a business account is created and registered.</p>\n<p class=\"body-copy body-copy--sm\">VIVE XR Elite Business Edition devices are pre-registered. BWS activation and device registration are required for VIVE Focus Vision Business Edition.</p>\n<p class=\"body-copy body-copy--sm\">Commercial use only.** Subject to<span> </span><span class=\"nobreak\"><a href=\"https://business.vive.com/us/warranty/\" data-gtm=\"event-tracking\" data-event-label=\"detail-warranty\" data-event-category=\"pdp\" data-event-action=\"click-detail\" class=\"vive-link\">Terms &amp; Conditions.</a></span></p>\n<p><a href=\"https://business.vive.com/us/support/business-plus/category_howto/activating-vive-bws.html\" data-gtm=\"event-tracking\" data-event-label=\"detail-how-to-activate-bws\" data-event-category=\"pdp\" data-event-action=\"click-detail\" class=\"vive-link vive-link--standalone\">How to activate ›</a></p>\n<p> </p>\n<p><meta charset=\"utf-8\"><span>*Purchase and activation of a two (2)-year, or three (3)-year Business Warranty Services (“BWS”) account is required for commercial use of any VIVE head-mounted device (“HMD”), including related accessories. Non-commercial-use owners of VIVE HMDs may convert to commercial-use within ninety (90) days of original purchase of a non-commercial HMD.</span><br><br><span>To activate a BWS account, or to upgrade from a two (2)-year plan to a three (3)-year plan, you must register your account details, accept the VIVE Business </span><a href=\"https://business.vive.com/us/warranty/\" data-gtm=\"event-tracking\" data-event-label=\"detail-business-contact\" data-event-category=\"pdp\" data-event-action=\"click-detail\" class=\"vive-link\">Terms and Conditions</a><span> ,and pay the applicable commercial-use fee (initial purchase of VIVE Business Edition includes a two (2)-year BWS account; activation required). Support services are not available until you register and activate your BWS account.</span></p>",
+  "published_at": "2025-11-10T17:57:31-08:00",
+  "created_at": "2025-08-27T23:18:18-07:00",
+  "updated_at": "2026-09-05T09:35:04-07:00",
+  "vendor": "HTC VIVE Online Store",
+  "product_type": "License",
+  "tags": [],
+  "variants": [
+    {
+      "id": 50674049974589,
+      "title": "Default Title",
+      "option1": "Default Title",
+      "option2": null,
+      "option3": null,
+      "sku": "SVRW0094",
+      "requires_shipping": false,
+      "taxable": false,
+      "featured_image": null,
+      "available": true,
+      "price": "300.00",
+      "grams": 0,
+      "compare_at_price": null,
+      "position": 1,
+      "product_id": 10039429890365,
+      "created_at": "2025-08-27T23:18:18-07:00",
+      "updated_at": "2026-09-05T09:35:04-07:00"
+    }
+  ],
+  "images": [
+    {
+      "id": 58918197395773,
+      "created_at": "2025-08-27T23:51:49-07:00",
+      "position": 1,
+      "updated_at": "2025-10-30T00:48:20-07:00",
+      "product_id": 10039429890365,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0926/0489/1453/files/bws-2y_1_1.png?v=1761810500",
+      "width": 1000,
+      "height": 1000
+    }
+  ],
+  "options": [
+    {
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Default Title"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": 10039427268925,
+  "title": "HTC VIVE Controller",
+  "handle": "2104030",
+  "body_html": "<p class=\"p1\"><span class=\"s1\">Lets you wirelessly interact and play with the virtual world. Features 24 sensors, multi-function trackpad, dual-stage trigger, HD haptic feedback and a rechargeable battery.</span></p>\n<ul class=\"ul1\">\n<li class=\"li2\"><span class=\"s2\">Includes one controller, lanyard, micro-USB cable and power adapter</span></li>\n<li class=\"li2\"><span class=\"s2\">Battery capacity: 960 mAh</span></li>\n</ul>\n<p class=\"p3\"><span class=\"s2\">*Compatible with the following products when using Base Station (BS 1.0):</span></p>\n<p class=\"p3\"><span class=\"s2\">- HTC VIVE</span></p>\n<p class=\"p3\"><span class=\"s2\">- VIVE Pro Series</span></p>\n<p class=\"p3\"><span class=\"s2\">- VIVE Cosmos Elite</span></p>\n<p class=\"p3\"><span class=\"s2\">**Compatible with the following accessory when using Base Station (BS 1.0):</span></p>\n<p class=\"p4\"><span class=\"s1\">- VIVE Cosmos External Tracking Faceplate</span></p>",
+  "published_at": "2025-11-10T17:57:49-08:00",
+  "created_at": "2025-08-27T23:14:15-07:00",
+  "updated_at": "2026-09-05T09:35:04-07:00",
+  "vendor": "HTC VIVE Online Store",
+  "product_type": "Simple",
+  "tags": [],
+  "variants": [
+    {
+      "id": 50674044141885,
+      "title": "Default Title",
+      "option1": "Default Title",
+      "option2": null,
+      "option3": null,
+      "sku": "99HAFR001-00",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": null,
+      "available": true,
+      "price": "89.99",
+      "grams": 2000,
+      "compare_at_price": "129.99",
+      "position": 1,
+      "product_id": 10039427268925,
+      "created_at": "2025-08-27T23:14:15-07:00",
+      "updated_at": "2026-09-05T09:35:04-07:00"
+    }
+  ],
+  "images": [
+    {
+      "id": 61174733472061,
+      "created_at": "2025-12-18T15:05:52-08:00",
+      "position": 1,
+      "updated_at": "2025-12-18T15:09:46-08:00",
+      "product_id": 10039427268925,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0926/0489/1453/files/shopify_acc_99HAFR001-00_side.jpg?v=1766099386",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "id": 61174733537597,
+      "created_at": "2025-12-18T15:05:52-08:00",
+      "position": 2,
+      "updated_at": "2025-12-18T15:09:46-08:00",
+      "product_id": 10039427268925,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0926/0489/1453/files/shopify_acc_99HAFR001-00_pers.jpg?v=1766099386",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "id": 61174779871549,
+      "created_at": "2025-12-18T15:09:07-08:00",
+      "position": 3,
+      "updated_at": "2025-12-18T15:09:09-08:00",
+      "product_id": 10039427268925,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0926/0489/1453/files/shopify_acc_99HAFR001-00_controller-front.jpg?v=1766099349",
+      "width": 2048,
+      "height": 2048
+    }
+  ],
+  "options": [
+    {
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Default Title"
+      ]
+    }
+  ]
+}

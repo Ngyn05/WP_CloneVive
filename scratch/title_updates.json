@@ -1,0 +1,1976 @@
+[
+  {
+    "id": 808,
+    "old_title": "Cửa hàng trực tuyến VIVE",
+    "new_title": "Cua Hang",
+    "path": "/cua-hang/"
+  },
+  {
+    "id": 809,
+    "old_title": "Giỏ hàng",
+    "new_title": "Gio Hang",
+    "path": "/gio-hang/"
+  },
+  {
+    "id": 810,
+    "old_title": "Thanh toán",
+    "new_title": "Thanh Toan",
+    "path": "/thanh-toan/"
+  },
+  {
+    "id": 811,
+    "old_title": "Tài khoản của tôi",
+    "new_title": "Tai Khoan",
+    "path": "/tai-khoan/"
+  },
+  {
+    "id": 835,
+    "old_title": "Trang Chu",
+    "new_title": "Trang chủ HTC VIVE Việt Nam",
+    "path": "/"
+  },
+  {
+    "id": 836,
+    "old_title": "7 Miracles",
+    "new_title": "Trải nghiệm VR 7 Miracles",
+    "path": "/7-miracles/"
+  },
+  {
+    "id": 837,
+    "old_title": "Accessory Comparison",
+    "new_title": "So sánh phụ kiện HTC VIVE",
+    "path": "/accessory-comparison/"
+  },
+  {
+    "id": 838,
+    "old_title": "Phụ kiện kính thực tế ảo VIVE",
+    "new_title": "Accessory",
+    "path": "/accessory/"
+  },
+  {
+    "id": 839,
+    "old_title": "Cookie Preferences",
+    "new_title": "Cài đặt tùy chọn Cookie",
+    "path": "/cookie-preferences/"
+  },
+  {
+    "id": 840,
+    "old_title": "Thông tin Pháp lý &amp; Điều khoản",
+    "new_title": "Legal",
+    "path": "/legal/"
+  },
+  {
+    "id": 841,
+    "old_title": "Kính thực tế ảo VIVE Độc lập &amp; PC VR",
+    "new_title": "Product",
+    "path": "/product/"
+  },
+  {
+    "id": 842,
+    "old_title": "Hướng dẫn thiết lập thiết bị VIVE",
+    "new_title": "Setup",
+    "path": "/setup/"
+  },
+  {
+    "id": 843,
+    "old_title": "Trung tâm hỗ trợ kỹ thuật VIVE",
+    "new_title": "Support",
+    "path": "/support/"
+  },
+  {
+    "id": 844,
+    "old_title": "Vive Flow Phone List",
+    "new_title": "Danh sách điện thoại tương thích VIVE Flow",
+    "path": "/vive-flow-phone-list/"
+  },
+  {
+    "id": 845,
+    "old_title": "VR Racket Sports Set",
+    "new_title": "Bộ phụ kiện thể thao VR Racket",
+    "path": "/vr-racket-sports-set/"
+  },
+  {
+    "id": 846,
+    "old_title": "Warranty",
+    "new_title": "Chính sách bảo hành chính hãng HTC VIVE",
+    "path": "/warranty/"
+  },
+  {
+    "id": 847,
+    "old_title": "30w Pd Adapter Us",
+    "new_title": "Phụ kiện: Củ sạc nhanh 30W PD chuẩn US",
+    "path": "/accessory/30w-pd-adapter-us/"
+  },
+  {
+    "id": 848,
+    "old_title": "Base Station",
+    "new_title": "Phụ kiện: Trạm phát tín hiệu Base Station",
+    "path": "/accessory/base-station/"
+  },
+  {
+    "id": 849,
+    "old_title": "Base Station2",
+    "new_title": "Phụ kiện: Trạm phát tín hiệu Trạm phát tín hiệu Base Station 2.0",
+    "path": "/accessory/base-station2/"
+  },
+  {
+    "id": 850,
+    "old_title": "Battery For Vive Focus Series",
+    "new_title": "Phụ kiện: Pin dự phòng cho dòng VIVE Focus",
+    "path": "/accessory/battery-for-vive-focus-series/"
+  },
+  {
+    "id": 851,
+    "old_title": "Charging Case For Vive Focus Series",
+    "new_title": "Phụ kiện: Hộp sạc chuyên dụng dòng VIVE Focus",
+    "path": "/accessory/charging-case-for-vive-focus-series/"
+  },
+  {
+    "id": 852,
+    "old_title": "Clean Box",
+    "new_title": "Phụ kiện: Hộp khử khuẩn UVC Clean Box",
+    "path": "/accessory/clean-box/"
+  },
+  {
+    "id": 853,
+    "old_title": "Controller Certified",
+    "new_title": "Phụ kiện: Tay cầm điều khiển chứng nhận VIVE",
+    "path": "/accessory/controller-certified/"
+  },
+  {
+    "id": 854,
+    "old_title": "Controller For Vive Flow",
+    "new_title": "Phụ kiện: Tay cầm điều khiển cho VIVE Flow",
+    "path": "/accessory/controller-for-vive-flow/"
+  },
+  {
+    "id": 855,
+    "old_title": "Controller",
+    "new_title": "Phụ kiện: Tay cầm điều khiển VIVE",
+    "path": "/accessory/controller/"
+  },
+  {
+    "id": 856,
+    "old_title": "Controller2018",
+    "new_title": "Phụ kiện: Tay cầm điều khiển VIVE Pro (2018)",
+    "path": "/accessory/controller2018/"
+  },
+  {
+    "id": 857,
+    "old_title": "Cosmos External Tracking Faceplate",
+    "new_title": "Phụ kiện: Mặt nạ theo dõi gắn ngoài Cosmos",
+    "path": "/accessory/cosmos-external-tracking-faceplate/"
+  },
+  {
+    "id": 858,
+    "old_title": "Cosmos Face Cushion 2 W Size",
+    "new_title": "Phụ kiện: Đệm mặt Cosmos cỡ rộng (2 chiếc)",
+    "path": "/accessory/cosmos-face-cushion-2-w-size/"
+  },
+  {
+    "id": 859,
+    "old_title": "Cosmos Leather Cushion",
+    "new_title": "Phụ kiện: Đệm da cao cấp cho VIVE Cosmos",
+    "path": "/accessory/cosmos-leather-cushion/"
+  },
+  {
+    "id": 860,
+    "old_title": "Deluxe Pack For Vive Xr Elite",
+    "new_title": "Phụ kiện: Bộ phụ kiện Deluxe cao cấp VIVE XR Elite",
+    "path": "/accessory/deluxe-pack-for-vive-xr-elite/"
+  },
+  {
+    "id": 861,
+    "old_title": "Disposable Hygiene Mask",
+    "new_title": "Phụ kiện: Mặt nạ đệm vệ sinh dùng một lần",
+    "path": "/accessory/disposable-hygiene-mask/"
+  },
+  {
+    "id": 862,
+    "old_title": "Extension Package 20m",
+    "new_title": "Phụ kiện: Bộ cáp mở rộng 20m",
+    "path": "/accessory/extension-package-20m/"
+  },
+  {
+    "id": 863,
+    "old_title": "Face Cushion Pro",
+    "new_title": "Phụ kiện: Đệm mặt êm ái cho dòng VIVE Pro",
+    "path": "/accessory/face-cushion-pro/"
+  },
+  {
+    "id": 864,
+    "old_title": "Face Gasket And Rear Pad For Vive Focus Series Narrow",
+    "new_title": "Phụ kiện: Đệm mặt & Đệm gáy VIVE Focus (Bản hẹp)",
+    "path": "/accessory/face-gasket-and-rear-pad-for-vive-focus-series-narrow/"
+  },
+  {
+    "id": 865,
+    "old_title": "Face Gasket And Rear Pad For Vive Focus Series Wide",
+    "new_title": "Phụ kiện: Đệm mặt & Đệm gáy VIVE Focus (Bản rộng)",
+    "path": "/accessory/face-gasket-and-rear-pad-for-vive-focus-series-wide/"
+  },
+  {
+    "id": 866,
+    "old_title": "Facial Tracker For Vive Focus Series",
+    "new_title": "Phụ kiện: Thiết bị theo dõi khuôn mặt VIVE Focus",
+    "path": "/accessory/facial-tracker-for-vive-focus-series/"
+  },
+  {
+    "id": 867,
+    "old_title": "Headset Cable2 Pro",
+    "new_title": "Phụ kiện: Dây cáp kết nối kính VIVE Pro 2",
+    "path": "/accessory/headset-cable2-pro/"
+  },
+  {
+    "id": 868,
+    "old_title": "Link Box 2",
+    "new_title": "Phụ kiện: Bộ chuyển đổi Bộ chuyển đổi Link Box 2.0",
+    "path": "/accessory/link-box-2/"
+  },
+  {
+    "id": 869,
+    "old_title": "Link Box Pro",
+    "new_title": "Phụ kiện: Bộ chuyển đổi Bộ chuyển đổi Link Box Pro",
+    "path": "/accessory/link-box-pro/"
+  },
+  {
+    "id": 870,
+    "old_title": "Motion Faceplate",
+    "new_title": "Phụ kiện: Motion Faceplate",
+    "path": "/accessory/motion-faceplate/"
+  },
+  {
+    "id": 871,
+    "old_title": "Multi Battery Charger For Vive Focus Series",
+    "new_title": "Phụ kiện: Multi Battery Charger For Vive Focus Series",
+    "path": "/accessory/multi-battery-charger-for-vive-focus-series/"
+  },
+  {
+    "id": 872,
+    "old_title": "Narrow Face Cushion 2 Vive Pro",
+    "new_title": "Phụ kiện: Narrow Face Cushion 2 Vive Pro",
+    "path": "/accessory/narrow-face-cushion-2-vive-pro/"
+  },
+  {
+    "id": 873,
+    "old_title": "Power Bank 21w",
+    "new_title": "Phụ kiện: Power Bank 21W",
+    "path": "/accessory/power-bank-21w/"
+  },
+  {
+    "id": 874,
+    "old_title": "Tracker3",
+    "new_title": "Phụ kiện: Thiết bị định vị vị trí VIVE Tracker 3.0",
+    "path": "/accessory/tracker3/"
+  },
+  {
+    "id": 875,
+    "old_title": "Trackstraps For Vive Ultimate Tracker Plus Dance Dash",
+    "new_title": "Phụ kiện: Dây đeo định vị TrackStraps For Vive Thiết bị theo dõi toàn thân VIVE Ultimate Tracker Plus Dance Dash",
+    "path": "/accessory/trackstraps-for-vive-ultimate-tracker-plus-dance-dash/"
+  },
+  {
+    "id": 876,
+    "old_title": "Vive Ac Adapter 30w",
+    "new_title": "Phụ kiện: Vive Ac Adapter 30W",
+    "path": "/accessory/vive-ac-adapter-30w/"
+  },
+  {
+    "id": 877,
+    "old_title": "Vive Controller Left",
+    "new_title": "Phụ kiện: Vive Tay cầm điều khiển VIVE Left",
+    "path": "/accessory/vive-controller-left/"
+  },
+  {
+    "id": 878,
+    "old_title": "Vive Controller Right",
+    "new_title": "Phụ kiện: Vive Tay cầm điều khiển VIVE Right",
+    "path": "/accessory/vive-controller-right/"
+  },
+  {
+    "id": 879,
+    "old_title": "Vive Deluxe Audio Strap",
+    "new_title": "Phụ kiện: Vive Deluxe Audio Strap",
+    "path": "/accessory/vive-deluxe-audio-strap/"
+  },
+  {
+    "id": 880,
+    "old_title": "Vive Dp Connect Cable Pro",
+    "new_title": "Phụ kiện: Vive Dp Connect Cable Pro",
+    "path": "/accessory/vive-dp-connect-cable-pro/"
+  },
+  {
+    "id": 881,
+    "old_title": "Vive Flow Case",
+    "new_title": "Phụ kiện: Vive Flow Case",
+    "path": "/accessory/vive-flow-case/"
+  },
+  {
+    "id": 882,
+    "old_title": "Vive Flow Hygienic Cover Narrow",
+    "new_title": "Phụ kiện: Vive Flow Hygienic Cover Narrow",
+    "path": "/accessory/vive-flow-hygienic-cover-narrow/"
+  },
+  {
+    "id": 883,
+    "old_title": "Vive Flow Hygienic Cover Wide",
+    "new_title": "Phụ kiện: Vive Flow Hygienic Cover Wide",
+    "path": "/accessory/vive-flow-hygienic-cover-wide/"
+  },
+  {
+    "id": 884,
+    "old_title": "Vive Flow Power Adapter",
+    "new_title": "Phụ kiện: Vive Flow Củ sạc nguồn chính hãng VIVE",
+    "path": "/accessory/vive-flow-power-adapter/"
+  },
+  {
+    "id": 885,
+    "old_title": "Vive Mr Gasket",
+    "new_title": "Phụ kiện: Vive Mr Gasket",
+    "path": "/accessory/vive-mr-gasket/"
+  },
+  {
+    "id": 886,
+    "old_title": "Vive Pro Wireless Adapter Attachment Kit",
+    "new_title": "Phụ kiện: Vive Pro Wireless Adapter Attachment Kit",
+    "path": "/accessory/vive-pro-wireless-adapter-attachment-kit/"
+  },
+  {
+    "id": 887,
+    "old_title": "Vive Ultimate Tracker",
+    "new_title": "Phụ kiện: Vive Thiết bị theo dõi toàn thân VIVE Ultimate Tracker",
+    "path": "/accessory/vive-ultimate-tracker/"
+  },
+  {
+    "id": 888,
+    "old_title": "Vive Usb C Dock 5 Ports",
+    "new_title": "Phụ kiện: Vive Usb C Dock 5 Ports",
+    "path": "/accessory/vive-usb-c-dock-5-ports/"
+  },
+  {
+    "id": 889,
+    "old_title": "Vive Wired Streaming Cable",
+    "new_title": "Phụ kiện: Vive Wired Streaming Cable",
+    "path": "/accessory/vive-wired-streaming-cable/"
+  },
+  {
+    "id": 890,
+    "old_title": "Vive Wired Streaming Converter",
+    "new_title": "Phụ kiện: Vive Wired Streaming Converter",
+    "path": "/accessory/vive-wired-streaming-converter/"
+  },
+  {
+    "id": 891,
+    "old_title": "Vive Wired Streaming Kit",
+    "new_title": "Phụ kiện: Vive Wired Streaming Kit",
+    "path": "/accessory/vive-wired-streaming-kit/"
+  },
+  {
+    "id": 892,
+    "old_title": "Vive Wireless Dongle",
+    "new_title": "Phụ kiện: Vive Wireless Dongle",
+    "path": "/accessory/vive-wireless-dongle/"
+  },
+  {
+    "id": 893,
+    "old_title": "Vive Wrist Tracker",
+    "new_title": "Phụ kiện: Vòng đeo cổ tay định vị VIVE Wrist Tracker",
+    "path": "/accessory/vive-wrist-tracker/"
+  },
+  {
+    "id": 894,
+    "old_title": "Wireless Adapter Full Pack",
+    "new_title": "Phụ kiện: Wireless Adapter Full Pack",
+    "path": "/accessory/wireless-adapter-full-pack/"
+  },
+  {
+    "id": 895,
+    "old_title": "Xr Battery Cradle",
+    "new_title": "Phụ kiện: Xr Battery Cradle",
+    "path": "/accessory/xr-battery-cradle/"
+  },
+  {
+    "id": 896,
+    "old_title": "Xr Face Gasket Narrow Hygienic",
+    "new_title": "Phụ kiện: Xr Face Gasket Narrow Hygienic",
+    "path": "/accessory/xr-face-gasket-narrow-hygienic/"
+  },
+  {
+    "id": 897,
+    "old_title": "Xr Face Gasket",
+    "new_title": "Phụ kiện: Xr Face Gasket",
+    "path": "/accessory/xr-face-gasket/"
+  },
+  {
+    "id": 898,
+    "old_title": "Xr Glasses Case",
+    "new_title": "Phụ kiện: Xr Glasses Case",
+    "path": "/accessory/xr-glasses-case/"
+  },
+  {
+    "id": 899,
+    "old_title": "Xr Temple Pads",
+    "new_title": "Phụ kiện: Xr Temple Pads",
+    "path": "/accessory/xr-temple-pads/"
+  },
+  {
+    "id": 900,
+    "old_title": "Comparison",
+    "new_title": "So sánh các dòng kính thực tế ảo HTC VIVE",
+    "path": "/product/comparison/"
+  },
+  {
+    "id": 906,
+    "old_title": "VIVE Focus Vision",
+    "new_title": "Vive Focus Vision",
+    "path": "/setup/vive-focus-vision/"
+  },
+  {
+    "id": 910,
+    "old_title": "Location Based Experiences",
+    "new_title": "Giải pháp giải trí VR theo địa điểm (LBE)",
+    "path": "/solution/location-based-experiences/"
+  },
+  {
+    "id": 911,
+    "old_title": "Vive Desk",
+    "new_title": "Phần mềm không gian làm việc ảo VIVE Desk",
+    "path": "/solution/vive-desk/"
+  },
+  {
+    "id": 912,
+    "old_title": "Vive Streaming",
+    "new_title": "Phần mềm truyền phát VIVE Streaming",
+    "path": "/solution/vive-streaming/"
+  },
+  {
+    "id": 913,
+    "old_title": "Camtrack",
+    "new_title": "Hướng dẫn hỗ trợ kỹ thuật: Camtrack",
+    "path": "/support/camtrack/"
+  },
+  {
+    "id": 914,
+    "old_title": "Cosmos Elite",
+    "new_title": "Hướng dẫn hỗ trợ kỹ thuật: Cosmos Elite",
+    "path": "/support/cosmos-elite/"
+  },
+  {
+    "id": 915,
+    "old_title": "Cosmos External Tracking Faceplate",
+    "new_title": "Hướng dẫn hỗ trợ kỹ thuật: Cosmos External Tracking Faceplate",
+    "path": "/support/cosmos-external-tracking-faceplate/"
+  },
+  {
+    "id": 916,
+    "old_title": "Cosmos",
+    "new_title": "Hướng dẫn hỗ trợ kỹ thuật: Cosmos",
+    "path": "/support/cosmos/"
+  },
+  {
+    "id": 917,
+    "old_title": "Flow",
+    "new_title": "Hướng dẫn hỗ trợ kỹ thuật: Flow",
+    "path": "/support/flow/"
+  },
+  {
+    "id": 918,
+    "old_title": "Focus3",
+    "new_title": "Hướng dẫn hỗ trợ kỹ thuật: Focus3",
+    "path": "/support/focus3/"
+  },
+  {
+    "id": 919,
+    "old_title": "Focusvision",
+    "new_title": "Hướng dẫn hỗ trợ kỹ thuật: Focusvision",
+    "path": "/support/focusvision/"
+  },
+  {
+    "id": 920,
+    "old_title": "Tracker3",
+    "new_title": "Hướng dẫn hỗ trợ kỹ thuật: Tracker3",
+    "path": "/support/tracker3/"
+  },
+  {
+    "id": 921,
+    "old_title": "Ultimate Tracker",
+    "new_title": "Hướng dẫn hỗ trợ kỹ thuật: Ultimate Tracker",
+    "path": "/support/ultimate-tracker/"
+  },
+  {
+    "id": 922,
+    "old_title": "Vive Focus Plus",
+    "new_title": "Hướng dẫn hỗ trợ kỹ thuật: Vive Focus Plus",
+    "path": "/support/vive-focus-plus/"
+  },
+  {
+    "id": 923,
+    "old_title": "Vive Focus",
+    "new_title": "Hướng dẫn hỗ trợ kỹ thuật: Vive Focus",
+    "path": "/support/vive-focus/"
+  },
+  {
+    "id": 924,
+    "old_title": "Vive Pro Eye",
+    "new_title": "Hướng dẫn hỗ trợ kỹ thuật: Vive Pro Eye",
+    "path": "/support/vive-pro-eye/"
+  },
+  {
+    "id": 925,
+    "old_title": "Vive Pro Hmd",
+    "new_title": "Hướng dẫn hỗ trợ kỹ thuật: Vive Pro Hmd",
+    "path": "/support/vive-pro-hmd/"
+  },
+  {
+    "id": 926,
+    "old_title": "Vive Pro",
+    "new_title": "Hướng dẫn hỗ trợ kỹ thuật: Vive Pro",
+    "path": "/support/vive-pro/"
+  },
+  {
+    "id": 927,
+    "old_title": "VIVE Pro 2",
+    "new_title": "Hướng dẫn hỗ trợ kỹ thuật: Vive Pro2",
+    "path": "/support/vive-pro2/"
+  },
+  {
+    "id": 928,
+    "old_title": "Vive Xr Face Tracker",
+    "new_title": "Hướng dẫn hỗ trợ kỹ thuật: Vive Xr Face Tracker",
+    "path": "/support/vive-xr-face-tracker/"
+  },
+  {
+    "id": 929,
+    "old_title": "Vive Xr",
+    "new_title": "Hướng dẫn hỗ trợ kỹ thuật: Vive Xr",
+    "path": "/support/vive-xr/"
+  },
+  {
+    "id": 930,
+    "old_title": "Vive",
+    "new_title": "Hướng dẫn hỗ trợ kỹ thuật: Vive",
+    "path": "/support/vive/"
+  },
+  {
+    "id": 931,
+    "old_title": "Vs",
+    "new_title": "Hướng dẫn hỗ trợ kỹ thuật: Vs",
+    "path": "/support/vs/"
+  },
+  {
+    "id": 932,
+    "old_title": "Wireless Adapter",
+    "new_title": "Hướng dẫn hỗ trợ kỹ thuật: Wireless Adapter",
+    "path": "/support/wireless-adapter/"
+  },
+  {
+    "id": 933,
+    "old_title": "Wireless Tracker",
+    "new_title": "Hướng dẫn hỗ trợ kỹ thuật: Wireless Tracker",
+    "path": "/support/wireless-tracker/"
+  },
+  {
+    "id": 934,
+    "old_title": "Wrist Tracker",
+    "new_title": "Hướng dẫn hỗ trợ kỹ thuật: Wrist Tracker",
+    "path": "/support/wrist-tracker/"
+  },
+  {
+    "id": 935,
+    "old_title": "Download",
+    "new_title": "Tải xuống",
+    "path": "/vive-hub/download/"
+  },
+  {
+    "id": 936,
+    "old_title": "Overview",
+    "new_title": "Kính thực tế ảo Vive Eagle - Tổng quan & Tính năng",
+    "path": "/product/vive-eagle/overview/"
+  },
+  {
+    "id": 937,
+    "old_title": "Spec",
+    "new_title": "Sản phẩm Spec",
+    "path": "/product/vive-eagle/spec/"
+  },
+  {
+    "id": 938,
+    "old_title": "Overview",
+    "new_title": "Kính thực tế ảo Vive Flow - Tổng quan & Tính năng",
+    "path": "/product/vive-flow/overview/"
+  },
+  {
+    "id": 939,
+    "old_title": "Specs",
+    "new_title": "Thông số kỹ thuật kính Vive Flow",
+    "path": "/product/vive-flow/specs/"
+  },
+  {
+    "id": 940,
+    "old_title": "Overview",
+    "new_title": "Kính thực tế ảo Vive Focus Vision - Tổng quan & Tính năng",
+    "path": "/product/vive-focus-vision/overview/"
+  },
+  {
+    "id": 941,
+    "old_title": "Specs",
+    "new_title": "Thông số kỹ thuật kính Vive Focus Vision",
+    "path": "/product/vive-focus-vision/specs/"
+  },
+  {
+    "id": 942,
+    "old_title": "Overview",
+    "new_title": "Kính thực tế ảo Vive Pro2 Full Kit - Tổng quan & Tính năng",
+    "path": "/product/vive-pro2-full-kit/overview/"
+  },
+  {
+    "id": 943,
+    "old_title": "Specs",
+    "new_title": "Thông số kỹ thuật kính Vive Pro2 Full Kit",
+    "path": "/product/vive-pro2-full-kit/specs/"
+  },
+  {
+    "id": 944,
+    "old_title": "Overview",
+    "new_title": "Kính thực tế ảo Vive Pro2 - Tổng quan & Tính năng",
+    "path": "/product/vive-pro2/overview/"
+  },
+  {
+    "id": 945,
+    "old_title": "Specs",
+    "new_title": "Thông số kỹ thuật kính Vive Pro2",
+    "path": "/product/vive-pro2/specs/"
+  },
+  {
+    "id": 946,
+    "old_title": "Overview",
+    "new_title": "Kính thực tế ảo Vive Xr Elite - Tổng quan & Tính năng",
+    "path": "/product/vive-xr-elite/overview/"
+  },
+  {
+    "id": 1122,
+    "old_title": "Liên hệ &amp; Hệ thống Văn phòng",
+    "new_title": "Contact",
+    "path": "/contact/"
+  },
+  {
+    "id": 1124,
+    "old_title": "Tin tức",
+    "new_title": "Blog",
+    "path": "/blog/"
+  },
+  {
+    "id": 1317,
+    "old_title": "Contact",
+    "new_title": "Liên hệ hỗ trợ HTC VIVE Việt Nam",
+    "path": "/contact-2/"
+  },
+  {
+    "id": 1324,
+    "old_title": "Vive Ready",
+    "new_title": "Máy tính đạt chuẩn cấu hình VIVE Ready",
+    "path": "/vive-ready/"
+  },
+  {
+    "id": 1354,
+    "old_title": "Rebuff Strap",
+    "new_title": "Phụ kiện: Rebuff Strap",
+    "path": "/accessory/rebuff-strap/"
+  },
+  {
+    "id": 1380,
+    "old_title": "Khu vực chính",
+    "new_title": "Us",
+    "path": "/arts/us/"
+  },
+  {
+    "id": 1381,
+    "old_title": "Phụ kiện kính thực tế ảo VIVE",
+    "new_title": "Doanh nghiệp: Accessory",
+    "path": "/business/accessory/"
+  },
+  {
+    "id": 1382,
+    "old_title": "Appstore",
+    "new_title": "Doanh nghiệp: Appstore",
+    "path": "/business/appstore/"
+  },
+  {
+    "id": 1383,
+    "old_title": "Hệ thống quản lý thiết bị DMS",
+    "new_title": "Doanh nghiệp: Dms",
+    "path": "/business/dms/"
+  },
+  {
+    "id": 1384,
+    "old_title": "Trang tổng quan",
+    "new_title": "Doanh nghiệp: Home",
+    "path": "/business/home/"
+  },
+  {
+    "id": 1385,
+    "old_title": "Khu vực chính",
+    "new_title": "Doanh nghiệp: Us",
+    "path": "/business/us/"
+  },
+  {
+    "id": 1386,
+    "old_title": "Trang tổng quan",
+    "new_title": "Nhà phát triển: Home",
+    "path": "/developer/home/"
+  },
+  {
+    "id": 1387,
+    "old_title": "Tài nguyên &amp; Tài liệu phát triển",
+    "new_title": "Nhà phát triển: Tài nguyên lập trình viên",
+    "path": "/developer/resources/"
+  },
+  {
+    "id": 1388,
+    "old_title": "Trang tổng quan",
+    "new_title": "Home",
+    "path": "/enterprise/home/"
+  },
+  {
+    "id": 1389,
+    "old_title": "Khu vực chính",
+    "new_title": "Us",
+    "path": "/enterprise/us/"
+  },
+  {
+    "id": 1391,
+    "old_title": "Trang tổng quan",
+    "new_title": "Home",
+    "path": "/locator/home/"
+  },
+  {
+    "id": 1392,
+    "old_title": "2015 08 06",
+    "new_title": "Tin tức HTC VIVE (06-08-2015)",
+    "path": "/newsroom/2015-08-06/"
+  },
+  {
+    "id": 1393,
+    "old_title": "2015 12 18 2",
+    "new_title": "Tin tức HTC VIVE (18-12-2015)",
+    "path": "/newsroom/2015-12-18-2/"
+  },
+  {
+    "id": 1394,
+    "old_title": "2015 12 18",
+    "new_title": "Tin tức HTC VIVE (18-12-2015)",
+    "path": "/newsroom/2015-12-18/"
+  },
+  {
+    "id": 1395,
+    "old_title": "2015",
+    "new_title": "Phòng tin tức & Báo chí VIVE - 2015-2",
+    "path": "/newsroom/2015-2/"
+  },
+  {
+    "id": 1396,
+    "old_title": "2016 01 04",
+    "new_title": "Tin tức HTC VIVE (04-01-2016)",
+    "path": "/newsroom/2016-01-04/"
+  },
+  {
+    "id": 1397,
+    "old_title": "2016 01 13",
+    "new_title": "Tin tức HTC VIVE (13-01-2016)",
+    "path": "/newsroom/2016-01-13/"
+  },
+  {
+    "id": 1398,
+    "old_title": "2016 02 21",
+    "new_title": "Tin tức HTC VIVE (21-02-2016)",
+    "path": "/newsroom/2016-02-21/"
+  },
+  {
+    "id": 1399,
+    "old_title": "2016 04 21",
+    "new_title": "Tin tức HTC VIVE (21-04-2016)",
+    "path": "/newsroom/2016-04-21/"
+  },
+  {
+    "id": 1400,
+    "old_title": "2016 06 07",
+    "new_title": "Tin tức HTC VIVE (07-06-2016)",
+    "path": "/newsroom/2016-06-07/"
+  },
+  {
+    "id": 1401,
+    "old_title": "2016 06 09",
+    "new_title": "Tin tức HTC VIVE (09-06-2016)",
+    "path": "/newsroom/2016-06-09/"
+  },
+  {
+    "id": 1402,
+    "old_title": "2016 08 05 2",
+    "new_title": "Tin tức HTC VIVE (05-08-2016)",
+    "path": "/newsroom/2016-08-05-2/"
+  },
+  {
+    "id": 1403,
+    "old_title": "2016 08 05",
+    "new_title": "Tin tức HTC VIVE (05-08-2016)",
+    "path": "/newsroom/2016-08-05/"
+  },
+  {
+    "id": 1404,
+    "old_title": "2016 08 25",
+    "new_title": "Tin tức HTC VIVE (25-08-2016)",
+    "path": "/newsroom/2016-08-25/"
+  },
+  {
+    "id": 1405,
+    "old_title": "2016 09 30",
+    "new_title": "Tin tức HTC VIVE (30-09-2016)",
+    "path": "/newsroom/2016-09-30/"
+  },
+  {
+    "id": 1406,
+    "old_title": "2016 10 27",
+    "new_title": "Tin tức HTC VIVE (27-10-2016)",
+    "path": "/newsroom/2016-10-27/"
+  },
+  {
+    "id": 1407,
+    "old_title": "2016 11 01",
+    "new_title": "Tin tức HTC VIVE (01-11-2016)",
+    "path": "/newsroom/2016-11-01/"
+  },
+  {
+    "id": 1408,
+    "old_title": "2016 11 10",
+    "new_title": "Tin tức HTC VIVE (10-11-2016)",
+    "path": "/newsroom/2016-11-10/"
+  },
+  {
+    "id": 1409,
+    "old_title": "2016 11 11",
+    "new_title": "Tin tức HTC VIVE (11-11-2016)",
+    "path": "/newsroom/2016-11-11/"
+  },
+  {
+    "id": 1410,
+    "old_title": "2016 11 15",
+    "new_title": "Tin tức HTC VIVE (15-11-2016)",
+    "path": "/newsroom/2016-11-15/"
+  },
+  {
+    "id": 1411,
+    "old_title": "2016 11 17",
+    "new_title": "Tin tức HTC VIVE (17-11-2016)",
+    "path": "/newsroom/2016-11-17/"
+  },
+  {
+    "id": 1412,
+    "old_title": "2016 11 21",
+    "new_title": "Tin tức HTC VIVE (21-11-2016)",
+    "path": "/newsroom/2016-11-21/"
+  },
+  {
+    "id": 1413,
+    "old_title": "2016 11 28",
+    "new_title": "Tin tức HTC VIVE (28-11-2016)",
+    "path": "/newsroom/2016-11-28/"
+  },
+  {
+    "id": 1414,
+    "old_title": "2016",
+    "new_title": "Phòng tin tức & Báo chí VIVE - 2016-2",
+    "path": "/newsroom/2016-2/"
+  },
+  {
+    "id": 1415,
+    "old_title": "2017 01 04 2",
+    "new_title": "Tin tức HTC VIVE (04-01-2017)",
+    "path": "/newsroom/2017-01-04-2/"
+  },
+  {
+    "id": 1416,
+    "old_title": "2017 01 04",
+    "new_title": "Tin tức HTC VIVE (04-01-2017)",
+    "path": "/newsroom/2017-01-04/"
+  },
+  {
+    "id": 1417,
+    "old_title": "2017 01 20",
+    "new_title": "Tin tức HTC VIVE (20-01-2017)",
+    "path": "/newsroom/2017-01-20/"
+  },
+  {
+    "id": 1418,
+    "old_title": "2017 03 21",
+    "new_title": "Tin tức HTC VIVE (21-03-2017)",
+    "path": "/newsroom/2017-03-21/"
+  },
+  {
+    "id": 1419,
+    "old_title": "2017 03 28 2",
+    "new_title": "Tin tức HTC VIVE (28-03-2017)",
+    "path": "/newsroom/2017-03-28-2/"
+  },
+  {
+    "id": 1420,
+    "old_title": "2017 03 28",
+    "new_title": "Tin tức HTC VIVE (28-03-2017)",
+    "path": "/newsroom/2017-03-28/"
+  },
+  {
+    "id": 1421,
+    "old_title": "2017 04 03",
+    "new_title": "Tin tức HTC VIVE (03-04-2017)",
+    "path": "/newsroom/2017-04-03/"
+  },
+  {
+    "id": 1422,
+    "old_title": "2017 06 09",
+    "new_title": "Tin tức HTC VIVE (09-06-2017)",
+    "path": "/newsroom/2017-06-09/"
+  },
+  {
+    "id": 1423,
+    "old_title": "2017 06 26 2",
+    "new_title": "Tin tức HTC VIVE (26-06-2017)",
+    "path": "/newsroom/2017-06-26-2/"
+  },
+  {
+    "id": 1424,
+    "old_title": "2017 06 26",
+    "new_title": "Tin tức HTC VIVE (26-06-2017)",
+    "path": "/newsroom/2017-06-26/"
+  },
+  {
+    "id": 1425,
+    "old_title": "2017 07 26",
+    "new_title": "Tin tức HTC VIVE (26-07-2017)",
+    "path": "/newsroom/2017-07-26/"
+  },
+  {
+    "id": 1426,
+    "old_title": "2017 08 21",
+    "new_title": "Tin tức HTC VIVE (21-08-2017)",
+    "path": "/newsroom/2017-08-21/"
+  },
+  {
+    "id": 1427,
+    "old_title": "2017 10 03",
+    "new_title": "Tin tức HTC VIVE (03-10-2017)",
+    "path": "/newsroom/2017-10-03/"
+  },
+  {
+    "id": 1428,
+    "old_title": "2017 10 05",
+    "new_title": "Tin tức HTC VIVE (05-10-2017)",
+    "path": "/newsroom/2017-10-05/"
+  },
+  {
+    "id": 1429,
+    "old_title": "2017 11 09",
+    "new_title": "Tin tức HTC VIVE (09-11-2017)",
+    "path": "/newsroom/2017-11-09/"
+  },
+  {
+    "id": 1430,
+    "old_title": "2017 11 14",
+    "new_title": "Tin tức HTC VIVE (14-11-2017)",
+    "path": "/newsroom/2017-11-14/"
+  },
+  {
+    "id": 1431,
+    "old_title": "2017 11 30",
+    "new_title": "Tin tức HTC VIVE (30-11-2017)",
+    "path": "/newsroom/2017-11-30/"
+  },
+  {
+    "id": 1432,
+    "old_title": "2017 12 06",
+    "new_title": "Tin tức HTC VIVE (06-12-2017)",
+    "path": "/newsroom/2017-12-06/"
+  },
+  {
+    "id": 1433,
+    "old_title": "2017 12 07",
+    "new_title": "Tin tức HTC VIVE (07-12-2017)",
+    "path": "/newsroom/2017-12-07/"
+  },
+  {
+    "id": 1434,
+    "old_title": "2017",
+    "new_title": "Phòng tin tức & Báo chí VIVE - 2017-2",
+    "path": "/newsroom/2017-2/"
+  },
+  {
+    "id": 1435,
+    "old_title": "2018 01 08 2",
+    "new_title": "Tin tức HTC VIVE (08-01-2018)",
+    "path": "/newsroom/2018-01-08-2/"
+  },
+  {
+    "id": 1436,
+    "old_title": "2018 01 22",
+    "new_title": "Tin tức HTC VIVE (22-01-2018)",
+    "path": "/newsroom/2018-01-22/"
+  },
+  {
+    "id": 1437,
+    "old_title": "2018 02 15 2",
+    "new_title": "Tin tức HTC VIVE (15-02-2018)",
+    "path": "/newsroom/2018-02-15-2/"
+  },
+  {
+    "id": 1438,
+    "old_title": "2018 03 07",
+    "new_title": "Tin tức HTC VIVE (07-03-2018)",
+    "path": "/newsroom/2018-03-07/"
+  },
+  {
+    "id": 1439,
+    "old_title": "2018 03 08 2",
+    "new_title": "Tin tức HTC VIVE (08-03-2018)",
+    "path": "/newsroom/2018-03-08-2/"
+  },
+  {
+    "id": 1440,
+    "old_title": "2018 03 19 2",
+    "new_title": "Tin tức HTC VIVE (19-03-2018)",
+    "path": "/newsroom/2018-03-19-2/"
+  },
+  {
+    "id": 1441,
+    "old_title": "2018 03 22",
+    "new_title": "Tin tức HTC VIVE (22-03-2018)",
+    "path": "/newsroom/2018-03-22/"
+  },
+  {
+    "id": 1442,
+    "old_title": "2018 03 28",
+    "new_title": "Tin tức HTC VIVE (28-03-2018)",
+    "path": "/newsroom/2018-03-28/"
+  },
+  {
+    "id": 1443,
+    "old_title": "2018 03 29 2",
+    "new_title": "Tin tức HTC VIVE (29-03-2018)",
+    "path": "/newsroom/2018-03-29-2/"
+  },
+  {
+    "id": 1444,
+    "old_title": "2018 03 29",
+    "new_title": "Tin tức HTC VIVE (29-03-2018)",
+    "path": "/newsroom/2018-03-29/"
+  },
+  {
+    "id": 1445,
+    "old_title": "2018 04 12",
+    "new_title": "Tin tức HTC VIVE (12-04-2018)",
+    "path": "/newsroom/2018-04-12/"
+  },
+  {
+    "id": 1446,
+    "old_title": "2018 04 24",
+    "new_title": "Tin tức HTC VIVE (24-04-2018)",
+    "path": "/newsroom/2018-04-24/"
+  },
+  {
+    "id": 1447,
+    "old_title": "2018 08 21",
+    "new_title": "Tin tức HTC VIVE (21-08-2018)",
+    "path": "/newsroom/2018-08-21/"
+  },
+  {
+    "id": 1448,
+    "old_title": "2018 08 23",
+    "new_title": "Tin tức HTC VIVE (23-08-2018)",
+    "path": "/newsroom/2018-08-23/"
+  },
+  {
+    "id": 1449,
+    "old_title": "2018 09 06 2",
+    "new_title": "Tin tức HTC VIVE (06-09-2018)",
+    "path": "/newsroom/2018-09-06-2/"
+  },
+  {
+    "id": 1450,
+    "old_title": "2018 09 06 3",
+    "new_title": "Tin tức HTC VIVE (06-09-2018)",
+    "path": "/newsroom/2018-09-06-3/"
+  },
+  {
+    "id": 1451,
+    "old_title": "2018 09 06 4",
+    "new_title": "Tin tức HTC VIVE (06-09-2018)",
+    "path": "/newsroom/2018-09-06-4/"
+  },
+  {
+    "id": 1452,
+    "old_title": "2018 09 06",
+    "new_title": "Tin tức HTC VIVE (06-09-2018)",
+    "path": "/newsroom/2018-09-06/"
+  },
+  {
+    "id": 1453,
+    "old_title": "2018 10 15",
+    "new_title": "Tin tức HTC VIVE (15-10-2018)",
+    "path": "/newsroom/2018-10-15/"
+  },
+  {
+    "id": 1454,
+    "old_title": "2018 10 26",
+    "new_title": "Tin tức HTC VIVE (26-10-2018)",
+    "path": "/newsroom/2018-10-26/"
+  },
+  {
+    "id": 1455,
+    "old_title": "2018 11 06 2",
+    "new_title": "Tin tức HTC VIVE (06-11-2018)",
+    "path": "/newsroom/2018-11-06-2/"
+  },
+  {
+    "id": 1456,
+    "old_title": "2018 11 08 2",
+    "new_title": "Tin tức HTC VIVE (08-11-2018)",
+    "path": "/newsroom/2018-11-08-2/"
+  },
+  {
+    "id": 1457,
+    "old_title": "2018 11 08",
+    "new_title": "Tin tức HTC VIVE (08-11-2018)",
+    "path": "/newsroom/2018-11-08/"
+  },
+  {
+    "id": 1458,
+    "old_title": "2018 11 26",
+    "new_title": "Tin tức HTC VIVE (26-11-2018)",
+    "path": "/newsroom/2018-11-26/"
+  },
+  {
+    "id": 1459,
+    "old_title": "2018 11 29 2",
+    "new_title": "Tin tức HTC VIVE (29-11-2018)",
+    "path": "/newsroom/2018-11-29-2/"
+  },
+  {
+    "id": 1460,
+    "old_title": "2018 11 29",
+    "new_title": "Tin tức HTC VIVE (29-11-2018)",
+    "path": "/newsroom/2018-11-29/"
+  },
+  {
+    "id": 1461,
+    "old_title": "2018",
+    "new_title": "Phòng tin tức & Báo chí VIVE - 2018-2",
+    "path": "/newsroom/2018-2/"
+  },
+  {
+    "id": 1462,
+    "old_title": "2019 01 07 2",
+    "new_title": "Tin tức HTC VIVE (07-01-2019)",
+    "path": "/newsroom/2019-01-07-2/"
+  },
+  {
+    "id": 1463,
+    "old_title": "2019 01 07",
+    "new_title": "Tin tức HTC VIVE (07-01-2019)",
+    "path": "/newsroom/2019-01-07/"
+  },
+  {
+    "id": 1464,
+    "old_title": "2019 01 09",
+    "new_title": "Tin tức HTC VIVE (09-01-2019)",
+    "path": "/newsroom/2019-01-09/"
+  },
+  {
+    "id": 1465,
+    "old_title": "2019 01 24",
+    "new_title": "Tin tức HTC VIVE (24-01-2019)",
+    "path": "/newsroom/2019-01-24/"
+  },
+  {
+    "id": 1466,
+    "old_title": "2019 02 21",
+    "new_title": "Tin tức HTC VIVE (21-02-2019)",
+    "path": "/newsroom/2019-02-21/"
+  },
+  {
+    "id": 1467,
+    "old_title": "2019 03 15",
+    "new_title": "Tin tức HTC VIVE (15-03-2019)",
+    "path": "/newsroom/2019-03-15/"
+  },
+  {
+    "id": 1468,
+    "old_title": "2019 03 25",
+    "new_title": "Tin tức HTC VIVE (25-03-2019)",
+    "path": "/newsroom/2019-03-25/"
+  },
+  {
+    "id": 1469,
+    "old_title": "2019 03 26",
+    "new_title": "Tin tức HTC VIVE (26-03-2019)",
+    "path": "/newsroom/2019-03-26/"
+  },
+  {
+    "id": 1470,
+    "old_title": "2019 05 08",
+    "new_title": "Tin tức HTC VIVE (08-05-2019)",
+    "path": "/newsroom/2019-05-08/"
+  },
+  {
+    "id": 1471,
+    "old_title": "2019 05 23",
+    "new_title": "Tin tức HTC VIVE (23-05-2019)",
+    "path": "/newsroom/2019-05-23/"
+  },
+  {
+    "id": 1472,
+    "old_title": "2019 05 30",
+    "new_title": "Tin tức HTC VIVE (30-05-2019)",
+    "path": "/newsroom/2019-05-30/"
+  },
+  {
+    "id": 1473,
+    "old_title": "2019 06 06",
+    "new_title": "Tin tức HTC VIVE (06-06-2019)",
+    "path": "/newsroom/2019-06-06/"
+  },
+  {
+    "id": 1474,
+    "old_title": "2019 07 01",
+    "new_title": "Tin tức HTC VIVE (01-07-2019)",
+    "path": "/newsroom/2019-07-01/"
+  },
+  {
+    "id": 1475,
+    "old_title": "2019 07 22",
+    "new_title": "Tin tức HTC VIVE (22-07-2019)",
+    "path": "/newsroom/2019-07-22/"
+  },
+  {
+    "id": 1476,
+    "old_title": "2019 08 29",
+    "new_title": "Tin tức HTC VIVE (29-08-2019)",
+    "path": "/newsroom/2019-08-29/"
+  },
+  {
+    "id": 1477,
+    "old_title": "2019 09 12",
+    "new_title": "Tin tức HTC VIVE (12-09-2019)",
+    "path": "/newsroom/2019-09-12/"
+  },
+  {
+    "id": 1478,
+    "old_title": "2019 09 18",
+    "new_title": "Tin tức HTC VIVE (18-09-2019)",
+    "path": "/newsroom/2019-09-18/"
+  },
+  {
+    "id": 1479,
+    "old_title": "2019 10 30",
+    "new_title": "Tin tức HTC VIVE (30-10-2019)",
+    "path": "/newsroom/2019-10-30/"
+  },
+  {
+    "id": 1480,
+    "old_title": "2019 11 22",
+    "new_title": "Tin tức HTC VIVE (22-11-2019)",
+    "path": "/newsroom/2019-11-22/"
+  },
+  {
+    "id": 1481,
+    "old_title": "2019 12 05",
+    "new_title": "Tin tức HTC VIVE (05-12-2019)",
+    "path": "/newsroom/2019-12-05/"
+  },
+  {
+    "id": 1482,
+    "old_title": "2019",
+    "new_title": "Phòng tin tức & Báo chí VIVE - 2019-2",
+    "path": "/newsroom/2019-2/"
+  },
+  {
+    "id": 1483,
+    "old_title": "2020 01 14",
+    "new_title": "Tin tức HTC VIVE (14-01-2020)",
+    "path": "/newsroom/2020-01-14/"
+  },
+  {
+    "id": 1484,
+    "old_title": "2020 02 20",
+    "new_title": "Tin tức HTC VIVE (20-02-2020)",
+    "path": "/newsroom/2020-02-20/"
+  },
+  {
+    "id": 1485,
+    "old_title": "2020 03 02",
+    "new_title": "Tin tức HTC VIVE (02-03-2020)",
+    "path": "/newsroom/2020-03-02/"
+  },
+  {
+    "id": 1486,
+    "old_title": "2020 03 09",
+    "new_title": "Tin tức HTC VIVE (09-03-2020)",
+    "path": "/newsroom/2020-03-09/"
+  },
+  {
+    "id": 1487,
+    "old_title": "2020 03 18",
+    "new_title": "Tin tức HTC VIVE (18-03-2020)",
+    "path": "/newsroom/2020-03-18/"
+  },
+  {
+    "id": 1488,
+    "old_title": "2020 04 30",
+    "new_title": "Tin tức HTC VIVE (30-04-2020)",
+    "path": "/newsroom/2020-04-30/"
+  },
+  {
+    "id": 1489,
+    "old_title": "2020",
+    "new_title": "Phòng tin tức & Báo chí VIVE - 2020-2",
+    "path": "/newsroom/2020-2/"
+  },
+  {
+    "id": 1490,
+    "old_title": "2021 05 11",
+    "new_title": "Tin tức HTC VIVE (11-05-2021)",
+    "path": "/newsroom/2021-05-11/"
+  },
+  {
+    "id": 1491,
+    "old_title": "2021 10 14",
+    "new_title": "Tin tức HTC VIVE (14-10-2021)",
+    "path": "/newsroom/2021-10-14/"
+  },
+  {
+    "id": 1492,
+    "old_title": "2021",
+    "new_title": "Phòng tin tức & Báo chí VIVE - 2021-2",
+    "path": "/newsroom/2021-2/"
+  },
+  {
+    "id": 1493,
+    "old_title": "2023 01 05",
+    "new_title": "Tin tức HTC VIVE (05-01-2023)",
+    "path": "/newsroom/2023-01-05/"
+  },
+  {
+    "id": 1494,
+    "old_title": "2023 11 14",
+    "new_title": "Tin tức HTC VIVE (14-11-2023)",
+    "path": "/newsroom/2023-11-14/"
+  },
+  {
+    "id": 1495,
+    "old_title": "2023",
+    "new_title": "Phòng tin tức & Báo chí VIVE - 2023-2",
+    "path": "/newsroom/2023-2/"
+  },
+  {
+    "id": 1496,
+    "old_title": "2024 03 05",
+    "new_title": "Tin tức HTC VIVE (05-03-2024)",
+    "path": "/newsroom/2024-03-05/"
+  },
+  {
+    "id": 1497,
+    "old_title": "2024 05 23",
+    "new_title": "Tin tức HTC VIVE (23-05-2024)",
+    "path": "/newsroom/2024-05-23/"
+  },
+  {
+    "id": 1498,
+    "old_title": "2024 06 18",
+    "new_title": "Tin tức HTC VIVE (18-06-2024)",
+    "path": "/newsroom/2024-06-18/"
+  },
+  {
+    "id": 1499,
+    "old_title": "2024 09 18",
+    "new_title": "Tin tức HTC VIVE (18-09-2024)",
+    "path": "/newsroom/2024-09-18/"
+  },
+  {
+    "id": 1500,
+    "old_title": "2024 12 24",
+    "new_title": "Tin tức HTC VIVE (24-12-2024)",
+    "path": "/newsroom/2024-12-24/"
+  },
+  {
+    "id": 1501,
+    "old_title": "2024",
+    "new_title": "Phòng tin tức & Báo chí VIVE - 2024-2",
+    "path": "/newsroom/2024-2/"
+  },
+  {
+    "id": 1502,
+    "old_title": "2025 01 23",
+    "new_title": "Tin tức HTC VIVE (23-01-2025)",
+    "path": "/newsroom/2025-01-23/"
+  },
+  {
+    "id": 1503,
+    "old_title": "2025 01 24",
+    "new_title": "Tin tức HTC VIVE (24-01-2025)",
+    "path": "/newsroom/2025-01-24/"
+  },
+  {
+    "id": 1504,
+    "old_title": "2025 04 01",
+    "new_title": "Tin tức HTC VIVE (01-04-2025)",
+    "path": "/newsroom/2025-04-01/"
+  },
+  {
+    "id": 1505,
+    "old_title": "2025 06 13",
+    "new_title": "Tin tức HTC VIVE (13-06-2025)",
+    "path": "/newsroom/2025-06-13/"
+  },
+  {
+    "id": 1506,
+    "old_title": "2025 08 14",
+    "new_title": "Tin tức HTC VIVE (14-08-2025)",
+    "path": "/newsroom/2025-08-14/"
+  },
+  {
+    "id": 1507,
+    "old_title": "2025",
+    "new_title": "Phòng tin tức & Báo chí VIVE - 2025-2",
+    "path": "/newsroom/2025-2/"
+  },
+  {
+    "id": 1509,
+    "old_title": "Trang tổng quan",
+    "new_title": "Home",
+    "path": "/roundtable/home/"
+  },
+  {
+    "id": 1544,
+    "old_title": "Trang tổng quan",
+    "new_title": "Home",
+    "path": "/sync/home/"
+  },
+  {
+    "id": 1546,
+    "old_title": "Khu vực chính",
+    "new_title": "Us",
+    "path": "/vivex/us/"
+  },
+  {
+    "id": 1547,
+    "old_title": "Trang tổng quan",
+    "new_title": "Home",
+    "path": "/vr4impact/home/"
+  },
+  {
+    "id": 1548,
+    "old_title": "Program",
+    "new_title": "Doanh nghiệp: Chương trình",
+    "path": "/business/isv/program/"
+  },
+  {
+    "id": 1549,
+    "old_title": "Bws",
+    "new_title": "Doanh nghiệp: Bws",
+    "path": "/business/product/bws/"
+  },
+  {
+    "id": 1550,
+    "old_title": "Nền tảng VIVE Business+",
+    "new_title": "Doanh nghiệp: Business Plus",
+    "path": "/business/support/business-plus/"
+  },
+  {
+    "id": 1551,
+    "old_title": "Hệ thống quản lý thiết bị DMS",
+    "new_title": "Doanh nghiệp: Dms",
+    "path": "/business/support/dms/"
+  },
+  {
+    "id": 1552,
+    "old_title": "Vive Xr Face Tracker",
+    "new_title": "Doanh nghiệp: Vive Xr Face Tracker",
+    "path": "/business/support/vive-xr-face-tracker/"
+  },
+  {
+    "id": 1553,
+    "old_title": "Enterprise Inquiry",
+    "new_title": "Doanh nghiệp: Enterprise_Inquiry",
+    "path": "/business/us/enterprise_inquiry/"
+  },
+  {
+    "id": 1554,
+    "old_title": "Hướng dẫn thiết lập thiết bị VIVE",
+    "new_title": "Doanh nghiệp: Setup",
+    "path": "/business/us/setup/"
+  },
+  {
+    "id": 1555,
+    "old_title": "Câu chuyện thành công",
+    "new_title": "Doanh nghiệp: Câu chuyện thành công của khách hàng",
+    "path": "/business/us/stories/"
+  },
+  {
+    "id": 1556,
+    "old_title": "Downloads",
+    "new_title": "Nhà phát triển: Tải SDK & Công cụ phát triển",
+    "path": "/developer/resources/downloads/"
+  },
+  {
+    "id": 1557,
+    "old_title": "Vive Studios",
+    "new_title": "Nhà phát triển: Vive Studios",
+    "path": "/developer/us/vive-studios/"
+  },
+  {
+    "id": 1558,
+    "old_title": "Wave",
+    "new_title": "Nhà phát triển: Wave",
+    "path": "/developer/us/wave/"
+  },
+  {
+    "id": 1560,
+    "old_title": "Download",
+    "new_title": "Tải xuống",
+    "path": "/hub/en-us/download/"
+  },
+  {
+    "id": 1571,
+    "old_title": "Features",
+    "new_title": "Sản phẩm Features",
+    "path": "/product/vive-xr-elite/features/"
+  },
+  {
+    "id": 1573,
+    "old_title": "Specs",
+    "new_title": "Thông số kỹ thuật kính Vive Xr Elite",
+    "path": "/product/vive-xr-elite/specs/"
+  },
+  {
+    "id": 1576,
+    "old_title": "Meet With Vive Live At Iitsec 2024",
+    "new_title": "Doanh nghiệp: Meet With Vive Live At Iitsec 2024",
+    "path": "/business/us/events/meet-with-vive-live-at-iitsec-2024/"
+  },
+  {
+    "id": 1577,
+    "old_title": "Vive Focus 3 Eye Tracker",
+    "new_title": "Doanh nghiệp: Vive Focus 3 Eye Tracker",
+    "path": "/business/us/product/vive-focus-3-eye-tracker/"
+  },
+  {
+    "id": 1578,
+    "old_title": "VIVE Focus Vision",
+    "new_title": "Doanh nghiệp: Vive Focus Vision",
+    "path": "/business/us/product/vive-focus-vision/"
+  },
+  {
+    "id": 1579,
+    "old_title": "VIVE Pro 2",
+    "new_title": "Doanh nghiệp: Vive Pro2",
+    "path": "/business/us/product/vive-pro2/"
+  },
+  {
+    "id": 1580,
+    "old_title": "All In One",
+    "new_title": "Doanh nghiệp: All In One",
+    "path": "/business/us/setup/all-in-one/"
+  },
+  {
+    "id": 1581,
+    "old_title": "Pc Vr",
+    "new_title": "Doanh nghiệp: Pc Vr",
+    "path": "/business/us/setup/pc-vr/"
+  },
+  {
+    "id": 1582,
+    "old_title": "Standalone",
+    "new_title": "Doanh nghiệp: Standalone",
+    "path": "/business/us/setup/standalone/"
+  },
+  {
+    "id": 1583,
+    "old_title": "Benefits Of Vr In Healthcare",
+    "new_title": "Doanh nghiệp: Benefits Of Vr In Healthcare",
+    "path": "/business/us/stories/benefits-of-vr-in-healthcare/"
+  },
+  {
+    "id": 1584,
+    "old_title": "Vr Healthcare Survey Report 2023",
+    "new_title": "Doanh nghiệp: Vr Healthcare Survey Report 2023",
+    "path": "/business/us/stories/vr-healthcare-survey-report-2023/"
+  },
+  {
+    "id": 1585,
+    "old_title": "Vr Military Use 2023 Survey",
+    "new_title": "Doanh nghiệp: Vr Military Use 2023 Survey",
+    "path": "/business/us/stories/vr-military-use-2023-survey/"
+  },
+  {
+    "id": 1586,
+    "old_title": "Xr Financial Survey Report 2024",
+    "new_title": "Doanh nghiệp: Xr Financial Survey Report 2024",
+    "path": "/business/us/stories/xr-financial-survey-report-2024/"
+  },
+  {
+    "id": 1587,
+    "old_title": "Xr Manufacturing Survey Report 2024",
+    "new_title": "Doanh nghiệp: Xr Manufacturing Survey Report 2024",
+    "path": "/business/us/stories/xr-manufacturing-survey-report-2024/"
+  },
+  {
+    "id": 1588,
+    "old_title": "Vive Ultimate Tracker Guidelines",
+    "new_title": "Nhà phát triển: Vive Ultimate Tracker Guidelines",
+    "path": "/developer/resources/hardware-guides/vive-ultimate-tracker-guidelines/"
+  },
+  {
+    "id": 1589,
+    "old_title": "Eye And Facial Tracking Sdk",
+    "new_title": "Nhà phát triển: Eye And Facial Tracking Sdk",
+    "path": "/developer/resources/vive-sense/eye-and-facial-tracking-sdk/"
+  },
+  {
+    "id": 1590,
+    "old_title": "Focus 3 Facial Tracker",
+    "new_title": "Nhà phát triển: Focus 3 Facial Tracker",
+    "path": "/developer/us/hardware/focus-3-facial-tracker/"
+  },
+  {
+    "id": 1591,
+    "old_title": "Tracker3",
+    "new_title": "Nhà phát triển: Tracker3",
+    "path": "/developer/us/hardware/tracker3/"
+  },
+  {
+    "id": 1595,
+    "old_title": "Setting Up The Headsets.html",
+    "new_title": "Doanh nghiệp: Setting Up The Headsets Html",
+    "path": "/business/mea-en/support/vive-lbss/category_howto/setting-up-the-headsets-html/"
+  },
+  {
+    "id": 1596,
+    "old_title": "Adding Devices To A Group.html",
+    "new_title": "Doanh nghiệp: Adding Devices To A Group Html",
+    "path": "/business/us/support/business-plus/category_howto/adding-devices-to-a-group-html/"
+  },
+  {
+    "id": 1597,
+    "old_title": "Creating Groups.html",
+    "new_title": "Doanh nghiệp: Creating Groups Html",
+    "path": "/business/us/support/business-plus/category_howto/creating-groups-html/"
+  },
+  {
+    "id": 1598,
+    "old_title": "Downloading Vive Business Plus Console.html",
+    "new_title": "Doanh nghiệp: Downloading Vive Business Plus Console Html",
+    "path": "/business/us/support/business-plus/category_howto/downloading-vive-business-plus-console-html/"
+  },
+  {
+    "id": 1599,
+    "old_title": "Required Device Software And App Versions.html",
+    "new_title": "Doanh nghiệp: Required Device Software And App Versions Html",
+    "path": "/business/us/support/business-plus/category_howto/required-device-software-and-app-versions-html/"
+  },
+  {
+    "id": 1600,
+    "old_title": "Setting Trackers To Standard Lbe Mode.html",
+    "new_title": "Doanh nghiệp: Setting Trackers To Standard Lbe Mode Html",
+    "path": "/business/us/support/business-plus/category_howto/setting-trackers-to-standard-lbe-mode-html/"
+  },
+  {
+    "id": 1601,
+    "old_title": "Setting Trackers To Wi Fi Lbe Mode.html",
+    "new_title": "Doanh nghiệp: Setting Trackers To Wi Fi Lbe Mode Html",
+    "path": "/business/us/support/business-plus/category_howto/setting-trackers-to-wi-fi-lbe-mode-html/"
+  },
+  {
+    "id": 2047,
+    "old_title": "VIVE Arts - Nghệ thuật &amp; Văn hóa số VR",
+    "new_title": "Arts",
+    "path": "/arts/"
+  },
+  {
+    "id": 2048,
+    "old_title": "Giải pháp thực tế ảo dành cho Doanh nghiệp",
+    "new_title": "Business",
+    "path": "/business/"
+  },
+  {
+    "id": 2051,
+    "old_title": "Cổng thông tin &amp; Tài nguyên Nhà phát triển",
+    "new_title": "Developer",
+    "path": "/developer/"
+  },
+  {
+    "id": 2052,
+    "old_title": "Giải pháp VR/XR cấp Doanh nghiệp lớn",
+    "new_title": "Enterprise",
+    "path": "/enterprise/"
+  },
+  {
+    "id": 2053,
+    "old_title": "Ứng dụng &amp; Nền tảng VIVE Hub",
+    "new_title": "Hub",
+    "path": "/hub/"
+  },
+  {
+    "id": 2054,
+    "old_title": "Tìm kiếm đại lý &amp; Trung tâm trải nghiệm VIVE",
+    "new_title": "Locator",
+    "path": "/locator/"
+  },
+  {
+    "id": 2055,
+    "old_title": "Phòng báo chí &amp; Tin tức VIVE",
+    "new_title": "Newsroom",
+    "path": "/newsroom/"
+  },
+  {
+    "id": 2056,
+    "old_title": "Diễn đàn thảo luận VIVE Roundtable",
+    "new_title": "Roundtable",
+    "path": "/roundtable/"
+  },
+  {
+    "id": 2057,
+    "old_title": "Giải pháp thực tế ảo VIVE",
+    "new_title": "Solution",
+    "path": "/solution/"
+  },
+  {
+    "id": 2058,
+    "old_title": "VIVE Sync - Nền tảng hội thảo ảo 3D",
+    "new_title": "Sync",
+    "path": "/sync/"
+  },
+  {
+    "id": 2060,
+    "old_title": "Trung tâm ứng dụng VIVE Hub",
+    "new_title": "Vive Hub",
+    "path": "/vive-hub/"
+  },
+  {
+    "id": 2062,
+    "old_title": "Quỹ khởi nghiệp &amp; Tăng tốc VIVE X",
+    "new_title": "Vivex",
+    "path": "/vivex/"
+  },
+  {
+    "id": 2064,
+    "old_title": "VR for Impact - Thực tế ảo vì cộng đồng",
+    "new_title": "Vr4Impact",
+    "path": "/vr4impact/"
+  },
+  {
+    "id": 2121,
+    "old_title": "Isv",
+    "new_title": "Doanh nghiệp: Đối tác phần mềm ISV",
+    "path": "/business/isv/"
+  },
+  {
+    "id": 2122,
+    "old_title": "Mea En",
+    "new_title": "Doanh nghiệp: Mea En",
+    "path": "/business/mea-en/"
+  },
+  {
+    "id": 2123,
+    "old_title": "Kính thực tế ảo VIVE Độc lập &amp; PC VR",
+    "new_title": "Doanh nghiệp: Product",
+    "path": "/business/product/"
+  },
+  {
+    "id": 2124,
+    "old_title": "Trung tâm hỗ trợ kỹ thuật VIVE",
+    "new_title": "Doanh nghiệp: Support",
+    "path": "/business/support/"
+  },
+  {
+    "id": 2125,
+    "old_title": "Khu vực chính",
+    "new_title": "Nhà phát triển: Us",
+    "path": "/developer/us/"
+  },
+  {
+    "id": 2126,
+    "old_title": "Kính thực tế ảo VIVE Độc lập &amp; PC VR",
+    "new_title": "Product",
+    "path": "/enterprise/product/"
+  },
+  {
+    "id": 2127,
+    "old_title": "En US",
+    "new_title": "En Us",
+    "path": "/hub/en-us/"
+  },
+  {
+    "id": 2246,
+    "old_title": "VIVE Eagle",
+    "new_title": "Sản phẩm Vive Eagle",
+    "path": "/product/vive-eagle/"
+  },
+  {
+    "id": 2247,
+    "old_title": "VIVE Flow",
+    "new_title": "Sản phẩm Vive Flow",
+    "path": "/product/vive-flow/"
+  },
+  {
+    "id": 2248,
+    "old_title": "VIVE Focus Vision",
+    "new_title": "Sản phẩm Vive Focus Vision",
+    "path": "/product/vive-focus-vision/"
+  },
+  {
+    "id": 2249,
+    "old_title": "VIVE Pro 2 Full Kit",
+    "new_title": "Sản phẩm Vive Pro2 Full Kit",
+    "path": "/product/vive-pro2-full-kit/"
+  },
+  {
+    "id": 2250,
+    "old_title": "VIVE Pro 2",
+    "new_title": "Sản phẩm Vive Pro2",
+    "path": "/product/vive-pro2/"
+  },
+  {
+    "id": 2251,
+    "old_title": "VIVE XR Elite",
+    "new_title": "Sản phẩm Vive Xr Elite",
+    "path": "/product/vive-xr-elite/"
+  },
+  {
+    "id": 2286,
+    "old_title": "Trung tâm hỗ trợ kỹ thuật VIVE",
+    "new_title": "Doanh nghiệp: Support",
+    "path": "/business/mea-en/support/"
+  },
+  {
+    "id": 2290,
+    "old_title": "Sự kiện &amp; Hội thảo",
+    "new_title": "Doanh nghiệp: Events",
+    "path": "/business/us/events/"
+  },
+  {
+    "id": 2291,
+    "old_title": "Kính thực tế ảo VIVE Độc lập &amp; PC VR",
+    "new_title": "Doanh nghiệp: Product",
+    "path": "/business/us/product/"
+  },
+  {
+    "id": 2292,
+    "old_title": "Trung tâm hỗ trợ kỹ thuật VIVE",
+    "new_title": "Doanh nghiệp: Support",
+    "path": "/business/us/support/"
+  },
+  {
+    "id": 2294,
+    "old_title": "Hướng dẫn kỹ thuật phần cứng",
+    "new_title": "Nhà phát triển: Hardware Guides",
+    "path": "/developer/resources/hardware-guides/"
+  },
+  {
+    "id": 2295,
+    "old_title": "Vive Sense",
+    "new_title": "Nhà phát triển: Vive Sense",
+    "path": "/developer/resources/vive-sense/"
+  },
+  {
+    "id": 2296,
+    "old_title": "Tài liệu phần cứng",
+    "new_title": "Nhà phát triển: Hardware",
+    "path": "/developer/us/hardware/"
+  },
+  {
+    "id": 2300,
+    "old_title": "Kính thực tế ảo VIVE Độc lập &amp; PC VR",
+    "new_title": "Product",
+    "path": "/enterprise/us/product/"
+  },
+  {
+    "id": 2318,
+    "old_title": "Hệ thống VIVE LBS",
+    "new_title": "Doanh nghiệp: Vive Lbss",
+    "path": "/business/mea-en/support/vive-lbss/"
+  },
+  {
+    "id": 2329,
+    "old_title": "Nền tảng VIVE Business+",
+    "new_title": "Doanh nghiệp: Business Plus",
+    "path": "/business/us/support/business-plus/"
+  },
+  {
+    "id": 2337,
+    "old_title": "Hướng dẫn sử dụng chi tiết",
+    "new_title": "Doanh nghiệp: Category_Howto",
+    "path": "/business/mea-en/support/vive-lbss/category_howto/"
+  },
+  {
+    "id": 2338,
+    "old_title": "Hướng dẫn sử dụng chi tiết",
+    "new_title": "Doanh nghiệp: Category_Howto",
+    "path": "/business/us/support/business-plus/category_howto/"
+  },
+  {
+    "id": 2347,
+    "old_title": "Thông cáo báo chí VIVE 2025",
+    "new_title": "Phòng tin tức & Báo chí VIVE - 2025-3",
+    "path": "/newsroom/2025-3/"
+  },
+  {
+    "id": 2348,
+    "old_title": "Thông cáo báo chí VIVE 2024",
+    "new_title": "Phòng tin tức & Báo chí VIVE - 2024-3",
+    "path": "/newsroom/2024-3/"
+  },
+  {
+    "id": 2349,
+    "old_title": "Thông cáo báo chí VIVE 2023",
+    "new_title": "Phòng tin tức & Báo chí VIVE - 2023-3",
+    "path": "/newsroom/2023-3/"
+  },
+  {
+    "id": 2350,
+    "old_title": "Thông cáo báo chí VIVE 2021",
+    "new_title": "Phòng tin tức & Báo chí VIVE - 2021-3",
+    "path": "/newsroom/2021-3/"
+  },
+  {
+    "id": 2351,
+    "old_title": "Thông cáo báo chí VIVE 2020",
+    "new_title": "Phòng tin tức & Báo chí VIVE - 2020-3",
+    "path": "/newsroom/2020-3/"
+  },
+  {
+    "id": 2352,
+    "old_title": "Thông cáo báo chí VIVE 2019",
+    "new_title": "Phòng tin tức & Báo chí VIVE - 2019-3",
+    "path": "/newsroom/2019-3/"
+  },
+  {
+    "id": 2353,
+    "old_title": "Thông cáo báo chí VIVE 2018",
+    "new_title": "Phòng tin tức & Báo chí VIVE - 2018-3",
+    "path": "/newsroom/2018-3/"
+  },
+  {
+    "id": 2354,
+    "old_title": "Thông cáo báo chí VIVE 2017",
+    "new_title": "Phòng tin tức & Báo chí VIVE - 2017-3",
+    "path": "/newsroom/2017-3/"
+  },
+  {
+    "id": 2355,
+    "old_title": "Thông cáo báo chí VIVE 2016",
+    "new_title": "Phòng tin tức & Báo chí VIVE - 2016-3",
+    "path": "/newsroom/2016-3/"
+  },
+  {
+    "id": 2356,
+    "old_title": "Thông cáo báo chí VIVE 2015",
+    "new_title": "Phòng tin tức & Báo chí VIVE - 2015-3",
+    "path": "/newsroom/2015-3/"
+  }
+]

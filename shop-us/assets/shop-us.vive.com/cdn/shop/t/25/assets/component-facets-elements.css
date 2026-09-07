@@ -1,0 +1,38 @@
+/* Facet elements and price range styles */
+.facets__price {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.facets__price .field {
+  display: flex;
+  align-items: center;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  padding: 4px 8px;
+  background: #fff;
+  flex: 1;
+}
+
+.facets__price .field__currency {
+  color: #6b7280;
+  font-size: 14px;
+  margin-right: 4px;
+}
+
+.facets__price .field__input {
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 14px;
+  color: #111827;
+  background: transparent;
+}
+
+.facets__price .field__label {
+  font-size: 12px;
+  color: #6b7280;
+  font-weight: 500;
+}

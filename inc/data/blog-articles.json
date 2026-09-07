@@ -1,0 +1,4365 @@
+{
+    "meta": {
+        "total_count": 1567
+    },
+    "items": [
+        {
+            "id": 14021,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/14021/",
+                "html_url": "https://vive.com.vn/blog/cineon-secures-world-first-caa-approval-for-vr-pilot-walkaround-trainer/",
+                "slug": "cineon-secures-world-first-caa-approval-for-vr-pilot-walkaround-trainer",
+                "show_in_menus": false,
+                "seo_title": "",
+                "search_description": "",
+                "first_published_at": "2026-03-10T11:00:02.482016Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "Cineon đảm bảo sự chấp thuận CAA đầu tiên trên thế giới cho huấn luyện viên đi bộ thí điểm VR",
+            "author": {
+                "id": 1,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "VIVE Team"
+            },
+            "publish_date": "2026-03-10",
+            "tags": [
+                {
+                    "title": "Thực tế mở rộng (XR)"
+                },
+                {
+                    "title": "Việc kinh doanh"
+                },
+                {
+                    "title": "Trí tuệ nhân tạo (AI)"
+                }
+            ],
+            "x_minute_read": "5 phút đọc",
+            "cover": {
+                "id": 5789,
+                "meta": {
+                    "type": "wagtailimages.Image",
+                    "detail_url": "https://vive.com.vn/blog/api/v2/images/5789/",
+                    "download_url": "/express_media/original_images/Screenshot_2026-03-10_at_09.43.12_ILpplCq.png"
+                },
+                "title": "TACET_Walkaround_2"
+            },
+            "cover_thumbnail": {
+                "url": "/express_media/images/Screenshot_2026-03-10_at_09.43.12_ILpplCq.max-688x400.png",
+                "full_url": "/express_media/images/Screenshot_2026-03-10_at_09.43.12_ILpplCq.max-688x400.png",
+                "width": 688,
+                "height": 387,
+                "alt": "TACET_Walkaround_2"
+            },
+            "cover_url": null,
+            "source": 1
+        },
+        {
+            "id": 13782,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13782/",
+                "html_url": "https://vive.com.vn/blog/htc-viverse-hits-1-million-users-announces-winners-of-first-global-spark-hackathon/",
+                "slug": "htc-viverse-hits-1-million-users-announces-winners-of-first-global-spark-hackathon",
+                "show_in_menus": false,
+                "seo_title": "",
+                "search_description": "",
+                "first_published_at": "2025-12-10T12:28:10.762244Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "HTC VIVERSE đạt 1 triệu người dùng, công bố người chiến thắng cuộc thi Hackathon “Spark” toàn cầu đầu tiên",
+            "author": {
+                "id": 1,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "VIVE Team"
+            },
+            "publish_date": "2025-12-10",
+            "tags": [
+                {
+                    "title": "Vũ trụ ảo (Metaverse)"
+                },
+                {
+                    "title": "Trò chơi & Giải trí"
+                },
+                {
+                    "title": "Tin tức doanh nghiệp"
+                }
+            ],
+            "x_minute_read": "5 phút đọc",
+            "cover": {
+                "id": 5768,
+                "meta": {
+                    "type": "wagtailimages.Image",
+                    "detail_url": "https://vive.com.vn/blog/api/v2/images/5768/",
+                    "download_url": "/express_media/original_images/VIVERSE-Spark-Announcement-1x1.jpg"
+                },
+                "title": "VIVERSE-Spark-Announcement-1x1"
+            },
+            "cover_thumbnail": {
+                "url": "/express_media/images/VIVERSE-Spark-Announcement-1x1.max-688x400.jpg",
+                "full_url": "/express_media/images/VIVERSE-Spark-Announcement-1x1.max-688x400.jpg",
+                "width": 400,
+                "height": 400,
+                "alt": "VIVERSE-Spark-Announcement-1x1"
+            },
+            "cover_url": null,
+            "source": 1
+        },
+        {
+            "id": 13766,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13766/",
+                "html_url": "https://vive.com.vn/blog/hololight-and-htc-announce-strategic-partnership-to-power-5g-xr-streaming/",
+                "slug": "hololight-and-htc-announce-strategic-partnership-to-power-5g-xr-streaming",
+                "show_in_menus": false,
+                "seo_title": "",
+                "search_description": "",
+                "first_published_at": "2025-11-18T17:35:10.886000Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "Hololight và HTC công bố quan hệ đối tác chiến lược để hỗ trợ truyền phát 5G XR",
+            "author": {
+                "id": 1,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "VIVE Team"
+            },
+            "publish_date": "2025-11-17",
+            "tags": [
+                {
+                    "title": "Thực tế mở rộng (XR)"
+                },
+                {
+                    "title": "Việc kinh doanh"
+                },
+                {
+                    "title": "Tin tức Vive"
+                }
+            ],
+            "x_minute_read": "5 phút đọc",
+            "cover": {
+                "id": 5761,
+                "meta": {
+                    "type": "wagtailimages.Image",
+                    "detail_url": "https://vive.com.vn/blog/api/v2/images/5761/",
+                    "download_url": "/express_media/original_images/IITSEC_Hololight.png"
+                },
+                "title": "IITSEC Hololight"
+            },
+            "cover_thumbnail": {
+                "url": "/express_media/images/IITSEC_Hololight.max-688x400.png",
+                "full_url": "/express_media/images/IITSEC_Hololight.max-688x400.png",
+                "width": 688,
+                "height": 386,
+                "alt": "IITSEC Hololight"
+            },
+            "cover_url": null,
+            "source": 1
+        },
+        {
+            "id": 13765,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13765/",
+                "html_url": "https://vive.com.vn/blog/from-image-to-immersive-generate-3d-virtual-production-scenes-in-real-time-with-marble-and-vive-mars/",
+                "slug": "from-image-to-immersive-generate-3d-virtual-production-scenes-in-real-time-with-marble-and-vive-mars",
+                "show_in_menus": false,
+                "seo_title": "",
+                "search_description": "",
+                "first_published_at": "2025-11-12T17:00:01.628686Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "Từ hình ảnh đến sống động: Tạo cảnh sản xuất ảo 3D trong thời gian thực với Marble và VIVE Mars",
+            "author": {
+                "id": 1,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "VIVE Team"
+            },
+            "publish_date": "2025-11-12",
+            "tags": [
+                {
+                    "title": "Thông báo sản phẩm"
+                },
+                {
+                    "title": "Việc kinh doanh"
+                },
+                {
+                    "title": "Câu chuyện thành công của doanh nghiệp"
+                }
+            ],
+            "x_minute_read": "5 phút đọc",
+            "cover": {
+                "id": 5748,
+                "meta": {
+                    "type": "wagtailimages.Image",
+                    "detail_url": "https://vive.com.vn/blog/api/v2/images/5748/",
+                    "download_url": "/express_media/original_images/website-banner.jpg"
+                },
+                "title": "website-banner"
+            },
+            "cover_thumbnail": {
+                "url": "/express_media/images/website-banner.max-688x400.jpg",
+                "full_url": "/express_media/images/website-banner.max-688x400.jpg",
+                "width": 688,
+                "height": 387,
+                "alt": "website-banner"
+            },
+            "cover_url": null,
+            "source": 1
+        },
+        {
+            "id": 13754,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13754/",
+                "html_url": "https://vive.com.vn/blog/embark-on-lbe-adventures-at-iaapa-europe-2025-with-vex-solutions-and-htc-vive/",
+                "slug": "embark-on-lbe-adventures-at-iaapa-europe-2025-with-vex-solutions-and-htc-vive",
+                "show_in_menus": false,
+                "seo_title": "",
+                "search_description": "",
+                "first_published_at": "2025-09-23T08:28:50.873990Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "Bắt tay vào Cuộc phiêu lưu của LBE tại IAAPA Châu Âu 2025 với VEX Solutions và HTC VIVE",
+            "author": {
+                "id": 1,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "VIVE Team"
+            },
+            "publish_date": "2025-09-22",
+            "tags": [
+                {
+                    "title": "Tin tức chung"
+                }
+            ],
+            "x_minute_read": "5 phút đọc",
+            "cover": {
+                "id": 5727,
+                "meta": {
+                    "type": "wagtailimages.Image",
+                    "detail_url": "https://vive.com.vn/blog/api/v2/images/5727/",
+                    "download_url": "/express_media/original_images/VIVE-IAAPA_KV_1080x1080.jpg"
+                },
+                "title": "VIVE-IAAPA_KV_1080x1080"
+            },
+            "cover_thumbnail": {
+                "url": "/express_media/images/VIVE-IAAPA_KV_1080x1080.max-688x400.jpg",
+                "full_url": "/express_media/images/VIVE-IAAPA_KV_1080x1080.max-688x400.jpg",
+                "width": 400,
+                "height": 400,
+                "alt": "VIVE-IAAPA_KV_1080x1080"
+            },
+            "cover_url": null,
+            "source": 1
+        },
+        {
+            "id": 13747,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13747/",
+                "html_url": "https://vive.com.vn/blog/taiwans-xr-black-wave-future-of-immersive-creation/",
+                "slug": "taiwans-xr-black-wave-future-of-immersive-creation",
+                "show_in_menus": false,
+                "seo_title": "Cultural Black Tide: Taiwan's XR Immersive Revolution",
+                "search_description": "Khám phá sự phát triển của ngành XR của Đài Loan thông qua sáng kiến ​​Thủy triều đen văn hóa, hỗ trợ những đổi mới về công nghệ nhập vai và cách kể chuyện",
+                "first_published_at": "2025-09-24T10:04:23.653713Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "Làn sóng đen XR của Đài Loan: Tương lai của sự sáng tạo đắm chìm",
+            "author": {
+                "id": 1,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "VIVE Team"
+            },
+            "publish_date": "2025-09-22",
+            "tags": [
+                {
+                    "title": "Tin tức chung"
+                }
+            ],
+            "x_minute_read": "5 phút đọc",
+            "cover": null,
+            "cover_thumbnail": null,
+            "cover_url": "https://www.vivepostwave.com/wp-content/uploads/2025/09/%E6%AD%B8%E4%BE%86%E7%86%B1%E8%98%AD%E9%81%AE02.webp",
+            "source": 1
+        },
+        {
+            "id": 13739,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13739/",
+                "html_url": "https://vive.com.vn/blog/brain-computer-interface-apple-amazon-partner-with-synchron/",
+                "slug": "brain-computer-interface-apple-amazon-partner-with-synchron",
+                "show_in_menus": false,
+                "seo_title": "Brain-Computer Interface: Synchron vs Neuralink",
+                "search_description": "Khám phá tương lai của Giao diện não-máy tính với các phương pháp tiếp cận đổi mới và tác động tiềm tàng của Synchron và Neuralink.",
+                "first_published_at": "2025-09-17T10:11:56.773764Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "Giao diện não-máy tính: Apple, Amazon hợp tác với Synchron",
+            "author": {
+                "id": 24,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "VIVE POST-WAVE Team"
+            },
+            "publish_date": "2025-09-17",
+            "tags": [
+                {
+                    "title": "Trí tuệ nhân tạo (AI)"
+                }
+            ],
+            "x_minute_read": "5 phút đọc",
+            "cover": null,
+            "cover_thumbnail": null,
+            "cover_url": "https://www.vivepostwave.com/wp-content/uploads/2025/08/result_would-you-get-a-cyberized-brain-v0-ibphn6ue37vb1.jpg",
+            "source": 1
+        },
+        {
+            "id": 13737,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13737/",
+                "html_url": "https://vive.com.vn/blog/deepmind-unveils-genie-3-googles-world-model-toward-agi/",
+                "slug": "deepmind-unveils-genie-3-googles-world-model-toward-agi",
+                "show_in_menus": false,
+                "seo_title": "DeepMind Unveils Genie 3, Google’s World Model Toward AGI",
+                "search_description": "Khám phá những tiến bộ của Genie 3 trong việc lập mô hình thế giới AI cho AGI và môi trường ảo",
+                "first_published_at": "2025-09-16T03:53:25.687382Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "DeepMind tiết lộ Genie 3, Mô hình thế giới của Google hướng tới AGI",
+            "author": {
+                "id": 24,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "VIVE POST-WAVE Team"
+            },
+            "publish_date": "2025-09-16",
+            "tags": [
+                {
+                    "title": "Trí tuệ nhân tạo (AI)"
+                }
+            ],
+            "x_minute_read": "7 phút đọc",
+            "cover": null,
+            "cover_thumbnail": null,
+            "cover_url": "https://www.vivepostwave.com/wp-content/uploads/2025/08/genie3-Large.jpeg",
+            "source": 1
+        },
+        {
+            "id": 13741,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13741/",
+                "html_url": "https://vive.com.vn/blog/experience-the-future-of-free-roam-xr-at-iaapa-europe-2025/",
+                "slug": "experience-the-future-of-free-roam-xr-at-iaapa-europe-2025",
+                "show_in_menus": false,
+                "seo_title": "",
+                "search_description": "",
+                "first_published_at": "2025-09-12T16:22:54.250971Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "Trải nghiệm tương lai của XR chuyển vùng miễn phí tại IAAPA Châu Âu 2025",
+            "author": {
+                "id": 1,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "VIVE Team"
+            },
+            "publish_date": "2025-09-12",
+            "tags": [
+                {
+                    "title": "Thực tế mở rộng (XR)"
+                }
+            ],
+            "x_minute_read": "5 phút đọc",
+            "cover": {
+                "id": 5721,
+                "meta": {
+                    "type": "wagtailimages.Image",
+                    "detail_url": "https://vive.com.vn/blog/api/v2/images/5721/",
+                    "download_url": "/express_media/original_images/Design_Studio_donning-VFV-1-web.jpg"
+                },
+                "title": "VFV_LBE_multiplayer-free-roam"
+            },
+            "cover_thumbnail": {
+                "url": "/express_media/images/Design_Studio_donning-VFV-1-web.max-688x400.jpg",
+                "full_url": "/express_media/images/Design_Studio_donning-VFV-1-web.max-688x400.jpg",
+                "width": 536,
+                "height": 400,
+                "alt": "VFV_LBE_multiplayer-free-roam"
+            },
+            "cover_url": null,
+            "source": 1
+        },
+        {
+            "id": 13738,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13738/",
+                "html_url": "https://vive.com.vn/blog/roblox-beats-steam-but-which-games-attracted-4729-million-players-at-once/",
+                "slug": "roblox-beats-steam-but-which-games-attracted-4729-million-players-at-once",
+                "show_in_menus": false,
+                "seo_title": "",
+                "search_description": "Roblox vượt qua kỷ lục người dùng của Steam với các trò chơi UGC lan truyền, \"Grow a Garden\" và \"Steal a Brainrot\", đạt 47,29 triệu người dùng đồng thời.",
+                "first_published_at": "2025-09-11T10:12:50.964193Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "Roblox đánh bại Steam, nhưng trò chơi nào thu hút 47,29 triệu người chơi cùng một lúc?",
+            "author": {
+                "id": 24,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "VIVE POST-WAVE Team"
+            },
+            "publish_date": "2025-09-11",
+            "tags": [
+                {
+                    "title": "Vũ trụ ảo (Metaverse)"
+                }
+            ],
+            "x_minute_read": "5 phút đọc",
+            "cover": null,
+            "cover_thumbnail": null,
+            "cover_url": "https://www.vivepostwave.com/wp-content/uploads/2025/08/roblox-ccu.jpg",
+            "source": 1
+        },
+        {
+            "id": 13740,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13740/",
+                "html_url": "https://vive.com.vn/blog/what-is-face-tracking-in-vr-and-why-does-it-matter/",
+                "slug": "what-is-face-tracking-in-vr-and-why-does-it-matter",
+                "show_in_menus": false,
+                "seo_title": "",
+                "search_description": "",
+                "first_published_at": "2025-09-09T03:36:00.523461Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "Theo dõi khuôn mặt trong VR là gì và tại sao nó lại quan trọng?",
+            "author": {
+                "id": 1,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "VIVE Team"
+            },
+            "publish_date": "2025-09-08",
+            "tags": [
+                {
+                    "title": "Kính thực tế ảo (Headset)"
+                },
+                {
+                    "title": "Thực tế mở rộng (XR)"
+                }
+            ],
+            "x_minute_read": "5 phút đọc",
+            "cover": {
+                "id": 5720,
+                "meta": {
+                    "type": "wagtailimages.Image",
+                    "detail_url": "https://vive.com.vn/blog/api/v2/images/5720/",
+                    "download_url": "/express_media/original_images/face_tracking_action.png"
+                },
+                "title": "Facial Tracking Focus 3"
+            },
+            "cover_thumbnail": {
+                "url": "/express_media/images/face_tracking_action.max-688x400.png",
+                "full_url": "/express_media/images/face_tracking_action.max-688x400.png",
+                "width": 688,
+                "height": 310,
+                "alt": "Facial Tracking Focus 3"
+            },
+            "cover_url": null,
+            "source": 1
+        },
+        {
+            "id": 13736,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13736/",
+                "html_url": "https://vive.com.vn/blog/i-took-the-vive-eagle-to-seoul-for-charli-xcx-a-first-person-view-of-brat-summers-finale/",
+                "slug": "i-took-the-vive-eagle-to-seoul-for-charli-xcx-a-first-person-view-of-brat-summers-finale",
+                "show_in_menus": false,
+                "seo_title": "",
+                "search_description": "Trải nghiệm Mùa hè Brat của Charli XCX ở Seoul với Kính VIVE Eagle AI để ghi âm phong phú ở góc nhìn thứ nhất và sự tiện lợi khi rảnh tay.",
+                "first_published_at": "2025-09-05T10:18:12.214517Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "Tôi đã mang VIVE Eagle đến Seoul để xem Charli XCX - Góc nhìn thứ nhất về phần cuối của Brat Summer",
+            "author": {
+                "id": 24,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "VIVE POST-WAVE Team"
+            },
+            "publish_date": "2025-09-05",
+            "tags": [
+                {
+                    "title": "Kính thực tế ảo (Headset)"
+                },
+                {
+                    "title": "Trí tuệ nhân tạo (AI)"
+                }
+            ],
+            "x_minute_read": "5 phút đọc",
+            "cover": null,
+            "cover_thumbnail": null,
+            "cover_url": "https://www.vivepostwave.com/wp-content/uploads/2025/08/Fotor-%E5%9B%BE%E7%89%87%E7%BC%96%E8%BE%91%E5%B7%A5%E5%85%B7-1.jpg",
+            "source": 1
+        },
+        {
+            "id": 13726,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13726/",
+                "html_url": "https://vive.com.vn/blog/unists-dogrecon-ai-turns-a-single-photo-into-a-lifelike-moving-3d-dog/",
+                "slug": "unists-dogrecon-ai-turns-a-single-photo-into-a-lifelike-moving-3d-dog",
+                "show_in_menus": false,
+                "seo_title": "3D Dog Models: Create Lifelike Pets with DogRecon AI",
+                "search_description": "DogRecon AI biến ảnh thú cưng thành mô hình 3D, tạo hoạt ảnh cho chúng một cách dễ dàng. Trải nghiệm thú cưng kỹ thuật số sống động như thật từ một hình ảnh duy nhất.",
+                "first_published_at": "2025-09-03T10:32:52.448037Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "DogRecon AI của UNIST biến một bức ảnh thành chú chó 3D chuyển động giống như thật",
+            "author": {
+                "id": 24,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "VIVE POST-WAVE Team"
+            },
+            "publish_date": "2025-09-03",
+            "tags": [
+                {
+                    "title": "Thực tế mở rộng (XR)"
+                }
+            ],
+            "x_minute_read": "3 phút đọc",
+            "cover": null,
+            "cover_thumbnail": null,
+            "cover_url": "https://www.vivepostwave.com/wp-content/uploads/2025/08/%E7%8B%97%E5%8B%BEcover.png",
+            "source": 1
+        },
+        {
+            "id": 13729,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13729/",
+                "html_url": "https://vive.com.vn/blog/stanford-launches-agents4science-2025-first-ai-only-academic-conference/",
+                "slug": "stanford-launches-agents4science-2025-first-ai-only-academic-conference",
+                "show_in_menus": false,
+                "seo_title": "",
+                "search_description": "Khám phá vai trò của AI trong khám phá khoa học tại Agents4Science 2025 của Stanford, nơi AI dẫn đầu nghiên cứu và đánh giá ngang hàng.",
+                "first_published_at": "2025-09-01T10:49:28.227075Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "Stanford ra mắt Agents4Science 2025, Hội nghị học thuật đầu tiên chỉ dành cho AI",
+            "author": {
+                "id": 24,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "VIVE POST-WAVE Team"
+            },
+            "publish_date": "2025-09-01",
+            "tags": [
+                {
+                    "title": "Trí tuệ nhân tạo (AI)"
+                }
+            ],
+            "x_minute_read": "5 phút đọc",
+            "cover": null,
+            "cover_thumbnail": null,
+            "cover_url": "https://www.vivepostwave.com/wp-content/uploads/2025/07/Fotor-%E8%B0%83%E6%95%B4%E7%85%A7%E7%89%87%E5%B0%BA%E5%AF%B8%E7%BB%93%E6%9E%9C.jpg",
+            "source": 1
+        },
+        {
+            "id": 13650,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13650/",
+                "html_url": "https://vive.com.vn/blog/holoearth-launches-join-the-creator-economy-today/",
+                "slug": "holoearth-launches-join-the-creator-economy-today",
+                "show_in_menus": false,
+                "seo_title": "Holoearth 1.0.0: Fan Creations & Marketplace Launch",
+                "search_description": "Khám phá Holoearth 1.0.0: Kiếm tiền từ sản phẩm sáng tạo của người hâm mộ, mua sắm và tương tác với hololive trong một không gian ảo sôi động.",
+                "first_published_at": "2025-08-27T09:05:41.452304Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "Holoearth ra mắt: Tham gia nền kinh tế sáng tạo ngay hôm nay",
+            "author": {
+                "id": 24,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "VIVE POST-WAVE Team"
+            },
+            "publish_date": "2025-08-27",
+            "tags": [
+                {
+                    "title": "Tin tức chung"
+                }
+            ],
+            "x_minute_read": "5 phút đọc",
+            "cover": null,
+            "cover_thumbnail": null,
+            "cover_url": "https://www.vivepostwave.com/wp-content/uploads/2025/04/holoearth_web-e1745488184542.jpeg",
+            "source": 1
+        },
+        {
+            "id": 13714,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13714/",
+                "html_url": "https://vive.com.vn/blog/5-things-you-should-know-about-k-pop-demon-hunters/",
+                "slug": "5-things-you-should-know-about-k-pop-demon-hunters",
+                "show_in_menus": false,
+                "seo_title": "K-Pop Demon Hunters: A Unique Blend of Genres",
+                "search_description": "Khám phá sự kỳ diệu của \"K-Pop Demon Hunters\", sự pha trộn giữa văn hóa K-pop, hành động và giả tưởng trong một bộ phim hoạt hình đứng đầu bảng xếp hạng Netflix.",
+                "first_published_at": "2025-07-29T08:20:44.945645Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "5 điều bạn nên biết về K-Pop: Thợ săn quỷ",
+            "author": {
+                "id": 24,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "VIVE POST-WAVE Team"
+            },
+            "publish_date": "2025-08-22",
+            "tags": [
+                {
+                    "title": "Sự kiện hiện tại"
+                }
+            ],
+            "x_minute_read": "6 phút đọc",
+            "cover": null,
+            "cover_thumbnail": null,
+            "cover_url": "https://www.vivepostwave.com/wp-content/uploads/2025/06/%E5%AF%8C%E5%AF%B6%E6%84%9F%E8%AC%9D%E6%82%A8%E7%94%9F%E6%97%A5%E5%BF%AB%E6%A8%82-2-2.jpg",
+            "source": 1
+        },
+        {
+            "id": 13735,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13735/",
+                "html_url": "https://vive.com.vn/blog/la-magie-opera-heads-to-venice-immersive/",
+                "slug": "la-magie-opera-heads-to-venice-immersive",
+                "show_in_menus": false,
+                "seo_title": "",
+                "search_description": "",
+                "first_published_at": "2025-08-20T09:05:45.704594Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "La Magie Opéra hướng tới Venice đắm chìm",
+            "author": {
+                "id": 1,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "VIVE Team"
+            },
+            "publish_date": "2025-08-20",
+            "tags": [
+                {
+                    "title": "Thực tế mở rộng (XR)"
+                }
+            ],
+            "x_minute_read": "5 phút đọc",
+            "cover": {
+                "id": 5719,
+                "meta": {
+                    "type": "wagtailimages.Image",
+                    "detail_url": "https://vive.com.vn/blog/api/v2/images/5719/",
+                    "download_url": "/express_media/original_images/Image06.png"
+                },
+                "title": "Image06"
+            },
+            "cover_thumbnail": {
+                "url": "/express_media/images/Image06.max-688x400.png",
+                "full_url": "/express_media/images/Image06.max-688x400.png",
+                "width": 688,
+                "height": 387,
+                "alt": "Image06"
+            },
+            "cover_url": null,
+            "source": 1
+        },
+        {
+            "id": 13659,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13659/",
+                "html_url": "https://vive.com.vn/blog/fanum-tax-and-kai-cenat-exploring-tax-evasion-rooms/",
+                "slug": "fanum-tax-and-kai-cenat-exploring-tax-evasion-rooms",
+                "show_in_menus": false,
+                "seo_title": "Fanum Tax: Gen Z Slang, Meme & Virtual Game Explained",
+                "search_description": "Khám phá tiếng lóng 'Fanum Tax' lan truyền của Gen Z, nguồn gốc của nó và cách nó trở thành meme và trải nghiệm trò chơi 3D trong thế giới ảo của Kai Cenat.",
+                "first_published_at": "2025-08-20T08:00:23.307513Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "Fanum Tax và Kai Cenat: Khám phá phòng trốn thuế",
+            "author": {
+                "id": 1,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "VIVE Team"
+            },
+            "publish_date": "2025-08-20",
+            "tags": [
+                {
+                    "title": "Thực tế mở rộng (XR)"
+                }
+            ],
+            "x_minute_read": "5 phút đọc",
+            "cover": null,
+            "cover_thumbnail": null,
+            "cover_url": "https://www.vivepostwave.com/wp-content/uploads/2025/05/Fanum-tax.jpg",
+            "source": 1
+        },
+        {
+            "id": 13732,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13732/",
+                "html_url": "https://vive.com.vn/blog/introducing-vive-eagle-smart-glasses-built-for-everyday-life/",
+                "slug": "introducing-vive-eagle-smart-glasses-built-for-everyday-life",
+                "show_in_menus": false,
+                "seo_title": "",
+                "search_description": "",
+                "first_published_at": "2025-08-15T19:38:06.694021Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "Giới thiệu VIVE Eagle: Kính thông minh được thiết kế cho cuộc sống hàng ngày",
+            "author": {
+                "id": 1,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "VIVE Team"
+            },
+            "publish_date": "2025-08-15",
+            "tags": [
+                {
+                    "title": "Thông báo sản phẩm"
+                },
+                {
+                    "title": "Ra mắt sản phẩm"
+                },
+                {
+                    "title": "Trí tuệ nhân tạo (AI)"
+                }
+            ],
+            "x_minute_read": "5 phút đọc",
+            "cover": {
+                "id": 5713,
+                "meta": {
+                    "type": "wagtailimages.Image",
+                    "detail_url": "https://vive.com.vn/blog/api/v2/images/5713/",
+                    "download_url": "/express_media/original_images/VIVE_Eagle_Blog.png"
+                },
+                "title": "VIVE_Eagle_Blog"
+            },
+            "cover_thumbnail": {
+                "url": "/express_media/images/VIVE_Eagle_Blog.max-688x400.png",
+                "full_url": "/express_media/images/VIVE_Eagle_Blog.max-688x400.png",
+                "width": 688,
+                "height": 327,
+                "alt": "VIVE_Eagle_Blog"
+            },
+            "cover_url": null,
+            "source": 1
+        },
+        {
+            "id": 13728,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13728/",
+                "html_url": "https://vive.com.vn/blog/robloxs-new-licensing-platform-lets-creators-build-games-with-stranger-things-blue-lock-and-more/",
+                "slug": "robloxs-new-licensing-platform-lets-creators-build-games-with-stranger-things-blue-lock-and-more",
+                "show_in_menus": false,
+                "seo_title": "Roblox Revolutionizes Fan Creations with IP Licensing",
+                "search_description": "Khám phá cách hệ thống cấp phép IP mới của Roblox trao quyền cho người hâm mộ tạo và kiếm tiền hợp pháp từ trò chơi di động với các thương hiệu lớn.",
+                "first_published_at": "2025-08-14T07:49:58.105774Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "Nền tảng cấp phép mới của Roblox cho phép người sáng tạo xây dựng trò chơi với Stranger Things, Blue Lock, v.v.",
+            "author": {
+                "id": 24,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "VIVE POST-WAVE Team"
+            },
+            "publish_date": "2025-08-14",
+            "tags": [
+                {
+                    "title": "Thực tế mở rộng (XR)"
+                }
+            ],
+            "x_minute_read": "8 phút đọc",
+            "cover": {
+                "id": 5712,
+                "meta": {
+                    "type": "wagtailimages.Image",
+                    "detail_url": "https://vive.com.vn/blog/api/v2/images/5712/",
+                    "download_url": "/express_media/original_images/Roblox-Creator-Dashboard.png"
+                },
+                "title": "Roblox-Creator-Dashboard"
+            },
+            "cover_thumbnail": {
+                "url": "/express_media/images/Roblox-Creator-Dashboard.max-688x400.png",
+                "full_url": "/express_media/images/Roblox-Creator-Dashboard.max-688x400.png",
+                "width": 688,
+                "height": 329,
+                "alt": "Roblox-Creator-Dashboard"
+            },
+            "cover_url": null,
+            "source": 1
+        },
+        {
+            "id": 13730,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13730/",
+                "html_url": "https://vive.com.vn/blog/vtubers-surpass-real-life-streamers-in-2025-youtubes-top-trends/",
+                "slug": "vtubers-surpass-real-life-streamers-in-2025-youtubes-top-trends",
+                "show_in_menus": false,
+                "seo_title": "",
+                "search_description": "",
+                "first_published_at": "2025-08-12T10:51:56.881094Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "VTuber vượt qua những người truyền phát ngoài đời thực vào năm 2025: Xu hướng hàng đầu của YouTube",
+            "author": {
+                "id": 24,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "VIVE POST-WAVE Team"
+            },
+            "publish_date": "2025-08-12",
+            "tags": [
+                {
+                    "title": "Vũ trụ ảo (Metaverse)"
+                }
+            ],
+            "x_minute_read": "5 phút đọc",
+            "cover": {
+                "id": 5711,
+                "meta": {
+                    "type": "wagtailimages.Image",
+                    "detail_url": "https://vive.com.vn/blog/api/v2/images/5711/",
+                    "download_url": "/express_media/original_images/image-9.png"
+                },
+                "title": "image-9"
+            },
+            "cover_thumbnail": {
+                "url": "/express_media/images/image-9.max-688x400.png",
+                "full_url": "/express_media/images/image-9.max-688x400.png",
+                "width": 688,
+                "height": 386,
+                "alt": "image-9"
+            },
+            "cover_url": null,
+            "source": 1
+        },
+        {
+            "id": 13629,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13629/",
+                "html_url": "https://vive.com.vn/blog/report-students-let-ai-do-the-thinkingshould-we-be-worried/",
+                "slug": "report-students-let-ai-do-the-thinkingshould-we-be-worried",
+                "show_in_menus": false,
+                "seo_title": "",
+                "search_description": "Khám phá tác động của AI đối với giáo dục: sự thay đổi nhận thức, thói quen tương tác và sự khác biệt về kỷ luật. Nhân văn có thể thu hẹp khoảng cách AI-con người?",
+                "first_published_at": "2025-08-07T09:52:22.292671Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "Báo cáo: Học sinh để AI thực hiện việc suy nghĩ—Chúng ta có nên lo lắng không?",
+            "author": {
+                "id": 24,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "VIVE POST-WAVE Team"
+            },
+            "publish_date": "2025-08-07",
+            "tags": [
+                {
+                    "title": "Trí tuệ nhân tạo (AI)"
+                }
+            ],
+            "x_minute_read": "6 phút đọc",
+            "cover": null,
+            "cover_thumbnail": null,
+            "cover_url": "https://www.vivepostwave.com/wp-content/uploads/2025/04/download-12.jpg",
+            "source": 1
+        },
+        {
+            "id": 13656,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13656/",
+                "html_url": "https://vive.com.vn/blog/why-the-japanese-trust-ai-more-a-cross-cultural-experiment/",
+                "slug": "why-the-japanese-trust-ai-more-a-cross-cultural-experiment",
+                "show_in_menus": false,
+                "seo_title": "",
+                "search_description": "Khám phá nền tảng văn hóa ảnh hưởng như thế nào đến sự hợp tác của con người với các tác nhân AI ở Nhật Bản và Hoa Kỳ",
+                "first_published_at": "2025-08-06T11:09:37.882123Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "Tại sao người Nhật tin tưởng AI hơn - Một thử nghiệm đa văn hóa",
+            "author": {
+                "id": 24,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "VIVE POST-WAVE Team"
+            },
+            "publish_date": "2025-08-06",
+            "tags": [
+                {
+                    "title": "Trí tuệ nhân tạo (AI)"
+                }
+            ],
+            "x_minute_read": "5 phút đọc",
+            "cover": null,
+            "cover_thumbnail": null,
+            "cover_url": "https://www.vivepostwave.com/wp-content/uploads/2025/04/ai-agent-japan-Large-e1745219919589.jpeg",
+            "source": 1
+        },
+        {
+            "id": 13646,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13646/",
+                "html_url": "https://vive.com.vn/blog/columbia-dropouts-ai-tool-cluely-cheats-on-everythingand-we-tried-it/",
+                "slug": "columbia-dropouts-ai-tool-cluely-cheats-on-everythingand-we-tried-it",
+                "show_in_menus": false,
+                "seo_title": "AI Tools for Cheating: Cluely's Bold Venture Explored",
+                "search_description": "Khám phá các công cụ AI của Cluely để phát hiện gian lận trong các cuộc phỏng vấn và hơn thế nữa. Khám phá dự án mạo hiểm gây tranh cãi của Roy Lee và tác động của nó đối với công nghệ và xã hội.",
+                "first_published_at": "2025-08-05T07:13:40.520667Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "Công cụ AI của Columbia Dropout có thể lừa dối mọi thứ một cách khôn ngoan—và chúng tôi đã thử nó",
+            "author": {
+                "id": 24,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "VIVE POST-WAVE Team"
+            },
+            "publish_date": "2025-08-05",
+            "tags": [
+                {
+                    "title": "Trí tuệ nhân tạo (AI)"
+                }
+            ],
+            "x_minute_read": "6 phút đọc",
+            "cover": {
+                "id": 5628,
+                "meta": {
+                    "type": "wagtailimages.Image",
+                    "detail_url": "https://vive.com.vn/blog/api/v2/images/5628/",
+                    "download_url": "/express_media/original_images/roy_lee__neel.jpg"
+                },
+                "title": "roy lee & neel"
+            },
+            "cover_thumbnail": {
+                "url": "/express_media/images/roy_lee__neel.max-688x400.jpg",
+                "full_url": "/express_media/images/roy_lee__neel.max-688x400.jpg",
+                "width": 600,
+                "height": 400,
+                "alt": "roy lee & neel"
+            },
+            "cover_url": "https://www.vivepostwave.com/wp-content/uploads/2025/04/roy-lee-neel-e1745389388500.jpg",
+            "source": 1
+        },
+        {
+            "id": 13725,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13725/",
+                "html_url": "https://vive.com.vn/blog/terracotta-warriors-discover-the-untouched-chambers-of-the-first-emperors-tomb/",
+                "slug": "terracotta-warriors-discover-the-untouched-chambers-of-the-first-emperors-tomb",
+                "show_in_menus": false,
+                "seo_title": "",
+                "search_description": "",
+                "first_published_at": "2025-08-04T08:22:56.615411Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "Chiến binh đất nung: Khám phá căn phòng hoang sơ của lăng mộ vị hoàng đế đầu tiên",
+            "author": {
+                "id": 1,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "VIVE Team"
+            },
+            "publish_date": "2025-08-04",
+            "tags": [
+                {
+                    "title": "Thực tế mở rộng (XR)"
+                }
+            ],
+            "x_minute_read": "5 phút đọc",
+            "cover": {
+                "id": 5710,
+                "meta": {
+                    "type": "wagtailimages.Image",
+                    "detail_url": "https://vive.com.vn/blog/api/v2/images/5710/",
+                    "download_url": "/express_media/original_images/warriors_blog_image.PNG"
+                },
+                "title": "emperor poster 2_NoText_20250725"
+            },
+            "cover_thumbnail": {
+                "url": "/express_media/images/warriors_blog_image.max-688x400.png",
+                "full_url": "/express_media/images/warriors_blog_image.max-688x400.png",
+                "width": 688,
+                "height": 386,
+                "alt": "emperor poster 2_NoText_20250725"
+            },
+            "cover_url": null,
+            "source": 1
+        },
+        {
+            "id": 13686,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13686/",
+                "html_url": "https://vive.com.vn/blog/japan-turns-its-massive-underground-flood-temple-into-a-minecraft-map/",
+                "slug": "japan-turns-its-massive-underground-flood-temple-into-a-minecraft-map",
+                "show_in_menus": false,
+                "seo_title": "",
+                "search_description": "Khám phá ngôi đền ngầm của Nhật Bản trong Minecraft. Tìm hiểu cách kiểm soát lũ lụt với bản đồ G-Cans miễn phí này. Tải về ngay bây giờ!",
+                "first_published_at": "2025-08-04T10:47:48.622417Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "Nhật Bản biến ngôi đền lũ lụt khổng lồ dưới lòng đất thành bản đồ Minecraft",
+            "author": {
+                "id": 24,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "VIVE POST-WAVE Team"
+            },
+            "publish_date": "2025-08-04",
+            "tags": [
+                {
+                    "title": "Vũ trụ ảo (Metaverse)"
+                }
+            ],
+            "x_minute_read": "3 phút đọc",
+            "cover": null,
+            "cover_thumbnail": null,
+            "cover_url": "https://www.vivepostwave.com/wp-content/uploads/2025/05/batch_minecraft-20250523-340160-003.webp",
+            "source": 1
+        },
+        {
+            "id": 13724,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13724/",
+                "html_url": "https://vive.com.vn/blog/kr/eclipso-expands-to-seville-with-a-new-immersive-venue-powered-by-vive/",
+                "slug": "eclipso-expands-to-seville-with-a-new-immersive-venue-powered-by-vive",
+                "show_in_menus": false,
+                "seo_title": "",
+                "search_description": "",
+                "first_published_at": "2025-08-01T02:36:59.585658Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "Eclipso mở ra không gian sống động mới được triển khai bằng công nghệ VIVE ở Seville",
+            "author": {
+                "id": 1,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "VIVE Team"
+            },
+            "publish_date": "2025-07-30",
+            "tags": [
+                {
+                    "title": "Thực tế mở rộng (XR)"
+                }
+            ],
+            "x_minute_read": "giá trị 5 phút",
+            "cover": {
+                "id": 5709,
+                "meta": {
+                    "type": "wagtailimages.Image",
+                    "detail_url": "https://vive.com.vn/blog/api/v2/images/5709/",
+                    "download_url": "/express_media/original_images/Blog_Image.jpeg"
+                },
+                "title": "Blog Image"
+            },
+            "cover_thumbnail": {
+                "url": "/express_media/images/Blog_Image.max-688x400.jpg",
+                "full_url": "/express_media/images/Blog_Image.max-688x400.jpg",
+                "width": 600,
+                "height": 400,
+                "alt": "Blog Image"
+            },
+            "cover_url": null,
+            "source": 1
+        },
+        {
+            "id": 13723,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13723/",
+                "html_url": "https://vive.com.vn/blog/eclipso-expands-to-seville-with-a-new-immersive-venue-powered-by-vive/",
+                "slug": "eclipso-expands-to-seville-with-a-new-immersive-venue-powered-by-vive",
+                "show_in_menus": false,
+                "seo_title": "",
+                "search_description": "",
+                "first_published_at": "2025-07-30T13:49:21.973653Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "Eclipso mở rộng đến Seville với một địa điểm hòa nhập mới được cung cấp bởi VIVE",
+            "author": {
+                "id": 1,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "VIVE Team"
+            },
+            "publish_date": "2025-07-30",
+            "tags": [
+                {
+                    "title": "Thực tế mở rộng (XR)"
+                }
+            ],
+            "x_minute_read": "5 phút đọc",
+            "cover": {
+                "id": 5709,
+                "meta": {
+                    "type": "wagtailimages.Image",
+                    "detail_url": "https://vive.com.vn/blog/api/v2/images/5709/",
+                    "download_url": "/express_media/original_images/Blog_Image.jpeg"
+                },
+                "title": "Blog Image"
+            },
+            "cover_thumbnail": {
+                "url": "/express_media/images/Blog_Image.max-688x400.jpg",
+                "full_url": "/express_media/images/Blog_Image.max-688x400.jpg",
+                "width": 600,
+                "height": 400,
+                "alt": "Blog Image"
+            },
+            "cover_url": null,
+            "source": 1
+        },
+        {
+            "id": 13712,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13712/",
+                "html_url": "https://vive.com.vn/blog/meet-velvet-sundown-the-viral-ai-band-on-spotify/",
+                "slug": "meet-velvet-sundown-the-viral-ai-band-on-spotify",
+                "show_in_menus": false,
+                "seo_title": "The Velvet Sundown: AI Music Hoax or Spotify Ghost Artists?",
+                "search_description": "Khám phá sự gia tăng lan truyền của The Velvet Sundown, tuyên bố về âm nhạc AI và chiến lược nghệ sĩ ma tiềm năng của Spotify.",
+                "first_published_at": "2025-07-29T08:41:20.930960Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "Gặp gỡ Velvet Sundown, Ban nhạc AI lan truyền trên Spotify",
+            "author": {
+                "id": 24,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "VIVE POST-WAVE Team"
+            },
+            "publish_date": "2025-07-29",
+            "tags": [
+                {
+                    "title": "Trí tuệ nhân tạo (AI)"
+                },
+                {
+                    "title": "Sự kiện hiện tại"
+                }
+            ],
+            "x_minute_read": "6 phút đọc",
+            "cover": null,
+            "cover_thumbnail": null,
+            "cover_url": "https://www.vivepostwave.com/wp-content/uploads/2025/07/THE-BEATLES-1.jpg",
+            "source": 1
+        },
+        {
+            "id": 13721,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13721/",
+                "html_url": "https://vive.com.vn/blog/announcing-playing-with-fire-an-immersive-odyssey-with-yuja-wang/",
+                "slug": "announcing-playing-with-fire-an-immersive-odyssey-with-yuja-wang",
+                "show_in_menus": false,
+                "seo_title": "",
+                "search_description": "",
+                "first_published_at": "2025-07-23T11:12:12.435689Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "Thông báo Chơi với lửa: Một cuộc phiêu lưu nhập vai cùng Yuja Wang",
+            "author": {
+                "id": 1,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "VIVE Team"
+            },
+            "publish_date": "2025-07-23",
+            "tags": [
+                {
+                    "title": "Thực tế mở rộng (XR)"
+                }
+            ],
+            "x_minute_read": "5 phút đọc",
+            "cover": {
+                "id": 5700,
+                "meta": {
+                    "type": "wagtailimages.Image",
+                    "detail_url": "https://vive.com.vn/blog/api/v2/images/5700/",
+                    "download_url": "/express_media/original_images/Yuja_1.jpg"
+                },
+                "title": "Yuja 1"
+            },
+            "cover_thumbnail": {
+                "url": "/express_media/images/Yuja_1.max-688x400.jpg",
+                "full_url": "/express_media/images/Yuja_1.max-688x400.jpg",
+                "width": 688,
+                "height": 393,
+                "alt": "Yuja 1"
+            },
+            "cover_url": null,
+            "source": 1
+        },
+        {
+            "id": 13722,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13722/",
+                "html_url": "https://vive.com.vn/blog/kr/can-you-use-a-vr-headset-with-glasses-learn-how-htc-vive-headsets-support-glasses-wearers-and-what-you-need-to-consider-for-comfort-in-virtual-reality/",
+                "slug": "can-you-use-a-vr-headset-with-glasses-learn-how-htc-vive-headsets-support-glasses-wearers-and-what-you-need-to-consider-for-comfort-in-virtual-reality",
+                "show_in_menus": false,
+                "seo_title": "VR With Glasses: Using VIVE Headsets If You Wear Eyeglasses",
+                "search_description": "Bạn có thể sử dụng tai nghe VR với kính không? Tìm hiểu cách tai nghe HTC VIVE hỗ trợ người đeo kính và những điều bạn cần cân nhắc để có được sự thoải mái trong thực tế ảo.",
+                "first_published_at": "2025-07-29T10:11:27.444072Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "Đeo kính có được không? Hướng dẫn sử dụng tai nghe, kính VIVE",
+            "author": {
+                "id": 22,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "Patrick R."
+            },
+            "publish_date": "2025-07-22",
+            "tags": [
+                {
+                    "title": "Thực tế mở rộng (XR)"
+                }
+            ],
+            "x_minute_read": "giá trị 5 phút",
+            "cover": {
+                "id": 5702,
+                "meta": {
+                    "type": "wagtailimages.Image",
+                    "detail_url": "https://vive.com.vn/blog/api/v2/images/5702/",
+                    "download_url": "/express_media/original_images/With_glasses_1.jpg"
+                },
+                "title": "With glasses_1"
+            },
+            "cover_thumbnail": {
+                "url": "/express_media/images/With_glasses_1.max-688x400.jpg",
+                "full_url": "/express_media/images/With_glasses_1.max-688x400.jpg",
+                "width": 688,
+                "height": 387,
+                "alt": "With glasses_1"
+            },
+            "cover_url": null,
+            "source": 1
+        },
+        {
+            "id": 13718,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13718/",
+                "html_url": "https://vive.com.vn/blog/can-you-use-a-vr-headset-with-glasses-learn-how-htc-vive-headsets-support-glasses-wearers-and-what-you-need-to-consider-for-comfort-in-virtual-reality/",
+                "slug": "can-you-use-a-vr-headset-with-glasses-learn-how-htc-vive-headsets-support-glasses-wearers-and-what-you-need-to-consider-for-comfort-in-virtual-reality",
+                "show_in_menus": false,
+                "seo_title": "VR With Glasses: Using VIVE Headsets If You Wear Eyeglasses",
+                "search_description": "Bạn có thể sử dụng tai nghe VR với kính không? Tìm hiểu cách tai nghe HTC VIVE hỗ trợ người đeo kính và những điều bạn cần cân nhắc để có được sự thoải mái trong thực tế ảo.",
+                "first_published_at": "2025-07-22T09:14:18.026665Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "VR với kính: Sử dụng tai nghe VIVE nếu bạn đeo kính mắt",
+            "author": {
+                "id": 1,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "VIVE Team"
+            },
+            "publish_date": "2025-07-22",
+            "tags": [
+                {
+                    "title": "Thực tế mở rộng (XR)"
+                }
+            ],
+            "x_minute_read": "5 phút đọc",
+            "cover": {
+                "id": 5702,
+                "meta": {
+                    "type": "wagtailimages.Image",
+                    "detail_url": "https://vive.com.vn/blog/api/v2/images/5702/",
+                    "download_url": "/express_media/original_images/With_glasses_1.jpg"
+                },
+                "title": "With glasses_1"
+            },
+            "cover_thumbnail": {
+                "url": "/express_media/images/With_glasses_1.max-688x400.jpg",
+                "full_url": "/express_media/images/With_glasses_1.max-688x400.jpg",
+                "width": 688,
+                "height": 387,
+                "alt": "With glasses_1"
+            },
+            "cover_url": null,
+            "source": 1
+        },
+        {
+            "id": 13713,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13713/",
+                "html_url": "https://vive.com.vn/blog/how-to-get-started-in-game-development-for-viverse/",
+                "slug": "how-to-get-started-in-game-development-for-viverse",
+                "show_in_menus": false,
+                "seo_title": "",
+                "search_description": "",
+                "first_published_at": "2025-07-16T15:51:25.137153Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "Cách bắt đầu phát triển trò chơi cho VIVERSE",
+            "author": {
+                "id": 1,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "VIVE Team"
+            },
+            "publish_date": "2025-07-16",
+            "tags": [
+                {
+                    "title": "Thực tế mở rộng (XR)"
+                }
+            ],
+            "x_minute_read": "5 phút đọc",
+            "cover": {
+                "id": 5691,
+                "meta": {
+                    "type": "wagtailimages.Image",
+                    "detail_url": "https://vive.com.vn/blog/api/v2/images/5691/",
+                    "download_url": "/express_media/original_images/How_to_Get_Started_in_Game_Development_for_VIVERSE.jpg"
+                },
+                "title": "How to Get Started in Game Development for VIVERSE"
+            },
+            "cover_thumbnail": {
+                "url": "/express_media/images/How_to_Get_Started_in_Game_Development_for_V.max-688x400.jpg",
+                "full_url": "/express_media/images/How_to_Get_Started_in_Game_Development_for_V.max-688x400.jpg",
+                "width": 688,
+                "height": 387,
+                "alt": "How to Get Started in Game Development for VIVERSE"
+            },
+            "cover_url": null,
+            "source": 1
+        },
+        {
+            "id": 13684,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13684/",
+                "html_url": "https://vive.com.vn/blog/claude-4-will-snitchall-for-the-sake-of-safety/",
+                "slug": "claude-4-will-snitchall-for-the-sake-of-safety",
+                "show_in_menus": false,
+                "seo_title": "",
+                "search_description": "Khám phá cuộc tranh luận về \"chế độ đánh giá\" của Claude 4 Opus và tác động của nó đối với sự an toàn và quyền riêng tư của AI trong phiên bản mẫu mới nhất của Anthropic.",
+                "first_published_at": "2025-07-16T03:14:16.527724Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "Claude 4 Will Snitch—Tất cả vì sự an toàn",
+            "author": {
+                "id": 24,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "VIVE POST-WAVE Team"
+            },
+            "publish_date": "2025-07-16",
+            "tags": [
+                {
+                    "title": "Trí tuệ nhân tạo (AI)"
+                }
+            ],
+            "x_minute_read": "4 phút đọc",
+            "cover": null,
+            "cover_thumbnail": null,
+            "cover_url": "https://www.vivepostwave.com/wp-content/uploads/2025/05/7ab6c000-28c1-4184-bf62-987948cb7058.jpg",
+            "source": 1
+        },
+        {
+            "id": 13649,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13649/",
+                "html_url": "https://vive.com.vn/blog/anthropic-probed-claudes-mind-turns-out-its-just-a-really-nice-ai/",
+                "slug": "anthropic-probed-claudes-mind-turns-out-its-just-a-really-nice-ai",
+                "show_in_menus": false,
+                "seo_title": "",
+                "search_description": "Khám phá nghiên cứu của Anthropic về các giá trị AI ở Claude, tập trung vào các phạm trù thực tế, nhận thức, xã hội, bảo vệ và cá nhân.",
+                "first_published_at": "2025-06-30T10:53:44.067164Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "Nhân loại đã thăm dò tâm trí của Claude - Hóa ra đó chỉ là một AI thực sự tốt",
+            "author": {
+                "id": 24,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "VIVE POST-WAVE Team"
+            },
+            "publish_date": "2025-06-30",
+            "tags": [
+                {
+                    "title": "Trí tuệ nhân tạo (AI)"
+                }
+            ],
+            "x_minute_read": "5 phút đọc",
+            "cover": null,
+            "cover_thumbnail": null,
+            "cover_url": "https://www.vivepostwave.com/wp-content/uploads/2025/04/9000a155-d040-49e9-ba3f-4ee149cd53b4.jpg",
+            "source": 1
+        },
+        {
+            "id": 13648,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13648/",
+                "html_url": "https://vive.com.vn/blog/the-secret-ai-experiment-that-fooled-reddit-users/",
+                "slug": "the-secret-ai-experiment-that-fooled-reddit-users",
+                "show_in_menus": false,
+                "seo_title": "",
+                "search_description": "Khám phá cách AI vượt trội hơn con người về khả năng thuyết phục trên r/ChangeMyView của Reddit.",
+                "first_published_at": "2025-06-23T10:56:37.911986Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "Thí nghiệm AI bí mật đánh lừa người dùng Reddit",
+            "author": {
+                "id": 24,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "VIVE POST-WAVE Team"
+            },
+            "publish_date": "2025-06-23",
+            "tags": [
+                {
+                    "title": "Trí tuệ nhân tạo (AI)"
+                }
+            ],
+            "x_minute_read": "5 phút đọc",
+            "cover": null,
+            "cover_thumbnail": null,
+            "cover_url": "https://www.vivepostwave.com/wp-content/uploads/2025/05/bef77979-e9f9-45b2-93f4-e14d3e988340.jpg",
+            "source": 1
+        },
+        {
+            "id": 13683,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13683/",
+                "html_url": "https://vive.com.vn/blog/not-just-gemini-and-veo-3google-beam-is-finally-here/",
+                "slug": "not-just-gemini-and-veo-3google-beam-is-finally-here",
+                "show_in_menus": false,
+                "seo_title": "",
+                "search_description": "Khám phá nền tảng video 3D được hỗ trợ bởi AI của Google Beam, định nghĩa lại hoạt động giao tiếp từ xa với sự hiện diện thực tế và dịch thuật theo thời gian thực.",
+                "first_published_at": "2025-06-20T10:13:04.590959Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "Không chỉ Gemini và Veo 3—Google Beam cuối cùng cũng có mặt",
+            "author": {
+                "id": 24,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "VIVE POST-WAVE Team"
+            },
+            "publish_date": "2025-06-20",
+            "tags": [
+                {
+                    "title": "Thực tế mở rộng (XR)"
+                }
+            ],
+            "x_minute_read": "6 phút đọc",
+            "cover": null,
+            "cover_thumbnail": null,
+            "cover_url": "https://www.vivepostwave.com/wp-content/uploads/2025/05/googleio2025_googlebeam.jpeg",
+            "source": 1
+        },
+        {
+            "id": 13696,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13696/",
+                "html_url": "https://vive.com.vn/blog/tw/htc-viverse-webxr/",
+                "slug": "htc-viverse-webxr",
+                "show_in_menus": false,
+                "seo_title": "",
+                "search_description": "",
+                "first_published_at": "2025-06-18T06:45:08.211640Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "HTC VIVERSE là thiết bị đầu tiên trên thế giới hỗ trợ đầy đủ các công cụ trò chơi WebXR chính thống",
+            "author": {
+                "id": 28,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "VIVERSE Team"
+            },
+            "publish_date": "2025-06-18",
+            "tags": [
+                {
+                    "title": "Thông báo sản phẩm"
+                },
+                {
+                    "title": "Vũ trụ ảo (Metaverse)"
+                }
+            ],
+            "x_minute_read": "5 phút đọc",
+            "cover": {
+                "id": 5668,
+                "meta": {
+                    "type": "wagtailimages.Image",
+                    "detail_url": "https://vive.com.vn/blog/api/v2/images/5668/",
+                    "download_url": "/express_media/original_images/VIVERSE-Studio-Create-Anywhere.jpg"
+                },
+                "title": "VIVERSE-Studio-Create-Anywhere"
+            },
+            "cover_thumbnail": {
+                "url": "/express_media/images/VIVERSE-Studio-Create-Anywhere.max-688x400.jpg",
+                "full_url": "/express_media/images/VIVERSE-Studio-Create-Anywhere.max-688x400.jpg",
+                "width": 688,
+                "height": 387,
+                "alt": "VIVERSE-Studio-Create-Anywhere"
+            },
+            "cover_url": null,
+            "source": 1
+        },
+        {
+            "id": 13691,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13691/",
+                "html_url": "https://vive.com.vn/blog/olfactory-vr-shows-promise-in-preventing-dementia-study-finds/",
+                "slug": "olfactory-vr-shows-promise-in-preventing-dementia-study-finds",
+                "show_in_menus": false,
+                "seo_title": "VR Smell Device Boosts Memory & Cognitive Health",
+                "search_description": "Khám phá cách công nghệ mùi hương VR tăng cường trí nhớ và chống suy giảm nhận thức ở người cao tuổi thông qua những trải nghiệm hấp dẫn và sống động.",
+                "first_published_at": "2025-06-17T10:53:02.605934Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "Olfactory VR cho thấy triển vọng trong việc ngăn ngừa chứng mất trí nhớ, kết quả nghiên cứu",
+            "author": {
+                "id": 1,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "VIVE Team"
+            },
+            "publish_date": "2025-06-17",
+            "tags": [
+                {
+                    "title": "Thực tế mở rộng (XR)"
+                }
+            ],
+            "x_minute_read": "5 phút đọc",
+            "cover": null,
+            "cover_thumbnail": null,
+            "cover_url": "https://www.vivepostwave.com/wp-content/uploads/2025/06/%E5%AF%8C%E5%AF%B6%E6%84%9F%E8%AC%9D%E6%82%A8%E7%94%9F%E6%97%A5%E5%BF%AB%E6%A8%82-2.jpg",
+            "source": 1
+        },
+        {
+            "id": 13661,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13661/",
+                "html_url": "https://vive.com.vn/blog/around-the-world-in-xr-gsmas-virtual-balloon-ride-at-mwc-2025/",
+                "slug": "around-the-world-in-xr-gsmas-virtual-balloon-ride-at-mwc-2025",
+                "show_in_menus": false,
+                "seo_title": "",
+                "search_description": "",
+                "first_published_at": "2025-06-09T13:57:06.096663Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "Vòng quanh thế giới bằng XR - Chuyến đi khinh khí cầu ảo của GSMA tại MWC 2025",
+            "author": {
+                "id": 1,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "VIVE Team"
+            },
+            "publish_date": "2025-06-16",
+            "tags": [
+                {
+                    "title": "Thực tế mở rộng (XR)"
+                }
+            ],
+            "x_minute_read": "5 phút đọc",
+            "cover": {
+                "id": 5602,
+                "meta": {
+                    "type": "wagtailimages.Image",
+                    "detail_url": "https://vive.com.vn/blog/api/v2/images/5602/",
+                    "download_url": "/express_media/original_images/GSMA_MWC.png"
+                },
+                "title": "GSMA MWC"
+            },
+            "cover_thumbnail": {
+                "url": "/express_media/images/GSMA_MWC.max-688x400.png",
+                "full_url": "/express_media/images/GSMA_MWC.max-688x400.png",
+                "width": 300,
+                "height": 400,
+                "alt": "GSMA MWC"
+            },
+            "cover_url": null,
+            "source": 1
+        },
+        {
+            "id": 13654,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13654/",
+                "html_url": "https://vive.com.vn/blog/skater-xl-developer-returns-with-vr-skateboarding-game/",
+                "slug": "skater-xl-developer-returns-with-vr-skateboarding-game",
+                "show_in_menus": false,
+                "seo_title": "",
+                "search_description": "Khám phá Virtual Skate, một trò chơi VR mang khả năng trượt ván chân thực vào tai nghe của bạn. Trải nghiệm sự tự do và lối chơi dựa trên vật lý.",
+                "first_published_at": "2025-06-16T10:23:48.193464Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "Nhà phát triển Skater XL trở lại với trò chơi trượt ván VR",
+            "author": {
+                "id": 24,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "VIVE POST-WAVE Team"
+            },
+            "publish_date": "2025-06-16",
+            "tags": [
+                {
+                    "title": "Thực tế mở rộng (XR)"
+                },
+                {
+                    "title": "Trò chơi & Giải trí"
+                }
+            ],
+            "x_minute_read": "5 phút đọc",
+            "cover": null,
+            "cover_thumbnail": null,
+            "cover_url": "https://www.vivepostwave.com/wp-content/uploads/2025/04/VirtualSkateCoverArtFinal-Large.jpeg",
+            "source": 1
+        },
+        {
+            "id": 13694,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13694/",
+                "html_url": "https://vive.com.vn/blog/how-to-use-full-body-tracking-in-vrchat/",
+                "slug": "how-to-use-full-body-tracking-in-vrchat",
+                "show_in_menus": false,
+                "seo_title": "",
+                "search_description": "",
+                "first_published_at": "2025-06-13T17:59:44.931911Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "Cách sử dụng tính năng Theo dõi toàn thân trong VRChat: Thiết lập, Phần cứng & Mẹo",
+            "author": {
+                "id": 1,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "VIVE Team"
+            },
+            "publish_date": "2025-06-13",
+            "tags": [
+                {
+                    "title": "Thực tế mở rộng (XR)"
+                }
+            ],
+            "x_minute_read": "10 phút đọc",
+            "cover": {
+                "id": 5666,
+                "meta": {
+                    "type": "wagtailimages.Image",
+                    "detail_url": "https://vive.com.vn/blog/api/v2/images/5666/",
+                    "download_url": "/express_media/original_images/vive_ultimate_tracker_blog_hero_4.jpg"
+                },
+                "title": "vive_ultimate_tracker_blog_hero_4"
+            },
+            "cover_thumbnail": {
+                "url": "/express_media/images/vive_ultimate_tracker_blog_hero_4.max-688x400.jpg",
+                "full_url": "/express_media/images/vive_ultimate_tracker_blog_hero_4.max-688x400.jpg",
+                "width": 688,
+                "height": 387,
+                "alt": "vive_ultimate_tracker_blog_hero_4"
+            },
+            "cover_url": null,
+            "source": 1
+        },
+        {
+            "id": 13647,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13647/",
+                "html_url": "https://vive.com.vn/blog/chiikawa-takes-over-shinjuku-3d-billboard-with-usagi-chasing-butterflies/",
+                "slug": "chiikawa-takes-over-shinjuku-3d-billboard-with-usagi-chasing-butterflies",
+                "show_in_menus": false,
+                "seo_title": "Glasses-Free 3D Video Wall: Usagi Catches Butterflies",
+                "search_description": "Trải nghiệm Chiikawa dưới dạng 3D tại bức tường video không kính của Shinjuku!",
+                "first_published_at": "2025-06-13T07:09:22.686441Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "Chiikawa thống lĩnh bảng quảng cáo 3D của Shinjuku với Usagi đuổi bắt bướm",
+            "author": {
+                "id": 1,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "VIVE Team"
+            },
+            "publish_date": "2025-06-13",
+            "tags": [
+                {
+                    "title": "Thực tế mở rộng (XR)"
+                }
+            ],
+            "x_minute_read": "2 phút đọc",
+            "cover": {
+                "id": 5629,
+                "meta": {
+                    "type": "wagtailimages.Image",
+                    "detail_url": "https://vive.com.vn/blog/api/v2/images/5629/",
+                    "download_url": "/express_media/original_images/Chiikawa.webp"
+                },
+                "title": "Chiikawa"
+            },
+            "cover_thumbnail": {
+                "url": "/express_media/images/Chiikawa.max-688x400.png",
+                "full_url": "/express_media/images/Chiikawa.max-688x400.png",
+                "width": 688,
+                "height": 387,
+                "alt": "Chiikawa"
+            },
+            "cover_url": "https://www.vivepostwave.com/wp-content/uploads/2025/04/%E6%9C%AA%E5%91%BD%E5%90%8D%E8%A8%AD%E8%A8%88-2.jpg",
+            "source": 1
+        },
+        {
+            "id": 13688,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13688/",
+                "html_url": "https://vive.com.vn/blog/excited-about-xr-survey-of-teens-shows-that-immersive-tech-is-poised-to-transform-the-classroom/",
+                "slug": "excited-about-xr-survey-of-teens-shows-that-immersive-tech-is-poised-to-transform-the-classroom",
+                "show_in_menus": false,
+                "seo_title": "",
+                "search_description": "",
+                "first_published_at": "2025-06-10T18:48:43.204346Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "Vui mừng về XR: Khảo sát thanh thiếu niên cho thấy công nghệ nhập vai sẵn sàng biến đổi lớp học",
+            "author": {
+                "id": 1,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "VIVE Team"
+            },
+            "publish_date": "2025-06-10",
+            "tags": [
+                {
+                    "title": "Việc kinh doanh"
+                },
+                {
+                    "title": "Vũ trụ ảo (Metaverse)"
+                },
+                {
+                    "title": "Sự kiện hiện tại"
+                }
+            ],
+            "x_minute_read": "5 phút đọc",
+            "cover": {
+                "id": 5652,
+                "meta": {
+                    "type": "wagtailimages.Image",
+                    "detail_url": "https://vive.com.vn/blog/api/v2/images/5652/",
+                    "download_url": "/express_media/original_images/XRA-header-youth-infographic.png"
+                },
+                "title": "XRA-header-youth-infographic"
+            },
+            "cover_thumbnail": {
+                "url": "/express_media/images/XRA-header-youth-infographic.max-688x400.png",
+                "full_url": "/express_media/images/XRA-header-youth-infographic.max-688x400.png",
+                "width": 688,
+                "height": 387,
+                "alt": "XRA-header-youth-infographic"
+            },
+            "cover_url": null,
+            "source": 1
+        },
+        {
+            "id": 13663,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13663/",
+                "html_url": "https://vive.com.vn/blog/ino-vr-and-vive-host-simplifying-xr-deployment-for-training-at-scale/",
+                "slug": "ino-vr-and-vive-host-simplifying-xr-deployment-for-training-at-scale",
+                "show_in_menus": false,
+                "seo_title": "",
+                "search_description": "",
+                "first_published_at": "2025-05-19T11:16:53.116330Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "Máy chủ INO VR và VIVE - Đơn giản hóa việc triển khai XR cho đào tạo trên quy mô lớn",
+            "author": {
+                "id": 1,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "VIVE Team"
+            },
+            "publish_date": "2025-06-09",
+            "tags": [
+                {
+                    "title": "Thực tế mở rộng (XR)"
+                }
+            ],
+            "x_minute_read": "5 phút đọc",
+            "cover": {
+                "id": 5604,
+                "meta": {
+                    "type": "wagtailimages.Image",
+                    "detail_url": "https://vive.com.vn/blog/api/v2/images/5604/",
+                    "download_url": "/express_media/original_images/INO_VR_LAVAL.PNG"
+                },
+                "title": "INO VR LAVAL"
+            },
+            "cover_thumbnail": {
+                "url": "/express_media/images/INO_VR_LAVAL.max-688x400.png",
+                "full_url": "/express_media/images/INO_VR_LAVAL.max-688x400.png",
+                "width": 688,
+                "height": 388,
+                "alt": "INO VR LAVAL"
+            },
+            "cover_url": null,
+            "source": 1
+        },
+        {
+            "id": 13618,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13618/",
+                "html_url": "https://vive.com.vn/blog/mri-for-ai-anthropic-cracked-open-claudes-brain/",
+                "slug": "mri-for-ai-anthropic-cracked-open-claudes-brain",
+                "show_in_menus": false,
+                "seo_title": "",
+                "search_description": "Khám phá nghiên cứu đột phá tiết lộ khả năng lập kế hoạch và quy trình ra quyết định của AI, nâng cao khả năng diễn giải của AI",
+                "first_published_at": "2025-06-03T10:22:32.974601Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "MRI cho AI? Nhân chủng học đã phá vỡ bộ não của Claude",
+            "author": {
+                "id": 24,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "VIVE POST-WAVE Team"
+            },
+            "publish_date": "2025-06-03",
+            "tags": [
+                {
+                    "title": "Trí tuệ nhân tạo (AI)"
+                },
+                {
+                    "title": "trí tuệ nhân tạo"
+                },
+                {
+                    "title": "Trí tuệ nhân tạo (AI)"
+                }
+            ],
+            "x_minute_read": "7 phút đọc",
+            "cover": null,
+            "cover_thumbnail": null,
+            "cover_url": "https://www.vivepostwave.com/wp-content/uploads/2025/04/download-10.jpg",
+            "source": 1
+        },
+        {
+            "id": 13613,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13613/",
+                "html_url": "https://vive.com.vn/blog/the-electric-states-ai-origin-story-is-darker-than-you-think/",
+                "slug": "the-electric-states-ai-origin-story-is-darker-than-you-think",
+                "show_in_menus": false,
+                "seo_title": "",
+                "search_description": "Khám phá sự khác biệt giữa \"The Electric State\" của Netflix và tiểu thuyết đồ họa gốc của Simon Stålenhag. Khám phá chiều sâu thực sự của câu chuyện.",
+                "first_published_at": "2025-06-02T10:23:45.656739Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "Câu chuyện về nguồn gốc AI của bang điện lực đen tối hơn bạn nghĩ",
+            "author": {
+                "id": 24,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "VIVE POST-WAVE Team"
+            },
+            "publish_date": "2025-06-02",
+            "tags": [
+                {
+                    "title": "Thực tế mở rộng (XR)"
+                },
+                {
+                    "title": "Trí tuệ nhân tạo (AI)"
+                },
+                {
+                    "title": "Sự kiện hiện tại"
+                }
+            ],
+            "x_minute_read": "6 phút đọc",
+            "cover": null,
+            "cover_thumbnail": null,
+            "cover_url": "https://www.vivepostwave.com/wp-content/uploads/2025/03/download-7.jpg",
+            "source": 1
+        },
+        {
+            "id": 13669,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13669/",
+                "html_url": "https://vive.com.vn/blog/20-best-mixed-reality-games-to-play-in-2025/",
+                "slug": "20-best-mixed-reality-games-to-play-in-2025",
+                "show_in_menus": false,
+                "seo_title": "20 Best Mixed Reality Games to Play in 2025",
+                "search_description": "Đừng bỏ lỡ những trò chơi thực tế hỗn hợp phải chơi này có sẵn trên VIVE Focus Vision và VIVE XR Elite. Từ hành động, câu đố và âm nhạc đến sự sáng tạo và thể dục.",
+                "first_published_at": "2025-05-29T07:19:10.670329Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "20 trò chơi thực tế hỗn hợp hay nhất để chơi năm 2025",
+            "author": {
+                "id": 22,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "Patrick R."
+            },
+            "publish_date": "2025-05-29",
+            "tags": [
+                {
+                    "title": "Trò chơi & Giải trí"
+                }
+            ],
+            "x_minute_read": "10 phút đọc",
+            "cover": {
+                "id": 5637,
+                "meta": {
+                    "type": "wagtailimages.Image",
+                    "detail_url": "https://vive.com.vn/blog/api/v2/images/5637/",
+                    "download_url": "/express_media/original_images/MR_cover_YUKI.jpg"
+                },
+                "title": "Person wearing a VR headset enjoying a mixed reality experience."
+            },
+            "cover_thumbnail": {
+                "url": "/express_media/images/MR_cover_YUKI.max-688x400.jpg",
+                "full_url": "/express_media/images/MR_cover_YUKI.max-688x400.jpg",
+                "width": 688,
+                "height": 387,
+                "alt": "Person wearing a VR headset enjoying a mixed reality experience."
+            },
+            "cover_url": null,
+            "source": 1
+        },
+        {
+            "id": 13662,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13662/",
+                "html_url": "https://vive.com.vn/blog/from-classroom-to-cockpit-speedernet-and-htc-vive-power-the-future-of-industrial-training/",
+                "slug": "from-classroom-to-cockpit-speedernet-and-htc-vive-power-the-future-of-industrial-training",
+                "show_in_menus": false,
+                "seo_title": "",
+                "search_description": "",
+                "first_published_at": "2025-05-28T12:58:22.322674Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "Từ lớp học đến buồng lái – Speedernet và HTC VIVE tạo sức mạnh cho tương lai của đào tạo công nghiệp",
+            "author": {
+                "id": 1,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "VIVE Team"
+            },
+            "publish_date": "2025-05-28",
+            "tags": [
+                {
+                    "title": "Thực tế mở rộng (XR)"
+                }
+            ],
+            "x_minute_read": "5 phút đọc",
+            "cover": {
+                "id": 5603,
+                "meta": {
+                    "type": "wagtailimages.Image",
+                    "detail_url": "https://vive.com.vn/blog/api/v2/images/5603/",
+                    "download_url": "/express_media/original_images/SPEEDERNET_LAVAL.PNG"
+                },
+                "title": "SPEEDERNET LAVAL"
+            },
+            "cover_thumbnail": {
+                "url": "/express_media/images/SPEEDERNET_LAVAL.max-688x400.png",
+                "full_url": "/express_media/images/SPEEDERNET_LAVAL.max-688x400.png",
+                "width": 595,
+                "height": 400,
+                "alt": "SPEEDERNET LAVAL"
+            },
+            "cover_url": null,
+            "source": 1
+        },
+        {
+            "id": 13665,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13665/",
+                "html_url": "https://vive.com.vn/blog/tw/-texas-immersive-institutetxix-viverse-webxr/",
+                "slug": "-texas-immersive-institutetxix-viverse-webxr",
+                "show_in_menus": false,
+                "seo_title": "德州大學奧斯汀分校 - Texas Immersive Institute（TXI）x VIVERSE 打造 WebXR 奇幻世界",
+                "search_description": "Điều gì sẽ xảy ra nếu bài tập trên lớp của bạn không phải là một bản báo cáo hay bản tóm tắt mà là một thế giới ảo để khám phá? Giống như một bảo tàng nghệ thuật ảo, một trò chơi phiêu lưu do bạn tự chọn hay một mô phỏng khoa học viễn tưởng tương lai? Đó là thử thách mà các sinh viên tại Texas Immersive Institute đã thực hiện trong học kỳ này—với sự trợ giúp của VIVERSE, họ đã xây dựng nhiều trải nghiệm 3D sống động từ ý tưởng đến nguyên mẫu để ra mắt trong ba tháng.",
+                "first_published_at": "2025-05-26T07:09:59.394032Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "Khi lớp học trở thành hành tinh ảo: Đại học Texas ở Austin - Texas Immersive Institute (TXI) x VIVERSE tạo ra một thế giới giả tưởng WebXR",
+            "author": {
+                "id": 28,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "VIVERSE Team"
+            },
+            "publish_date": "2025-05-26",
+            "tags": [
+                {
+                    "title": "Tin tức doanh nghiệp"
+                },
+                {
+                    "title": "Vũ trụ ảo (Metaverse)"
+                },
+                {
+                    "title": "Thực tế mở rộng (XR)"
+                }
+            ],
+            "x_minute_read": "5 phút đọc",
+            "cover": {
+                "id": 5606,
+                "meta": {
+                    "type": "wagtailimages.Image",
+                    "detail_url": "https://vive.com.vn/blog/api/v2/images/5606/",
+                    "download_url": "/express_media/original_images/UT_KV.jpg"
+                },
+                "title": "UT KV"
+            },
+            "cover_thumbnail": {
+                "url": "/express_media/images/UT_KV.max-688x400.jpg",
+                "full_url": "/express_media/images/UT_KV.max-688x400.jpg",
+                "width": 688,
+                "height": 387,
+                "alt": "UT KV"
+            },
+            "cover_url": null,
+            "source": 1
+        },
+        {
+            "id": 13616,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13616/",
+                "html_url": "https://vive.com.vn/blog/murray-shanahans-view-on-ai-consciousness-and-the-illusion-of-self/",
+                "slug": "murray-shanahans-view-on-ai-consciousness-and-the-illusion-of-self",
+                "show_in_menus": false,
+                "seo_title": "",
+                "search_description": "Khám phá ý thức AI thông qua triết học, Phật giáo và ngôn ngữ, đặt câu hỏi về khả năng tự nhận thức trong trí thông minh quái gở.",
+                "first_published_at": "2025-05-26T08:40:09.391632Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "Quan điểm của Murray Shanahan về AI, Ý thức và Ảo tưởng về Bản thân",
+            "author": {
+                "id": 24,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "VIVE POST-WAVE Team"
+            },
+            "publish_date": "2025-05-26",
+            "tags": [
+                {
+                    "title": "Trí tuệ nhân tạo (AI)"
+                }
+            ],
+            "x_minute_read": "7 phút đọc",
+            "cover": null,
+            "cover_thumbnail": null,
+            "cover_url": "https://www.vivepostwave.com/wp-content/uploads/2025/03/download-8.jpg",
+            "source": 1
+        },
+        {
+            "id": 13628,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13628/",
+                "html_url": "https://vive.com.vn/blog/chatgpt-memory-available-to-free-users-with-custom-controls/",
+                "slug": "chatgpt-memory-available-to-free-users-with-custom-controls",
+                "show_in_menus": false,
+                "seo_title": "",
+                "search_description": "Khám phá tính năng bộ nhớ mới của ChatGPT để có các tương tác AI phù hợp. Quản lý tùy chọn và quyền riêng tư bằng các công cụ cập nhật cho người dùng miễn phí và trả phí.",
+                "first_published_at": "2025-05-23T11:08:27.754208Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "Bộ nhớ ChatGPT có sẵn cho người dùng miễn phí với các điều khiển tùy chỉnh",
+            "author": {
+                "id": 24,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "VIVE POST-WAVE Team"
+            },
+            "publish_date": "2025-05-23",
+            "tags": [
+                {
+                    "title": "Trí tuệ nhân tạo (AI)"
+                }
+            ],
+            "x_minute_read": "7 phút đọc",
+            "cover": null,
+            "cover_thumbnail": null,
+            "cover_url": "https://www.vivepostwave.com/wp-content/uploads/2025/04/chatgptmemory-catmeme.jpg",
+            "source": 1
+        },
+        {
+            "id": 13627,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13627/",
+                "html_url": "https://vive.com.vn/blog/googles-new-ai-model-dolphingemma-can-communicate-with-dolphins/",
+                "slug": "googles-new-ai-model-dolphingemma-can-communicate-with-dolphins",
+                "show_in_menus": false,
+                "seo_title": "",
+                "search_description": "Khám phá DolphinGemma, một đột phá về AI trong giao tiếp với cá heo, cho phép trò chuyện và hiểu biết với cá heo đốm Đại Tây Dương.",
+                "first_published_at": "2025-05-21T10:04:35.192506Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "Mô hình AI mới của Google DolphinGemma có thể giao tiếp với cá heo",
+            "author": {
+                "id": 24,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "VIVE POST-WAVE Team"
+            },
+            "publish_date": "2025-05-21",
+            "tags": [
+                {
+                    "title": "Trí tuệ nhân tạo (AI)"
+                }
+            ],
+            "x_minute_read": "5 phút đọc",
+            "cover": null,
+            "cover_thumbnail": null,
+            "cover_url": "https://www.vivepostwave.com/wp-content/uploads/2025/04/batch_06251801_UW_CassiewithFused_Workkshot_HeadOn_BA-1024x683-1-e1744713437171.webp",
+            "source": 1
+        },
+        {
+            "id": 13660,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13660/",
+                "html_url": "https://vive.com.vn/blog/20-best-free-vr-games-on-viveport-and-steam-2025/",
+                "slug": "20-best-free-vr-games-on-viveport-and-steam-2025",
+                "show_in_menus": false,
+                "seo_title": "20 Best Free VR Games on VIVEPORT and Steam 2025",
+                "search_description": "Khám phá 20 trò chơi VR miễn phí hay nhất—từ những cuộc phiêu lưu lén lút và hành động gay cấn cho đến các trung tâm xã hội và nghệ thuật sáng tạo. Chúng hoàn hảo cho các game thủ PC-VR, tất cả trong một và thực tế hỗn hợp.",
+                "first_published_at": "2025-05-20T08:24:35.851823Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "20 game VR miễn phí hay nhất trên VIVEPORT và Steam 2025",
+            "author": {
+                "id": 27,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "David Okano"
+            },
+            "publish_date": "2025-05-20",
+            "tags": [
+                {
+                    "title": "Thực tế mở rộng (XR)"
+                },
+                {
+                    "title": "Trò chơi & Giải trí"
+                }
+            ],
+            "x_minute_read": "5 phút đọc",
+            "cover": {
+                "id": 5600,
+                "meta": {
+                    "type": "wagtailimages.Image",
+                    "detail_url": "https://vive.com.vn/blog/api/v2/images/5600/",
+                    "download_url": "/express_media/original_images/BestFreeVRGamesThumb.png"
+                },
+                "title": "Person playing VR games."
+            },
+            "cover_thumbnail": {
+                "url": "/express_media/images/BestFreeVRGamesThumb.max-688x400.png",
+                "full_url": "/express_media/images/BestFreeVRGamesThumb.max-688x400.png",
+                "width": 688,
+                "height": 387,
+                "alt": "Person playing VR games."
+            },
+            "cover_url": null,
+            "source": 1
+        },
+        {
+            "id": 13667,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13667/",
+                "html_url": "https://vive.com.vn/blog/kr/empowering-scalable-xr-training-with-inversive-and-vive-focus-vision/",
+                "slug": "empowering-scalable-xr-training-with-inversive-and-vive-focus-vision",
+                "show_in_menus": false,
+                "seo_title": "",
+                "search_description": "",
+                "first_published_at": "2025-05-22T03:03:57.360564Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "Tăng cường đào tạo XR có thể mở rộng với VIVE Focus Vision và Inversive",
+            "author": {
+                "id": 1,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "VIVE Team"
+            },
+            "publish_date": "2025-05-19",
+            "tags": [
+                {
+                    "title": "Thực tế mở rộng (XR)"
+                }
+            ],
+            "x_minute_read": "giá trị 5 phút",
+            "cover": {
+                "id": 5605,
+                "meta": {
+                    "type": "wagtailimages.Image",
+                    "detail_url": "https://vive.com.vn/blog/api/v2/images/5605/",
+                    "download_url": "/express_media/original_images/INVERSIVE_LAVAL.PNG"
+                },
+                "title": "INVERSIVE LAVAL"
+            },
+            "cover_thumbnail": {
+                "url": "/express_media/images/INVERSIVE_LAVAL.max-688x400.png",
+                "full_url": "/express_media/images/INVERSIVE_LAVAL.max-688x400.png",
+                "width": 688,
+                "height": 376,
+                "alt": "INVERSIVE LAVAL"
+            },
+            "cover_url": null,
+            "source": 1
+        },
+        {
+            "id": 13664,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13664/",
+                "html_url": "https://vive.com.vn/blog/empowering-scalable-xr-training-with-inversive-and-vive-focus-vision/",
+                "slug": "empowering-scalable-xr-training-with-inversive-and-vive-focus-vision",
+                "show_in_menus": false,
+                "seo_title": "",
+                "search_description": "",
+                "first_published_at": "2025-05-19T11:16:29.425381Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "Trao quyền cho việc đào tạo XR có thể mở rộng với Tầm nhìn tập trung nghịch đảo và VIVE",
+            "author": {
+                "id": 1,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "VIVE Team"
+            },
+            "publish_date": "2025-05-19",
+            "tags": [
+                {
+                    "title": "Thực tế mở rộng (XR)"
+                }
+            ],
+            "x_minute_read": "5 phút đọc",
+            "cover": {
+                "id": 5605,
+                "meta": {
+                    "type": "wagtailimages.Image",
+                    "detail_url": "https://vive.com.vn/blog/api/v2/images/5605/",
+                    "download_url": "/express_media/original_images/INVERSIVE_LAVAL.PNG"
+                },
+                "title": "INVERSIVE LAVAL"
+            },
+            "cover_thumbnail": {
+                "url": "/express_media/images/INVERSIVE_LAVAL.max-688x400.png",
+                "full_url": "/express_media/images/INVERSIVE_LAVAL.max-688x400.png",
+                "width": 688,
+                "height": 376,
+                "alt": "INVERSIVE LAVAL"
+            },
+            "cover_url": null,
+            "source": 1
+        },
+        {
+            "id": 13658,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13658/",
+                "html_url": "https://vive.com.vn/blog/how-to-make-a-vrchat-avatar-in-2025-beginners-guide/",
+                "slug": "how-to-make-a-vrchat-avatar-in-2025-beginners-guide",
+                "show_in_menus": false,
+                "seo_title": "",
+                "search_description": "Tạo hình đại diện tùy chỉnh của riêng bạn cho VRChat trong 6 bước đơn giản với hướng dẫn này có ứng dụng tạo nhân vật VRoid Studio. Có kèm video hướng dẫn và hình ảnh!",
+                "first_published_at": "2025-05-19T03:14:59.553013Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "Cách tạo Hình đại diện VRChat vào năm 2025 [Hướng dẫn cho người mới bắt đầu]",
+            "author": {
+                "id": 22,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "Patrick R."
+            },
+            "publish_date": "2025-05-19",
+            "tags": [
+                {
+                    "title": "Thực tế mở rộng (XR)"
+                },
+                {
+                    "title": "Trò chơi & Giải trí"
+                }
+            ],
+            "x_minute_read": "9 phút đọc",
+            "cover": {
+                "id": 5599,
+                "meta": {
+                    "type": "wagtailimages.Image",
+                    "detail_url": "https://vive.com.vn/blog/api/v2/images/5599/",
+                    "download_url": "/express_media/original_images/vrc_avatar_1.png"
+                },
+                "title": "VR user and custom VRChat avatar posing inside a virtual world."
+            },
+            "cover_thumbnail": {
+                "url": "/express_media/images/vrc_avatar_1.max-688x400.png",
+                "full_url": "/express_media/images/vrc_avatar_1.max-688x400.png",
+                "width": 688,
+                "height": 382,
+                "alt": "VR user and custom VRChat avatar posing inside a virtual world."
+            },
+            "cover_url": null,
+            "source": 1
+        },
+        {
+            "id": 13653,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13653/",
+                "html_url": "https://vive.com.vn/blog/vpwt-agatha-christie-returns-as-a-digital-teacher-in-bbcs-ai-powered-writing-course/",
+                "slug": "vpwt-agatha-christie-returns-as-a-digital-teacher-in-bbcs-ai-powered-writing-course",
+                "show_in_menus": false,
+                "seo_title": "Agatha Christie Returns as a Digital Teacher in BBCs AI-Powered Writing Course",
+                "search_description": "Agatha Christie trở lại tham gia khóa học được hỗ trợ bởi AI của BBC Maestro để dạy viết bí ẩn. Khám phá cách công nghệ hồi sinh các tác giả và định nghĩa lại cách kể chuyện hấp dẫn.",
+                "first_published_at": "2025-05-16T10:32:54.098521Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "Agatha Christie trở lại với tư cách là giáo viên kỹ thuật số trong khóa học viết trên nền tảng AI của BBC",
+            "author": {
+                "id": 24,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "VIVE POST-WAVE Team"
+            },
+            "publish_date": "2025-05-16",
+            "tags": [
+                {
+                    "title": "Vũ trụ ảo (Metaverse)"
+                }
+            ],
+            "x_minute_read": "5 phút đọc",
+            "cover": null,
+            "cover_thumbnail": null,
+            "cover_url": "https://www.vivepostwave.com/wp-content/uploads/2025/05/c94290de-d430-4557-8178-8fb8f9581d65-1.jpg",
+            "source": 1
+        },
+        {
+            "id": 13623,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13623/",
+                "html_url": "https://vive.com.vn/blog/vpwt-portalgraph-brings-vtuber-dancing-to-your-desk-in-3d-without-glasses/",
+                "slug": "vpwt-portalgraph-brings-vtuber-dancing-to-your-desk-in-3d-without-glasses",
+                "show_in_menus": false,
+                "seo_title": "",
+                "search_description": "Khám phá công nghệ 3D của Portalgraph với VTuber Marine Houshou. Tìm hiểu cách nó tạo ra ảo ảnh sống động mà không cần kính đặc biệt.",
+                "first_published_at": "2025-05-15T09:52:51.700121Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "Portalgraph mang VTuber nhảy đến bàn làm việc của bạn ở chế độ 3D không cần kính",
+            "author": {
+                "id": 1,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "VIVE Team"
+            },
+            "publish_date": "2025-05-15",
+            "tags": [
+                {
+                    "title": "Thực tế mở rộng (XR)"
+                }
+            ],
+            "x_minute_read": "5 phút đọc",
+            "cover": null,
+            "cover_thumbnail": null,
+            "cover_url": "https://www.vivepostwave.com/wp-content/uploads/2025/04/portalgraph-CaptainMarine.jpeg",
+            "source": 1
+        },
+        {
+            "id": 13624,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13624/",
+                "html_url": "https://vive.com.vn/blog/vpwt-ai-powered-dolls-face-off-in-m3gan-20-trailer/",
+                "slug": "vpwt-ai-powered-dolls-face-off-in-m3gan-20-trailer",
+                "show_in_menus": false,
+                "seo_title": "",
+                "search_description": "Khám phá sự phát triển dựa trên AI của M3GAN 2.0 và tác động của nó đối với động lực gia đình và hành động khoa học viễn tưởng",
+                "first_published_at": "2025-05-14T10:35:25.392668Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "Búp bê được hỗ trợ bởi AI đối mặt trong đoạn giới thiệu 'M3GAN 2.0'",
+            "author": {
+                "id": 24,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "VIVE POST-WAVE Team"
+            },
+            "publish_date": "2025-05-14",
+            "tags": [
+                {
+                    "title": "Trí tuệ nhân tạo (AI)"
+                }
+            ],
+            "x_minute_read": "2 phút đọc",
+            "cover": null,
+            "cover_thumbnail": null,
+            "cover_url": "https://www.vivepostwave.com/wp-content/uploads/2025/04/m3gan-2.0.jpg",
+            "source": 1
+        },
+        {
+            "id": 13651,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13651/",
+                "html_url": "https://vive.com.vn/blog/transforming-education-with-xr-highlights-from-learntec-2025/",
+                "slug": "transforming-education-with-xr-highlights-from-learntec-2025",
+                "show_in_menus": false,
+                "seo_title": "",
+                "search_description": "",
+                "first_published_at": "2025-05-09T08:38:34.490480Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "Chuyển đổi giáo dục bằng XR: Điểm nổi bật từ LearnTec 2025",
+            "author": {
+                "id": 1,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "VIVE Team"
+            },
+            "publish_date": "2025-05-09",
+            "tags": [
+                {
+                    "title": "Thực tế mở rộng (XR)"
+                }
+            ],
+            "x_minute_read": "5 phút đọc",
+            "cover": {
+                "id": 5591,
+                "meta": {
+                    "type": "wagtailimages.Image",
+                    "detail_url": "https://vive.com.vn/blog/api/v2/images/5591/",
+                    "download_url": "/express_media/original_images/Image_dunno.PNG"
+                },
+                "title": "Image dunno"
+            },
+            "cover_thumbnail": {
+                "url": "/express_media/images/Image_dunno.max-688x400.png",
+                "full_url": "/express_media/images/Image_dunno.max-688x400.png",
+                "width": 589,
+                "height": 400,
+                "alt": "Image dunno"
+            },
+            "cover_url": null,
+            "source": 1
+        },
+        {
+            "id": 13643,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13643/",
+                "html_url": "https://vive.com.vn/blog/tw/htc-vive-palais-garnier/",
+                "slug": "htc-vive-palais-garnier",
+                "show_in_menus": false,
+                "seo_title": "HTC VIVE Arts與巴黎歌劇院，聯手推出沉浸式 VR 體驗《魔幻歌劇院》",
+                "search_description": "Để kỷ niệm 150 năm Palais Garnier ở Paris, HTC VIVE Arts và Paris Opera đã mở cửa cho thực tế ảo vào mùa hè này và cùng nhau ra mắt trải nghiệm VR sống động mới \"La Magie Opéra\".",
+                "first_published_at": "2025-05-08T02:46:35.485142Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "HTC VIVE Arts và Paris Opera hợp tác ra mắt trải nghiệm VR sống động \"Magic Opera\"",
+            "author": {
+                "id": 1,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "VIVE Team"
+            },
+            "publish_date": "2025-05-08",
+            "tags": [
+                {
+                    "title": "Tin tức doanh nghiệp"
+                },
+                {
+                    "title": "Sự kiện & Hoạt động"
+                }
+            ],
+            "x_minute_read": "5 phút đọc",
+            "cover": {
+                "id": 5590,
+                "meta": {
+                    "type": "wagtailimages.Image",
+                    "detail_url": "https://vive.com.vn/blog/api/v2/images/5590/",
+                    "download_url": "/express_media/original_images/HTCXinWenTu-VR_Magie_Opera_HP-DESKTOP_w_MENTION_Poster.jpg"
+                },
+                "title": "HTC新聞圖-VR Magie Opera_HP-DESKTOP w MENTION_Poster"
+            },
+            "cover_thumbnail": {
+                "url": "/express_media/images/HTCXinWenTu-VR_Magie_Opera_HP-DESKTOP_w_MENT.max-688x400.jpg",
+                "full_url": "/express_media/images/HTCXinWenTu-VR_Magie_Opera_HP-DESKTOP_w_MENT.max-688x400.jpg",
+                "width": 688,
+                "height": 387,
+                "alt": "HTC新聞圖-VR Magie Opera_HP-DESKTOP w MENTION_Poster"
+            },
+            "cover_url": null,
+            "source": 1
+        },
+        {
+            "id": 13617,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13617/",
+                "html_url": "https://vive.com.vn/blog/vpwt-will-ai-ever-truly-understand-a-look-at-microsofts-kblam/",
+                "slug": "vpwt-will-ai-ever-truly-understand-a-look-at-microsofts-kblam",
+                "show_in_menus": false,
+                "seo_title": "",
+                "search_description": "Khám phá cách KBLaM nâng cao hiểu biết của AI ngoài RAG, hướng tới các tương tác AI thông minh hơn và đáng tin cậy hơn.",
+                "first_published_at": "2025-05-08T11:45:49.878184Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "AI có thực sự hiểu được không? Nhìn vào KBLaM của Microsoft",
+            "author": {
+                "id": 24,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "VIVE POST-WAVE Team"
+            },
+            "publish_date": "2025-05-08",
+            "tags": [
+                {
+                    "title": "Trí tuệ nhân tạo (AI)"
+                }
+            ],
+            "x_minute_read": "7 phút đọc",
+            "cover": null,
+            "cover_thumbnail": null,
+            "cover_url": "https://www.vivepostwave.com/wp-content/uploads/2025/04/soularchivesa-e1743500995515.jpeg",
+            "source": 1
+        },
+        {
+            "id": 13626,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13626/",
+                "html_url": "https://vive.com.vn/blog/vpwt-microsoft-creates-real-time-ai-generated-quake-ii-but-runs-at-10fps/",
+                "slug": "vpwt-microsoft-creates-real-time-ai-generated-quake-ii-but-runs-at-10fps",
+                "show_in_menus": false,
+                "seo_title": "",
+                "search_description": "Khám phá cách WHAMM AI đang biến đổi thiết kế trò chơi với trải nghiệm tương tác và tạo nội dung theo thời gian thực.",
+                "first_published_at": "2025-05-05T10:24:10.167482Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "Microsoft tạo Quake II do AI tạo theo thời gian thực, nhưng chạy ở tốc độ 10FPS",
+            "author": {
+                "id": 1,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "VIVE Team"
+            },
+            "publish_date": "2025-05-05",
+            "tags": [
+                {
+                    "title": "Trí tuệ nhân tạo (AI)"
+                }
+            ],
+            "x_minute_read": "7 phút đọc",
+            "cover": null,
+            "cover_thumbnail": null,
+            "cover_url": "https://www.vivepostwave.com/wp-content/uploads/2025/04/whamm-gameplay.jpg",
+            "source": 1
+        },
+        {
+            "id": 13640,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13640/",
+                "html_url": "https://vive.com.vn/blog/kr/vpwt-meet-plave-the-k-pop-virtual-idol-boy-band-in-webtoon-style/",
+                "slug": "vpwt-meet-plave-the-k-pop-virtual-idol-boy-band-in-webtoon-style",
+                "show_in_menus": false,
+                "seo_title": "PLAVE: Virtual Idols Revolutionizing K-pop",
+                "search_description": "Khám phá PLAVE, nhóm nhạc thần tượng ảo biến đổi K-pop với phong cách độc đáo và những màn trình diễn đột phá.",
+                "first_published_at": "2025-05-09T09:55:18.416380Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "Hãy cùng tìm hiểu về thần tượng ảo ‘Play’ trong webtoon",
+            "author": {
+                "id": 24,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "VIVE POST-WAVE Team"
+            },
+            "publish_date": "2025-05-02",
+            "tags": [
+                {
+                    "title": "Vũ trụ ảo (Metaverse)"
+                },
+                {
+                    "title": "trí tuệ nhân tạo"
+                }
+            ],
+            "x_minute_read": "trị giá 10 phút",
+            "cover": {
+                "id": 5574,
+                "meta": {
+                    "type": "wagtailimages.Image",
+                    "detail_url": "https://vive.com.vn/blog/api/v2/images/5574/",
+                    "download_url": "/express_media/original_images/PLAVE_cover.jpg"
+                },
+                "title": "PLAVE cover"
+            },
+            "cover_thumbnail": {
+                "url": "/express_media/images/PLAVE_cover.max-688x400.jpg",
+                "full_url": "/express_media/images/PLAVE_cover.max-688x400.jpg",
+                "width": 688,
+                "height": 387,
+                "alt": "PLAVE cover"
+            },
+            "cover_url": "https://www.vivepostwave.com/wp-content/uploads/2025/04/PLAVE-1.jpg",
+            "source": 1
+        },
+        {
+            "id": 13619,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13619/",
+                "html_url": "https://vive.com.vn/blog/vpwt-meet-plave-the-k-pop-virtual-idol-boy-band-in-webtoon-style/",
+                "slug": "vpwt-meet-plave-the-k-pop-virtual-idol-boy-band-in-webtoon-style",
+                "show_in_menus": false,
+                "seo_title": "PLAVE: Virtual Idols Revolutionizing K-pop",
+                "search_description": "Khám phá PLAVE, nhóm nhạc thần tượng ảo biến đổi K-pop với phong cách độc đáo và những màn trình diễn đột phá.",
+                "first_published_at": "2025-05-02T07:02:33.313321Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "Gặp gỡ PLAVE: Nhóm nhạc nam thần tượng ảo K-pop theo phong cách Webtoon",
+            "author": {
+                "id": 24,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "VIVE POST-WAVE Team"
+            },
+            "publish_date": "2025-05-02",
+            "tags": [
+                {
+                    "title": "Thực tế mở rộng (XR)"
+                },
+                {
+                    "title": "Trí tuệ nhân tạo (AI)"
+                },
+                {
+                    "title": "Câu chuyện thành công của doanh nghiệp"
+                }
+            ],
+            "x_minute_read": "10 phút đọc",
+            "cover": {
+                "id": 5574,
+                "meta": {
+                    "type": "wagtailimages.Image",
+                    "detail_url": "https://vive.com.vn/blog/api/v2/images/5574/",
+                    "download_url": "/express_media/original_images/PLAVE_cover.jpg"
+                },
+                "title": "PLAVE cover"
+            },
+            "cover_thumbnail": {
+                "url": "/express_media/images/PLAVE_cover.max-688x400.jpg",
+                "full_url": "/express_media/images/PLAVE_cover.max-688x400.jpg",
+                "width": 688,
+                "height": 387,
+                "alt": "PLAVE cover"
+            },
+            "cover_url": "https://www.vivepostwave.com/wp-content/uploads/2025/04/PLAVE-1.jpg",
+            "source": 1
+        },
+        {
+            "id": 13652,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13652/",
+                "html_url": "https://vive.com.vn/blog/kr/ohio-university-htc-vive-and-virtualware-launch-immersive-digital-enterprise-hub-to-power-manufacturing-innovation-in-ohio/",
+                "slug": "ohio-university-htc-vive-and-virtualware-launch-immersive-digital-enterprise-hub-to-power-manufacturing-innovation-in-ohio",
+                "show_in_menus": false,
+                "seo_title": "",
+                "search_description": "",
+                "first_published_at": "2025-05-13T02:52:36.945416Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "Một trung tâm đổi mới phong phú đã ra đời ở Ohio! HTC VIVE và Virtualware hợp tác với các trường đại học",
+            "author": {
+                "id": 1,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "VIVE Team"
+            },
+            "publish_date": "2025-05-01",
+            "tags": [
+                {
+                    "title": "Thực tế mở rộng (XR)"
+                }
+            ],
+            "x_minute_read": "giá trị 5 phút",
+            "cover": {
+                "id": 5581,
+                "meta": {
+                    "type": "wagtailimages.Image",
+                    "detail_url": "https://vive.com.vn/blog/api/v2/images/5581/",
+                    "download_url": "/express_media/original_images/VIROO_App_-_Simumatik_1.jpg"
+                },
+                "title": "VIROO App - Simumatik (1)"
+            },
+            "cover_thumbnail": {
+                "url": "/express_media/images/VIROO_App_-_Simumatik_1.max-688x400.jpg",
+                "full_url": "/express_media/images/VIROO_App_-_Simumatik_1.max-688x400.jpg",
+                "width": 688,
+                "height": 387,
+                "alt": "VIROO App - Simumatik (1)"
+            },
+            "cover_url": null,
+            "source": 1
+        },
+        {
+            "id": 13637,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13637/",
+                "html_url": "https://vive.com.vn/blog/ls-group-transforming-industrial-prototyping-with-xr-twin-and-vive-focus-vision/",
+                "slug": "ls-group-transforming-industrial-prototyping-with-xr-twin-and-vive-focus-vision",
+                "show_in_menus": false,
+                "seo_title": "",
+                "search_description": "",
+                "first_published_at": "2025-05-01T10:35:50.492954Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "LS Group - Chuyển đổi nguyên mẫu công nghiệp với XR Twin và VIVE Focus Vision",
+            "author": {
+                "id": 1,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "VIVE Team"
+            },
+            "publish_date": "2025-05-01",
+            "tags": [
+                {
+                    "title": "Thực tế mở rộng (XR)"
+                }
+            ],
+            "x_minute_read": "5 phút đọc",
+            "cover": {
+                "id": 5582,
+                "meta": {
+                    "type": "wagtailimages.Image",
+                    "detail_url": "https://vive.com.vn/blog/api/v2/images/5582/",
+                    "download_url": "/express_media/original_images/ls_group_blog.jpg"
+                },
+                "title": "ls group blog"
+            },
+            "cover_thumbnail": {
+                "url": "/express_media/images/ls_group_blog.max-688x400.jpg",
+                "full_url": "/express_media/images/ls_group_blog.max-688x400.jpg",
+                "width": 377,
+                "height": 400,
+                "alt": "ls group blog"
+            },
+            "cover_url": null,
+            "source": 1
+        },
+        {
+            "id": 13636,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13636/",
+                "html_url": "https://vive.com.vn/blog/ohio-university-htc-vive-and-virtualware-launch-immersive-digital-enterprise-hub-to-power-manufacturing-innovation-in-ohio/",
+                "slug": "ohio-university-htc-vive-and-virtualware-launch-immersive-digital-enterprise-hub-to-power-manufacturing-innovation-in-ohio",
+                "show_in_menus": false,
+                "seo_title": "",
+                "search_description": "",
+                "first_published_at": "2025-05-01T17:45:10.782698Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "Đại học Ohio, HTC VIVE và Virtualware ra mắt Trung tâm doanh nghiệp kỹ thuật số toàn diện nhằm thúc đẩy đổi mới sản xuất ở Ohio",
+            "author": {
+                "id": 1,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "VIVE Team"
+            },
+            "publish_date": "2025-05-01",
+            "tags": [
+                {
+                    "title": "Thực tế mở rộng (XR)"
+                },
+                {
+                    "title": "Việc kinh doanh"
+                }
+            ],
+            "x_minute_read": "5 phút đọc",
+            "cover": {
+                "id": 5581,
+                "meta": {
+                    "type": "wagtailimages.Image",
+                    "detail_url": "https://vive.com.vn/blog/api/v2/images/5581/",
+                    "download_url": "/express_media/original_images/VIROO_App_-_Simumatik_1.jpg"
+                },
+                "title": "VIROO App - Simumatik (1)"
+            },
+            "cover_thumbnail": {
+                "url": "/express_media/images/VIROO_App_-_Simumatik_1.max-688x400.jpg",
+                "full_url": "/express_media/images/VIROO_App_-_Simumatik_1.max-688x400.jpg",
+                "width": 688,
+                "height": 387,
+                "alt": "VIROO App - Simumatik (1)"
+            },
+            "cover_url": null,
+            "source": 1
+        },
+        {
+            "id": 13635,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13635/",
+                "html_url": "https://vive.com.vn/blog/la-magie-opera-a-new-kind-of-magic-at-the-paris-opera/",
+                "slug": "la-magie-opera-a-new-kind-of-magic-at-the-paris-opera",
+                "show_in_menus": false,
+                "seo_title": "",
+                "search_description": "",
+                "first_published_at": "2025-04-30T10:48:48.239562Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "La Magie Opéra: Một loại phép thuật mới tại Nhà hát Opera Paris",
+            "author": {
+                "id": 1,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "VIVE Team"
+            },
+            "publish_date": "2025-04-30",
+            "tags": [
+                {
+                    "title": "Thực tế mở rộng (XR)"
+                }
+            ],
+            "x_minute_read": "5 phút đọc",
+            "cover": {
+                "id": 5579,
+                "meta": {
+                    "type": "wagtailimages.Image",
+                    "detail_url": "https://vive.com.vn/blog/api/v2/images/5579/",
+                    "download_url": "/express_media/original_images/use_4.png"
+                },
+                "title": "use 4"
+            },
+            "cover_thumbnail": {
+                "url": "/express_media/images/use_4.max-688x400.png",
+                "full_url": "/express_media/images/use_4.max-688x400.png",
+                "width": 688,
+                "height": 387,
+                "alt": "use 4"
+            },
+            "cover_url": null,
+            "source": 1
+        },
+        {
+            "id": 13633,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13633/",
+                "html_url": "https://vive.com.vn/blog/cn/htcvr/",
+                "slug": "htcvr",
+                "show_in_menus": false,
+                "seo_title": "",
+                "search_description": "",
+                "first_published_at": "2025-04-30T07:33:23.965085Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "HTC và Paris Opera ra mắt trải nghiệm VR sống động \"Magic Opera\"",
+            "author": {
+                "id": 16,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "HTC Vive Team"
+            },
+            "publish_date": "2025-04-30",
+            "tags": [
+                {
+                    "title": "Tin tức chung"
+                }
+            ],
+            "x_minute_read": "5 phút đọc",
+            "cover": {
+                "id": 5577,
+                "meta": {
+                    "type": "wagtailimages.Image",
+                    "detail_url": "https://vive.com.vn/blog/api/v2/images/5577/",
+                    "download_url": "/express_media/original_images/MoHuanGeJuYuan.jpg"
+                },
+                "title": "《魔幻歌剧院》"
+            },
+            "cover_thumbnail": {
+                "url": "/express_media/images/MoHuanGeJuYuan.max-688x400.jpg",
+                "full_url": "/express_media/images/MoHuanGeJuYuan.max-688x400.jpg",
+                "width": 688,
+                "height": 387,
+                "alt": "《魔幻歌剧院》"
+            },
+            "cover_url": null,
+            "source": 1
+        },
+        {
+            "id": 13615,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13615/",
+                "html_url": "https://vive.com.vn/blog/vpwt-goodbye-dalle-3-chatgpt-gets-image-creation-upgrade-with-gpt-4o/",
+                "slug": "vpwt-goodbye-dalle-3-chatgpt-gets-image-creation-upgrade-with-gpt-4o",
+                "show_in_menus": false,
+                "seo_title": "",
+                "search_description": "Khám phá các tính năng hình ảnh mới của GPT-4o trong ChatGPT, nâng cao khả năng sáng tạo với các nguyên tắc, chỉnh sửa thương hiệu, v.v.",
+                "first_published_at": "2025-04-30T10:45:49.738175Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "Tạm biệt DALL·E 3, ChatGPT được nâng cấp tạo hình ảnh với GPT-4o",
+            "author": {
+                "id": 24,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "VIVE POST-WAVE Team"
+            },
+            "publish_date": "2025-04-30",
+            "tags": [
+                {
+                    "title": "Trí tuệ nhân tạo (AI)"
+                }
+            ],
+            "x_minute_read": "7 phút đọc",
+            "cover": null,
+            "cover_thumbnail": null,
+            "cover_url": "https://www.vivepostwave.com/wp-content/uploads/2025/03/gpt4o.jpeg",
+            "source": 1
+        },
+        {
+            "id": 13632,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13632/",
+                "html_url": "https://vive.com.vn/blog/experience-the-future-of-learning-at-learntec-2025/",
+                "slug": "experience-the-future-of-learning-at-learntec-2025",
+                "show_in_menus": false,
+                "seo_title": "",
+                "search_description": "",
+                "first_published_at": "2025-04-29T11:16:24.426639Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "Trải nghiệm tương lai của việc học tại LearnTec 2025",
+            "author": {
+                "id": 1,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "VIVE Team"
+            },
+            "publish_date": "2025-04-29",
+            "tags": [
+                {
+                    "title": "Tin tức chung"
+                }
+            ],
+            "x_minute_read": "5 phút đọc",
+            "cover": {
+                "id": 5566,
+                "meta": {
+                    "type": "wagtailimages.Image",
+                    "detail_url": "https://vive.com.vn/blog/api/v2/images/5566/",
+                    "download_url": "/express_media/original_images/VIVE-Experience-Vision-ALL-Linkedin_QjS17wW.jpg"
+                },
+                "title": "VIVE-Experience-Vision-ALL"
+            },
+            "cover_thumbnail": {
+                "url": "/express_media/images/VIVE-Experience-Vision-ALL-Linkedin_QjS17wW.max-688x400.jpg",
+                "full_url": "/express_media/images/VIVE-Experience-Vision-ALL-Linkedin_QjS17wW.max-688x400.jpg",
+                "width": 688,
+                "height": 359,
+                "alt": "VIVE-Experience-Vision-ALL"
+            },
+            "cover_url": null,
+            "source": 1
+        },
+        {
+            "id": 13548,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13548/",
+                "html_url": "https://vive.com.vn/blog/vpwt-reviving-web-games-from-flash-nostalgia-to-viverse-3d-worlds/",
+                "slug": "vpwt-reviving-web-games-from-flash-nostalgia-to-viverse-3d-worlds",
+                "show_in_menus": false,
+                "seo_title": "",
+                "search_description": "Khám phá sự phát triển của trò chơi web từ Flash sang VIVERSE 3D, cung cấp trải nghiệm đa nền tảng, không cần tải xuống trên mọi thiết bị.",
+                "first_published_at": "2025-04-25T10:50:36.371632Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "Hồi sinh trò chơi web: Từ nỗi nhớ Flash đến thế giới VIVERSE 3D",
+            "author": {
+                "id": 24,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "VIVE POST-WAVE Team"
+            },
+            "publish_date": "2025-04-25",
+            "tags": [
+                {
+                    "title": "Trò chơi & Giải trí"
+                }
+            ],
+            "x_minute_read": "5 phút đọc",
+            "cover": null,
+            "cover_thumbnail": null,
+            "cover_url": "https://www.vivepostwave.com/wp-content/uploads/2025/03/neopets.jpeg",
+            "source": 1
+        },
+        {
+            "id": 13634,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13634/",
+                "html_url": "https://vive.com.vn/blog/cn/htcattxr-150/",
+                "slug": "htcattxr-150",
+                "show_in_menus": false,
+                "seo_title": "",
+                "search_description": "",
+                "first_published_at": "2025-04-30T07:34:59.598808Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "HTC hợp tác với gã khổng lồ viễn thông Hoa Kỳ AT&T để thúc đẩy dự án điều trị XR, bao gồm 150 viện dưỡng lão đầu tiên",
+            "author": {
+                "id": 16,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "HTC Vive Team"
+            },
+            "publish_date": "2025-04-24",
+            "tags": [
+                {
+                    "title": "Tin tức chung"
+                }
+            ],
+            "x_minute_read": "5 phút đọc",
+            "cover": {
+                "id": 5578,
+                "meta": {
+                    "type": "wagtailimages.Image",
+                    "detail_url": "https://vive.com.vn/blog/api/v2/images/5578/",
+                    "download_url": "/express_media/original_images/HTCXieShouMeiGuoDianXinJuTouATTTuiGuangXRZhiLiaoXiangMu_ShouPiFuGai150JiaY.jpg"
+                },
+                "title": "HTC携手美国电信巨头AT&T推广XR治疗项目 首批覆盖150家养老护理机构"
+            },
+            "cover_thumbnail": {
+                "url": "/express_media/images/HTCXieShouMeiGuoDianXinJuTouATTTuiGuangXRZhi.max-688x400.jpg",
+                "full_url": "/express_media/images/HTCXieShouMeiGuoDianXinJuTouATTTuiGuangXRZhi.max-688x400.jpg",
+                "width": 688,
+                "height": 387,
+                "alt": "HTC携手美国电信巨头AT&T推广XR治疗项目 首批覆盖150家养老护理机构"
+            },
+            "cover_url": null,
+            "source": 1
+        },
+        {
+            "id": 13614,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13614/",
+                "html_url": "https://vive.com.vn/blog/vpwt-how-does-ai-jam-taste-hands-on-cooking-with-chatgpt/",
+                "slug": "vpwt-how-does-ai-jam-taste-hands-on-cooking-with-chatgpt",
+                "show_in_menus": false,
+                "seo_title": "",
+                "search_description": "Khám phá cách AI giúp làm mứt với hướng dẫn của ChatGPT. Khám phá những thách thức và thành công trong thí nghiệm nấu ăn AI này.",
+                "first_published_at": "2025-04-23T10:32:53.024978Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "AI Jam có vị như thế nào? Thực hành nấu ăn với ChatGPT",
+            "author": {
+                "id": 24,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "VIVE POST-WAVE Team"
+            },
+            "publish_date": "2025-04-23",
+            "tags": [
+                {
+                    "title": "Trí tuệ nhân tạo (AI)"
+                }
+            ],
+            "x_minute_read": "5 phút đọc",
+            "cover": null,
+            "cover_thumbnail": null,
+            "cover_url": "https://www.vivepostwave.com/wp-content/uploads/2025/03/DSC00694-e1742956661599.webp",
+            "source": 1
+        },
+        {
+            "id": 13549,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13549/",
+                "html_url": "https://vive.com.vn/blog/vpwt-explore-versailles-lost-gardens-in-a-multi-user-vr-journey/",
+                "slug": "vpwt-explore-versailles-lost-gardens-in-a-multi-user-vr-journey",
+                "show_in_menus": false,
+                "seo_title": "",
+                "search_description": "Khám phá những khu vườn bị mất của Versailles với trải nghiệm VR của VIVE Arts. Khám phá các di tích lịch sử như Royal Menagerie và Labyrinth Garden.",
+                "first_published_at": "2025-04-08T10:57:05.554380Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "Khám phá Khu vườn bị mất của Versailles trong hành trình VR nhiều người dùng",
+            "author": {
+                "id": 24,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "VIVE POST-WAVE Team"
+            },
+            "publish_date": "2025-04-22",
+            "tags": [
+                {
+                    "title": "Tin tức doanh nghiệp"
+                },
+                {
+                    "title": "Thực tế mở rộng (XR)"
+                }
+            ],
+            "x_minute_read": "3 phút đọc",
+            "cover": null,
+            "cover_thumbnail": null,
+            "cover_url": "https://www.vivepostwave.com/wp-content/uploads/2025/03/download-1.jpg",
+            "source": 1
+        },
+        {
+            "id": 13639,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13639/",
+                "html_url": "https://vive.com.vn/blog/kr/vpwt-xr-game-based-on-neon-genesis-evangelion-coming-next-year/",
+                "slug": "vpwt-xr-game-based-on-neon-genesis-evangelion-coming-next-year",
+                "show_in_menus": false,
+                "seo_title": "",
+                "search_description": "Trải nghiệm vũ trụ của Evangelion trong XR. Tham gia các trận chiến kinh điển, tương tác với các nhân vật mang tính biểu tượng và sống lại cốt truyện gốc. Sắp ra mắt!",
+                "first_published_at": "2025-05-07T06:46:50.713749Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "Game Evangelion XR dự kiến ​​ra mắt vào năm sau",
+            "author": {
+                "id": 24,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "VIVE POST-WAVE Team"
+            },
+            "publish_date": "2025-04-21",
+            "tags": [
+                {
+                    "title": "Thực tế mở rộng (XR)"
+                },
+                {
+                    "title": "trò chơi"
+                }
+            ],
+            "x_minute_read": "trị giá 2 phút",
+            "cover": null,
+            "cover_thumbnail": null,
+            "cover_url": "https://www.vivepostwave.com/wp-content/uploads/2025/02/Evangelion-Origins.jpg",
+            "source": 1
+        },
+        {
+            "id": 13530,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13530/",
+                "html_url": "https://vive.com.vn/blog/vpwt-xr-game-based-on-neon-genesis-evangelion-coming-next-year/",
+                "slug": "vpwt-xr-game-based-on-neon-genesis-evangelion-coming-next-year",
+                "show_in_menus": false,
+                "seo_title": "",
+                "search_description": "Trải nghiệm vũ trụ của Evangelion trong XR. Tham gia các trận chiến kinh điển, tương tác với các nhân vật mang tính biểu tượng và sống lại cốt truyện gốc. Sắp ra mắt!",
+                "first_published_at": "2025-04-11T10:11:12.597728Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "Trò chơi XR dựa trên Neon Genesis Evangelion sẽ ra mắt vào năm tới",
+            "author": {
+                "id": 24,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "VIVE POST-WAVE Team"
+            },
+            "publish_date": "2025-04-21",
+            "tags": [
+                {
+                    "title": "Thực tế mở rộng (XR)"
+                },
+                {
+                    "title": "Trò chơi & Giải trí"
+                }
+            ],
+            "x_minute_read": "2 phút đọc",
+            "cover": null,
+            "cover_thumbnail": null,
+            "cover_url": "https://www.vivepostwave.com/wp-content/uploads/2025/02/Evangelion-Origins.jpg",
+            "source": 1
+        },
+        {
+            "id": 13609,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13609/",
+                "html_url": "https://vive.com.vn/blog/vr-motion-sickness-explained-causes-fixes-and-how-vive-helps/",
+                "slug": "vr-motion-sickness-explained-causes-fixes-and-how-vive-helps",
+                "show_in_menus": false,
+                "seo_title": "VR Motion Sickness: What Causes It and How to Reduce It",
+                "search_description": "Tìm hiểu nguyên nhân gây say tàu xe VR, cách phòng ngừa và cách tai nghe HTC VIVE—như VIVE Focus Vision—giúp bạn luôn thoải mái và đắm chìm.",
+                "first_published_at": "2025-04-16T09:20:38.786971Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "Giải thích về chứng say tàu xe VR: Nguyên nhân, cách khắc phục và cách VIVE giúp đỡ",
+            "author": {
+                "id": 27,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "David Okano"
+            },
+            "publish_date": "2025-04-16",
+            "tags": [
+                {
+                    "title": "Thực tế mở rộng (XR)"
+                },
+                {
+                    "title": "Trò chơi & Giải trí"
+                }
+            ],
+            "x_minute_read": "5 phút đọc",
+            "cover": {
+                "id": 5561,
+                "meta": {
+                    "type": "wagtailimages.Image",
+                    "detail_url": "https://vive.com.vn/blog/api/v2/images/5561/",
+                    "download_url": "/express_media/original_images/vr-sickness-hero.jpg"
+                },
+                "title": "Cartoon of young man wearing a VR headset, sitting in a living room, experiencing VR motion sickness."
+            },
+            "cover_thumbnail": {
+                "url": "/express_media/images/vr-sickness-hero.max-688x400.jpg",
+                "full_url": "/express_media/images/vr-sickness-hero.max-688x400.jpg",
+                "width": 688,
+                "height": 387,
+                "alt": "Cartoon of young man wearing a VR headset, sitting in a living room, experiencing VR motion sickness."
+            },
+            "cover_url": null,
+            "source": 1
+        },
+        {
+            "id": 13611,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13611/",
+                "html_url": "https://vive.com.vn/blog/laval-virtual-2025-our-largest-showcase-yet/",
+                "slug": "laval-virtual-2025-our-largest-showcase-yet",
+                "show_in_menus": false,
+                "seo_title": "",
+                "search_description": "",
+                "first_published_at": "2025-04-15T16:58:37.105347Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "Laval Virtual 2025 - Triển lãm lớn nhất của chúng tôi",
+            "author": {
+                "id": 1,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "VIVE Team"
+            },
+            "publish_date": "2025-04-15",
+            "tags": [
+                {
+                    "title": "Thực tế mở rộng (XR)"
+                }
+            ],
+            "x_minute_read": "5 phút đọc",
+            "cover": {
+                "id": 5565,
+                "meta": {
+                    "type": "wagtailimages.Image",
+                    "detail_url": "https://vive.com.vn/blog/api/v2/images/5565/",
+                    "download_url": "/express_media/original_images/DJI_20250410_143332_522.jpg"
+                },
+                "title": "1744221727603"
+            },
+            "cover_thumbnail": {
+                "url": "/express_media/images/DJI_20250410_143332_522.max-688x400.jpg",
+                "full_url": "/express_media/images/DJI_20250410_143332_522.max-688x400.jpg",
+                "width": 570,
+                "height": 400,
+                "alt": "1744221727603"
+            },
+            "cover_url": null,
+            "source": 1
+        },
+        {
+            "id": 13610,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13610/",
+                "html_url": "https://vive.com.vn/blog/preserving-notre-dame-through-vr-how-500000-people-stepped-inside-a-cathedral-under-restoration/",
+                "slug": "preserving-notre-dame-through-vr-how-500000-people-stepped-inside-a-cathedral-under-restoration",
+                "show_in_menus": false,
+                "seo_title": "",
+                "search_description": "",
+                "first_published_at": "2025-04-15T11:37:58.086454Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "Bảo tồn nhà thờ Đức Bà thông qua VR - Cách 400.000 người bước vào nhà thờ đang được trùng tu",
+            "author": {
+                "id": 1,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "VIVE Team"
+            },
+            "publish_date": "2025-04-15",
+            "tags": [
+                {
+                    "title": "Tin tức chung"
+                }
+            ],
+            "x_minute_read": "5 phút đọc",
+            "cover": {
+                "id": 5564,
+                "meta": {
+                    "type": "wagtailimages.Image",
+                    "detail_url": "https://vive.com.vn/blog/api/v2/images/5564/",
+                    "download_url": "/express_media/original_images/ZsdADkaF0TcGJQXg_2_afDYA-ezgif.com-webp-to-png-converter.png"
+                },
+                "title": "ZsdADkaF0TcGJQXg_2_afDYA"
+            },
+            "cover_thumbnail": {
+                "url": "/express_media/images/ZsdADkaF0TcGJQXg_2_afDYA-ezgif.com-webp-to-p.max-688x400.png",
+                "full_url": "/express_media/images/ZsdADkaF0TcGJQXg_2_afDYA-ezgif.com-webp-to-p.max-688x400.png",
+                "width": 688,
+                "height": 386,
+                "alt": "ZsdADkaF0TcGJQXg_2_afDYA"
+            },
+            "cover_url": null,
+            "source": 1
+        },
+        {
+            "id": 13608,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13608/",
+                "html_url": "https://vive.com.vn/blog/kr/vpwt-enter-jack-and-roses-world-in-titanic-echoes-from-the-past/",
+                "slug": "vpwt-enter-jack-and-roses-world-in-titanic-echoes-from-the-past",
+                "show_in_menus": false,
+                "seo_title": "",
+                "search_description": "Đi sâu vào Titanic VR, khám phá đống đổ nát của nó và hồi tưởng lại cuộc hành trình của Jack và Rose trong một trải nghiệm lịch sử sống động.",
+                "first_published_at": "2025-04-15T07:43:20.433146Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "Titanic: Echoes VR — Cùng nhau du hành vào thế giới của Jack và Rose",
+            "author": {
+                "id": 24,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "VIVE POST-WAVE Team"
+            },
+            "publish_date": "2025-04-14",
+            "tags": [
+                {
+                    "title": "Thực tế mở rộng (XR)"
+                },
+                {
+                    "title": "Sự kiện & Hoạt động"
+                }
+            ],
+            "x_minute_read": "trị giá 3 phút",
+            "cover": null,
+            "cover_thumbnail": null,
+            "cover_url": "https://www.vivepostwave.com/wp-content/uploads/2025/03/download-2.jpg",
+            "source": 1
+        },
+        {
+            "id": 13556,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13556/",
+                "html_url": "https://vive.com.vn/blog/vpwt-enter-jack-and-roses-world-in-titanic-echoes-from-the-past/",
+                "slug": "vpwt-enter-jack-and-roses-world-in-titanic-echoes-from-the-past",
+                "show_in_menus": false,
+                "seo_title": "",
+                "search_description": "Đi sâu vào Titanic VR, khám phá đống đổ nát của nó và hồi tưởng lại cuộc hành trình của Jack và Rose trong một trải nghiệm lịch sử sống động.",
+                "first_published_at": "2025-04-14T10:57:00.476708Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "Bước vào thế giới của Jack và Rose trong Titanic: Tiếng vọng từ quá khứ",
+            "author": {
+                "id": 24,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "VIVE POST-WAVE Team"
+            },
+            "publish_date": "2025-04-14",
+            "tags": [
+                {
+                    "title": "Thực tế mở rộng (XR)"
+                }
+            ],
+            "x_minute_read": "2 phút đọc",
+            "cover": null,
+            "cover_thumbnail": null,
+            "cover_url": "https://www.vivepostwave.com/wp-content/uploads/2025/03/download-2.jpg",
+            "source": 1
+        },
+        {
+            "id": 13559,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13559/",
+                "html_url": "https://vive.com.vn/blog/mickey-17-review-clones-ai-agents-and-the-ship-of-theseus/",
+                "slug": "mickey-17-review-clones-ai-agents-and-the-ship-of-theseus",
+                "show_in_menus": false,
+                "seo_title": "",
+                "search_description": "Khám phá các tầng triết học của 'Mickey 17' và vai trò của nó về nhân bản, AI và danh tính trong bộ phim khoa học viễn tưởng mới nhất của Bong Joon-ho.",
+                "first_published_at": "2025-04-11T10:05:47.156074Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "Đánh giá Mickey 17: Bản sao, Đặc vụ AI và Con tàu của Theseus",
+            "author": {
+                "id": 24,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "VIVE POST-WAVE Team"
+            },
+            "publish_date": "2025-04-11",
+            "tags": [
+                {
+                    "title": "Trí tuệ nhân tạo (AI)"
+                }
+            ],
+            "x_minute_read": "5 phút đọc",
+            "cover": null,
+            "cover_thumbnail": null,
+            "cover_url": "https://www.vivepostwave.com/wp-content/uploads/2025/03/mickey-17-cover.jpg",
+            "source": 1
+        },
+        {
+            "id": 13602,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13602/",
+                "html_url": "https://vive.com.vn/blog/tw/vr-5-viveport-steam/",
+                "slug": "vr-5-viveport-steam",
+                "show_in_menus": false,
+                "seo_title": "VR 電影必看片單：5 部不能錯過的神作推薦（VIVEPORT 和 Steam 平台）",
+                "search_description": "Với sự bùng nổ của các video ngắn và nội dung rời rạc trên mạng xã hội, sự chú ý và thói quen xem của chúng ta cũng đang thay đổi. Phim VR mang đến một phương pháp tường thuật mới cho người sáng tạo, mở ra một hình thức truyền thông mới và trở thành chìa khóa cho sự phát triển của nội dung dạng dài trong tương lai.",
+                "first_published_at": "2025-04-11T02:28:33.636759Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "Danh sách phim VR phải xem: 5 siêu phẩm đề xuất không thể bỏ lỡ (nền tảng VIVEPORT và Steam)",
+            "author": {
+                "id": 23,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "Wen Li Teng"
+            },
+            "publish_date": "2025-04-07",
+            "tags": [
+                {
+                    "title": "Thông báo sản phẩm"
+                },
+                {
+                    "title": "Kính thực tế ảo (Headset)"
+                }
+            ],
+            "x_minute_read": "5 phút đọc",
+            "cover": {
+                "id": 5558,
+                "meta": {
+                    "type": "wagtailimages.Image",
+                    "detail_url": "https://vive.com.vn/blog/api/v2/images/5558/",
+                    "download_url": "/express_media/original_images/Blog_VR_movie.jpg"
+                },
+                "title": "Person watching VR movies with a VR headset."
+            },
+            "cover_thumbnail": {
+                "url": "/express_media/images/Blog_VR_movie.max-688x400.jpg",
+                "full_url": "/express_media/images/Blog_VR_movie.max-688x400.jpg",
+                "width": 688,
+                "height": 387,
+                "alt": "Person watching VR movies with a VR headset."
+            },
+            "cover_url": null,
+            "source": 1
+        },
+        {
+            "id": 13599,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13599/",
+                "html_url": "https://vive.com.vn/blog/best-vr-movie-picks-5-must-watch-on-viveport-and-steam/",
+                "slug": "best-vr-movie-picks-5-must-watch-on-viveport-and-steam",
+                "show_in_menus": false,
+                "seo_title": "",
+                "search_description": "Phim VR hay nhất được chọn từ VIVEPORT và Steam. Khám phá cách VR đang thay đổi cách làm phim và lý do tại sao định dạng mới này lại trở nên phổ biến đối với khán giả xem phim.",
+                "first_published_at": "2025-04-07T03:31:58.192179Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "Lựa chọn phim VR hay nhất: 5 phim phải xem trên VIVEPORT và Steam",
+            "author": {
+                "id": 23,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "Wen Li Teng"
+            },
+            "publish_date": "2025-04-07",
+            "tags": [
+                {
+                    "title": "Thực tế mở rộng (XR)"
+                },
+                {
+                    "title": "Trò chơi & Giải trí"
+                }
+            ],
+            "x_minute_read": "5 phút đọc",
+            "cover": {
+                "id": 5558,
+                "meta": {
+                    "type": "wagtailimages.Image",
+                    "detail_url": "https://vive.com.vn/blog/api/v2/images/5558/",
+                    "download_url": "/express_media/original_images/Blog_VR_movie.jpg"
+                },
+                "title": "Person watching VR movies with a VR headset."
+            },
+            "cover_thumbnail": {
+                "url": "/express_media/images/Blog_VR_movie.max-688x400.jpg",
+                "full_url": "/express_media/images/Blog_VR_movie.max-688x400.jpg",
+                "width": 688,
+                "height": 387,
+                "alt": "Person watching VR movies with a VR headset."
+            },
+            "cover_url": null,
+            "source": 1
+        },
+        {
+            "id": 13598,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13598/",
+                "html_url": "https://vive.com.vn/blog/the-last-stronghold-carcassonne-step-into-medieval-france/",
+                "slug": "the-last-stronghold-carcassonne-step-into-medieval-france",
+                "show_in_menus": false,
+                "seo_title": "",
+                "search_description": "",
+                "first_published_at": "2025-04-04T09:53:57.289386Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "Thành trì cuối cùng – Carcassonne: Bước vào nước Pháp thời trung cổ",
+            "author": {
+                "id": 1,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "VIVE Team"
+            },
+            "publish_date": "2025-04-04",
+            "tags": [
+                {
+                    "title": "Thực tế mở rộng (XR)"
+                }
+            ],
+            "x_minute_read": "5 phút đọc",
+            "cover": {
+                "id": 5601,
+                "meta": {
+                    "type": "wagtailimages.Image",
+                    "detail_url": "https://vive.com.vn/blog/api/v2/images/5601/",
+                    "download_url": "/express_media/original_images/tlsc.PNG"
+                },
+                "title": "tlsc"
+            },
+            "cover_thumbnail": {
+                "url": "/express_media/images/tlsc.max-688x400.png",
+                "full_url": "/express_media/images/tlsc.max-688x400.png",
+                "width": 642,
+                "height": 400,
+                "alt": "tlsc"
+            },
+            "cover_url": null,
+            "source": 1
+        },
+        {
+            "id": 13603,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13603/",
+                "html_url": "https://vive.com.vn/blog/tw/viverse-creator-program/",
+                "slug": "viverse-creator-program",
+                "show_in_menus": false,
+                "seo_title": "創作者召集令：加入 VIVERSE Creator Program，打造你的虛擬世界！",
+                "search_description": "Tương lai của trải nghiệm kỹ thuật số nằm trong tay bạn. HTC đã chính thức ra mắt Chương trình VIVERSE Worlds Creator, một chương trình mới trao quyền cho các nhà phát triển, nghệ sĩ và người kể chuyện trên khắp thế giới để tạo ra những không gian ảo tuyệt đẹp và trải nghiệm 3D tương tác trong VIVERSE.",
+                "first_published_at": "2025-04-11T03:10:46.927273Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "Thứ tự kêu gọi của người sáng tạo: Tham gia Chương trình người sáng tạo VIVERSE và tạo ra thế giới ảo của bạn!",
+            "author": {
+                "id": 1,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "VIVE Team"
+            },
+            "publish_date": "2025-04-03",
+            "tags": [
+                {
+                    "title": "Vũ trụ ảo (Metaverse)"
+                },
+                {
+                    "title": "Thực tế mở rộng (XR)"
+                }
+            ],
+            "x_minute_read": "5 phút đọc",
+            "cover": {
+                "id": 5556,
+                "meta": {
+                    "type": "wagtailimages.Image",
+                    "detail_url": "https://vive.com.vn/blog/api/v2/images/5556/",
+                    "download_url": "/express_media/original_images/viverse_create.png"
+                },
+                "title": "viverse create"
+            },
+            "cover_thumbnail": {
+                "url": "/express_media/images/viverse_create.max-688x400.png",
+                "full_url": "/express_media/images/viverse_create.max-688x400.png",
+                "width": 688,
+                "height": 387,
+                "alt": "viverse create"
+            },
+            "cover_url": null,
+            "source": 1
+        },
+        {
+            "id": 13597,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13597/",
+                "html_url": "https://vive.com.vn/blog/calling-all-creators-build-your-virtual-worlds-with-the-viverse-creator-program/",
+                "slug": "calling-all-creators-build-your-virtual-worlds-with-the-viverse-creator-program",
+                "show_in_menus": false,
+                "seo_title": "",
+                "search_description": "",
+                "first_published_at": "2025-04-03T16:20:58.529445Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "Kêu gọi tất cả người sáng tạo: Xây dựng thế giới ảo của bạn với Chương trình người sáng tạo VIVERSE",
+            "author": {
+                "id": 1,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "VIVE Team"
+            },
+            "publish_date": "2025-04-03",
+            "tags": [
+                {
+                    "title": "Thực tế mở rộng (XR)"
+                }
+            ],
+            "x_minute_read": "5 phút đọc",
+            "cover": {
+                "id": 5556,
+                "meta": {
+                    "type": "wagtailimages.Image",
+                    "detail_url": "https://vive.com.vn/blog/api/v2/images/5556/",
+                    "download_url": "/express_media/original_images/viverse_create.png"
+                },
+                "title": "viverse create"
+            },
+            "cover_thumbnail": {
+                "url": "/express_media/images/viverse_create.max-688x400.png",
+                "full_url": "/express_media/images/viverse_create.max-688x400.png",
+                "width": 688,
+                "height": 387,
+                "alt": "viverse create"
+            },
+            "cover_url": null,
+            "source": 1
+        },
+        {
+            "id": 13604,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13604/",
+                "html_url": "https://vive.com.vn/blog/tw/can-you-find-van-gogh-at-laval-virtual-the-first-european-showcase-of-finding-vincentcan-you-find-van-gogh-at-laval-virtual-the-first-european-showcase-of-finding-vincent/",
+                "slug": "can-you-find-van-gogh-at-laval-virtual-the-first-european-showcase-of-finding-vincentcan-you-find-van-gogh-at-laval-virtual-the-first-european-showcase-of-finding-vincent",
+                "show_in_menus": false,
+                "seo_title": "《尋找梵谷》首度歐洲登場，就在 Laval Virtual！",
+                "search_description": "Bắt tay vào một cuộc hành trình đầy cảm xúc độc đáo - trở thành Theo Van Gogh và tìm kiếm người anh trai huyền thoại nhưng bị tra tấn của mình: Vincent Van Gogh. Trong những cảnh được khôi phục theo tỷ lệ 1: 1, từ những con đường lát đá cuội ở Montmartre ở Paris đến ánh đèn ấm áp của các quán cà phê đêm, bước vào thế giới của Vincent, khám phá manh mối và tái tạo dấu chân lịch sử.",
+                "first_published_at": "2025-04-11T03:19:28.495411Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "Tìm kiếm Van Gogh ra mắt ở châu Âu, ngay tại đây trên Laval Virtual!",
+            "author": {
+                "id": 1,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "VIVE Team"
+            },
+            "publish_date": "2025-04-02",
+            "tags": [
+                {
+                    "title": "Thực tế mở rộng (XR)"
+                },
+                {
+                    "title": "Sự kiện & Hoạt động"
+                }
+            ],
+            "x_minute_read": "5 phút đọc",
+            "cover": {
+                "id": 5552,
+                "meta": {
+                    "type": "wagtailimages.Image",
+                    "detail_url": "https://vive.com.vn/blog/api/v2/images/5552/",
+                    "download_url": "/express_media/original_images/Finding_Vincent_UNIVERSE_VR_experience_Starry_Night_field_desktop_5.png"
+                },
+                "title": "Finding Vincent UNIVERSE VR experience Starry Night field desktop 5"
+            },
+            "cover_thumbnail": {
+                "url": "/express_media/images/Finding_Vincent_UNIVERSE_VR_experience_Starr.max-688x400.png",
+                "full_url": "/express_media/images/Finding_Vincent_UNIVERSE_VR_experience_Starr.max-688x400.png",
+                "width": 688,
+                "height": 377,
+                "alt": "Finding Vincent UNIVERSE VR experience Starry Night field desktop 5"
+            },
+            "cover_url": null,
+            "source": 1
+        },
+        {
+            "id": 13596,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13596/",
+                "html_url": "https://vive.com.vn/blog/transforming-real-world-decisions-with-virtual-twins-for-industrial-training-dassault-systemes/",
+                "slug": "transforming-real-world-decisions-with-virtual-twins-for-industrial-training-dassault-systemes",
+                "show_in_menus": false,
+                "seo_title": "",
+                "search_description": "",
+                "first_published_at": "2025-04-02T14:39:26.861825Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "Thay đổi các quyết định trong thế giới thực bằng cặp song sinh ảo cho đào tạo công nghiệp: Dassault Systèmes",
+            "author": {
+                "id": 1,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "VIVE Team"
+            },
+            "publish_date": "2025-04-02",
+            "tags": [
+                {
+                    "title": "Thực tế mở rộng (XR)"
+                }
+            ],
+            "x_minute_read": "5 phút đọc",
+            "cover": {
+                "id": 5554,
+                "meta": {
+                    "type": "wagtailimages.Image",
+                    "detail_url": "https://vive.com.vn/blog/api/v2/images/5554/",
+                    "download_url": "/express_media/original_images/DASSAULT_MWC.jpg"
+                },
+                "title": "DASSAULT MWC"
+            },
+            "cover_thumbnail": {
+                "url": "/express_media/images/DASSAULT_MWC.max-688x400.jpg",
+                "full_url": "/express_media/images/DASSAULT_MWC.max-688x400.jpg",
+                "width": 484,
+                "height": 400,
+                "alt": "DASSAULT MWC"
+            },
+            "cover_url": null,
+            "source": 1
+        },
+        {
+            "id": 13595,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13595/",
+                "html_url": "https://vive.com.vn/blog/can-you-find-van-gogh-at-laval-virtual-the-first-european-showcase-of-finding-vincentcan-you-find-van-gogh-at-laval-virtual-the-first-european-showcase-of-finding-vincent/",
+                "slug": "can-you-find-van-gogh-at-laval-virtual-the-first-european-showcase-of-finding-vincentcan-you-find-van-gogh-at-laval-virtual-the-first-european-showcase-of-finding-vincent",
+                "show_in_menus": false,
+                "seo_title": "",
+                "search_description": "",
+                "first_published_at": "2025-04-02T13:27:59.975917Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "Bạn có thể tìm thấy Van Gogh tại Laval Virtual không? Triển lãm Châu Âu đầu tiên về \"Tìm Vincent\"",
+            "author": {
+                "id": 1,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "VIVE Team"
+            },
+            "publish_date": "2025-04-02",
+            "tags": [
+                {
+                    "title": "Thực tế mở rộng (XR)"
+                }
+            ],
+            "x_minute_read": "5 phút đọc",
+            "cover": {
+                "id": 5552,
+                "meta": {
+                    "type": "wagtailimages.Image",
+                    "detail_url": "https://vive.com.vn/blog/api/v2/images/5552/",
+                    "download_url": "/express_media/original_images/Finding_Vincent_UNIVERSE_VR_experience_Starry_Night_field_desktop_5.png"
+                },
+                "title": "Finding Vincent UNIVERSE VR experience Starry Night field desktop 5"
+            },
+            "cover_thumbnail": {
+                "url": "/express_media/images/Finding_Vincent_UNIVERSE_VR_experience_Starr.max-688x400.png",
+                "full_url": "/express_media/images/Finding_Vincent_UNIVERSE_VR_experience_Starr.max-688x400.png",
+                "width": 688,
+                "height": 377,
+                "alt": "Finding Vincent UNIVERSE VR experience Starry Night field desktop 5"
+            },
+            "cover_url": null,
+            "source": 1
+        },
+        {
+            "id": 13601,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13601/",
+                "html_url": "https://vive.com.vn/blog/kr/more-than-a-vtuber-meet-vrchat-enthusiast-hiodoshi-ao/",
+                "slug": "more-than-a-vtuber-meet-vrchat-enthusiast-hiodoshi-ao",
+                "show_in_menus": false,
+                "seo_title": "",
+                "search_description": "Khám phá Hiodoshi Ao, VTuber kết nối VTuber và VRChatters, với phong cách độc đáo và niềm đam mê với thế giới ảo.",
+                "first_published_at": "2025-04-09T09:18:40.527223Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "Giới thiệu Ao Hiodoshi, con quỷ của VRChat, người không chỉ là một người đứng đầu!",
+            "author": {
+                "id": 24,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "VIVE POST-WAVE Team"
+            },
+            "publish_date": "2025-04-01",
+            "tags": [
+                {
+                    "title": "Vũ trụ ảo (Metaverse)"
+                },
+                {
+                    "title": "Thực tế mở rộng (XR)"
+                }
+            ],
+            "x_minute_read": "2 phút đọc",
+            "cover": null,
+            "cover_thumbnail": null,
+            "cover_url": "https://www.vivepostwave.com/wp-content/uploads/2025/02/vket-e1740650909839.jpg",
+            "source": 1
+        },
+        {
+            "id": 13543,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13543/",
+                "html_url": "https://vive.com.vn/blog/more-than-a-vtuber-meet-vrchat-enthusiast-hiodoshi-ao/",
+                "slug": "more-than-a-vtuber-meet-vrchat-enthusiast-hiodoshi-ao",
+                "show_in_menus": false,
+                "seo_title": "",
+                "search_description": "Khám phá Hiodoshi Ao, VTuber kết nối VTuber và VRChatters, với phong cách độc đáo và niềm đam mê với thế giới ảo.",
+                "first_published_at": "2025-04-01T11:06:30.608425Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "Hơn cả một VTuber? Gặp gỡ người đam mê VRChat Hiodoshi Ao",
+            "author": {
+                "id": 24,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "VIVE POST-WAVE Team"
+            },
+            "publish_date": "2025-04-01",
+            "tags": [
+                {
+                    "title": "Thực tế mở rộng (XR)"
+                }
+            ],
+            "x_minute_read": "2 phút đọc",
+            "cover": null,
+            "cover_thumbnail": null,
+            "cover_url": "https://www.vivepostwave.com/wp-content/uploads/2025/02/vket-e1740650909839.jpg",
+            "source": 1
+        },
+        {
+            "id": 13589,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13589/",
+                "html_url": "https://vive.com.vn/blog/cn/htcai/",
+                "slug": "htcai",
+                "show_in_menus": false,
+                "seo_title": "",
+                "search_description": "",
+                "first_published_at": "2025-03-28T07:51:30.223830Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "HTC hợp tác với Tzu Chi để quảng bá các ứng dụng giáo dục và chăm sóc y tế cho bệnh nhân ảo AI",
+            "author": {
+                "id": 16,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "HTC Vive Team"
+            },
+            "publish_date": "2025-03-28",
+            "tags": [
+                {
+                    "title": "Tin tức chung"
+                }
+            ],
+            "x_minute_read": "5 phút đọc",
+            "cover": {
+                "id": 5550,
+                "meta": {
+                    "type": "wagtailimages.Image",
+                    "detail_url": "https://vive.com.vn/blog/api/v2/images/5550/",
+                    "download_url": "/express_media/original_images/HTCXinWenZhao-TuYiZuoQiHuaLianCiYuanJiaoXueBuZhuRenZhuShaoYingHuaLianCiYua.jpg"
+                },
+                "title": "HTC新聞照-(圖一)左起花蓮慈院教學部主任朱紹盈、花蓮慈院副院長吳彬安、花蓮慈院副院長兼慈濟大學副校長陳宗鷹、HTC資深副總經理鮑永哲、花蓮慈院護理部主任鍾惠君。花蓮慈濟醫院、慈濟大學今與HTC簽署合作意向書（MOU），將合作建置生成式AI虛擬病人資料庫，推動「AI虛擬人於醫療照護及教育」。"
+            },
+            "cover_thumbnail": {
+                "url": "/express_media/images/HTCXinWenZhao-TuYiZuoQiHuaLianCiYuanJiaoXueB.max-688x400.jpg",
+                "full_url": "/express_media/images/HTCXinWenZhao-TuYiZuoQiHuaLianCiYuanJiaoXueB.max-688x400.jpg",
+                "width": 600,
+                "height": 400,
+                "alt": "HTC新聞照-(圖一)左起花蓮慈院教學部主任朱紹盈、花蓮慈院副院長吳彬安、花蓮慈院副院長兼慈濟大學副校長陳宗鷹、HTC資深副總經理鮑永哲、花蓮慈院護理部主任鍾惠君。花蓮慈濟醫院、慈濟大學今與HTC簽署合作意向書（MOU），將合作建置生成式AI虛擬病人資料庫，推動「AI虛擬人於醫療照護及教育」。"
+            },
+            "cover_url": null,
+            "source": 1
+        },
+        {
+            "id": 13588,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13588/",
+                "html_url": "https://vive.com.vn/blog/top-5-books-about-virtual-reality-to-read-and-why/",
+                "slug": "top-5-books-about-virtual-reality-to-read-and-why",
+                "show_in_menus": false,
+                "seo_title": "",
+                "search_description": "",
+                "first_published_at": "2025-03-26T18:31:52.637059Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "5 cuốn sách hay nhất về thực tế ảo nên đọc và tại sao",
+            "author": {
+                "id": 1,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "VIVE Team"
+            },
+            "publish_date": "2025-03-26",
+            "tags": [
+                {
+                    "title": "Vũ trụ ảo (Metaverse)"
+                },
+                {
+                    "title": "Thực tế mở rộng (XR)"
+                },
+                {
+                    "title": "Trí tuệ nhân tạo (AI)"
+                }
+            ],
+            "x_minute_read": "5 phút đọc",
+            "cover": {
+                "id": 5551,
+                "meta": {
+                    "type": "wagtailimages.Image",
+                    "detail_url": "https://vive.com.vn/blog/api/v2/images/5551/",
+                    "download_url": "/express_media/original_images/Books.jpg"
+                },
+                "title": "Books"
+            },
+            "cover_thumbnail": {
+                "url": "/express_media/images/Books.max-688x400.jpg",
+                "full_url": "/express_media/images/Books.max-688x400.jpg",
+                "width": 688,
+                "height": 386,
+                "alt": "Books"
+            },
+            "cover_url": null,
+            "source": 1
+        },
+        {
+            "id": 13593,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13593/",
+                "html_url": "https://vive.com.vn/blog/kr/experience-versailles-lost-gardens-in-vr-now-open-to-the-public/",
+                "slug": "experience-versailles-lost-gardens-in-vr-now-open-to-the-public",
+                "show_in_menus": false,
+                "seo_title": "",
+                "search_description": "",
+                "first_published_at": "2025-03-31T06:08:18.516460Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "Hãy xem những khu vườn bị mất của Versailles được tái hiện sống động trong VR ngay bây giờ!",
+            "author": {
+                "id": 1,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "VIVE Team"
+            },
+            "publish_date": "2025-03-25",
+            "tags": [
+                {
+                    "title": "Thực tế mở rộng (XR)"
+                },
+                {
+                    "title": "Sự kiện & Hoạt động"
+                }
+            ],
+            "x_minute_read": "giá trị 5 phút",
+            "cover": {
+                "id": 5547,
+                "meta": {
+                    "type": "wagtailimages.Image",
+                    "detail_url": "https://vive.com.vn/blog/api/v2/images/5547/",
+                    "download_url": "/express_media/original_images/Thetys_Grotto_copyright_GEDEON_Experiences_Small_Creative_Vive_Arts_Chatea.jpg"
+                },
+                "title": "Labyrinthe_copyright GEDEON Experiences Small Creative Vive Arts Chateau de Versailles (1)"
+            },
+            "cover_thumbnail": {
+                "url": "/express_media/images/Thetys_Grotto_copyright_GEDEON_Experiences_S.max-688x400.jpg",
+                "full_url": "/express_media/images/Thetys_Grotto_copyright_GEDEON_Experiences_S.max-688x400.jpg",
+                "width": 688,
+                "height": 387,
+                "alt": "Labyrinthe_copyright GEDEON Experiences Small Creative Vive Arts Chateau de Versailles (1)"
+            },
+            "cover_url": null,
+            "source": 1
+        },
+        {
+            "id": 13584,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13584/",
+                "html_url": "https://vive.com.vn/blog/experience-versailles-lost-gardens-in-vr-now-open-to-the-public/",
+                "slug": "experience-versailles-lost-gardens-in-vr-now-open-to-the-public",
+                "show_in_menus": false,
+                "seo_title": "",
+                "search_description": "",
+                "first_published_at": "2025-03-25T14:54:23.414064Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "Trải nghiệm Khu vườn bị mất của Versailles trong VR - Hiện đã mở cửa cho công chúng!",
+            "author": {
+                "id": 1,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "VIVE Team"
+            },
+            "publish_date": "2025-03-25",
+            "tags": [
+                {
+                    "title": "Thực tế mở rộng (XR)"
+                }
+            ],
+            "x_minute_read": "5 phút đọc",
+            "cover": {
+                "id": 5547,
+                "meta": {
+                    "type": "wagtailimages.Image",
+                    "detail_url": "https://vive.com.vn/blog/api/v2/images/5547/",
+                    "download_url": "/express_media/original_images/Thetys_Grotto_copyright_GEDEON_Experiences_Small_Creative_Vive_Arts_Chatea.jpg"
+                },
+                "title": "Labyrinthe_copyright GEDEON Experiences Small Creative Vive Arts Chateau de Versailles (1)"
+            },
+            "cover_thumbnail": {
+                "url": "/express_media/images/Thetys_Grotto_copyright_GEDEON_Experiences_S.max-688x400.jpg",
+                "full_url": "/express_media/images/Thetys_Grotto_copyright_GEDEON_Experiences_S.max-688x400.jpg",
+                "width": 688,
+                "height": 387,
+                "alt": "Labyrinthe_copyright GEDEON Experiences Small Creative Vive Arts Chateau de Versailles (1)"
+            },
+            "cover_url": null,
+            "source": 1
+        },
+        {
+            "id": 13583,
+            "meta": {
+                "type": "vive_blog.VIVEBlogArticle",
+                "detail_url": "https://vive.com.vn/blog/api/v2/pages/13583/",
+                "html_url": "https://vive.com.vn/blog/tw/htc-palace-of-versailles/",
+                "slug": "htc-palace-of-versailles",
+                "show_in_menus": false,
+                "seo_title": "HTC與凡爾賽宮合力之作《凡爾賽：太陽王的失落花園》 正式開展",
+                "search_description": "Một trải nghiệm mới cho du khách trong thế kỷ 21: nhìn thoáng qua những bí mật đã thất lạc của Cung điện Versailles ở Pháp ngày xưa. Xác định lại trải nghiệm nghệ thuật và văn hóa, đồng thời tạo ra phương pháp kể chuyện giàu cảm xúc và sâu sắc hơn",
+                "first_published_at": "2025-03-25T06:20:30.264292Z",
+                "alias_of": null,
+                "locale": "vi"
+            },
+            "title": "\"Versailles: The Lost Garden of the Sun King\", sản phẩm hợp tác giữa HTC và Cung điện Versailles, chính thức ra mắt",
+            "author": {
+                "id": 1,
+                "meta": {
+                    "type": "vive_blog.Author"
+                },
+                "name": "VIVE Team"
+            },
+            "publish_date": "2025-03-25",
+            "tags": [
+                {
+                    "title": "Tin tức doanh nghiệp"
+                },
+                {
+                    "title": "Sự kiện & Hoạt động"
+                }
+            ],
+            "x_minute_read": "5 phút đọc",
+            "cover": {
+                "id": 5541,
+                "meta": {
+                    "type": "wagtailimages.Image",
+                    "detail_url": "https://vive.com.vn/blog/api/v2/images/5541/",
+                    "download_url": "/express_media/original_images/HuangJiaDongWuYuanRoyal_Menagerie_copyright_GEDEON_Experiences_Small_Creat.jpg"
+                },
+                "title": "皇家動物園（Royal Menagerie）_copyright GEDEON Experiences Small Creative Vive Arts Chateau de Versailles"
+            },
+            "cover_thumbnail": {
+                "url": "/express_media/images/HuangJiaDongWuYuanRoyal_Menagerie_copyright_.max-688x400.jpg",
+                "full_url": "/express_media/images/HuangJiaDongWuYuanRoyal_Menagerie_copyright_.max-688x400.jpg",
+                "width": 688,
+                "height": 387,
+                "alt": "皇家動物園（Royal Menagerie）_copyright GEDEON Experiences Small Creative Vive Arts Chateau de Versailles"
+            },
+            "cover_url": null,
+            "source": 1
+        }
+    ]
+}

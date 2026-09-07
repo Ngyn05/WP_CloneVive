@@ -1,0 +1,55 @@
+{
+  "id": 10045609312573,
+  "title": "VIVE Focus Series Magnetic Face & Rear Cushion (Wide)",
+  "handle": "vive-focus-3-magnetic-face-rear-cushion-wide",
+  "body_html": "<p><meta charset=\"utf-8\"><span>A VR headset face cover and back cushion compatible with VIVE Focus Vision and VIVE Focus 3. Ensure better hygiene when sharing the device with multiple users by giving every user their own personal set of face and rear cushions. Attach, detach, and clean quickly and easily.</span></p>",
+  "published_at": "2025-11-10T17:57:28-08:00",
+  "created_at": "2025-09-03T03:00:31-07:00",
+  "updated_at": "2026-09-05T09:35:04-07:00",
+  "vendor": "HTC VIVE Online Store",
+  "product_type": "Simple",
+  "tags": [],
+  "variants": [
+    {
+      "id": 50691844768061,
+      "title": "Default Title",
+      "option1": "Default Title",
+      "option2": null,
+      "option3": null,
+      "sku": "99H12234-00",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": null,
+      "available": false,
+      "price": "49.00",
+      "grams": 1000,
+      "compare_at_price": null,
+      "position": 1,
+      "product_id": 10045609312573,
+      "created_at": "2025-09-03T03:00:31-07:00",
+      "updated_at": "2026-09-05T09:35:04-07:00"
+    }
+  ],
+  "images": [
+    {
+      "id": 59015665156413,
+      "created_at": "2025-09-03T03:01:37-07:00",
+      "position": 1,
+      "updated_at": "2025-09-03T03:01:39-07:00",
+      "product_id": 10045609312573,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0926/0489/1453/files/vive_focus_3_magnetic_face_rear_cushion.png?v=1756893699",
+      "width": 800,
+      "height": 576
+    }
+  ],
+  "options": [
+    {
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Default Title"
+      ]
+    }
+  ]
+}

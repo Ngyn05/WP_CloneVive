@@ -1,0 +1,66 @@
+{
+  "id": 10039426679101,
+  "title": "HTC VIVE SteamVR Base Station 2.0",
+  "handle": "2104005",
+  "body_html": "<p><meta charset=\"utf-8\"><span>Base Station 2.0 powers the presence and immersion of SteamVR <sup>(TM)</sup> room-scale virtual reality by helping VIVE Pro series or Cosmos Elite headsets and controllers track their exact locations.</span></p>\n<ul>\n<li><span>Features wireless syncing.</span></li>\n<li>Includes one base station and one power adapter per order</li>\n<li>Fits standard threaded mounting points</li>\n<li>Cord: 2.5m (8’2’’)</li>\n<li>Up to 1000 sq. ft*</li>\n</ul>\n<div class=\"txt-disclaimer\">*Compatible with the following products:\n<ul>\n<li>VIVE Pro Series</li>\n<li>VIVE Cosmos Elite – requires VIVE Controller (2018)</li>\n</ul>\n*Compatible with the following accessory:\n<ul>\n<li>VIVE Cosmos External Tracking Faceplate</li>\n</ul>\n*Not compatible with the following accessories:\n<ul>\n<li>VIVE Controller (1.0)</li>\n<li>VIVE Tracker (1.0)</li>\n<li>VIVE Cosmos Controllers</li>\n</ul>\n*Up to 10m x 10m (33’ x 33’) using four base stations. Up to 5m x 5m (16’5’’ x 16’5’’) using two base stations.</div>\n<p><br><br><br></p>",
+  "published_at": "2025-11-10T17:57:52-08:00",
+  "created_at": "2025-08-27T23:11:40-07:00",
+  "updated_at": "2026-09-05T09:35:04-07:00",
+  "vendor": "HTC VIVE Online Store",
+  "product_type": "Simple",
+  "tags": [],
+  "variants": [
+    {
+      "id": 50674032836925,
+      "title": "Default Title",
+      "option1": "Default Title",
+      "option2": null,
+      "option3": null,
+      "sku": "99HATV000-00",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": null,
+      "available": true,
+      "price": "229.00",
+      "grams": 2000,
+      "compare_at_price": "229.00",
+      "position": 1,
+      "product_id": 10039426679101,
+      "created_at": "2025-08-27T23:11:40-07:00",
+      "updated_at": "2026-09-05T09:35:04-07:00"
+    }
+  ],
+  "images": [
+    {
+      "id": 60856480989501,
+      "created_at": "2025-12-01T12:09:12-08:00",
+      "position": 1,
+      "updated_at": "2025-12-01T12:09:29-08:00",
+      "product_id": 10039426679101,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0926/0489/1453/files/bs2-front.jpg?v=1764619769",
+      "width": 1600,
+      "height": 1600
+    },
+    {
+      "id": 60856471486781,
+      "created_at": "2025-12-01T12:08:11-08:00",
+      "position": 2,
+      "updated_at": "2025-12-01T12:09:29-08:00",
+      "product_id": 10039426679101,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0926/0489/1453/files/bs2-back.jpg?v=1764619769",
+      "width": 1600,
+      "height": 1600
+    }
+  ],
+  "options": [
+    {
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Default Title"
+      ]
+    }
+  ]
+}

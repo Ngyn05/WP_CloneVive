@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Page Sitemap",
+        "url": "http:\/\/vive-vn.local\/page-sitemap.xml",
+        "url_count": 309,
+        "status": "200 OK"
+    },
+    {
+        "name": "Post Sitemap (Blog)",
+        "url": "http:\/\/vive-vn.local\/post-sitemap.xml",
+        "url_count": 101,
+        "status": "200 OK"
+    },
+    {
+        "name": "Product Sitemap (Shop)",
+        "url": "http:\/\/vive-vn.local\/product-sitemap.xml",
+        "url_count": 94,
+        "status": "200 OK"
+    },
+    {
+        "name": "Product Category Sitemap",
+        "url": "http:\/\/vive-vn.local\/product_cat-sitemap.xml",
+        "url_count": 15,
+        "status": "200 OK"
+    }
+]

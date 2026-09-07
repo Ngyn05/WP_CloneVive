@@ -1,0 +1,55 @@
+{
+  "id": 10039428677949,
+  "title": "VIVE Battery Cradle for XR Series",
+  "handle": "21046155",
+  "body_html": "",
+  "published_at": "2025-11-10T17:57:39-08:00",
+  "created_at": "2025-08-27T23:16:23-07:00",
+  "updated_at": "2026-09-05T09:35:04-07:00",
+  "vendor": "HTC VIVE Online Store",
+  "product_type": "Simple",
+  "tags": [],
+  "variants": [
+    {
+      "id": 50674046075197,
+      "title": "Default Title",
+      "option1": "Default Title",
+      "option2": null,
+      "option3": null,
+      "sku": "99HATL001-00",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": null,
+      "available": false,
+      "price": "199.00",
+      "grams": 1000,
+      "compare_at_price": null,
+      "position": 1,
+      "product_id": 10039428677949,
+      "created_at": "2025-08-27T23:16:24-07:00",
+      "updated_at": "2026-09-05T09:35:04-07:00"
+    }
+  ],
+  "images": [
+    {
+      "id": 58918176850237,
+      "created_at": "2025-08-27T23:49:45-07:00",
+      "position": 1,
+      "updated_at": "2025-08-27T23:49:47-07:00",
+      "product_id": 10039428677949,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0926/0489/1453/files/bel_render_h2_493x493_060f95f8-a443-4736-8f2a-fbfe41655ba7.png?v=1756363787",
+      "width": 493,
+      "height": 493
+    }
+  ],
+  "options": [
+    {
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Default Title"
+      ]
+    }
+  ]
+}

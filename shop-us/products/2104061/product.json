@@ -1,0 +1,55 @@
+{
+  "id": 10039427825981,
+  "title": "VIVE Certified Pre-Owned Controller",
+  "handle": "2104061",
+  "body_html": "",
+  "published_at": "2025-11-10T17:57:44-08:00",
+  "created_at": "2025-08-27T23:15:02-07:00",
+  "updated_at": "2026-09-05T09:35:04-07:00",
+  "vendor": "HTC VIVE Online Store",
+  "product_type": "Simple",
+  "tags": [],
+  "variants": [
+    {
+      "id": 50674045026621,
+      "title": "Default Title",
+      "option1": "Default Title",
+      "option2": null,
+      "option3": null,
+      "sku": "99HAFR011-00",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": null,
+      "available": true,
+      "price": "111.99",
+      "grams": 1000,
+      "compare_at_price": null,
+      "position": 1,
+      "product_id": 10039427825981,
+      "created_at": "2025-08-27T23:15:02-07:00",
+      "updated_at": "2026-09-05T09:35:04-07:00"
+    }
+  ],
+  "images": [
+    {
+      "id": 58918158696765,
+      "created_at": "2025-08-27T23:48:10-07:00",
+      "position": 1,
+      "updated_at": "2025-08-27T23:48:12-07:00",
+      "product_id": 10039427825981,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0926/0489/1453/files/controller-1.0_3f0d42cd-ef94-4873-8ddb-fccaa1634f4c.png?v=1756363692",
+      "width": 589,
+      "height": 424
+    }
+  ],
+  "options": [
+    {
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Default Title"
+      ]
+    }
+  ]
+}

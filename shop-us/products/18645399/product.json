@@ -1,0 +1,55 @@
+{
+  "id": 10039428055357,
+  "title": "VIVE Flow Controller",
+  "handle": "18645399",
+  "body_html": "<div class=\"main-product-description py-3\">VR fun is best shared. Pair with VIVE Flow to share the immersive experience between family and friends. Features a 9-axis sensor and intuitively placed touch pad, buttons and trigger for easy maneuvering in VR.<br><br>• Optimized control agility with a 9-axis motion sensor.<br>• Intuitively positioned touch pad, buttons, and trigger for ease of use.<br>• Just two AAA batteries power the controller up to 30 hours of active use.</div>\n<div class=\"txt-disclaimer\">*Active use time may vary depending on application.<br>*Different production batches may have a logo on the Controller for VIVE Flow—and at times no logo—depending on the shipment.</div>",
+  "published_at": "2025-11-10T17:57:42-08:00",
+  "created_at": "2025-08-27T23:15:33-07:00",
+  "updated_at": "2026-09-05T09:35:04-07:00",
+  "vendor": "HTC VIVE Online Store",
+  "product_type": "Simple",
+  "tags": [],
+  "variants": [
+    {
+      "id": 50674045354301,
+      "title": "Default Title",
+      "option1": "Default Title",
+      "option2": null,
+      "option3": null,
+      "sku": "99H12290-00",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": null,
+      "available": true,
+      "price": "70.00",
+      "grams": 1000,
+      "compare_at_price": null,
+      "position": 1,
+      "product_id": 10039428055357,
+      "created_at": "2025-08-27T23:15:33-07:00",
+      "updated_at": "2026-09-05T09:35:04-07:00"
+    }
+  ],
+  "images": [
+    {
+      "id": 62125414842685,
+      "created_at": "2026-02-03T11:52:50-08:00",
+      "position": 1,
+      "updated_at": "2026-02-03T11:52:52-08:00",
+      "product_id": 10039428055357,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0926/0489/1453/files/detail-flow-controller-white-2.webp?v=1770148372",
+      "width": 540,
+      "height": 540
+    }
+  ],
+  "options": [
+    {
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Default Title"
+      ]
+    }
+  ]
+}

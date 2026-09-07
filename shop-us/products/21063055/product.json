@@ -1,0 +1,55 @@
+{
+  "id": 10039429792061,
+  "title": "VIVE Wired Streaming Kit",
+  "handle": "21063055",
+  "body_html": "<p><meta charset=\"utf-8\"><span>Everything you need to connect your VR headset and computer for PC VR streaming. The kit includes a 5-meter streaming cable and full-featured converter, both with DisplayPort compatibility.</span><br><br><span>DisplayPort mode enhances the streaming experience with visually lossless graphics and remarkably low-latency data transmission.</span><br><br><span>Access more PC VR games and other graphically demanding applications.</span><sup>1,2</sup><span></span><br><br><span>Supports VIVE Focus Vision headset.</span><br><br><span>Stay powered and immersed—pair the VIVE Focus Vision with the VIVE Wired Streaming Kit to maintain your headset's battery level for all-day PC VR sessions.</span><sup>3</sup><span></span><br><br><span>In-box items:</span><br><span>VIVE Wired Streaming Cable (DisplayPort mode compatible)</span><br><span>• USB 3.2 Gen 2 (up to 10 Gbps) with DP 1.4 Alternate Mode support, USB-C to USB-C</span><br><span>• Length: 5 m</span><br><br><span>VIVE Wired Streaming Converter (DisplayPort mode compatible)</span><br><span>• Converter (0.7 m):</span><br><span>- Input: USB-A, DP, Power (AC/USB)</span><br><span>- Output: USB-C with DP 1.4 Alternate Mode support</span><br><span>• USB-C-to-DP adapter</span><br><span>• MiniDP-to-DP adapter</span><br><span>• USB-C-to-USB-C cable for charging (1.2 m)</span><br><span>• USB-PD power adapter (30 W)</span><br><br></p>\n<div class=\"txt-disclaimer\">1.<span> </span><a href=\"https://www.vive.com/us/solution/vive-streaming/\">System requirements must be met.</a><span> </span>VR‑ready PC required. VR headset and VR/MR titles each sold separately. DisplayPort mode doesn't support MR.<br>2. Visual quality and low latency of VR/MR content is dependent on PC specs, software settings, and network connection.<br>3. The VIVE Wired Streaming Kit includes a USB-C to USB-C charging cable and a USB-PD power adapter, which maintain your headset’s battery level during wired PC VR sessions.</div>",
+  "published_at": "2026-07-22T11:55:42-07:00",
+  "created_at": "2025-08-27T23:18:08-07:00",
+  "updated_at": "2026-09-05T09:35:04-07:00",
+  "vendor": "HTC VIVE Online Store",
+  "product_type": "Simple",
+  "tags": [],
+  "variants": [
+    {
+      "id": 50674049843517,
+      "title": "Default Title",
+      "option1": "Default Title",
+      "option2": null,
+      "option3": null,
+      "sku": "99H12347-00",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": null,
+      "available": true,
+      "price": "189.00",
+      "grams": 1000,
+      "compare_at_price": null,
+      "position": 1,
+      "product_id": 10039429792061,
+      "created_at": "2025-08-27T23:18:08-07:00",
+      "updated_at": "2026-09-05T09:35:04-07:00"
+    }
+  ],
+  "images": [
+    {
+      "id": 58918194643261,
+      "created_at": "2025-08-27T23:51:31-07:00",
+      "position": 1,
+      "updated_at": "2025-12-02T10:35:28-08:00",
+      "product_id": 10039429792061,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0926/0489/1453/files/wired_streaming_kit-kit-475.png?v=1764700528",
+      "width": 475,
+      "height": 475
+    }
+  ],
+  "options": [
+    {
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Default Title"
+      ]
+    }
+  ]
+}

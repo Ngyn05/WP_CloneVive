@@ -1,0 +1,55 @@
+{
+  "id": 10039427203389,
+  "title": "Narrow Face Cushion for VIVE Pro Series - Set of 2",
+  "handle": "2104027",
+  "body_html": "<div class=\"main-product-description py-3\">Narrow Face Cushion for VIVE Pro Series - Set of 2.</div>\n<div class=\"main-product-description py-3\">\n<br>Interchangeable foam narrow face cushions for the VIVE Pro series headset to keep you comfortable while you play.</div>\n<div class=\"main-product-description py-3\"></div>\n<div class=\"txt-disclaimer\">*Compatible with the following products:<br>VIVE Pro Series</div>",
+  "published_at": "2025-11-10T17:57:49-08:00",
+  "created_at": "2025-08-27T23:14:08-07:00",
+  "updated_at": "2026-09-05T09:35:04-07:00",
+  "vendor": "HTC VIVE Online Store",
+  "product_type": "Simple",
+  "tags": [],
+  "variants": [
+    {
+      "id": 50674044043581,
+      "title": "Default Title",
+      "option1": "Default Title",
+      "option2": null,
+      "option3": null,
+      "sku": "99H20560-00",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": null,
+      "available": false,
+      "price": "32.00",
+      "grams": 1000,
+      "compare_at_price": "52.99",
+      "position": 1,
+      "product_id": 10039427203389,
+      "created_at": "2025-08-27T23:14:08-07:00",
+      "updated_at": "2026-09-05T09:35:04-07:00"
+    }
+  ],
+  "images": [
+    {
+      "id": 58918139265341,
+      "created_at": "2025-08-27T23:46:23-07:00",
+      "position": 1,
+      "updated_at": "2025-08-27T23:46:25-07:00",
+      "product_id": 10039427203389,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0926/0489/1453/files/narrow-facecushion-for-vivepro-setof2.png?v=1756363585",
+      "width": 576,
+      "height": 576
+    }
+  ],
+  "options": [
+    {
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Default Title"
+      ]
+    }
+  ]
+}

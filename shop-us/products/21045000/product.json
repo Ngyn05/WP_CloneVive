@@ -1,0 +1,55 @@
+{
+  "id": 10039427989821,
+  "title": "VIVE Business Warranty & Services 2-Year Limited Commercial-Use Warranty For XR Elite",
+  "handle": "21045000",
+  "body_html": "",
+  "published_at": "2025-11-10T17:57:43-08:00",
+  "created_at": "2025-08-27T23:15:20-07:00",
+  "updated_at": "2026-09-05T09:35:04-07:00",
+  "vendor": "HTC VIVE Online Store",
+  "product_type": "License",
+  "tags": [],
+  "variants": [
+    {
+      "id": 50674045255997,
+      "title": "Default Title",
+      "option1": "Default Title",
+      "option2": null,
+      "option3": null,
+      "sku": "SVRW0033",
+      "requires_shipping": false,
+      "taxable": false,
+      "featured_image": null,
+      "available": true,
+      "price": "200.00",
+      "grams": 0,
+      "compare_at_price": null,
+      "position": 1,
+      "product_id": 10039427989821,
+      "created_at": "2025-08-27T23:15:20-07:00",
+      "updated_at": "2026-09-05T09:35:04-07:00"
+    }
+  ],
+  "images": [
+    {
+      "id": 58918164300093,
+      "created_at": "2025-08-27T23:48:40-07:00",
+      "position": 1,
+      "updated_at": "2025-10-30T00:47:54-07:00",
+      "product_id": 10039427989821,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0926/0489/1453/files/bws-2y_1.png?v=1761810474",
+      "width": 1000,
+      "height": 1000
+    }
+  ],
+  "options": [
+    {
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Default Title"
+      ]
+    }
+  ]
+}

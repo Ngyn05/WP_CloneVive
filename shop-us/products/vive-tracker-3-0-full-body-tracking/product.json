@@ -1,0 +1,102 @@
+{
+  "id": 10039426646333,
+  "title": "HTC VIVE Tracker 3.0: Full Body Motion Tracking Sensor for VR (SteamVR Compatible)",
+  "handle": "vive-tracker-3-0-full-body-tracking",
+  "body_html": "<div class=\"product__description rte remove-empty-space\">\n<section class=\"llm-summary\">\n<h2>VIVE Tracker 3.0</h2>\n<ul>\n<li>Product type: VR full-body tracking device</li>\n<li>Tracking: SteamVR™ Lighthouse</li>\n<li>Requirements: Base Station 2.0 or Base Station 1.0</li>\n<li>Battery Life: Up to 7.5 hours</li>\n<li>Weight: 75g</li>\n<li>Compatibility: VIVE, SteamVR™ Headsets</li>\n<li>Use Cases: Full-body tracking, motion capture</li>\n<li>Mounting: 1/4\" standard camera mount<br>\n</li>\n</ul>\n</section>\n<h3>Track movement and bring objects from the real world into the virtual universe.</h3>\n<p>Create a seamless connection between real objects and the virtual experience. Capture full-body movement with pinpoint accuracy. Integrate external devices with ease. Take your VR to a new level with the VIVE Tracker (3.0).</p>\n<p><strong>VIVE Tracker 3.0 uses SteamVR™ Lighthouse infrared laser tracking for sub-millimeter positional accuracy and does not rely on cameras.</strong> Its sensors detect infrared laser sweeps emitted by SteamVR Base Stations, and SteamVR computes position and orientation in six degrees of freedom (6DoF). It can be used in headset-based or headset-free setups where precise tracking data is required, including motion capture, robotics, simulation, and custom tracking applications built on SteamVR and Lighthouse tracking.</p>\n<h2>Specs</h2>\n<p><strong>Tracking:</strong> SteamVR™ Lighthouse tracking (requires SteamVR™ Base Stations BS1.0 or BS2.0)</p>\n<p><strong>Tracking Type:</strong> External infrared laser-based tracking (no cameras / not inside-out)</p>\n<p><strong>Weight:</strong> 75g</p>\n<p><strong>Dimensions:</strong> 70.9 × 79.0 × 44.1 mm</p>\n<p><strong>Battery Life:</strong> Up to 7.5 hours</p>\n<p><strong>Field of view:</strong> 240°</p>\n<h2>In the box</h2>\n<ul>\n<li>VIVE Tracker (3.0)</li>\n<li>Wireless dongle</li>\n<li>Dongle cradle (USB-C)</li>\n<li>USB-C cable</li>\n</ul>\n<p><strong>Tracker mounting accessories (including track straps) are sold separately.</strong></p>\n<p>*Tracker compatibility may vary. Please check your product information prior to use.<br>Requires SteamVR™ Base Stations and compatible SteamVR software (sold separately).<br>Requires available USB ports on your PC for wireless dongles. Number of VIVE Trackers in use simultaneously may be limited by free USB connectors, application support, and RF conditions.</p>\n<p><strong>Compatibility:</strong> VIVE Tracker 3.0 works within SteamVR tracking ecosystems that support Lighthouse tracking. It can be used with compatible headsets or in standalone (headset-free) tracking setups for motion capture, robotics, simulation, and custom applications.</p>\n<p>**All battery claim results will vary. Battery life and charge cycles vary by use.</p>\n</div>",
+  "published_at": "2025-11-10T17:57:52-08:00",
+  "created_at": "2025-08-27T23:11:36-07:00",
+  "updated_at": "2026-09-05T09:35:04-07:00",
+  "vendor": "HTC VIVE Online Store",
+  "product_type": "VR Full Body Tracker",
+  "tags": [
+    "full body tracking",
+    "vr tracker"
+  ],
+  "variants": [
+    {
+      "id": 50674032804157,
+      "title": "Default Title",
+      "option1": "Default Title",
+      "option2": null,
+      "option3": null,
+      "sku": "99HASS001-00",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": null,
+      "available": true,
+      "price": "149.00",
+      "grams": 1000,
+      "compare_at_price": "149.00",
+      "position": 1,
+      "product_id": 10039426646333,
+      "created_at": "2025-08-27T23:11:36-07:00",
+      "updated_at": "2026-09-05T09:35:04-07:00"
+    }
+  ],
+  "images": [
+    {
+      "id": 58918128877885,
+      "created_at": "2025-08-27T23:45:21-07:00",
+      "position": 1,
+      "updated_at": "2025-12-02T10:40:27-08:00",
+      "product_id": 10039426646333,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0926/0489/1453/files/tracker-3.0.png?v=1764700827",
+      "width": 1200,
+      "height": 900
+    },
+    {
+      "id": 60856422859069,
+      "created_at": "2025-12-01T12:02:19-08:00",
+      "position": 2,
+      "updated_at": "2025-12-02T10:40:27-08:00",
+      "product_id": 10039426646333,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0926/0489/1453/files/tracker3-top-view-comp.png?v=1764700827",
+      "width": 1600,
+      "height": 1280
+    },
+    {
+      "id": 58918128845117,
+      "created_at": "2025-08-27T23:45:21-07:00",
+      "position": 3,
+      "updated_at": "2025-12-02T10:40:27-08:00",
+      "product_id": 10039426646333,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0926/0489/1453/files/vive-tracker-3_580x300_f3a99e11-aec6-4bef-8ca3-9ef7dc1d93c4.png?v=1764700827",
+      "width": 580,
+      "height": 300
+    },
+    {
+      "id": 61937550197053,
+      "created_at": "2026-01-23T14:47:27-08:00",
+      "position": 4,
+      "updated_at": "2026-01-23T14:47:28-08:00",
+      "product_id": 10039426646333,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0926/0489/1453/files/tracker-3-in-hand.jpg?v=1769208448",
+      "width": 1500,
+      "height": 1500
+    },
+    {
+      "id": 62266212417853,
+      "created_at": "2026-02-11T14:16:33-08:00",
+      "position": 5,
+      "updated_at": "2026-02-11T14:16:53-08:00",
+      "product_id": 10039426646333,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0926/0489/1453/files/tracker-3.jpg?v=1770848213",
+      "width": 1600,
+      "height": 1600
+    }
+  ],
+  "options": [
+    {
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Default Title"
+      ]
+    }
+  ]
+}

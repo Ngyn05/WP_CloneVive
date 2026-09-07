@@ -1,0 +1,4287 @@
+{
+  "total_tested": 573,
+  "total_failures": 535,
+  "total_passed": 38,
+  "failures": [
+    {
+      "url": "http://vive-vn.local/shop/products/31071561/",
+      "final_url": "http://vive-vn.local/shop/products/31071561/",
+      "status": "ERR",
+      "error": "timed out",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/products/vive-focus-vision-pc-vr-wired-bundle/",
+      "final_url": "http://vive-vn.local/shop/products/vive-focus-vision-pc-vr-wired-bundle/",
+      "status": "ERR",
+      "error": "timed out",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/blog/htc-viverse-webxr/",
+      "final_url": "http://vive-vn.local/blog/htc-viverse-webxr/",
+      "status": "ERR",
+      "error": "timed out",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/business/us/support/business-plus/category_howto/",
+      "final_url": "http://vive-vn.local/business/us/support/business-plus/category_howto/",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/blog/kr/eclipso-expands-to-seville-with-a-new-immersive-venue-powered-by-vive/",
+      "final_url": "http://vive-vn.local/blog/kr/eclipso-expands-to-seville-with-a-new-immersive-venue-powered-by-vive/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/products/vive-business-ultimate-tracker-3-year-subscription-5-seat/",
+      "final_url": "http://vive-vn.local/shop/products/vive-business-ultimate-tracker-3-year-subscription-5-seat/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/business/",
+      "final_url": "http://vive-vn.local/business/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2024-2/",
+      "final_url": "http://vive-vn.local/newsroom/2024-2/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": false
+    },
+    {
+      "url": "http://vive-vn.local/blog/5-things-you-should-know-about-k-pop-demon-hunters/",
+      "final_url": "http://vive-vn.local/blog/5-things-you-should-know-about-k-pop-demon-hunters/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/blog/20-best-free-vr-games-on-viveport-and-steam-2025/",
+      "final_url": "http://vive-vn.local/blog/20-best-free-vr-games-on-viveport-and-steam-2025/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/products/vive-focus-vision-facial-tracker/",
+      "final_url": "http://vive-vn.local/shop/products/vive-focus-vision-facial-tracker/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2017-06-26/",
+      "final_url": "http://vive-vn.local/newsroom/2017-06-26/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": false
+    },
+    {
+      "url": "http://vive-vn.local/blog/ohio-university-htc-vive-and-virtualware-launch-immersive-digital-enterprise-hub-to-power-manufacturing-innovation-in-ohio/",
+      "final_url": "http://vive-vn.local/blog/ohio-university-htc-vive-and-virtualware-launch-immersive-digital-enterprise-hub-to-power-manufacturing-innovation-in-ohio/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/products/21047555/",
+      "final_url": "http://vive-vn.local/shop/products/21047555/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/collections/vive-mars-series/",
+      "final_url": "http://vive-vn.local/shop/collections/vive-mars-series/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/blog/introducing-vive-eagle-smart-glasses-built-for-everyday-life/",
+      "final_url": "http://vive-vn.local/blog/introducing-vive-eagle-smart-glasses-built-for-everyday-life/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/product/vive-flow/specs/",
+      "final_url": "http://vive-vn.local/product/vive-flow/specs/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/blog/kr/vpwt-xr-game-based-on-neon-genesis-evangelion-coming-next-year/",
+      "final_url": "http://vive-vn.local/blog/kr/vpwt-xr-game-based-on-neon-genesis-evangelion-coming-next-year/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/blog/the-secret-ai-experiment-that-fooled-reddit-users/",
+      "final_url": "http://vive-vn.local/blog/the-secret-ai-experiment-that-fooled-reddit-users/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/blog/htcvr/",
+      "final_url": "http://vive-vn.local/blog/htcvr/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2017-04-03/",
+      "final_url": "http://vive-vn.local/newsroom/2017-04-03/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": false
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2018-01-08-2/",
+      "final_url": "http://vive-vn.local/newsroom/2018-01-08-2/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/developer/resources/",
+      "final_url": "http://vive-vn.local/developer/resources/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/products/vive-focus-3-magnetic-face-rear-cushion-n/",
+      "final_url": "http://vive-vn.local/shop/products/vive-focus-3-magnetic-face-rear-cushion-n/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/collections/vive-eagle-1/",
+      "final_url": "http://vive-vn.local/shop/collections/vive-eagle-1/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/blog/fanum-tax-and-kai-cenat-exploring-tax-evasion-rooms/",
+      "final_url": "http://vive-vn.local/blog/fanum-tax-and-kai-cenat-exploring-tax-evasion-rooms/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2018-09-06-3/",
+      "final_url": "http://vive-vn.local/newsroom/2018-09-06-3/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/blog/mickey-17-review-clones-ai-agents-and-the-ship-of-theseus/",
+      "final_url": "http://vive-vn.local/blog/mickey-17-review-clones-ai-agents-and-the-ship-of-theseus/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/hub/en-US/",
+      "final_url": "http://vive-vn.local/hub/en-US/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/accessory/base-station/",
+      "final_url": "http://vive-vn.local/accessory/base-station/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/accessory/power-bank-21w/",
+      "final_url": "http://vive-vn.local/accessory/power-bank-21w/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/blog/japan-turns-its-massive-underground-flood-temple-into-a-minecraft-map/",
+      "final_url": "http://vive-vn.local/blog/japan-turns-its-massive-underground-flood-temple-into-a-minecraft-map/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2017-03-28-2/",
+      "final_url": "http://vive-vn.local/newsroom/2017-03-28-2/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/support/wrist-tracker/",
+      "final_url": "http://vive-vn.local/support/wrist-tracker/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/business/us/stories/vr-healthcare-survey-report-2023/",
+      "final_url": "http://vive-vn.local/business/us/stories/vr-healthcare-survey-report-2023/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2024-3/",
+      "final_url": "http://vive-vn.local/newsroom/2024-3/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/products/21045003/",
+      "final_url": "http://vive-vn.local/shop/products/21045003/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/products/18645399/",
+      "final_url": "http://vive-vn.local/shop/products/18645399/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/products/vive-flow-multiport-power-dongle/",
+      "final_url": "http://vive-vn.local/shop/products/vive-flow-multiport-power-dongle/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/products/2104013/",
+      "final_url": "http://vive-vn.local/shop/products/2104013/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2019-12-05/",
+      "final_url": "http://vive-vn.local/newsroom/2019-12-05/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/enterprise/us/product/",
+      "final_url": "http://vive-vn.local/enterprise/us/product/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/blog/vpwt-how-does-ai-jam-taste-hands-on-cooking-with-chatgpt/",
+      "final_url": "http://vive-vn.local/blog/vpwt-how-does-ai-jam-taste-hands-on-cooking-with-chatgpt/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/products/21071055/",
+      "final_url": "http://vive-vn.local/shop/products/21071055/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/business/us/stories/xr-manufacturing-survey-report-2024/",
+      "final_url": "http://vive-vn.local/business/us/stories/xr-manufacturing-survey-report-2024/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/products/21068055/",
+      "final_url": "http://vive-vn.local/shop/products/21068055/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2017-10-03/",
+      "final_url": "http://vive-vn.local/newsroom/2017-10-03/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/blog/what-is-face-tracking-in-vr-and-why-does-it-matter/",
+      "final_url": "http://vive-vn.local/blog/what-is-face-tracking-in-vr-and-why-does-it-matter/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/business/home/",
+      "final_url": "http://vive-vn.local/business/home/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/blog/la-magie-opera-heads-to-venice-immersive/",
+      "final_url": "http://vive-vn.local/blog/la-magie-opera-heads-to-venice-immersive/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/developer/resources/hardware-guides/vive-ultimate-tracker-guidelines/",
+      "final_url": "http://vive-vn.local/developer/resources/hardware-guides/vive-ultimate-tracker-guidelines/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/blog/from-image-to-immersive-generate-3d-virtual-production-scenes-in-real-time-with-marble-and-vive-mars/",
+      "final_url": "http://vive-vn.local/blog/from-image-to-immersive-generate-3d-virtual-production-scenes-in-real-time-with-marble-and-vive-mars/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/accessory/deluxe-pack-for-vive-xr-elite/",
+      "final_url": "http://vive-vn.local/accessory/deluxe-pack-for-vive-xr-elite/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/accessory/vive-ac-adapter-30w/",
+      "final_url": "http://vive-vn.local/accessory/vive-ac-adapter-30w/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/business/support/",
+      "final_url": "http://vive-vn.local/business/support/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/accessory/motion-faceplate/",
+      "final_url": "http://vive-vn.local/accessory/motion-faceplate/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2016-2/",
+      "final_url": "http://vive-vn.local/newsroom/2016-2/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": false
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2021-05-11/",
+      "final_url": "http://vive-vn.local/newsroom/2021-05-11/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/product/vive-pro2/",
+      "final_url": "http://vive-vn.local/product/vive-pro2/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/blog/best-vr-movie-picks-5-must-watch-on-viveport-and-steam/",
+      "final_url": "http://vive-vn.local/blog/best-vr-movie-picks-5-must-watch-on-viveport-and-steam/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/products/2104010/",
+      "final_url": "http://vive-vn.local/shop/products/2104010/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2019-03-25/",
+      "final_url": "http://vive-vn.local/newsroom/2019-03-25/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/collections/xr-series/",
+      "final_url": "http://vive-vn.local/shop/collections/xr-series/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/contact-2/",
+      "final_url": "http://vive-vn.local/contact-2/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": false
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2019-09-18/",
+      "final_url": "http://vive-vn.local/newsroom/2019-09-18/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/accessory-comparison/",
+      "final_url": "http://vive-vn.local/accessory-comparison/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/collections/accessories/",
+      "final_url": "http://vive-vn.local/shop/collections/accessories/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2017-10-05/",
+      "final_url": "http://vive-vn.local/newsroom/2017-10-05/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/blog/holoearth-launches-join-the-creator-economy-today/",
+      "final_url": "http://vive-vn.local/blog/holoearth-launches-join-the-creator-economy-today/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/products/vive-eagle-square-clear-coffee/",
+      "final_url": "http://vive-vn.local/shop/products/vive-eagle-square-clear-coffee/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2024-05-23/",
+      "final_url": "http://vive-vn.local/newsroom/2024-05-23/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/enterprise/us/",
+      "final_url": "http://vive-vn.local/enterprise/us/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/products/2104033/",
+      "final_url": "http://vive-vn.local/shop/products/2104033/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2016-06-09/",
+      "final_url": "http://vive-vn.local/newsroom/2016-06-09/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2019-3/",
+      "final_url": "http://vive-vn.local/newsroom/2019-3/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2017-11-09/",
+      "final_url": "http://vive-vn.local/newsroom/2017-11-09/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/support/vive-xr-face-tracker/",
+      "final_url": "http://vive-vn.local/support/vive-xr-face-tracker/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2017-3/",
+      "final_url": "http://vive-vn.local/newsroom/2017-3/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/blog/2017/11/13/vive-developers-conference-beijing-2017/",
+      "final_url": "http://vive-vn.local/blog/2017/11/13/vive-developers-conference-beijing-2017/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/legal/vpa/",
+      "final_url": "http://vive-vn.local/legal/vpa/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/vive-hub/",
+      "final_url": "http://vive-vn.local/vive-hub/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/blog/vr-motion-sickness-explained-causes-fixes-and-how-vive-helps/",
+      "final_url": "http://vive-vn.local/blog/vr-motion-sickness-explained-causes-fixes-and-how-vive-helps/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/products/21065055/",
+      "final_url": "http://vive-vn.local/shop/products/21065055/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/blog/tw/can-you-find-van-gogh-at-laval-virtual-the-first-european-showcase-of-finding-vincentcan-you-find-van-gogh-at-laval-virtual-the-first-european-showcase-of-finding-vincent/",
+      "final_url": "http://vive-vn.local/blog/tw/can-you-find-van-gogh-at-laval-virtual-the-first-european-showcase-of-finding-vincentcan-you-find-van-gogh-at-laval-virtual-the-first-european-showcase-of-finding-vincent/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2019-07-01/",
+      "final_url": "http://vive-vn.local/newsroom/2019-07-01/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2019/",
+      "final_url": "http://vive-vn.local/newsroom/2019/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/7-miracles/",
+      "final_url": "http://vive-vn.local/7-miracles/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/blog/viverse-creator-program/",
+      "final_url": "http://vive-vn.local/blog/viverse-creator-program/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/blog/htc-viverse-hits-1-million-users-announces-winners-of-first-global-spark-hackathon/",
+      "final_url": "http://vive-vn.local/blog/htc-viverse-hits-1-million-users-announces-winners-of-first-global-spark-hackathon/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/vive-flow-phone-list/",
+      "final_url": "http://vive-vn.local/vive-flow-phone-list/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/product/vive-eagle/overview/",
+      "final_url": "http://vive-vn.local/product/vive-eagle/overview/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2017-01-20/",
+      "final_url": "http://vive-vn.local/newsroom/2017-01-20/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2019-02-21/",
+      "final_url": "http://vive-vn.local/newsroom/2019-02-21/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/blog/transforming-education-with-xr-highlights-from-learntec-2025/",
+      "final_url": "http://vive-vn.local/blog/transforming-education-with-xr-highlights-from-learntec-2025/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/business/us/setup/pc-vr/",
+      "final_url": "http://vive-vn.local/business/us/setup/pc-vr/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/blog/how-to-get-started-in-game-development-for-viverse/",
+      "final_url": "http://vive-vn.local/blog/how-to-get-started-in-game-development-for-viverse/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/accessory/cosmos-face-cushion-2-w-size/",
+      "final_url": "http://vive-vn.local/accessory/cosmos-face-cushion-2-w-size/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/hub/en-us/download/",
+      "final_url": "http://vive-vn.local/hub/en-us/download/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": false
+    },
+    {
+      "url": "http://vive-vn.local/setup/cosmos-motion-faceplate/",
+      "final_url": "http://vive-vn.local/setup/cosmos-motion-faceplate/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2018-04-24/",
+      "final_url": "http://vive-vn.local/newsroom/2018-04-24/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/products/vive-link-box-2-0/",
+      "final_url": "http://vive-vn.local/shop/products/vive-link-box-2-0/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2019-10-30/",
+      "final_url": "http://vive-vn.local/newsroom/2019-10-30/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/setup/wireless/",
+      "final_url": "http://vive-vn.local/setup/wireless/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/blog/",
+      "final_url": "http://vive-vn.local/blog/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/business/us/support/business-plus/category_howto/adding-devices-to-a-group-html/",
+      "final_url": "http://vive-vn.local/business/us/support/business-plus/category_howto/adding-devices-to-a-group-html/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": false
+    },
+    {
+      "url": "http://vive-vn.local/blog/how-to-use-full-body-tracking-in-vrchat/",
+      "final_url": "http://vive-vn.local/blog/how-to-use-full-body-tracking-in-vrchat/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2017-12-06/",
+      "final_url": "http://vive-vn.local/newsroom/2017-12-06/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2018-09-06-4/",
+      "final_url": "http://vive-vn.local/newsroom/2018-09-06-4/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": false
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2019-05-23/",
+      "final_url": "http://vive-vn.local/newsroom/2019-05-23/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/accessory/vive-flow-hygienic-cover-wide/",
+      "final_url": "http://vive-vn.local/accessory/vive-flow-hygienic-cover-wide/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/blog/cineon-secures-world-first-caa-approval-for-vr-pilot-walkaround-trainer/",
+      "final_url": "http://vive-vn.local/blog/cineon-secures-world-first-caa-approval-for-vr-pilot-walkaround-trainer/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/products/vive-deluxe-pack-for-xr-elite/",
+      "final_url": "http://vive-vn.local/shop/products/vive-deluxe-pack-for-xr-elite/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/business/us/support/",
+      "final_url": "http://vive-vn.local/business/us/support/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2019-01-07-2/",
+      "final_url": "http://vive-vn.local/newsroom/2019-01-07-2/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2016-06-07/",
+      "final_url": "http://vive-vn.local/newsroom/2016-06-07/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/enterprise/us/solutions/vive-sync/",
+      "final_url": "http://vive-vn.local/enterprise/us/solutions/vive-sync/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/products/21047655/",
+      "final_url": "http://vive-vn.local/shop/products/21047655/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2019-01-09/",
+      "final_url": "http://vive-vn.local/newsroom/2019-01-09/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/locator/home/",
+      "final_url": "http://vive-vn.local/locator/home/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2017-12-07/",
+      "final_url": "http://vive-vn.local/newsroom/2017-12-07/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": false
+    },
+    {
+      "url": "http://vive-vn.local/accessory/xr-temple-pads/",
+      "final_url": "http://vive-vn.local/accessory/xr-temple-pads/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/product/",
+      "final_url": "http://vive-vn.local/product/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/accessory/battery-for-vive-focus-series/",
+      "final_url": "http://vive-vn.local/accessory/battery-for-vive-focus-series/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/business/us/support/business-plus/category_howto/required-device-software-and-app-versions-html/",
+      "final_url": "http://vive-vn.local/business/us/support/business-plus/category_howto/required-device-software-and-app-versions-html/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": false
+    },
+    {
+      "url": "http://vive-vn.local/",
+      "final_url": "http://vive-vn.local/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/products/vive-eagle-pantos-sunglasses-matte-black/",
+      "final_url": "http://vive-vn.local/shop/products/vive-eagle-pantos-sunglasses-matte-black/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/blog/vpwt-meet-plave-the-k-pop-virtual-idol-boy-band-in-webtoon-style/",
+      "final_url": "http://vive-vn.local/blog/vpwt-meet-plave-the-k-pop-virtual-idol-boy-band-in-webtoon-style/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/products/2104024/",
+      "final_url": "http://vive-vn.local/shop/products/2104024/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/support/vive-pro-hmd/",
+      "final_url": "http://vive-vn.local/support/vive-pro-hmd/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2023-2/",
+      "final_url": "http://vive-vn.local/newsroom/2023-2/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": false
+    },
+    {
+      "url": "http://vive-vn.local/shop/products/vive-focus-vision-wired-streaming-kit-facial-tracker/",
+      "final_url": "http://vive-vn.local/shop/products/vive-focus-vision-wired-streaming-kit-facial-tracker/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/accessory/rebuff-strap/",
+      "final_url": "http://vive-vn.local/accessory/rebuff-strap/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/business/product/bws/",
+      "final_url": "http://vive-vn.local/business/product/bws/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/products/21071655/",
+      "final_url": "http://vive-vn.local/shop/products/21071655/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/business/isv/program/",
+      "final_url": "http://vive-vn.local/business/isv/program/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/products/2104037/",
+      "final_url": "http://vive-vn.local/shop/products/2104037/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/solution/location-based-experiences/",
+      "final_url": "http://vive-vn.local/solution/location-based-experiences/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/vive-ready/",
+      "final_url": "http://vive-vn.local/vive-ready/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/solution/",
+      "final_url": "http://vive-vn.local/solution/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/products/vive-eagle-pantos-sunglasses-light-brown/",
+      "final_url": "http://vive-vn.local/shop/products/vive-eagle-pantos-sunglasses-light-brown/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2024-12-24/",
+      "final_url": "http://vive-vn.local/newsroom/2024-12-24/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2015/",
+      "final_url": "http://vive-vn.local/newsroom/2015/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/business/us/product/vive-pro2/",
+      "final_url": "http://vive-vn.local/business/us/product/vive-pro2/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/product/vive-pro2/specs/",
+      "final_url": "http://vive-vn.local/product/vive-pro2/specs/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/products/21049755/",
+      "final_url": "http://vive-vn.local/shop/products/21049755/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/products/vive-eagle-square-sunglasses-berry/",
+      "final_url": "http://vive-vn.local/shop/products/vive-eagle-square-sunglasses-berry/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/products/vive-xr-elite-business-edition/",
+      "final_url": "http://vive-vn.local/shop/products/vive-xr-elite-business-edition/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/blog/why-the-japanese-trust-ai-more-a-cross-cultural-experiment/",
+      "final_url": "http://vive-vn.local/blog/why-the-japanese-trust-ai-more-a-cross-cultural-experiment/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/blog/claude-4-will-snitchall-for-the-sake-of-safety/",
+      "final_url": "http://vive-vn.local/blog/claude-4-will-snitchall-for-the-sake-of-safety/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/support/tracker3/",
+      "final_url": "http://vive-vn.local/support/tracker3/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/accessory/30w-pd-adapter-us/",
+      "final_url": "http://vive-vn.local/accessory/30w-pd-adapter-us/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2024-03-05/",
+      "final_url": "http://vive-vn.local/newsroom/2024-03-05/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/business/us/setup/all-in-one/",
+      "final_url": "http://vive-vn.local/business/us/setup/all-in-one/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/products/31071563/",
+      "final_url": "http://vive-vn.local/shop/products/31071563/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/developer/resources/downloads/",
+      "final_url": "http://vive-vn.local/developer/resources/downloads/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/collections/on-sale/",
+      "final_url": "http://vive-vn.local/shop/collections/on-sale/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/business/us/setup/standalone/",
+      "final_url": "http://vive-vn.local/business/us/setup/standalone/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/blog/robloxs-new-licensing-platform-lets-creators-build-games-with-stranger-things-blue-lock-and-more/",
+      "final_url": "http://vive-vn.local/blog/robloxs-new-licensing-platform-lets-creators-build-games-with-stranger-things-blue-lock-and-more/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2024-06-18/",
+      "final_url": "http://vive-vn.local/newsroom/2024-06-18/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/accessory/cosmos-external-tracking-faceplate/",
+      "final_url": "http://vive-vn.local/accessory/cosmos-external-tracking-faceplate/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/support/vs/",
+      "final_url": "http://vive-vn.local/support/vs/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/business/us/support/business-plus/category_howto/required-device-software-and-app-versions.html/",
+      "final_url": "http://vive-vn.local/business/us/support/business-plus/category_howto/required-device-software-and-app-versions.html/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/accessory/vive-pro-wireless-adapter-attachment-kit/",
+      "final_url": "http://vive-vn.local/accessory/vive-pro-wireless-adapter-attachment-kit/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2020-03-18/",
+      "final_url": "http://vive-vn.local/newsroom/2020-03-18/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/business/mea-en/support/vive-lbss/",
+      "final_url": "http://vive-vn.local/business/mea-en/support/vive-lbss/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/product/vive-eagle/spec/",
+      "final_url": "http://vive-vn.local/product/vive-eagle/spec/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/products/2104034-1/",
+      "final_url": "http://vive-vn.local/shop/products/2104034-1/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/products/vive-business-ultimate-1-year-subscription-10-seats/",
+      "final_url": "http://vive-vn.local/shop/products/vive-business-ultimate-1-year-subscription-10-seats/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/blog/vpwt-ai-powered-dolls-face-off-in-m3gan-20-trailer/",
+      "final_url": "http://vive-vn.local/blog/vpwt-ai-powered-dolls-face-off-in-m3gan-20-trailer/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/solution/vive-streaming/",
+      "final_url": "http://vive-vn.local/solution/vive-streaming/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2020-02-20/",
+      "final_url": "http://vive-vn.local/newsroom/2020-02-20/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2018-03-07/",
+      "final_url": "http://vive-vn.local/newsroom/2018-03-07/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/roundtable/home/",
+      "final_url": "http://vive-vn.local/roundtable/home/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/blog/htc-vive-palais-garnier/",
+      "final_url": "http://vive-vn.local/blog/htc-vive-palais-garnier/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/products/flow-for-business/",
+      "final_url": "http://vive-vn.local/shop/products/flow-for-business/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/accessory/controller/",
+      "final_url": "http://vive-vn.local/accessory/controller/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/products/2104061/",
+      "final_url": "http://vive-vn.local/shop/products/2104061/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2018-09-06-2/",
+      "final_url": "http://vive-vn.local/newsroom/2018-09-06-2/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/business/us/product/vive-focus-vision/",
+      "final_url": "http://vive-vn.local/business/us/product/vive-focus-vision/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/business/us/support/business-plus/category_howto/adding-devices-to-a-group.html/",
+      "final_url": "http://vive-vn.local/business/us/support/business-plus/category_howto/adding-devices-to-a-group.html/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/setup/vive-xr/",
+      "final_url": "http://vive-vn.local/setup/vive-xr/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/blog/kr/more-than-a-vtuber-meet-vrchat-enthusiast-hiodoshi-ao/",
+      "final_url": "http://vive-vn.local/blog/kr/more-than-a-vtuber-meet-vrchat-enthusiast-hiodoshi-ao/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/collections/pro-series/",
+      "final_url": "http://vive-vn.local/shop/collections/pro-series/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2019-2/",
+      "final_url": "http://vive-vn.local/newsroom/2019-2/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": false
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2017-11-14/",
+      "final_url": "http://vive-vn.local/newsroom/2017-11-14/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/blog/deepmind-unveils-genie-3-googles-world-model-toward-agi/",
+      "final_url": "http://vive-vn.local/blog/deepmind-unveils-genie-3-googles-world-model-toward-agi/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/products/vive-ultimate-tracker-3-1-kit/",
+      "final_url": "http://vive-vn.local/shop/products/vive-ultimate-tracker-3-1-kit/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/blog/excited-about-xr-survey-of-teens-shows-that-immersive-tech-is-poised-to-transform-the-classroom/",
+      "final_url": "http://vive-vn.local/blog/excited-about-xr-survey-of-teens-shows-that-immersive-tech-is-poised-to-transform-the-classroom/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/business/us/stories/benefits-of-vr-in-healthcare/",
+      "final_url": "http://vive-vn.local/business/us/stories/benefits-of-vr-in-healthcare/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2021-2/",
+      "final_url": "http://vive-vn.local/newsroom/2021-2/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": false
+    },
+    {
+      "url": "http://vive-vn.local/blog/unists-dogrecon-ai-turns-a-single-photo-into-a-lifelike-moving-3d-dog/",
+      "final_url": "http://vive-vn.local/blog/unists-dogrecon-ai-turns-a-single-photo-into-a-lifelike-moving-3d-dog/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/blog/olfactory-vr-shows-promise-in-preventing-dementia-study-finds/",
+      "final_url": "http://vive-vn.local/blog/olfactory-vr-shows-promise-in-preventing-dementia-study-finds/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/blog/taiwans-xr-black-wave-future-of-immersive-creation/",
+      "final_url": "http://vive-vn.local/blog/taiwans-xr-black-wave-future-of-immersive-creation/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/accessory/vive-mr-gasket/",
+      "final_url": "http://vive-vn.local/accessory/vive-mr-gasket/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/products/21046455/",
+      "final_url": "http://vive-vn.local/shop/products/21046455/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/blog/experience-the-future-of-free-roam-xr-at-iaapa-europe-2025/",
+      "final_url": "http://vive-vn.local/blog/experience-the-future-of-free-roam-xr-at-iaapa-europe-2025/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/products/flow-with-controller-for-business/",
+      "final_url": "http://vive-vn.local/shop/products/flow-with-controller-for-business/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/business/support/vive-xr-face-tracker/",
+      "final_url": "http://vive-vn.local/business/support/vive-xr-face-tracker/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/business/us/support/business-plus/category_howto/creating-groups.html/",
+      "final_url": "http://vive-vn.local/business/us/support/business-plus/category_howto/creating-groups.html/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/business/mea-en/support/vive-lbss/category_howto/setting-up-the-headsets.html/",
+      "final_url": "http://vive-vn.local/business/mea-en/support/vive-lbss/category_howto/setting-up-the-headsets.html/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/accessory/face-gasket-and-rear-pad-for-vive-focus-series-wide/",
+      "final_url": "http://vive-vn.local/accessory/face-gasket-and-rear-pad-for-vive-focus-series-wide/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/blog/meet-velvet-sundown-the-viral-ai-band-on-spotify/",
+      "final_url": "http://vive-vn.local/blog/meet-velvet-sundown-the-viral-ai-band-on-spotify/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/blog/stanford-launches-agents4science-2025-first-ai-only-academic-conference/",
+      "final_url": "http://vive-vn.local/blog/stanford-launches-agents4science-2025-first-ai-only-academic-conference/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2017-03-28/",
+      "final_url": "http://vive-vn.local/newsroom/2017-03-28/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": false
+    },
+    {
+      "url": "http://vive-vn.local/blog/laval-virtual-2025-our-largest-showcase-yet/",
+      "final_url": "http://vive-vn.local/blog/laval-virtual-2025-our-largest-showcase-yet/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/products/2104031/",
+      "final_url": "http://vive-vn.local/shop/products/2104031/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/products/21045000/",
+      "final_url": "http://vive-vn.local/shop/products/21045000/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/products/2104030/",
+      "final_url": "http://vive-vn.local/shop/products/2104030/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/business/us/support/business-plus/category_howto/setting-trackers-to-wi-fi-lbe-mode-html/",
+      "final_url": "http://vive-vn.local/business/us/support/business-plus/category_howto/setting-trackers-to-wi-fi-lbe-mode-html/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": false
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2016-09-30/",
+      "final_url": "http://vive-vn.local/newsroom/2016-09-30/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/blog/top-5-books-about-virtual-reality-to-read-and-why/",
+      "final_url": "http://vive-vn.local/blog/top-5-books-about-virtual-reality-to-read-and-why/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/blog/la-magie-opera-a-new-kind-of-magic-at-the-paris-opera/",
+      "final_url": "http://vive-vn.local/blog/la-magie-opera-a-new-kind-of-magic-at-the-paris-opera/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2016-11-01/",
+      "final_url": "http://vive-vn.local/newsroom/2016-11-01/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2020-3/",
+      "final_url": "http://vive-vn.local/newsroom/2020-3/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/blog/kr/experience-versailles-lost-gardens-in-vr-now-open-to-the-public/",
+      "final_url": "http://vive-vn.local/blog/kr/experience-versailles-lost-gardens-in-vr-now-open-to-the-public/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2016-11-17/",
+      "final_url": "http://vive-vn.local/newsroom/2016-11-17/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2018-10-15/",
+      "final_url": "http://vive-vn.local/newsroom/2018-10-15/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/products/2104023/",
+      "final_url": "http://vive-vn.local/shop/products/2104023/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2021-10-14/",
+      "final_url": "http://vive-vn.local/newsroom/2021-10-14/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2018-03-22/",
+      "final_url": "http://vive-vn.local/newsroom/2018-03-22/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/accessory/headset-cable2-pro/",
+      "final_url": "http://vive-vn.local/accessory/headset-cable2-pro/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/business/support/business-plus/",
+      "final_url": "http://vive-vn.local/business/support/business-plus/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/arts/",
+      "final_url": "http://vive-vn.local/arts/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2024/",
+      "final_url": "http://vive-vn.local/newsroom/2024/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/business/isv/",
+      "final_url": "http://vive-vn.local/business/isv/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/accessory/narrow-face-cushion-2-vive-pro/",
+      "final_url": "http://vive-vn.local/accessory/narrow-face-cushion-2-vive-pro/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/product/vive-xr-elite/features/",
+      "final_url": "http://vive-vn.local/product/vive-xr-elite/features/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/support/vive-pro/",
+      "final_url": "http://vive-vn.local/support/vive-pro/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/blog/transforming-real-world-decisions-with-virtual-twins-for-industrial-training-dassault-systemes/",
+      "final_url": "http://vive-vn.local/blog/transforming-real-world-decisions-with-virtual-twins-for-industrial-training-dassault-systemes/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/accessory/extension-package-20m/",
+      "final_url": "http://vive-vn.local/accessory/extension-package-20m/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2018-11-29/",
+      "final_url": "http://vive-vn.local/newsroom/2018-11-29/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/products/vive-face-cushion-narrow-set-of-2/",
+      "final_url": "http://vive-vn.local/shop/products/vive-face-cushion-narrow-set-of-2/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/warranty/",
+      "final_url": "http://vive-vn.local/warranty/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2017-11-30/",
+      "final_url": "http://vive-vn.local/newsroom/2017-11-30/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2020/",
+      "final_url": "http://vive-vn.local/newsroom/2020/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/accessory/vive-controller-right/",
+      "final_url": "http://vive-vn.local/accessory/vive-controller-right/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/blog/announcing-playing-with-fire-an-immersive-odyssey-with-yuja-wang/",
+      "final_url": "http://vive-vn.local/blog/announcing-playing-with-fire-an-immersive-odyssey-with-yuja-wang/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/blog/eclipso-expands-to-seville-with-a-new-immersive-venue-powered-by-vive/",
+      "final_url": "http://vive-vn.local/blog/eclipso-expands-to-seville-with-a-new-immersive-venue-powered-by-vive/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/blog/vr-5-viveport-steam/",
+      "final_url": "http://vive-vn.local/blog/vr-5-viveport-steam/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/business/support/dms/",
+      "final_url": "http://vive-vn.local/business/support/dms/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2025-01-24/",
+      "final_url": "http://vive-vn.local/newsroom/2025-01-24/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/product/vive-xr-elite/specs/",
+      "final_url": "http://vive-vn.local/product/vive-xr-elite/specs/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2018-11-08/",
+      "final_url": "http://vive-vn.local/newsroom/2018-11-08/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/support/flow/",
+      "final_url": "http://vive-vn.local/support/flow/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/products/21047255/",
+      "final_url": "http://vive-vn.local/shop/products/21047255/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/products/vive-business-ultimate-30-day-subscription-7-seats/",
+      "final_url": "http://vive-vn.local/shop/products/vive-business-ultimate-30-day-subscription-7-seats/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2018-11-26/",
+      "final_url": "http://vive-vn.local/newsroom/2018-11-26/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/support/cosmos-elite/",
+      "final_url": "http://vive-vn.local/support/cosmos-elite/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/support/wireless-tracker/",
+      "final_url": "http://vive-vn.local/support/wireless-tracker/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/enterprise/product/",
+      "final_url": "http://vive-vn.local/enterprise/product/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/blog/vpwt-enter-jack-and-roses-world-in-titanic-echoes-from-the-past/",
+      "final_url": "http://vive-vn.local/blog/vpwt-enter-jack-and-roses-world-in-titanic-echoes-from-the-past/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/locator/",
+      "final_url": "http://vive-vn.local/locator/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/products/vive-business-pro-1-year-subscription-50-seat/",
+      "final_url": "http://vive-vn.local/shop/products/vive-business-pro-1-year-subscription-50-seat/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/accessory/",
+      "final_url": "http://vive-vn.local/accessory/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2018-11-06-2/",
+      "final_url": "http://vive-vn.local/newsroom/2018-11-06-2/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2016-01-04/",
+      "final_url": "http://vive-vn.local/newsroom/2016-01-04/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/developer/us/vive-studios/",
+      "final_url": "http://vive-vn.local/developer/us/vive-studios/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/products/magnetic-charging-cable-for-vive-eagle/",
+      "final_url": "http://vive-vn.local/shop/products/magnetic-charging-cable-for-vive-eagle/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/blog/htc-palace-of-versailles/",
+      "final_url": "http://vive-vn.local/blog/htc-palace-of-versailles/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/products/21045005/",
+      "final_url": "http://vive-vn.local/shop/products/21045005/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/collections/focus-series/",
+      "final_url": "http://vive-vn.local/shop/collections/focus-series/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/hub/en-US/download/",
+      "final_url": "http://vive-vn.local/hub/en-US/download/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/blog/20-best-mixed-reality-games-to-play-in-2025/",
+      "final_url": "http://vive-vn.local/blog/20-best-mixed-reality-games-to-play-in-2025/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/business/product/",
+      "final_url": "http://vive-vn.local/business/product/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/vivex/us/",
+      "final_url": "http://vive-vn.local/vivex/us/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/setup/vive-focus-vision/vr-setup/",
+      "final_url": "http://vive-vn.local/setup/vive-focus-vision/vr-setup/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/",
+      "final_url": "http://vive-vn.local/newsroom/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/business/us/events/meet-with-vive-live-at-iitsec-2024/",
+      "final_url": "http://vive-vn.local/business/us/events/meet-with-vive-live-at-iitsec-2024/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/product/vive-focus-vision/specs/",
+      "final_url": "http://vive-vn.local/product/vive-focus-vision/specs/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2018-02-15-2/",
+      "final_url": "http://vive-vn.local/newsroom/2018-02-15-2/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2019-08-29/",
+      "final_url": "http://vive-vn.local/newsroom/2019-08-29/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/business/us/enterprise_inquiry/",
+      "final_url": "http://vive-vn.local/business/us/enterprise_inquiry/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2019-07-22/",
+      "final_url": "http://vive-vn.local/newsroom/2019-07-22/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/blog/kr/can-you-use-a-vr-headset-with-glasses-learn-how-htc-vive-headsets-support-glasses-wearers-and-what-you-need-to-consider-for-comfort-in-virtual-reality/",
+      "final_url": "http://vive-vn.local/blog/kr/can-you-use-a-vr-headset-with-glasses-learn-how-htc-vive-headsets-support-glasses-wearers-and-what-you-need-to-consider-for-comfort-in-virtual-reality/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/product/vive-focus-vision/",
+      "final_url": "http://vive-vn.local/product/vive-focus-vision/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/blog/ino-vr-and-vive-host-simplifying-xr-deployment-for-training-at-scale/",
+      "final_url": "http://vive-vn.local/blog/ino-vr-and-vive-host-simplifying-xr-deployment-for-training-at-scale/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/products/vive-eagle-pantos-sunglasses-navy/",
+      "final_url": "http://vive-vn.local/shop/products/vive-eagle-pantos-sunglasses-navy/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/collections/vive-flow/",
+      "final_url": "http://vive-vn.local/shop/collections/vive-flow/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2016-11-15/",
+      "final_url": "http://vive-vn.local/newsroom/2016-11-15/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2018-03-28/",
+      "final_url": "http://vive-vn.local/newsroom/2018-03-28/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2016-08-25/",
+      "final_url": "http://vive-vn.local/newsroom/2016-08-25/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2024-09-18/",
+      "final_url": "http://vive-vn.local/newsroom/2024-09-18/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/enterprise/",
+      "final_url": "http://vive-vn.local/enterprise/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/developer/resources/vive-sense/eye-and-facial-tracking-sdk/",
+      "final_url": "http://vive-vn.local/developer/resources/vive-sense/eye-and-facial-tracking-sdk/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2019-03-26/",
+      "final_url": "http://vive-vn.local/newsroom/2019-03-26/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/blog/vpwt-xr-game-based-on-neon-genesis-evangelion-coming-next-year/",
+      "final_url": "http://vive-vn.local/blog/vpwt-xr-game-based-on-neon-genesis-evangelion-coming-next-year/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2018-04-12/",
+      "final_url": "http://vive-vn.local/newsroom/2018-04-12/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/support/vive-pro2/",
+      "final_url": "http://vive-vn.local/support/vive-pro2/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/blog/kr/vpwt-meet-plave-the-k-pop-virtual-idol-boy-band-in-webtoon-style/",
+      "final_url": "http://vive-vn.local/blog/kr/vpwt-meet-plave-the-k-pop-virtual-idol-boy-band-in-webtoon-style/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2020-2/",
+      "final_url": "http://vive-vn.local/newsroom/2020-2/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": false
+    },
+    {
+      "url": "http://vive-vn.local/shop/products/xr-elite-with-deluxe-pack-business-edition/",
+      "final_url": "http://vive-vn.local/shop/products/xr-elite-with-deluxe-pack-business-edition/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/business/mea-en/support/vive-lbss/category_howto/setting-up-the-headsets-html/",
+      "final_url": "http://vive-vn.local/business/mea-en/support/vive-lbss/category_howto/setting-up-the-headsets-html/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": false
+    },
+    {
+      "url": "http://vive-vn.local/setup/vive-focus-vision/",
+      "final_url": "http://vive-vn.local/setup/vive-focus-vision/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/setup/",
+      "final_url": "http://vive-vn.local/setup/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/products/2104005/",
+      "final_url": "http://vive-vn.local/shop/products/2104005/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/developer/us/wave/",
+      "final_url": "http://vive-vn.local/developer/us/wave/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/accessory/face-cushion-pro/",
+      "final_url": "http://vive-vn.local/accessory/face-cushion-pro/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/products/controller-for-xr-elite-left-bulk-packaging/",
+      "final_url": "http://vive-vn.local/shop/products/controller-for-xr-elite-left-bulk-packaging/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2019-05-30/",
+      "final_url": "http://vive-vn.local/newsroom/2019-05-30/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2025-2/",
+      "final_url": "http://vive-vn.local/newsroom/2025-2/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": false
+    },
+    {
+      "url": "http://vive-vn.local/accessory/vive-wired-streaming-kit/",
+      "final_url": "http://vive-vn.local/accessory/vive-wired-streaming-kit/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/products/vive-ac-adapter-30w/",
+      "final_url": "http://vive-vn.local/shop/products/vive-ac-adapter-30w/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2018-03-19-2/",
+      "final_url": "http://vive-vn.local/newsroom/2018-03-19-2/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2016-04-21/",
+      "final_url": "http://vive-vn.local/newsroom/2016-04-21/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/accessory/vive-wired-streaming-cable/",
+      "final_url": "http://vive-vn.local/accessory/vive-wired-streaming-cable/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2025-01-23/",
+      "final_url": "http://vive-vn.local/newsroom/2025-01-23/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2023-3/",
+      "final_url": "http://vive-vn.local/newsroom/2023-3/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/products/vive-flow-gasket-temple-pads-w/",
+      "final_url": "http://vive-vn.local/shop/products/vive-flow-gasket-temple-pads-w/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/product/vive-flow/overview/",
+      "final_url": "http://vive-vn.local/product/vive-flow/overview/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/products/vive-wired-streaming-kit-1/",
+      "final_url": "http://vive-vn.local/shop/products/vive-wired-streaming-kit-1/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/setup/all-in-one/",
+      "final_url": "http://vive-vn.local/setup/all-in-one/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/business/us/stories/xr-financial-survey-report-2024/",
+      "final_url": "http://vive-vn.local/business/us/stories/xr-financial-survey-report-2024/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/collections/vive-ultimate-tracker/",
+      "final_url": "http://vive-vn.local/shop/collections/vive-ultimate-tracker/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2017-08-21/",
+      "final_url": "http://vive-vn.local/newsroom/2017-08-21/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2017-2/",
+      "final_url": "http://vive-vn.local/newsroom/2017-2/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": false
+    },
+    {
+      "url": "http://vive-vn.local/vivex/",
+      "final_url": "http://vive-vn.local/vivex/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/blog/chatgpt-memory-available-to-free-users-with-custom-controls/",
+      "final_url": "http://vive-vn.local/blog/chatgpt-memory-available-to-free-users-with-custom-controls/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/accessory/tracker3/",
+      "final_url": "http://vive-vn.local/accessory/tracker3/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2018-2/",
+      "final_url": "http://vive-vn.local/newsroom/2018-2/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": false
+    },
+    {
+      "url": "http://vive-vn.local/business/us/support/business-plus/category_howto/downloading-vive-business-plus-console-html/",
+      "final_url": "http://vive-vn.local/business/us/support/business-plus/category_howto/downloading-vive-business-plus-console-html/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": false
+    },
+    {
+      "url": "http://vive-vn.local/shop/products/2104029/",
+      "final_url": "http://vive-vn.local/shop/products/2104029/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/products/vive-eagle/",
+      "final_url": "http://vive-vn.local/shop/products/vive-eagle/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2019-05-08/",
+      "final_url": "http://vive-vn.local/newsroom/2019-05-08/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2020-01-14/",
+      "final_url": "http://vive-vn.local/newsroom/2020-01-14/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/product/vive-xr-elite/overview/",
+      "final_url": "http://vive-vn.local/product/vive-xr-elite/overview/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/accessory/trackstraps-for-vive-ultimate-tracker-plus-dance-dash/",
+      "final_url": "http://vive-vn.local/accessory/trackstraps-for-vive-ultimate-tracker-plus-dance-dash/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/business/dms/",
+      "final_url": "http://vive-vn.local/business/dms/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2016-11-21/",
+      "final_url": "http://vive-vn.local/newsroom/2016-11-21/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/products/vive-eagle-glossy-black-square-sun/",
+      "final_url": "http://vive-vn.local/shop/products/vive-eagle-glossy-black-square-sun/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/accessory/link-box-pro/",
+      "final_url": "http://vive-vn.local/accessory/link-box-pro/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/blog/chiikawa-takes-over-shinjuku-3d-billboard-with-usagi-chasing-butterflies/",
+      "final_url": "http://vive-vn.local/blog/chiikawa-takes-over-shinjuku-3d-billboard-with-usagi-chasing-butterflies/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/collections/vive-focus-series-for-business/",
+      "final_url": "http://vive-vn.local/shop/collections/vive-focus-series-for-business/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/thanh-toan/",
+      "final_url": "http://vive-vn.local/thanh-toan/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": false
+    },
+    {
+      "url": "http://vive-vn.local/product/vive-eagle/",
+      "final_url": "http://vive-vn.local/product/vive-eagle/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/arts/us/",
+      "final_url": "http://vive-vn.local/arts/us/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/business/us/support/business-plus/category_howto/setting-trackers-to-standard-lbe-mode.html/",
+      "final_url": "http://vive-vn.local/business/us/support/business-plus/category_howto/setting-trackers-to-standard-lbe-mode.html/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/setup/pc-vr/",
+      "final_url": "http://vive-vn.local/setup/pc-vr/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/blog/vpwt-reviving-web-games-from-flash-nostalgia-to-viverse-3d-worlds/",
+      "final_url": "http://vive-vn.local/blog/vpwt-reviving-web-games-from-flash-nostalgia-to-viverse-3d-worlds/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/developer/",
+      "final_url": "http://vive-vn.local/developer/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/blog/more-than-a-vtuber-meet-vrchat-enthusiast-hiodoshi-ao/",
+      "final_url": "http://vive-vn.local/blog/more-than-a-vtuber-meet-vrchat-enthusiast-hiodoshi-ao/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2016-3/",
+      "final_url": "http://vive-vn.local/newsroom/2016-3/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/products/vive-business-pro-3-year-subscription-22-seat/",
+      "final_url": "http://vive-vn.local/shop/products/vive-business-pro-3-year-subscription-22-seat/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/blog/can-you-use-a-vr-headset-with-glasses-learn-how-htc-vive-headsets-support-glasses-wearers-and-what-you-need-to-consider-for-comfort-in-virtual-reality/",
+      "final_url": "http://vive-vn.local/blog/can-you-use-a-vr-headset-with-glasses-learn-how-htc-vive-headsets-support-glasses-wearers-and-what-you-need-to-consider-for-comfort-in-virtual-reality/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/products/21048355/",
+      "final_url": "http://vive-vn.local/shop/products/21048355/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/business/us/support/business-plus/category_howto/creating-groups-html/",
+      "final_url": "http://vive-vn.local/business/us/support/business-plus/category_howto/creating-groups-html/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": false
+    },
+    {
+      "url": "http://vive-vn.local/shop/products/2104045/",
+      "final_url": "http://vive-vn.local/shop/products/2104045/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/collections/battery_included/",
+      "final_url": "http://vive-vn.local/shop/collections/battery_included/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2015-2/",
+      "final_url": "http://vive-vn.local/newsroom/2015-2/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": false
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2023-01-05/",
+      "final_url": "http://vive-vn.local/newsroom/2023-01-05/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2016-10-27/",
+      "final_url": "http://vive-vn.local/newsroom/2016-10-27/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/accessory/vive-ultimate-tracker/",
+      "final_url": "http://vive-vn.local/accessory/vive-ultimate-tracker/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/business/mea-en/support/vive-lbss/category_howto/",
+      "final_url": "http://vive-vn.local/business/mea-en/support/vive-lbss/category_howto/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/products/2104034/",
+      "final_url": "http://vive-vn.local/shop/products/2104034/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2025-3/",
+      "final_url": "http://vive-vn.local/newsroom/2025-3/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/collections/headsets/",
+      "final_url": "http://vive-vn.local/shop/collections/headsets/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2023-11-14/",
+      "final_url": "http://vive-vn.local/newsroom/2023-11-14/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2019-01-24/",
+      "final_url": "http://vive-vn.local/newsroom/2019-01-24/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/products/2104049/",
+      "final_url": "http://vive-vn.local/shop/products/2104049/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/accessory/controller-for-vive-flow/",
+      "final_url": "http://vive-vn.local/accessory/controller-for-vive-flow/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/products/21048155/",
+      "final_url": "http://vive-vn.local/shop/products/21048155/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2015-12-18-2/",
+      "final_url": "http://vive-vn.local/newsroom/2015-12-18-2/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2015-3/",
+      "final_url": "http://vive-vn.local/newsroom/2015-3/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/products/21071155/",
+      "final_url": "http://vive-vn.local/shop/products/21071155/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2018-3/",
+      "final_url": "http://vive-vn.local/newsroom/2018-3/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/product/vive-pro2-full-kit/",
+      "final_url": "http://vive-vn.local/product/vive-pro2-full-kit/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/accessory/xr-face-gasket/",
+      "final_url": "http://vive-vn.local/accessory/xr-face-gasket/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/cookie-preferences/",
+      "final_url": "http://vive-vn.local/cookie-preferences/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/products/2104035/",
+      "final_url": "http://vive-vn.local/shop/products/2104035/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2020-03-02/",
+      "final_url": "http://vive-vn.local/newsroom/2020-03-02/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/accessory/vive-flow-hygienic-cover-narrow/",
+      "final_url": "http://vive-vn.local/accessory/vive-flow-hygienic-cover-narrow/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/business/us/product/",
+      "final_url": "http://vive-vn.local/business/us/product/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/blog/roblox-beats-steam-but-which-games-attracted-4729-million-players-at-once/",
+      "final_url": "http://vive-vn.local/blog/roblox-beats-steam-but-which-games-attracted-4729-million-players-at-once/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/blog/kr/ohio-university-htc-vive-and-virtualware-launch-immersive-digital-enterprise-hub-to-power-manufacturing-innovation-in-ohio/",
+      "final_url": "http://vive-vn.local/blog/kr/ohio-university-htc-vive-and-virtualware-launch-immersive-digital-enterprise-hub-to-power-manufacturing-innovation-in-ohio/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/accessory/link-box-2/",
+      "final_url": "http://vive-vn.local/accessory/link-box-2/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/blog/i-took-the-vive-eagle-to-seoul-for-charli-xcx-a-first-person-view-of-brat-summers-finale/",
+      "final_url": "http://vive-vn.local/blog/i-took-the-vive-eagle-to-seoul-for-charli-xcx-a-first-person-view-of-brat-summers-finale/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/accessory/vive-controller-left/",
+      "final_url": "http://vive-vn.local/accessory/vive-controller-left/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/business/us/",
+      "final_url": "http://vive-vn.local/business/us/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/legal/",
+      "final_url": "http://vive-vn.local/legal/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2025-06-13/",
+      "final_url": "http://vive-vn.local/newsroom/2025-06-13/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/business/us/support/business-plus/",
+      "final_url": "http://vive-vn.local/business/us/support/business-plus/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/accessory/vive-dp-connect-cable-pro/",
+      "final_url": "http://vive-vn.local/accessory/vive-dp-connect-cable-pro/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/product/vive-pro2-full-kit/specs/",
+      "final_url": "http://vive-vn.local/product/vive-pro2-full-kit/specs/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/business/us/events/",
+      "final_url": "http://vive-vn.local/business/us/events/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2018-01-22/",
+      "final_url": "http://vive-vn.local/newsroom/2018-01-22/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/hub/",
+      "final_url": "http://vive-vn.local/hub/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/products/vive-focus-vision-wired-bundle-business-edition-sb/",
+      "final_url": "http://vive-vn.local/shop/products/vive-focus-vision-wired-bundle-business-edition-sb/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/blog/skater-xl-developer-returns-with-vr-skateboarding-game/",
+      "final_url": "http://vive-vn.local/blog/skater-xl-developer-returns-with-vr-skateboarding-game/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/developer/us/hardware/tracker3/",
+      "final_url": "http://vive-vn.local/developer/us/hardware/tracker3/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2018-11-29-2/",
+      "final_url": "http://vive-vn.local/newsroom/2018-11-29-2/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/support/vive-xr/",
+      "final_url": "http://vive-vn.local/support/vive-xr/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/support/vive-pro-eye/",
+      "final_url": "http://vive-vn.local/support/vive-pro-eye/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/accessory/vive-flow-case/",
+      "final_url": "http://vive-vn.local/accessory/vive-flow-case/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/accessory/xr-battery-cradle/",
+      "final_url": "http://vive-vn.local/accessory/xr-battery-cradle/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/business/mea-en/support/",
+      "final_url": "http://vive-vn.local/business/mea-en/support/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/product/vive-focus-vision/overview/",
+      "final_url": "http://vive-vn.local/product/vive-focus-vision/overview/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/products/21047455/",
+      "final_url": "http://vive-vn.local/shop/products/21047455/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/vive-hub/download/",
+      "final_url": "http://vive-vn.local/vive-hub/download/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/developer/resources/hardware-guides/",
+      "final_url": "http://vive-vn.local/developer/resources/hardware-guides/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/business/us/stories/vr-military-use-2023-survey/",
+      "final_url": "http://vive-vn.local/business/us/stories/vr-military-use-2023-survey/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/business/us/stories/",
+      "final_url": "http://vive-vn.local/business/us/stories/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/support/cosmos-external-tracking-faceplate/",
+      "final_url": "http://vive-vn.local/support/cosmos-external-tracking-faceplate/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/hub/en-us/",
+      "final_url": "http://vive-vn.local/hub/en-us/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": false
+    },
+    {
+      "url": "http://vive-vn.local/accessory/vive-wireless-dongle/",
+      "final_url": "http://vive-vn.local/accessory/vive-wireless-dongle/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/blog/vpwt-agatha-christie-returns-as-a-digital-teacher-in-bbcs-ai-powered-writing-course/",
+      "final_url": "http://vive-vn.local/blog/vpwt-agatha-christie-returns-as-a-digital-teacher-in-bbcs-ai-powered-writing-course/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/business/us/product/vive-focus-3-eye-tracker/",
+      "final_url": "http://vive-vn.local/business/us/product/vive-focus-3-eye-tracker/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/vr-racket-sports-set/",
+      "final_url": "http://vive-vn.local/vr-racket-sports-set/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": false
+    },
+    {
+      "url": "http://vive-vn.local/developer/resources/vive-sense/",
+      "final_url": "http://vive-vn.local/developer/resources/vive-sense/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/business/us/support/business-plus/category_howto/downloading-vive-business-plus-console.html/",
+      "final_url": "http://vive-vn.local/business/us/support/business-plus/category_howto/downloading-vive-business-plus-console.html/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/blog/calling-all-creators-build-your-virtual-worlds-with-the-viverse-creator-program/",
+      "final_url": "http://vive-vn.local/blog/calling-all-creators-build-your-virtual-worlds-with-the-viverse-creator-program/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/products/vive-eagle-power-boost/",
+      "final_url": "http://vive-vn.local/shop/products/vive-eagle-power-boost/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/business/us/support/business-plus/category_howto/setting-trackers-to-wi-fi-lbe-mode.html/",
+      "final_url": "http://vive-vn.local/business/us/support/business-plus/category_howto/setting-trackers-to-wi-fi-lbe-mode.html/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/blog/kr/vpwt-enter-jack-and-roses-world-in-titanic-echoes-from-the-past/",
+      "final_url": "http://vive-vn.local/blog/kr/vpwt-enter-jack-and-roses-world-in-titanic-echoes-from-the-past/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/products/2104027/",
+      "final_url": "http://vive-vn.local/shop/products/2104027/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/setup/flow/",
+      "final_url": "http://vive-vn.local/setup/flow/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/blog/empowering-scalable-xr-training-with-inversive-and-vive-focus-vision/",
+      "final_url": "http://vive-vn.local/blog/empowering-scalable-xr-training-with-inversive-and-vive-focus-vision/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/accessory/charging-case-for-vive-focus-series/",
+      "final_url": "http://vive-vn.local/accessory/charging-case-for-vive-focus-series/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2018/",
+      "final_url": "http://vive-vn.local/newsroom/2018/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/accessory/controller-certified/",
+      "final_url": "http://vive-vn.local/accessory/controller-certified/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/blog/experience-the-future-of-learning-at-learntec-2025/",
+      "final_url": "http://vive-vn.local/blog/experience-the-future-of-learning-at-learntec-2025/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/accessory/vive-deluxe-audio-strap/",
+      "final_url": "http://vive-vn.local/accessory/vive-deluxe-audio-strap/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2017-06-09/",
+      "final_url": "http://vive-vn.local/newsroom/2017-06-09/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": false
+    },
+    {
+      "url": "http://vive-vn.local/gio-hang/",
+      "final_url": "http://vive-vn.local/gio-hang/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": false
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2018-10-26/",
+      "final_url": "http://vive-vn.local/newsroom/2018-10-26/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2021-3/",
+      "final_url": "http://vive-vn.local/newsroom/2021-3/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/products/vive-eagle-square-clear-black/",
+      "final_url": "http://vive-vn.local/shop/products/vive-eagle-square-clear-black/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/products/vive-tracker-3-0-full-body-tracking/",
+      "final_url": "http://vive-vn.local/shop/products/vive-tracker-3-0-full-body-tracking/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/blog/brain-computer-interface-apple-amazon-partner-with-synchron/",
+      "final_url": "http://vive-vn.local/blog/brain-computer-interface-apple-amazon-partner-with-synchron/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/blog/anthropic-probed-claudes-mind-turns-out-its-just-a-really-nice-ai/",
+      "final_url": "http://vive-vn.local/blog/anthropic-probed-claudes-mind-turns-out-its-just-a-really-nice-ai/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2015-08-06/",
+      "final_url": "http://vive-vn.local/newsroom/2015-08-06/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/products/21049655/",
+      "final_url": "http://vive-vn.local/shop/products/21049655/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/products/controller-for-xr-elite-right-bulk-packaging/",
+      "final_url": "http://vive-vn.local/shop/products/controller-for-xr-elite-right-bulk-packaging/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/blog/-texas-immersive-institutetxix-viverse-webxr/",
+      "final_url": "http://vive-vn.local/blog/-texas-immersive-institutetxix-viverse-webxr/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/products/31071562/",
+      "final_url": "http://vive-vn.local/shop/products/31071562/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/enterprise/us/solutions/",
+      "final_url": "http://vive-vn.local/enterprise/us/solutions/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2015-12-18/",
+      "final_url": "http://vive-vn.local/newsroom/2015-12-18/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2019-06-06/",
+      "final_url": "http://vive-vn.local/newsroom/2019-06-06/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/blog/how-to-make-a-vrchat-avatar-in-2025-beginners-guide/",
+      "final_url": "http://vive-vn.local/blog/how-to-make-a-vrchat-avatar-in-2025-beginners-guide/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/cua-hang/",
+      "final_url": "http://vive-vn.local/cua-hang/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2021/",
+      "final_url": "http://vive-vn.local/newsroom/2021/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/product/vive-pro2-full-kit/overview/",
+      "final_url": "http://vive-vn.local/product/vive-pro2-full-kit/overview/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2016-01-13/",
+      "final_url": "http://vive-vn.local/newsroom/2016-01-13/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/blog/around-the-world-in-xr-gsmas-virtual-balloon-ride-at-mwc-2025/",
+      "final_url": "http://vive-vn.local/blog/around-the-world-in-xr-gsmas-virtual-balloon-ride-at-mwc-2025/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/support/focus3/",
+      "final_url": "http://vive-vn.local/support/focus3/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/products/21047155/",
+      "final_url": "http://vive-vn.local/shop/products/21047155/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2017-01-04-2/",
+      "final_url": "http://vive-vn.local/newsroom/2017-01-04-2/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/product/vive-pro2/overview/",
+      "final_url": "http://vive-vn.local/product/vive-pro2/overview/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/products/21048455/",
+      "final_url": "http://vive-vn.local/shop/products/21048455/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2016-11-28/",
+      "final_url": "http://vive-vn.local/newsroom/2016-11-28/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/blog/vtubers-surpass-real-life-streamers-in-2025-youtubes-top-trends/",
+      "final_url": "http://vive-vn.local/blog/vtubers-surpass-real-life-streamers-in-2025-youtubes-top-trends/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/blog/googles-new-ai-model-dolphingemma-can-communicate-with-dolphins/",
+      "final_url": "http://vive-vn.local/blog/googles-new-ai-model-dolphingemma-can-communicate-with-dolphins/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/business/us/support/business-plus/category_howto/setting-trackers-to-standard-lbe-mode-html/",
+      "final_url": "http://vive-vn.local/business/us/support/business-plus/category_howto/setting-trackers-to-standard-lbe-mode-html/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": false
+    },
+    {
+      "url": "http://vive-vn.local/shop/products/vive-flow-carrying-case/",
+      "final_url": "http://vive-vn.local/shop/products/vive-flow-carrying-case/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2018-08-23/",
+      "final_url": "http://vive-vn.local/newsroom/2018-08-23/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/enterprise/home/",
+      "final_url": "http://vive-vn.local/enterprise/home/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/accessory/multi-battery-charger-for-vive-focus-series/",
+      "final_url": "http://vive-vn.local/accessory/multi-battery-charger-for-vive-focus-series/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/developer/us/",
+      "final_url": "http://vive-vn.local/developer/us/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2017-01-04/",
+      "final_url": "http://vive-vn.local/newsroom/2017-01-04/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/accessory/vive-wrist-tracker/",
+      "final_url": "http://vive-vn.local/accessory/vive-wrist-tracker/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/accessory/disposable-hygiene-mask/",
+      "final_url": "http://vive-vn.local/accessory/disposable-hygiene-mask/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/business/us/setup/",
+      "final_url": "http://vive-vn.local/business/us/setup/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2023/",
+      "final_url": "http://vive-vn.local/newsroom/2023/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/products/31071559/",
+      "final_url": "http://vive-vn.local/shop/products/31071559/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2019-01-07/",
+      "final_url": "http://vive-vn.local/newsroom/2019-01-07/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/blog/vpwt-explore-versailles-lost-gardens-in-a-multi-user-vr-journey/",
+      "final_url": "http://vive-vn.local/blog/vpwt-explore-versailles-lost-gardens-in-a-multi-user-vr-journey/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/enterprise/product/bws/",
+      "final_url": "http://vive-vn.local/enterprise/product/bws/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/blog/from-classroom-to-cockpit-speedernet-and-htc-vive-power-the-future-of-industrial-training/",
+      "final_url": "http://vive-vn.local/blog/from-classroom-to-cockpit-speedernet-and-htc-vive-power-the-future-of-industrial-training/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/accessory/vive-usb-c-dock-5-ports/",
+      "final_url": "http://vive-vn.local/accessory/vive-usb-c-dock-5-ports/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2025/",
+      "final_url": "http://vive-vn.local/newsroom/2025/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/blog/the-electric-states-ai-origin-story-is-darker-than-you-think/",
+      "final_url": "http://vive-vn.local/blog/the-electric-states-ai-origin-story-is-darker-than-you-think/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2018-03-08-2/",
+      "final_url": "http://vive-vn.local/newsroom/2018-03-08-2/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/collections/vive-xr-elite-for-business/",
+      "final_url": "http://vive-vn.local/shop/collections/vive-xr-elite-for-business/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2016-11-10/",
+      "final_url": "http://vive-vn.local/newsroom/2016-11-10/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/blog/terracotta-warriors-discover-the-untouched-chambers-of-the-first-emperors-tomb/",
+      "final_url": "http://vive-vn.local/blog/terracotta-warriors-discover-the-untouched-chambers-of-the-first-emperors-tomb/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/blog/murray-shanahans-view-on-ai-consciousness-and-the-illusion-of-self/",
+      "final_url": "http://vive-vn.local/blog/murray-shanahans-view-on-ai-consciousness-and-the-illusion-of-self/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/support/focusvision/",
+      "final_url": "http://vive-vn.local/support/focusvision/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/products/21046255/",
+      "final_url": "http://vive-vn.local/shop/products/21046255/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/products/21049155/",
+      "final_url": "http://vive-vn.local/shop/products/21049155/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2017-06-26-2/",
+      "final_url": "http://vive-vn.local/newsroom/2017-06-26-2/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": false
+    },
+    {
+      "url": "http://vive-vn.local/shop/products/21048255/",
+      "final_url": "http://vive-vn.local/shop/products/21048255/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/support/cosmos/",
+      "final_url": "http://vive-vn.local/support/cosmos/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/support/wireless-adapter/",
+      "final_url": "http://vive-vn.local/support/wireless-adapter/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/contact/",
+      "final_url": "http://vive-vn.local/contact/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/developer/us/hardware/",
+      "final_url": "http://vive-vn.local/developer/us/hardware/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/blog/not-just-gemini-and-veo-3google-beam-is-finally-here/",
+      "final_url": "http://vive-vn.local/blog/not-just-gemini-and-veo-3google-beam-is-finally-here/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/products/21046655/",
+      "final_url": "http://vive-vn.local/shop/products/21046655/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/blog/the-last-stronghold-carcassonne-step-into-medieval-france/",
+      "final_url": "http://vive-vn.local/blog/the-last-stronghold-carcassonne-step-into-medieval-france/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2018-08-21/",
+      "final_url": "http://vive-vn.local/newsroom/2018-08-21/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2017-03-21/",
+      "final_url": "http://vive-vn.local/newsroom/2017-03-21/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/vr4impact/home/",
+      "final_url": "http://vive-vn.local/vr4impact/home/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2018-11-08-2/",
+      "final_url": "http://vive-vn.local/newsroom/2018-11-08-2/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/solution/vive-desk/",
+      "final_url": "http://vive-vn.local/solution/vive-desk/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/accessory/xr-face-gasket-narrow-hygienic/",
+      "final_url": "http://vive-vn.local/accessory/xr-face-gasket-narrow-hygienic/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/developer/us/hardware/focus-3-facial-tracker/",
+      "final_url": "http://vive-vn.local/developer/us/hardware/focus-3-facial-tracker/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/blog/kr/empowering-scalable-xr-training-with-inversive-and-vive-focus-vision/",
+      "final_url": "http://vive-vn.local/blog/kr/empowering-scalable-xr-training-with-inversive-and-vive-focus-vision/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/products/21064055/",
+      "final_url": "http://vive-vn.local/shop/products/21064055/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/tai-khoan/",
+      "final_url": "http://vive-vn.local/tai-khoan/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": false
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2025-04-01/",
+      "final_url": "http://vive-vn.local/newsroom/2025-04-01/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/blog/vpwt-microsoft-creates-real-time-ai-generated-quake-ii-but-runs-at-10fps/",
+      "final_url": "http://vive-vn.local/blog/vpwt-microsoft-creates-real-time-ai-generated-quake-ii-but-runs-at-10fps/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/business/appstore/",
+      "final_url": "http://vive-vn.local/business/appstore/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/products/vive-eagle-square-transition-lens-black/",
+      "final_url": "http://vive-vn.local/shop/products/vive-eagle-square-transition-lens-black/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2017-07-26/",
+      "final_url": "http://vive-vn.local/newsroom/2017-07-26/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": false
+    },
+    {
+      "url": "http://vive-vn.local/accessory/wireless-adapter-full-pack/",
+      "final_url": "http://vive-vn.local/accessory/wireless-adapter-full-pack/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/blog/vpwt-will-ai-ever-truly-understand-a-look-at-microsofts-kblam/",
+      "final_url": "http://vive-vn.local/blog/vpwt-will-ai-ever-truly-understand-a-look-at-microsofts-kblam/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/products/htc-vive-eagle-pantos-clear-lens-charcoal-black/",
+      "final_url": "http://vive-vn.local/shop/products/htc-vive-eagle-pantos-clear-lens-charcoal-black/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/products/21047355/",
+      "final_url": "http://vive-vn.local/shop/products/21047355/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/products/vive-eagle-pantos-clear-light-brown/",
+      "final_url": "http://vive-vn.local/shop/products/vive-eagle-pantos-clear-light-brown/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/sync/home/",
+      "final_url": "http://vive-vn.local/sync/home/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2018-09-06/",
+      "final_url": "http://vive-vn.local/newsroom/2018-09-06/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2020-04-30/",
+      "final_url": "http://vive-vn.local/newsroom/2020-04-30/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/blog/experience-versailles-lost-gardens-in-vr-now-open-to-the-public/",
+      "final_url": "http://vive-vn.local/blog/experience-versailles-lost-gardens-in-vr-now-open-to-the-public/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/blog/can-you-find-van-gogh-at-laval-virtual-the-first-european-showcase-of-finding-vincentcan-you-find-van-gogh-at-laval-virtual-the-first-european-showcase-of-finding-vincent/",
+      "final_url": "http://vive-vn.local/blog/can-you-find-van-gogh-at-laval-virtual-the-first-european-showcase-of-finding-vincentcan-you-find-van-gogh-at-laval-virtual-the-first-european-showcase-of-finding-vincent/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/products/21045006/",
+      "final_url": "http://vive-vn.local/shop/products/21045006/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/products/vive-focus-3-magnetic-face-rear-cushion-wide/",
+      "final_url": "http://vive-vn.local/shop/products/vive-focus-3-magnetic-face-rear-cushion-wide/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2020-03-09/",
+      "final_url": "http://vive-vn.local/newsroom/2020-03-09/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/accessory/facial-tracker-for-vive-focus-series/",
+      "final_url": "http://vive-vn.local/accessory/facial-tracker-for-vive-focus-series/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/accessory/controller2018/",
+      "final_url": "http://vive-vn.local/accessory/controller2018/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/collections/vive-eagle-out-now/",
+      "final_url": "http://vive-vn.local/shop/collections/vive-eagle-out-now/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/enterprise/us/product/vive-pro-eye/",
+      "final_url": "http://vive-vn.local/enterprise/us/product/vive-pro-eye/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/support/vive-focus-plus/",
+      "final_url": "http://vive-vn.local/support/vive-focus-plus/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": false
+    },
+    {
+      "url": "http://vive-vn.local/support/",
+      "final_url": "http://vive-vn.local/support/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/accessory/vive-wired-streaming-converter/",
+      "final_url": "http://vive-vn.local/accessory/vive-wired-streaming-converter/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/product/comparison/",
+      "final_url": "http://vive-vn.local/product/comparison/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/business/mea-en/",
+      "final_url": "http://vive-vn.local/business/mea-en/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/blog/columbia-dropouts-ai-tool-cluely-cheats-on-everythingand-we-tried-it/",
+      "final_url": "http://vive-vn.local/blog/columbia-dropouts-ai-tool-cluely-cheats-on-everythingand-we-tried-it/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2016/",
+      "final_url": "http://vive-vn.local/newsroom/2016/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/support/camtrack/",
+      "final_url": "http://vive-vn.local/support/camtrack/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/accessory/vive-flow-power-adapter/",
+      "final_url": "http://vive-vn.local/accessory/vive-flow-power-adapter/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/support/ultimate-tracker/",
+      "final_url": "http://vive-vn.local/support/ultimate-tracker/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/support/vive/",
+      "final_url": "http://vive-vn.local/support/vive/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/product/vive-xr-elite/",
+      "final_url": "http://vive-vn.local/product/vive-xr-elite/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/products/21046855/",
+      "final_url": "http://vive-vn.local/shop/products/21046855/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/shop/products/21045035/",
+      "final_url": "http://vive-vn.local/shop/products/21045035/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": false,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2025-08-14/",
+      "final_url": "http://vive-vn.local/newsroom/2025-08-14/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/newsroom/2018-03-29-2/",
+      "final_url": "http://vive-vn.local/newsroom/2018-03-29-2/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    },
+    {
+      "url": "http://vive-vn.local/accessory/face-gasket-and-rear-pad-for-vive-focus-series-narrow/",
+      "final_url": "http://vive-vn.local/accessory/face-gasket-and-rear-pad-for-vive-focus-series-narrow/",
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
+      "in_db": true,
+      "in_sitemap": true
+    }
+  ]
+}

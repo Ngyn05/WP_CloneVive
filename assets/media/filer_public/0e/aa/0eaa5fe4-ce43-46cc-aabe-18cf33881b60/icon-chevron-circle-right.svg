@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_next_arrow</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="A_Setup_MGEStandAlone_web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-421.000000, -624.000000)">
+        <g id="ic_next_arrow" transform="translate(421.000000, 624.000000)">
+            <g id="Oval-67-+-Rectangle-366">
+                <circle id="Oval-67" fill="#00B3E3" cx="11" cy="11" r="11"></circle>
+                <polyline id="Path-2" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="10 7 14 11 10 15"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

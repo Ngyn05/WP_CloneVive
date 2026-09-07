@@ -1,0 +1,61 @@
+{
+  "count": 6,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 43,
+      "display_order": 1,
+      "type": "",
+      "category": "32e2b85f-57e3-4c37-82a8-57f1cb6939c8",
+      "lang": "en",
+      "key": "vive_ultimate_tracker_compatibility",
+      "description": "VIVE Ultimate Tracker yêu cầu VIVE Wireless Dongle để kết nối với các thiết bị tương thích, hiện bao gồm VIVE Focus Vision, VIVE Focus 3, VIVE XR Elite và các kính thực tế ảo bên thứ ba tương thích SteamVR. VIVE Wireless Dongle và các thiết bị tương thích được bán riêng. Mỗi VIVE Wireless Dongle có thể kết nối tối đa từ 1 đến 5 (1–5) thiết bị VIVE Ultimate Tracker. Đối với VIVE Focus Vision, VIVE Focus 3 và VIVE XR Elite, VIVE Wireless Dongle có thể cắm trực tiếp vào kính để trải nghiệm nội dung VR độc lập hoặc nội dung PC VR qua truyền phát không dây. Cần cắm vào PC đối với nội dung PC VR sử dụng truyền phát có dây. Đối với kính bên thứ ba tương thích SteamVR, VIVE Wireless Dongle phải được cắm vào PC. Khi cắm VIVE Wireless Dongle vào PC, VIVE Ultimate Tracker phải được ghép nối qua SteamVR thông qua VIVE Hub."
+    },
+    {
+      "id": 44,
+      "display_order": 2,
+      "type": "",
+      "category": "32e2b85f-57e3-4c37-82a8-57f1cb6939c8",
+      "lang": "en",
+      "key": "vive_tracker_3_compatibility",
+      "description": "VIVE Tracker (3.0) tương thích với các kính thực tế ảo sau khi sử dụng SteamVR Base Station 1.0 hoặc SteamVR Base Station 2.0: VIVE Pro 2, VIVE Pro Eye, VIVE Pro, VIVE Cosmos Elite và VIVE (chỉ với SteamVR Base Station 1.0)."
+    },
+    {
+      "id": 45,
+      "display_order": 3,
+      "type": "",
+      "category": "32e2b85f-57e3-4c37-82a8-57f1cb6939c8",
+      "lang": "en",
+      "key": "vive_focus_3_software_update_support",
+      "description": "Yêu cầu cập nhật phần mềm. Liên hệ contact@vive.com.vn để biết thêm thông tin."
+    },
+    {
+      "id": 4,
+      "display_order": 4,
+      "type": "",
+      "category": "32e2b85f-57e3-4c37-82a8-57f1cb6939c8",
+      "lang": "en",
+      "key": "PC_VR_system_requirements",
+      "description": "Nội dung PC VR có thể truy cập trên VIVE Focus Vision và VIVE XR Elite qua VIVE Streaming trong ứng dụng VIVE Hub trên PC và trên VIVE Focus 3 qua VIVE Business Streaming. Cần đáp ứng yêu cầu hệ thống và PC đạt chuẩn VR-ready. Kính VR và các tựa game/ứng dụng VR/MR được bán riêng. Độ trễ và chất lượng hình ảnh của nội dung VR/MR phụ thuộc vào cấu hình PC, thiết lập phần mềm và kết nối mạng. Để kết nối với PC qua DisplayPort, VIVE Focus Vision cần có Cáp truyền phát có dây VIVE (tương thích chế độ DisplayPort) và Bộ chuyển đổi truyền phát có dây VIVE (tương thích chế độ DisplayPort), cả hai đều có trong Bộ truyền phát có dây VIVE (tương thích chế độ DisplayPort). Chế độ DisplayPort không khả dụng trên VIVE XR Elite hoặc VIVE Focus 3."
+    },
+    {
+      "id": 5,
+      "display_order": 5,
+      "type": "",
+      "category": "32e2b85f-57e3-4c37-82a8-57f1cb6939c8",
+      "lang": "en",
+      "key": "PC_VR_content_compatibility",
+      "description": "Khả năng tương thích thay đổi tùy theo từng tựa game/nội dung."
+    },
+    {
+      "id": 6,
+      "display_order": 6,
+      "type": "",
+      "category": "32e2b85f-57e3-4c37-82a8-57f1cb6939c8",
+      "lang": "en",
+      "key": "battery_life",
+      "description": "Kết quả thời lượng pin thực tế có thể thay đổi tùy thuộc vào mức độ và cách thức sử dụng."
+    }
+  ]
+}

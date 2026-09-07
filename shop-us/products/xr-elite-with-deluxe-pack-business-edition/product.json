@@ -1,0 +1,55 @@
+{
+  "id": 10140947480893,
+  "title": "XR Elite with Deluxe Pack (Business Edition)",
+  "handle": "xr-elite-with-deluxe-pack-business-edition",
+  "body_html": "",
+  "published_at": "2025-11-13T15:56:58-08:00",
+  "created_at": "2025-11-13T15:56:55-08:00",
+  "updated_at": "2026-09-05T09:35:04-07:00",
+  "vendor": "HTC VIVE Online Store",
+  "product_type": "Simple",
+  "tags": [],
+  "variants": [
+    {
+      "id": 50984837218621,
+      "title": "Default Title",
+      "option1": "Default Title",
+      "option2": null,
+      "option3": null,
+      "sku": "99HAUK000-00",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": null,
+      "available": false,
+      "price": "799.99",
+      "grams": 1300,
+      "compare_at_price": "1099.00",
+      "position": 1,
+      "product_id": 10140947480893,
+      "created_at": "2025-11-13T15:56:55-08:00",
+      "updated_at": "2026-09-05T09:35:04-07:00"
+    }
+  ],
+  "images": [
+    {
+      "id": 60443344240957,
+      "created_at": "2025-11-13T15:50:35-08:00",
+      "position": 1,
+      "updated_at": "2025-11-13T15:50:36-08:00",
+      "product_id": 10140947480893,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0926/0489/1453/files/VIVE_XR_Elite_with_Deluxe_Pack.webp?v=1763077836",
+      "width": 640,
+      "height": 640
+    }
+  ],
+  "options": [
+    {
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Default Title"
+      ]
+    }
+  ]
+}

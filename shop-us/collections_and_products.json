@@ -1,0 +1,591 @@
+{
+  "categories": {
+    "vive-xr-elite-for-business": {
+      "name": "VIVE XR Elite cho Doanh nghiệp",
+      "desc": "Giải pháp thực tế mở rộng XR toàn diện cho đào tạo, mô phỏng và cộng tác chuyên nghiệp.",
+      "order": 10
+    },
+    "xr-series": {
+      "name": "Kính thực tế ảo VIVE XR Elite",
+      "desc": "Dòng kính XR tất cả trong một có thể chuyển đổi, thiết kế gọn nhẹ và hiệu năng vượt trội.",
+      "order": 20
+    },
+    "vive-ultimate-tracker": {
+      "name": "Thiết bị theo dõi VIVE Ultimate Tracker",
+      "desc": "Cảm biến theo dõi chuyển động độc lập chính xác cao không cần trạm thu phát cơ sở.",
+      "order": 30
+    },
+    "vive-pro-series-for-business": {
+      "name": "Dòng VIVE Pro cho Doanh nghiệp",
+      "desc": "Hệ thống VR chuyên nghiệp độ chính xác cao cho kiến trúc, y tế và đào tạo giả lập.",
+      "order": 40
+    },
+    "pro-series": {
+      "name": "Dòng kính VIVE Pro",
+      "desc": "Dòng kính VR cao cấp dành cho game thủ chuyên nghiệp và nhà phát triển nội dung.",
+      "order": 50
+    },
+    "vive-mars-series": {
+      "name": "Hệ thống trường quay ảo VIVE Mars",
+      "desc": "Giải pháp theo dõi máy quay ảo CamTrack chuyên nghiệp dành cho sản xuất phim và phát sóng.",
+      "order": 60
+    },
+    "vive-focus-series-for-business": {
+      "name": "Dòng VIVE Focus cho Doanh nghiệp",
+      "desc": "Dòng kính VR All-in-one cao cấp tối ưu hóa cho môi trường doanh nghiệp và tổ chức.",
+      "order": 70
+    },
+    "focus-series": {
+      "name": "Dòng kính VIVE Focus",
+      "desc": "Dòng kính VR độc lập tất cả trong một độ phân giải cao và tính linh hoạt hàng đầu.",
+      "order": 80
+    },
+    "vive-flow-for-business": {
+      "name": "VIVE Flow cho Doanh nghiệp",
+      "desc": "Kính VR siêu gọn nhẹ phục vụ chăm sóc sức khỏe tinh thần, đào tạo và giải trí doanh nghiệp.",
+      "order": 90
+    },
+    "vive-flow": {
+      "name": "Kính thực tế ảo VIVE Flow",
+      "desc": "Kính VR thư giãn và giải trí di động nhỏ gọn, dễ dàng mang theo mọi lúc mọi nơi.",
+      "order": 100
+    },
+    "vive-eagle-out-now": {
+      "name": "Kính thông minh AI VIVE Eagle",
+      "desc": "Kính AI thời trang đột phá tích hợp trợ lý AI thông minh, camera chụp ảnh và âm thanh không gian.",
+      "order": 110
+    },
+    "vive-eagle-1": {
+      "name": "Dòng kính AI VIVE Eagle",
+      "desc": "Bộ sưu tập kính AI thông minh VIVE Eagle với nhiều kiểu gọng gập và tròng kính thời trang.",
+      "order": 120
+    },
+    "accessories": {
+      "name": "Phụ kiện VIVE",
+      "desc": "Bộ phụ kiện chính hãng gồm cáp kết nối, đệm mặt, pin dự phòng, bộ sạc và tay cầm điều khiển.",
+      "order": 130
+    },
+    "headsets": {
+      "name": "Kính thực tế ảo (VR Headsets)",
+      "desc": "Tất cả các dòng kính thực tế ảo và thực tế tăng cường VR/XR/AR chính hãng HTC VIVE.",
+      "order": 140
+    },
+    "on-sale": {
+      "name": "Ưu đãi & Khuyến mãi",
+      "desc": "Tổng hợp các chương trình ưu đãi, giảm giá và quà tặng hấp dẫn cho thiết bị VIVE.",
+      "order": 150
+    },
+    "battery_included": {
+      "name": "Bộ nguồn & Pin sạc",
+      "desc": "Các giải pháp cấp nguồn, dock sạc nhanh, pin thay thế và adapter cấp nguồn liên tục.",
+      "order": 160
+    }
+  },
+  "collections_products": {
+    "accessories": [
+      "2104005",
+      "2104013",
+      "2104027",
+      "2104030",
+      "2104031",
+      "2104033",
+      "2104037",
+      "21045006",
+      "21048155",
+      "21048255",
+      "21048355",
+      "21048455",
+      "21049655",
+      "21049755",
+      "21063055",
+      "21064055",
+      "21065055",
+      "31071559",
+      "vive-ac-adapter-30w",
+      "vive-tracker-3-0-full-body-tracking"
+    ],
+    "battery_included": [
+      "21045035",
+      "21046155",
+      "21071655",
+      "31071559"
+    ],
+    "focus-series": [
+      "2104013",
+      "21045005",
+      "21045006",
+      "21045035",
+      "21048155",
+      "21048355",
+      "21063055",
+      "21064055",
+      "21065055",
+      "21067055",
+      "21068055",
+      "21071155",
+      "31071559",
+      "vive-focus-3-magnetic-face-rear-cushion-n",
+      "vive-focus-3-magnetic-face-rear-cushion-wide",
+      "vive-focus-vision-facial-tracker",
+      "vive-focus-vision-pc-vr-wired-bundle",
+      "vive-focus-vision-wired-streaming-kit-facial-tracker",
+      "vive-wired-streaming-kit-1"
+    ],
+    "headsets": [
+      "21045003",
+      "21068055",
+      "21071155",
+      "21071655",
+      "flow-for-business",
+      "flow-with-controller-for-business",
+      "vive-focus-vision-facial-tracker",
+      "vive-focus-vision-pc-vr-wired-bundle",
+      "vive-focus-vision-wired-streaming-kit-facial-tracker",
+      "vive-xr-elite-business-edition"
+    ],
+    "on-sale": [
+      "2104030",
+      "21071655"
+    ],
+    "pro-series": [
+      "2104005",
+      "2104023",
+      "2104024",
+      "2104027",
+      "2104029",
+      "2104033",
+      "2104034",
+      "2104034-1",
+      "2104037",
+      "vive-tracker-3-0-full-body-tracking"
+    ],
+    "vive-eagle-1": [
+      "vive-eagle-glossy-black-square-sun",
+      "vive-eagle-pantos-clear-light-brown",
+      "vive-eagle-pantos-sunglasses-light-brown",
+      "vive-eagle-pantos-sunglasses-matte-black",
+      "vive-eagle-pantos-sunglasses-navy",
+      "vive-eagle-square-clear-black",
+      "vive-eagle-square-clear-coffee",
+      "vive-eagle-square-sunglasses-berry",
+      "vive-eagle-square-transition-lens-black",
+      "vive-eagle",
+      "vive-eagle-power-boost",
+      "magnetic-charging-cable-for-vive-eagle",
+      "htc-vive-eagle-pantos-clear-lens-charcoal-black"
+    ],
+    "vive-eagle-out-now": [
+      "htc-vive-eagle-pantos-clear-lens-charcoal-black",
+      "magnetic-charging-cable-for-vive-eagle",
+      "vive-eagle-glossy-black-square-sun",
+      "vive-eagle-pantos-sunglasses-matte-black",
+      "vive-eagle-power-boost",
+      "vive-eagle",
+      "vive-eagle-pantos-sunglasses-navy",
+      "vive-eagle-square-transition-lens-black",
+      "vive-eagle-square-clear-coffee",
+      "vive-eagle-square-clear-black",
+      "vive-eagle-square-sunglasses-berry",
+      "vive-eagle-pantos-clear-light-brown",
+      "vive-eagle-pantos-sunglasses-light-brown"
+    ],
+    "vive-flow": [
+      "18645399",
+      "21046255",
+      "21071655",
+      "vive-flow-carrying-case",
+      "vive-flow-gasket-temple-pads-w",
+      "vive-flow-multiport-power-dongle"
+    ],
+    "vive-flow-for-business": [
+      "flow-for-business",
+      "flow-with-controller-for-business"
+    ],
+    "vive-focus-series-for-business": [
+      "2104013",
+      "21045035",
+      "21063055",
+      "21064055",
+      "21065055",
+      "21067055",
+      "21068055",
+      "31071559",
+      "vive-focus-3-magnetic-face-rear-cushion-n",
+      "vive-focus-3-magnetic-face-rear-cushion-wide",
+      "vive-focus-vision-wired-bundle-business-edition-sb",
+      "vive-wired-streaming-kit-1"
+    ],
+    "vive-mars-series": [
+      "21045003",
+      "21047555"
+    ],
+    "vive-pro-series-for-business": [],
+    "vive-ultimate-tracker": [
+      "21048155",
+      "21048255",
+      "21048455",
+      "21049755",
+      "vive-ultimate-tracker-3-1-kit"
+    ],
+    "vive-xr-elite-for-business": [
+      "vive-xr-elite-business-edition",
+      "xr-elite-with-deluxe-pack-business-edition"
+    ],
+    "xr-series": [
+      "21046155",
+      "21046255",
+      "21046455",
+      "21046655",
+      "21046855",
+      "21047655",
+      "21048155",
+      "21048355",
+      "21049155",
+      "controller-for-xr-elite-left-bulk-packaging",
+      "controller-for-xr-elite-right-bulk-packaging",
+      "vive-deluxe-pack-for-xr-elite"
+    ]
+  },
+  "product_to_categories": {
+    "vive-eagle": [
+      "Dòng kính AI VIVE Eagle",
+      "Kính thông minh AI VIVE Eagle"
+    ],
+    "vive-eagle-power-boost": [
+      "Dòng kính AI VIVE Eagle",
+      "Kính thông minh AI VIVE Eagle"
+    ],
+    "magnetic-charging-cable-for-vive-eagle": [
+      "Dòng kính AI VIVE Eagle",
+      "Kính thông minh AI VIVE Eagle"
+    ],
+    "htc-vive-eagle-pantos-clear-lens-charcoal-black": [
+      "Dòng kính AI VIVE Eagle",
+      "Kính thông minh AI VIVE Eagle"
+    ],
+    "vive-eagle-pantos-sunglasses-navy": [
+      "Dòng kính AI VIVE Eagle",
+      "Kính thông minh AI VIVE Eagle"
+    ],
+    "vive-eagle-square-transition-lens-black": [
+      "Dòng kính AI VIVE Eagle",
+      "Kính thông minh AI VIVE Eagle"
+    ],
+    "vive-eagle-square-clear-coffee": [
+      "Dòng kính AI VIVE Eagle",
+      "Kính thông minh AI VIVE Eagle"
+    ],
+    "vive-eagle-square-clear-black": [
+      "Dòng kính AI VIVE Eagle",
+      "Kính thông minh AI VIVE Eagle"
+    ],
+    "vive-eagle-square-sunglasses-berry": [
+      "Dòng kính AI VIVE Eagle",
+      "Kính thông minh AI VIVE Eagle"
+    ],
+    "vive-eagle-glossy-black-square-sun": [
+      "Dòng kính AI VIVE Eagle",
+      "Kính thông minh AI VIVE Eagle"
+    ],
+    "vive-eagle-pantos-clear-light-brown": [
+      "Dòng kính AI VIVE Eagle",
+      "Kính thông minh AI VIVE Eagle"
+    ],
+    "vive-eagle-pantos-sunglasses-light-brown": [
+      "Dòng kính AI VIVE Eagle",
+      "Kính thông minh AI VIVE Eagle"
+    ],
+    "vive-eagle-pantos-sunglasses-matte-black": [
+      "Dòng kính AI VIVE Eagle",
+      "Kính thông minh AI VIVE Eagle"
+    ],
+    "21063055": [
+      "Phụ kiện VIVE",
+      "Dòng kính VIVE Focus",
+      "Dòng VIVE Focus cho Doanh nghiệp"
+    ],
+    "vive-wired-streaming-kit-1": [
+      "Dòng kính VIVE Focus",
+      "Dòng VIVE Focus cho Doanh nghiệp"
+    ],
+    "vive-face-cushion-narrow-set-of-2": [
+      "Phụ kiện VIVE"
+    ],
+    "vive-business-ultimate-tracker-3-year-subscription-5-seat": [
+      "Thiết bị theo dõi VIVE Ultimate Tracker",
+      "Phụ kiện VIVE"
+    ],
+    "vive-business-pro-3-year-subscription-22-seat": [
+      "Dòng kính VIVE Pro"
+    ],
+    "21071055": [
+      "Phụ kiện VIVE"
+    ],
+    "vive-focus-vision-wired-streaming-kit-facial-tracker": [
+      "Dòng kính VIVE Focus",
+      "Kính thực tế ảo (VR Headsets)"
+    ],
+    "vive-focus-vision-facial-tracker": [
+      "Dòng kính VIVE Focus",
+      "Kính thực tế ảo (VR Headsets)"
+    ],
+    "31071559": [
+      "Phụ kiện VIVE",
+      "Bộ nguồn & Pin sạc",
+      "Dòng kính VIVE Focus",
+      "Dòng VIVE Focus cho Doanh nghiệp"
+    ],
+    "vive-business-ultimate-1-year-subscription-10-seats": [
+      "Phụ kiện VIVE"
+    ],
+    "21048355": [
+      "Phụ kiện VIVE",
+      "Dòng kính VIVE Focus",
+      "Kính thực tế ảo VIVE XR Elite"
+    ],
+    "controller-for-xr-elite-left-bulk-packaging": [
+      "Kính thực tế ảo VIVE XR Elite"
+    ],
+    "vive-focus-vision-wired-bundle-business-edition-sb": [
+      "Dòng VIVE Focus cho Doanh nghiệp"
+    ],
+    "vive-business-ultimate-30-day-subscription-7-seats": [
+      "Phụ kiện VIVE"
+    ],
+    "vive-ultimate-tracker-3-1-kit": [
+      "Thiết bị theo dõi VIVE Ultimate Tracker"
+    ],
+    "xr-elite-with-deluxe-pack-business-edition": [
+      "VIVE XR Elite cho Doanh nghiệp"
+    ],
+    "21047655": [
+      "Kính thực tế ảo VIVE XR Elite"
+    ],
+    "31071561": [
+      "Phụ kiện VIVE"
+    ],
+    "21045003": [
+      "Kính thực tế ảo (VR Headsets)",
+      "Hệ thống trường quay ảo VIVE Mars"
+    ],
+    "2104023": [
+      "Dòng kính VIVE Pro"
+    ],
+    "31071562": [
+      "Phụ kiện VIVE"
+    ],
+    "2104005": [
+      "Phụ kiện VIVE",
+      "Dòng kính VIVE Pro"
+    ],
+    "vive-tracker-3-0-full-body-tracking": [
+      "Phụ kiện VIVE",
+      "Dòng kính VIVE Pro"
+    ],
+    "2104010": [
+      "Phụ kiện VIVE"
+    ],
+    "2104024": [
+      "Dòng kính VIVE Pro"
+    ],
+    "2104013": [
+      "Phụ kiện VIVE",
+      "Dòng kính VIVE Focus",
+      "Dòng VIVE Focus cho Doanh nghiệp"
+    ],
+    "2104030": [
+      "Phụ kiện VIVE",
+      "Ưu đãi & Khuyến mãi"
+    ],
+    "2104029": [
+      "Dòng kính VIVE Pro"
+    ],
+    "2104027": [
+      "Phụ kiện VIVE",
+      "Dòng kính VIVE Pro"
+    ],
+    "2104033": [
+      "Phụ kiện VIVE",
+      "Dòng kính VIVE Pro"
+    ],
+    "2104031": [
+      "Phụ kiện VIVE"
+    ],
+    "2104037": [
+      "Phụ kiện VIVE",
+      "Dòng kính VIVE Pro"
+    ],
+    "2104035": [
+      "Phụ kiện VIVE"
+    ],
+    "2104034": [
+      "Dòng kính VIVE Pro"
+    ],
+    "2104045": [
+      "Phụ kiện VIVE"
+    ],
+    "2104049": [
+      "Phụ kiện VIVE"
+    ],
+    "2104061": [
+      "Phụ kiện VIVE"
+    ],
+    "21045000": [
+      "Phụ kiện VIVE"
+    ],
+    "18645399": [
+      "Kính thực tế ảo VIVE Flow"
+    ],
+    "2104034-1": [
+      "Dòng kính VIVE Pro"
+    ],
+    "21045035": [
+      "Bộ nguồn & Pin sạc",
+      "Dòng kính VIVE Focus",
+      "Dòng VIVE Focus cho Doanh nghiệp"
+    ],
+    "21045006": [
+      "Phụ kiện VIVE",
+      "Dòng kính VIVE Focus"
+    ],
+    "21045005": [
+      "Dòng kính VIVE Focus"
+    ],
+    "21046255": [
+      "Kính thực tế ảo VIVE Flow",
+      "Kính thực tế ảo VIVE XR Elite"
+    ],
+    "21046155": [
+      "Bộ nguồn & Pin sạc",
+      "Kính thực tế ảo VIVE XR Elite"
+    ],
+    "21046855": [
+      "Kính thực tế ảo VIVE XR Elite"
+    ],
+    "21046655": [
+      "Kính thực tế ảo VIVE XR Elite"
+    ],
+    "21046455": [
+      "Kính thực tế ảo VIVE XR Elite"
+    ],
+    "21047355": [
+      "Phụ kiện VIVE"
+    ],
+    "21047255": [
+      "Phụ kiện VIVE"
+    ],
+    "21047155": [
+      "Phụ kiện VIVE"
+    ],
+    "21047555": [
+      "Hệ thống trường quay ảo VIVE Mars"
+    ],
+    "21047455": [
+      "Phụ kiện VIVE"
+    ],
+    "21048255": [
+      "Phụ kiện VIVE",
+      "Thiết bị theo dõi VIVE Ultimate Tracker"
+    ],
+    "21048155": [
+      "Phụ kiện VIVE",
+      "Dòng kính VIVE Focus",
+      "Thiết bị theo dõi VIVE Ultimate Tracker",
+      "Kính thực tế ảo VIVE XR Elite"
+    ],
+    "21049155": [
+      "Kính thực tế ảo VIVE XR Elite"
+    ],
+    "21048455": [
+      "Phụ kiện VIVE",
+      "Thiết bị theo dõi VIVE Ultimate Tracker"
+    ],
+    "21049755": [
+      "Phụ kiện VIVE",
+      "Thiết bị theo dõi VIVE Ultimate Tracker"
+    ],
+    "21049655": [
+      "Phụ kiện VIVE"
+    ],
+    "21064055": [
+      "Phụ kiện VIVE",
+      "Dòng kính VIVE Focus",
+      "Dòng VIVE Focus cho Doanh nghiệp"
+    ],
+    "21067055": [
+      "Dòng kính VIVE Focus",
+      "Dòng VIVE Focus cho Doanh nghiệp"
+    ],
+    "21065055": [
+      "Phụ kiện VIVE",
+      "Dòng kính VIVE Focus",
+      "Dòng VIVE Focus cho Doanh nghiệp"
+    ],
+    "21071655": [
+      "Bộ nguồn & Pin sạc",
+      "Kính thực tế ảo (VR Headsets)",
+      "Ưu đãi & Khuyến mãi",
+      "Kính thực tế ảo VIVE Flow"
+    ],
+    "21071155": [
+      "Dòng kính VIVE Focus",
+      "Kính thực tế ảo (VR Headsets)"
+    ],
+    "vive-focus-vision-pc-vr-wired-bundle": [
+      "Dòng kính VIVE Focus",
+      "Kính thực tế ảo (VR Headsets)"
+    ],
+    "31071563": [
+      "Phụ kiện VIVE"
+    ],
+    "vive-focus-3-magnetic-face-rear-cushion-wide": [
+      "Dòng kính VIVE Focus",
+      "Dòng VIVE Focus cho Doanh nghiệp"
+    ],
+    "vive-flow-gasket-temple-pads-w": [
+      "Kính thực tế ảo VIVE Flow"
+    ],
+    "vive-ac-adapter-30w": [
+      "Phụ kiện VIVE"
+    ],
+    "vive-flow-carrying-case": [
+      "Kính thực tế ảo VIVE Flow"
+    ],
+    "vive-link-box-2-0": [
+      "Phụ kiện VIVE"
+    ],
+    "vive-flow-multiport-power-dongle": [
+      "Kính thực tế ảo VIVE Flow"
+    ],
+    "vive-deluxe-pack-for-xr-elite": [
+      "Kính thực tế ảo VIVE XR Elite"
+    ],
+    "flow-with-controller-for-business": [
+      "Kính thực tế ảo (VR Headsets)",
+      "VIVE Flow cho Doanh nghiệp"
+    ],
+    "flow-for-business": [
+      "Kính thực tế ảo (VR Headsets)",
+      "VIVE Flow cho Doanh nghiệp"
+    ],
+    "vive-xr-elite-business-edition": [
+      "Kính thực tế ảo (VR Headsets)",
+      "VIVE XR Elite cho Doanh nghiệp"
+    ],
+    "21068055": [
+      "Dòng kính VIVE Focus",
+      "Kính thực tế ảo (VR Headsets)",
+      "Dòng VIVE Focus cho Doanh nghiệp"
+    ],
+    "vive-focus-3-magnetic-face-rear-cushion-n": [
+      "Dòng kính VIVE Focus",
+      "Dòng VIVE Focus cho Doanh nghiệp"
+    ],
+    "vive-business-pro-1-year-subscription-50-seat": [
+      "Dòng kính VIVE Pro"
+    ],
+    "controller-for-xr-elite-right-bulk-packaging": [
+      "Kính thực tế ảo VIVE XR Elite"
+    ]
+  }
+}

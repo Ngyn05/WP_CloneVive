@@ -1,0 +1,90 @@
+{
+  "id": 10462494425405,
+  "title": "VIVE Eagle Power Boost",
+  "handle": "vive-eagle-power-boost",
+  "body_html": "<div class=\"ewa-rteLine\">Keep your VIVE Eagle charged without any cords. VIVE Eagle Power Boost is the magnetic battery bank designed to slip in your pocket and slide onto VIVE Eagle. Whether you're on the go or on the couch, with a swift connect, you'll forget it's even there for a fully-powered weekend.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\"><strong>In-box items</strong></div>\n<ul>\n<li class=\"ewa-rteLine\">VIVE Eagle Power Boost</li>\n<li class=\"ewa-rteLine\">Charging Dock</li>\n<li class=\"ewa-rteLine\">QSG, Safety Guide, and Warranty</li>\n</ul>\n<div class=\"ewa-rteLine\"><strong>Weight</strong></div>\n<ul>\n<li class=\"ewa-rteLine\">Power Boost: 8g±0.5g</li>\n<li class=\"ewa-rteLine\">Charging Dock: 5.5g±0.5g</li>\n</ul>\n<div class=\"ewa-rteLine\"><strong>Power:</strong></div>\n<div class=\"ewa-rteLine\"></div>\n<div class=\"ewa-rteLine\"><strong>Charging dock</strong></div>\n<ul>\n<li class=\"ewa-rteLine\">Input: 5 V⎓0.9A</li>\n<li class=\"ewa-rteLine\">Output: 5.6 V⎓0.6A</li>\n</ul>\n<div class=\"ewa-rteLine\"><strong>Power Boost</strong></div>\n<ul>\n<li class=\"ewa-rteLine\">Input: 5.6 V⎓0.26A</li>\n<li class=\"ewa-rteLine\">Output: 5.2 V⎓0.27A</li>\n<li class=\"ewa-rteLine\">Rated Capacity: 5.2 V ⎓ 120 mAh</li>\n</ul>\n<div class=\"ewa-rteLine\"><strong>Ingress protection (IP rating)</strong></div>\n<div class=\"ewa-rteLine\">\n<ul>\n<li>IPX4</li>\n</ul>\n</div>\n<div class=\"ewa-rteLine\">*USB Type-C cable and power adapter not included.</div>\n<div class=\"ewa-rteLine\">**Compatible with VIVE Eagle only.</div>\n<p> </p>",
+  "published_at": "2026-09-03T00:45:15-07:00",
+  "created_at": "2026-08-10T15:11:43-07:00",
+  "updated_at": "2026-09-05T09:35:04-07:00",
+  "vendor": "VIVE Store | United States",
+  "product_type": "Simple",
+  "tags": [
+    "VIVE Eagle"
+  ],
+  "variants": [
+    {
+      "id": 52814911996221,
+      "title": "Default Title",
+      "option1": "Default Title",
+      "option2": null,
+      "option3": null,
+      "sku": "99H20778-00",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": null,
+      "available": true,
+      "price": "49.00",
+      "grams": 220,
+      "compare_at_price": "49.00",
+      "position": 1,
+      "product_id": 10462494425405,
+      "created_at": "2026-08-10T15:11:43-07:00",
+      "updated_at": "2026-09-05T09:35:04-07:00"
+    }
+  ],
+  "images": [
+    {
+      "id": 65651170607421,
+      "created_at": "2026-08-10T15:11:32-07:00",
+      "position": 1,
+      "updated_at": "2026-08-10T15:11:35-07:00",
+      "product_id": 10462494425405,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0926/0489/1453/files/viv_eagle_power_boost_1.png?v=1786399895",
+      "width": 5000,
+      "height": 2813
+    },
+    {
+      "id": 65651170672957,
+      "created_at": "2026-08-10T15:11:32-07:00",
+      "position": 2,
+      "updated_at": "2026-08-10T15:11:35-07:00",
+      "product_id": 10462494425405,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0926/0489/1453/files/viv_eagle_power_boost_3.png?v=1786399895",
+      "width": 5000,
+      "height": 2813
+    },
+    {
+      "id": 65651170640189,
+      "created_at": "2026-08-10T15:11:32-07:00",
+      "position": 3,
+      "updated_at": "2026-08-10T15:11:35-07:00",
+      "product_id": 10462494425405,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0926/0489/1453/files/viv_eagle_power_boost_2.png?v=1786399895",
+      "width": 5000,
+      "height": 2813
+    },
+    {
+      "id": 66242017886525,
+      "created_at": "2026-09-03T12:31:22-07:00",
+      "position": 4,
+      "updated_at": "2026-09-03T12:31:24-07:00",
+      "product_id": 10462494425405,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0926/0489/1453/files/power-boost-4.png?v=1788463884",
+      "width": 1500,
+      "height": 1500
+    }
+  ],
+  "options": [
+    {
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Default Title"
+      ]
+    }
+  ]
+}

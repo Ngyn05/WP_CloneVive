@@ -1,0 +1,55 @@
+{
+  "id": 10039428153661,
+  "title": "VIVE Focus 3 Eye Tracker",
+  "handle": "21045005",
+  "body_html": "<p><span>Gain a heightened level of VR immersion, foveated rendering, and eye-movement analytics. The user-friendly add-on easily attaches with a magnet and provides IPD adjustment to optimize your eye comfort.</span></p>",
+  "published_at": "2025-11-10T17:57:41-08:00",
+  "created_at": "2025-08-27T23:15:46-07:00",
+  "updated_at": "2026-09-05T09:35:04-07:00",
+  "vendor": "HTC VIVE Online Store",
+  "product_type": "Simple",
+  "tags": [],
+  "variants": [
+    {
+      "id": 50674045518141,
+      "title": "Default Title",
+      "option1": "Default Title",
+      "option2": null,
+      "option3": null,
+      "sku": "99HATF003-00",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": null,
+      "available": true,
+      "price": "249.00",
+      "grams": 1000,
+      "compare_at_price": null,
+      "position": 1,
+      "product_id": 10039428153661,
+      "created_at": "2025-08-27T23:15:46-07:00",
+      "updated_at": "2026-09-05T09:35:04-07:00"
+    }
+  ],
+  "images": [
+    {
+      "id": 62125486833981,
+      "created_at": "2026-02-03T11:59:27-08:00",
+      "position": 1,
+      "updated_at": "2026-02-03T11:59:29-08:00",
+      "product_id": 10039428153661,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0926/0489/1453/files/vive-focus-3-eye-tracker-gallery-1_1920-2x.webp?v=1770148769",
+      "width": 1264,
+      "height": 970
+    }
+  ],
+  "options": [
+    {
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Default Title"
+      ]
+    }
+  ]
+}

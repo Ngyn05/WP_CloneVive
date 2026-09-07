@@ -1,0 +1,66 @@
+{
+  "id": 10039429595453,
+  "title": "VIVE USB-C Dock 5 Ports",
+  "handle": "21049755",
+  "body_html": "<p><meta charset=\"utf-8\"><span>Keep your VIVE Ultimate Trackers</span><sup>1</sup><span> ready for action with this 5-in-1 docking station.</span><br><br><span>Use with a USB Type-C cable and power adapter</span><sup>2</sup><span> to simultaneously charge up to 5 VIVE Ultimate Trackers in 3.5 hours or less.</span><sup>3</sup><span> Storage for one VIVE Wireless Dongle is also included.</span><sup>4</sup><span></span><br><br><span>Optimize your VR setup and make the most of full-body tracking for gaming, fitness, VTubing, and more!</span><sup>5</sup><span></span><br><br><span>In-box items:</span><br><span>• VIVE USB-C Dock (5 Ports) x 1</span><br><span>• Quick-start guide x 1</span><br><span>• Safety guide x 1</span><br><span>• Warranty card x 1</span><br><br><span>Dimensions:</span><span> 203 x 93.6 x 32.5 mm</span><br><br><span>Weight:</span><span> 335 g ± 3%</span><br><br><span>Power:</span><br><span>Input:</span><span> 15 V/3 A (45 W) x 1 USB-C receptacle</span><br><span>Output:</span><span> 5 V/1.6 A (8 W) x 5 USB-C connectors</span><br><br><span>Input:</span><span> 15 V/2 A or 12 V/2.5 A (30 W) x 1 USB-C receptacle</span><br><span>Output:</span><span> 5 V/1 A (5 W) x 5 USB-C connectors</span><br><br><span>Input:</span><span> 12 V/2 A (24 W) or 9 V/2 A (18 W) x 1 USB-C receptacle</span><br><span>Output:</span><span> 5 V/0.5 A (2.5 W) x 5 USB-C connectors</span><br><br><span>Input:</span><span> 5 V/3 A (15 W) x 1 USB-C receptacle</span><br><span>Output:</span><span> 5 V/0.5 A (2.5 W) x 5 USB-C connectors</span><br><br></p>\n<div class=\"txt-disclaimer\">\n<ol>\n<li style=\"font-weight: bold;\"><strong>Compatible with VIVE Ultimate Tracker (sold separately).</strong></li>\n<li>A USB Type-C cable and power adapter with rating of 15 W or higher are required. Not included with VIVE USB-C Dock (5 Ports).</li>\n<li>Assumes use of a compatible 45 W power adapter with USB Type-C Power Delivery. Charging time is an estimate and may vary with use. Longer charging times may result with a power adapter rated less than 45 W.</li>\n<li>VIVE Wireless Dongle is sold separately and does not need to be charged.</li>\n<li>Full-body tracking is dependent on VR headset, tracker, and content compatibility. VIVE Ultimate Tracker requires a VIVE Wireless Dongle to connect with compatible devices, which currently include the standalone VR headsets VIVE Focus Vision, VIVE Focus 3, and VIVE XR Elite, and third-party VR headsets that support SteamVR. Third-party VR headsets must access compatible SteamVR content via VIVE Hub (beta). System requirements must be met.</li>\n<li>For VIVE Focus Vision, VIVE Focus 3, and VIVE XR Elite, VIVE Wireless Dongle can be plugged directly into the headset for standalone VR content or PC VR content using wireless streaming. It should be plugged into the PC for PC VR content using wired streaming. For third-party SteamVR-supported headsets, VIVE Wireless Dongle must be plugged into the PC. When VIVE Wireless Dongle is plugged into the PC, VIVE Ultimate Tracker must be paired using SteamVR via VIVE Hub.</li>\n</ol>\n</div>",
+  "published_at": "2025-11-10T17:57:33-08:00",
+  "created_at": "2025-08-27T23:17:48-07:00",
+  "updated_at": "2026-09-05T09:35:04-07:00",
+  "vendor": "HTC VIVE Online Store",
+  "product_type": "Simple",
+  "tags": [],
+  "variants": [
+    {
+      "id": 50674049548605,
+      "title": "Default Title",
+      "option1": "Default Title",
+      "option2": null,
+      "option3": null,
+      "sku": "99H12327-00",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": null,
+      "available": true,
+      "price": "99.00",
+      "grams": 3000,
+      "compare_at_price": null,
+      "position": 1,
+      "product_id": 10039429595453,
+      "created_at": "2025-08-27T23:17:48-07:00",
+      "updated_at": "2026-09-05T09:35:04-07:00"
+    }
+  ],
+  "images": [
+    {
+      "id": 58918193561917,
+      "created_at": "2025-08-27T23:51:20-07:00",
+      "position": 1,
+      "updated_at": "2025-08-27T23:51:22-07:00",
+      "product_id": 10039429595453,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0926/0489/1453/files/ultimate-tracker_5-in-1-dock_only.png?v=1756363882",
+      "width": 475,
+      "height": 475
+    },
+    {
+      "id": 61937397170493,
+      "created_at": "2026-01-23T14:32:42-08:00",
+      "position": 2,
+      "updated_at": "2026-01-23T14:32:44-08:00",
+      "product_id": 10039429595453,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0926/0489/1453/files/5-in-1-Ultimate-Tracker-Dock-st-OET.jpg?v=1769207564",
+      "width": 3600,
+      "height": 3600
+    }
+  ],
+  "options": [
+    {
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Default Title"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2732 @@
+.workplace:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+section.gray {
+    background-color: #f2f2f2;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+
+h1, .h1, h2, .h2, h3, .h3 {
+    margin-top: 22px;
+    margin-bottom: 11px;
+}
+
+h1, .h1 {
+    font-size: 58px;
+}
+
+h2 {
+    font-size: 44px;
+}
+
+.section-container .grid-view .item, .section-container .block {
+    box-sizing: border-box;
+}
+
+.workplace .place {
+    width: 50%;
+    float: left;
+}
+
+.workplace .place img {
+    width: 100%;
+    height: auto;
+}
+
+img {
+    vertical-align: middle;
+}
+
+img {
+    border: 0;
+}
+
+main#team .section .team > .block:nth-child(odd), main#accelerator .section .team > .block:nth-child(odd) {
+    clear: both;
+}
+
+@media (min-width: 1024px) {
+  main#team .section .team > .block, main#accelerator .section .team > .block {
+      padding-left: 30px;
+      padding-right: 30px;
+  }
+}
+main#team .section .team > .block, main#accelerator .section .team > .block {
+    margin-bottom: 90px;
+}
+@media (min-width: 768px) {
+  .col-xs-6, .col-addons ul.product-grid li, main#team .section .team > .block, main#accelerator .section .team > .block {
+      width: 50%;
+  }
+}
+@media (min-width: 768px) {
+  .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-addons ul.product-grid li, main#team .section .team > .block, main#accelerator .section .team > .block, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+      float: left;
+  }
+}
+
+.row.faq .block {
+    margin-bottom: 50px;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.row.faq .block h4 {
+    font-weight: 700;
+}
+
+
+h4, .h4 {
+    font-size: 20px;
+}
+
+h4, .h4, h5, .h5, h6, .h6 {
+    margin-top: 11px;
+    margin-bottom: 11px;
+}
+
+.lead {
+  font-weight: bold;
+  margin-top: 22px;
+}
+
+@media (min-width: 1024px) {
+  /* line 88, ../sass/bootstrap/bootstrap/_type.scss */
+
+  .lead {
+    font-size: 24px;
+    font-size: 20px;
+  }
+}
+
+.section-container {
+  min-width: 320px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* line 14, ../sass/bootstrap/bootstrap/mixins/_clearfix.scss */
+
+.section-container:before, .section-container:after {
+  content: " ";
+  display: table;
+}
+
+/* line 19, ../sass/bootstrap/bootstrap/mixins/_clearfix.scss */
+
+.section-container:after {
+  clear: both;
+}
+
+@media (min-width: 768px) {
+  /* line 10, ../sass/bootstrap/bootstrap/_grid.scss */
+
+  .section-container {
+    width: 775px;
+  }
+}
+
+@media (min-width: 1024px) {
+  /* line 10, ../sass/bootstrap/bootstrap/_grid.scss */
+
+  .section-container {
+    width: 984px;
+  }
+}
+
+@media (min-width: 1270px) {
+  /* line 10, ../sass/bootstrap/bootstrap/_grid.scss */
+
+  .section-container {
+    width: 1120px;
+  }
+}
+
+@media (min-width: 1500px) {
+  /* line 10, ../sass/bootstrap/bootstrap/_grid.scss */
+
+  .section-container {
+    width: 1310px;
+  }
+}
+
+.row .grid-view {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+/* line 14, ../sass/bootstrap/bootstrap/mixins/_clearfix.scss */
+
+.grid-view:before,.grid-view:after {
+  content: " ";
+  display: table;
+}
+
+/* line 19, ../sass/bootstrap/bootstrap/mixins/_clearfix.scss */
+
+.grid-view:after {
+  clear: both;
+}
+
+/* line 11, ../sass/bootstrap/bootstrap/mixins/_grid-framework.scss */
+
+.grid-view .item,.grid-view .item {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
+@media (min-width: 600px) {
+  /* line 27, ../sass/bootstrap/bootstrap/mixins/_grid-framework.scss */
+
+  .grid-view .item {
+    float: left;
+  }
+  .grid-view .item {
+    width: 50%;
+  }
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 1024px) {
+  /* line 27, ../sass/bootstrap/bootstrap/mixins/_grid-framework.scss */
+
+  .grid-view .item {
+    float: left;
+  }
+
+  .grid-view .item {
+    width: 33.33333%;
+  }
+
+}
+
+/* line 51, ../sass/bootstrap/bootstrap/_buttons.scss */
+
+.btn[disabled] {
+  cursor: not-allowed;
+  opacity: 0.65;
+  filter: alpha(opacity=65);
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.btn-primary {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  letter-spacing: 1px;
+  color: #fff;
+  background-color: #00b5e2;
+  border-color: #00a1c9;
+  padding: 8px 4em;
+  font-size: 16px;
+  line-height: 1.42857;
+  border-radius: 17px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: background-color 0.5s;
+  transition: color 0.5s;
+}
+
+/* line 45, ../sass/bootstrap/bootstrap/mixins/_buttons.scss */
+
+.btn-primary[disabled]:hover,.btn-primary[disabled]:focus {
+  background-color: #00b5e2;
+  border-color: #00a1c9;
+}
+
+.btn-info {
+  color: #fff;
+  background-color: #5bc0de;
+  border-color: #46b8da;
+}
+
+/* line 11, ../sass/bootstrap/bootstrap/mixins/_buttons.scss */
+
+.btn-info:focus {
+  color: #000;
+  background-color: #5bc0de;
+  border-color: #46b8da;
+}
+
+/* line 17, ../sass/bootstrap/bootstrap/mixins/_buttons.scss */
+
+.btn-info:hover {
+  color: #000;
+  background-color: #5bc0de !important;
+  border-color: #46b8da;
+}
+
+/* line 22, ../sass/bootstrap/bootstrap/mixins/_buttons.scss */
+
+.btn-info:active {
+  color: #000;
+  background-color: #5bc0de;
+  border-color: #46b8da;
+}
+
+/* line 29, ../sass/bootstrap/bootstrap/mixins/_buttons.scss */
+
+.btn-info:active:hover,.btn-info:active:focus,.btn-info:active.focus {
+  color: #000;
+  background-color: #5bc0de;
+  border-color: #46b8da;
+}
+
+/* line 37, ../sass/bootstrap/bootstrap/mixins/_buttons.scss */
+
+.btn-info:active {
+  background-image: none;
+}
+
+/* line 45, ../sass/bootstrap/bootstrap/mixins/_buttons.scss */
+
+.btn-info[disabled]:hover,.btn-info[disabled]:focus {
+  background-color: #5bc0de;
+  border-color: #46b8da;
+}
+
+.btn-lead {
+  color: #fff;
+  background-color: #fe9e32;
+  border-color: #fe9219;
+}
+
+/* line 11, ../sass/bootstrap/bootstrap/mixins/_buttons.scss */
+
+.btn-lead:focus {
+  color: #000;
+  background-color: #fe9e32;
+  border-color: #fe9219;
+}
+
+/* line 17, ../sass/bootstrap/bootstrap/mixins/_buttons.scss */
+
+.btn-lead:hover {
+  color: #000;
+  background-color: #fe9e32 !important;
+  border-color: #fe9219;
+}
+
+/* line 22, ../sass/bootstrap/bootstrap/mixins/_buttons.scss */
+
+.btn-lead:active {
+  color: #000;
+  background-color: #fe9e32;
+  border-color: #fe9219;
+}
+
+/* line 29, ../sass/bootstrap/bootstrap/mixins/_buttons.scss */
+
+.btn-lead:active:hover,.btn-lead:active:focus,.btn-lead:active.focus {
+  color: #000;
+  background-color: #fe9e32;
+  border-color: #fe9219;
+}
+
+/* line 37, ../sass/bootstrap/bootstrap/mixins/_buttons.scss */
+
+.btn-lead:active {
+  background-image: none;
+}
+
+/* line 45, ../sass/bootstrap/bootstrap/mixins/_buttons.scss */
+
+.btn-lead[disabled]:hover,.btn-lead[disabled]:focus {
+  background-color: #fe9e32;
+  border-color: #fe9219;
+}
+
+.btn-lg {
+  padding: 10px 30px;
+  font-size: 20px;
+  line-height: 1.33333;
+  border-radius: 22px;
+}
+
+@-webkit-keyframes progress-bar-stripes {
+  from {
+    background-position: 40px 0;
+  }
+
+  to {
+    background-position: 0 0;
+  }
+}
+
+@keyframes progress-bar-stripes {
+  from {
+    background-position: 40px 0;
+  }
+
+  to {
+    background-position: 0 0;
+  }
+}
+
+.modal {
+  display: none;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1050;
+  -webkit-overflow-scrolling: touch;
+  outline: 0;
+}
+
+
+.modal-header {
+  padding: 15px;
+}
+
+/* line 14, ../sass/bootstrap/bootstrap/mixins/_clearfix.scss */
+
+.modal-header:before,.modal-header:after {
+  content: " ";
+  display: table;
+}
+
+/* line 19, ../sass/bootstrap/bootstrap/mixins/_clearfix.scss */
+
+.modal-header:after {
+  clear: both;
+}
+
+/* line 85, ../sass/bootstrap/bootstrap/_modals.scss */
+
+/* line 90, ../sass/bootstrap/bootstrap/_modals.scss */
+
+.modal-title {
+  margin: 0;
+  line-height: 1.42857;
+}
+
+/* line 97, ../sass/bootstrap/bootstrap/_modals.scss */
+
+.modal-body {
+  position: relative;
+  padding: 20px 30px;
+}
+
+
+@media (min-width: 600px) {
+
+    .modal-body {
+    padding: 20px 50px 50px;
+  }
+}
+
+@media (min-width: 768px) {
+  /* line 156, ../sass/bootstrap/bootstrap/_modals.scss */
+
+  /* line 160, ../sass/bootstrap/bootstrap/_modals.scss */
+
+  /* line 164, ../sass/bootstrap/bootstrap/_modals.scss */
+
+  .modal-body {
+    padding: 20px 50px 50px;
+  }
+}
+
+@media (min-width: 1024px) {
+  /* line 176, ../sass/bootstrap/bootstrap/_modals.scss */
+
+  /* line 180, ../sass/bootstrap/bootstrap/_modals.scss */
+
+  /* line 185, ../sass/bootstrap/bootstrap/_modals.scss */
+}
+
+@media (min-width: 1270px) {
+  /* line 189, ../sass/bootstrap/bootstrap/_modals.scss */
+
+  .modal-lg {
+    width: 900px;
+  }
+}
+/*FAKT*/
+
+@font-face {
+  font-family: 'Fakt-Normal';
+  /*src: url("../fonts/Fakt/FaktPro-Normal.eot?#iefix");*/
+  /* IE9 Compat Modes */
+  /*src: url("../fonts/Fakt/FaktPro-Normal.eot?#iefix") format("embedded-opentype"), url("../fonts/Fakt/FaktPro-Normal.woff") format("woff"), url("../fonts/Fakt/FaktPro-Normal.ttf") format("truetype");*/
+  /* Safari, Android, iOS */
+}
+
+/*@font-face {*/
+/*  font-family: 'Fakt-Medium';*/
+/*  src: url("../fonts/Fakt Medium/FaktPro-Medium.eot?#iefix");*/
+/*  !* IE9 Compat Modes *!*/
+/*  src: url("../fonts/Fakt Medium/FaktPro-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Fakt Medium/FaktPro-Medium.woff") format("woff"), url("../fonts/Fakt Medium/FaktPro-Medium.ttf") format("truetype");*/
+/*  !* Safari, Android, iOS *!*/
+/*}*/
+
+/*@font-face {*/
+/*  font-family: 'Fakt-Bold';*/
+/*  src: url("../fonts/Fakt Bold/FaktPro-Bold.eot?#iefix");*/
+/*  !* IE9 Compat Modes *!*/
+/*  src: url("../fonts/Fakt Bold/FaktPro-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Fakt Bold/FaktPro-Bold.woff") format("woff"), url("../fonts/Fakt Bold/FaktPro-Bold.ttf") format("truetype");*/
+/*  !* Safari, Android, iOS *!*/
+/*}*/
+
+/*@font-face {*/
+/*  font-family: 'Fakt-Blond';*/
+/*  src: url("../fonts/Fakt/FaktPro-Blond.eot?#iefix");*/
+/*  !* IE9 Compat Modes *!*/
+/*  src: url("../fonts/Fakt/FaktPro-Blond.eot?#iefix") format("embedded-opentype"), url("../fonts/Fakt/FaktPro-Blond.woff") format("woff"), url("../fonts/Fakt/FaktPro-Blond.ttf") format("truetype");*/
+/*  !* Safari, Android, iOS *!*/
+/*}*/
+
+/*COMMON START*/
+
+.icon-vivex-icons-education,.icon-vivex-icons-expertise,.icon-vivex-icons-investment,.icon-vivex-icons-mentors,.icon-vivex-icons-network,.icon-vivex-icons-support {
+  /*background-image: url('../images/icon-sbaf749f717.png');*/
+  background-repeat: no-repeat;
+}
+
+/* line 84, c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+
+.icon-vivex-icons-education {
+  background-position: 0 0;
+  height: 150px;
+  width: 150px;
+}
+
+/* line 84, c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+
+.icon-vivex-icons-expertise {
+  background-position: 0 -150px;
+  height: 150px;
+  width: 150px;
+}
+
+/* line 84, c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+
+.icon-vivex-icons-investment {
+  background-position: 0 -300px;
+  height: 150px;
+  width: 150px;
+}
+
+/* line 84, c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+
+.icon-vivex-icons-mentors {
+  background-position: 0 -450px;
+  height: 150px;
+  width: 150px;
+}
+
+/* line 84, c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+
+.icon-vivex-icons-network {
+  background-position: 0 -600px;
+  height: 150px;
+  width: 150px;
+}
+
+/* line 84, c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+
+.icon-vivex-icons-support {
+  background-position: 0 -750px;
+  height: 150px;
+  width: 150px;
+}
+
+/* line 1, ../sass/layout/_header.scss */
+
+/*body > header {
+  font-family: 'Fakt-Normal', Helvetica, Arial, '微軟正黑體', 'Microsoft JhengHei', '微软雅黑體', 'Microsoft YaHei';
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  right: 0;
+  left: 0;
+  clear: both;
+  height: 70px;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  background-color: #111820;
+}*/
+
+main {
+  padding-bottom: 50px;
+}
+
+@media (max-width: 1269px) {
+  /* line 1, ../sass/layout/_common.scss */
+
+  body {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 1269px) {
+  /* line 31, ../sass/layout/_common.scss */
+
+  .btn {
+    font-size: 14px;
+  }
+}
+
+/* line 40, ../sass/layout/_common.scss */
+
+/* line 43, ../sass/layout/_common.scss */
+
+a {
+  text-decoration: none;
+}
+
+/* line 47, ../sass/layout/_common.scss */
+
+/* line 50, ../sass/layout/_common.scss */
+
+/* line 53, ../sass/layout/_common.scss */
+
+/* line 56, ../sass/layout/_common.scss */
+
+/* line 60, ../sass/layout/_common.scss */
+
+/* line 66, ../sass/layout/_common.scss */
+
+/* line 70, ../sass/layout/_common.scss */
+
+/* line 74, ../sass/layout/_common.scss */
+
+/* line 79, ../sass/layout/_common.scss */
+
+/* line 84, ../sass/layout/_common.scss */
+
+/* line 89, ../sass/layout/_common.scss */
+
+/* line 95, ../sass/layout/_common.scss */
+
+/* line 102, ../sass/layout/_common.scss */
+
+/* line 108, ../sass/layout/_common.scss */
+
+/* line 113, ../sass/layout/_common.scss */
+
+/* line 118, ../sass/layout/_common.scss */
+
+/* line 122, ../sass/layout/_common.scss */
+
+/* line 126, ../sass/layout/_common.scss */
+
+/* line 130, ../sass/layout/_common.scss */
+
+@media (min-width: 599px) {
+  /* line 134, ../sass/layout/_common.scss */
+}
+
+@media (max-width: 600px) {
+  /* line 134, ../sass/layout/_common.scss */
+}
+
+/* line 147, ../sass/layout/_common.scss */
+
+/* line 162, ../sass/layout/_common.scss */
+
+/* line 168, ../sass/layout/_common.scss */
+
+/* line 174, ../sass/layout/_common.scss */
+
+/* line 177, ../sass/layout/_common.scss */
+
+/* Landscape phones and down */
+
+@media (max-width: 480px) {
+  /* line 186, ../sass/layout/_common.scss */
+
+  /* line 189, ../sass/layout/_common.scss */
+
+  /* line 193, ../sass/layout/_common.scss */
+
+  /* line 197, ../sass/layout/_common.scss */
+
+  /* line 203, ../sass/layout/_common.scss */
+}
+
+/* line 211, ../sass/layout/_common.scss */
+
+/* line 214, ../sass/layout/_common.scss */
+
+/* line 219, ../sass/layout/_common.scss */
+
+/* line 231, ../sass/layout/_common.scss */
+
+/* line 240, ../sass/layout/_common.scss */
+
+/* line 244, ../sass/layout/_common.scss */
+
+/* line 247, ../sass/layout/_common.scss */
+
+/* line 253, ../sass/layout/_common.scss */
+
+/* line 3, ../sass/layout/_cart.scss */
+
+/* line 10, ../sass/layout/_cart.scss */
+
+/* line 13, ../sass/layout/_cart.scss */
+
+.a-center {
+  text-align: center;
+}
+
+/* line 16, ../sass/layout/_cart.scss */
+
+/* line 19, ../sass/layout/_cart.scss */
+
+/* line 25, ../sass/layout/_cart.scss */
+
+/* line 30, ../sass/layout/_cart.scss */
+
+/* line 34, ../sass/layout/_cart.scss */
+
+/* line 40, ../sass/layout/_cart.scss */
+
+/* line 48, ../sass/layout/_cart.scss */
+
+@media (max-width: 599px) {
+  /* line 48, ../sass/layout/_cart.scss */
+}
+
+/* line 60, ../sass/layout/_cart.scss */
+
+/* line 71, ../sass/layout/_cart.scss */
+
+/* line 77, ../sass/layout/_cart.scss */
+
+/* line 88, ../sass/layout/_cart.scss */
+
+/* line 94, ../sass/layout/_cart.scss */
+
+/* line 101, ../sass/layout/_cart.scss */
+
+/* line 1, ../sass/layout/_category.scss */
+
+.banner {
+  position: relative;
+}
+
+/* line 3, ../sass/layout/_category.scss */
+
+.banner img {
+  width: 100%;
+  height: auto;
+}
+
+/* line 7, ../sass/layout/_category.scss */
+
+/* line 17, ../sass/layout/_category.scss */
+
+/* line 20, ../sass/layout/_category.scss */
+
+/* line 24, ../sass/layout/_category.scss */
+
+/* line 27, ../sass/layout/_category.scss */
+
+/* line 31, ../sass/layout/_category.scss */
+
+/* line 6, ../sass/layout/_product.scss */
+
+/* line 14, ../sass/layout/_product.scss */
+
+/* line 19, ../sass/layout/_product.scss */
+
+/* line 23, ../sass/layout/_product.scss */
+
+/* line 32, ../sass/layout/_product.scss */
+
+/* line 38, ../sass/layout/_product.scss */
+
+/* line 41, ../sass/layout/_product.scss */
+
+/* line 73, ../sass/layout/_product.scss */
+
+/* line 78, ../sass/layout/_product.scss */
+
+/* line 89, ../sass/layout/_product.scss */
+
+/* line 104, ../sass/layout/_product.scss */
+
+/* line 1, ../sass/layout/_developer.scss */
+
+.hero {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 440px;
+  position: relative;
+}
+
+/* line 12, ../sass/layout/_developer.scss */
+
+.hero.hero-lg {
+  height: 680px;
+}
+
+/* line 15, ../sass/layout/_developer.scss */
+
+.hero.hero-lg .hero-header p.action {
+  margin-top: 40px;
+}
+
+/* line 18, ../sass/layout/_developer.scss */
+
+.hero.hero-lg .hero-header img {
+  max-width: 90%;
+  height: auto;
+  width: auto;
+}
+
+@media (max-width: 1269px) {
+  /* line 1, ../sass/layout/_developer.scss */
+
+  .hero {
+    height: 350px;
+  }
+}
+
+/* line 28, ../sass/layout/_developer.scss */
+
+.hero .hero-header {
+  top: 50%;
+  position: absolute;
+  transform: translateY(-50%);
+  right: 15px;
+  left: 15px;
+  text-align: center;
+  margin: 0;
+}
+
+/* line 37, ../sass/layout/_developer.scss */
+
+.hero .hero-header a.btn {
+  margin: 15px;
+}
+
+/* line 44, ../sass/layout/_developer.scss */
+
+.hero h1 {
+  margin: 0;
+  color: #fff;
+  line-height: 1.2em;
+  letter-spacing: 5px;
+  font-weight: bold;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  font-size: 50px;
+}
+
+/* line 69, ../sass/layout/_developer.scss */
+
+main {
+  letter-spacing: 1px;
+  line-height: 1.6;
+}
+
+/* line 74, ../sass/layout/_developer.scss */
+
+/* line 93, ../sass/layout/_developer.scss */
+
+.narrow.section-container {
+  max-width: 870px;
+}
+
+/* line 96, ../sass/layout/_developer.scss */
+
+/* line 97, ../sass/layout/_developer.scss */
+
+/* line 105, ../sass/layout/_developer.scss */
+
+@media (max-width: 1023px) {
+  /* line 96, ../sass/layout/_developer.scss */
+}
+
+/* line 119, ../sass/layout/_developer.scss */
+
+/* line 125, ../sass/layout/_developer.scss */
+
+/* line 133, ../sass/layout/_developer.scss */
+
+/* line 138, ../sass/layout/_developer.scss */
+
+/* line 146, ../sass/layout/_developer.scss */
+
+/* line 159, ../sass/layout/_developer.scss */
+
+/* line 164, ../sass/layout/_developer.scss */
+
+.section-header {
+  margin-bottom: 20px;
+}
+
+/* line 168, ../sass/layout/_developer.scss */
+
+/* line 171, ../sass/layout/_developer.scss */
+
+p.more {
+  text-align: center;
+  margin-top: 35px;
+}
+
+/* line 175, ../sass/layout/_developer.scss */
+
+.txt-center {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+/* line 181, ../sass/layout/_developer.scss */
+
+.btn-primary:hover {
+  background-color: #78dbff;
+}
+
+/* line 186, ../sass/layout/_developer.scss */
+
+/* line 121, ../sass/dev/_section.scss */
+
+.section-container {
+  width: 1040px;
+  max-width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+@media (max-width: 1269px) {
+  /* line 121, ../sass/dev/_section.scss */
+
+  .section-container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+
+/* line 137, ../sass/dev/_section.scss */
+
+/* line 142, ../sass/dev/_section.scss */
+
+.container-narrow {
+  width: 600px;
+  max-width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+/* line 153, ../sass/dev/_section.scss */
+
+.img-wrapper {
+  height: 670px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* line 159, ../sass/dev/_section.scss */
+
+.map-wrapper {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+/* line 164, ../sass/dev/_section.scss */
+
+.map-wrapper p.more {
+  position: absolute;
+  bottom: 50px;
+  left: 15px;
+  right: 15px;
+}
+
+/* line 173, ../sass/dev/_section.scss */
+
+section.world .map-wrapper {
+  position: relative;
+}
+
+/* line 178, ../sass/dev/_section.scss */
+
+section.world .map-wrapper img {
+  width: 100%;
+}
+
+/* line 182, ../sass/dev/_section.scss */
+
+section.world .map-wrapper p.txt-center {
+  position: absolute;
+  bottom: 10%;
+  left: 15px;
+  right: 15px;
+  margin-bottom: 0;
+}
+
+/* line 197, ../sass/dev/_section.scss */
+
+section.offer .container-narrow {
+  padding-bottom: 0;
+}
+
+/* line 200, ../sass/dev/_section.scss */
+
+section.offer .section-container {
+  padding-top: 80px;
+}
+
+/* line 205, ../sass/dev/_section.scss */
+
+section.approach .container-narrow {
+  padding-top: 0;
+}
+
+/* line 208, ../sass/dev/_section.scss */
+
+section.approach .img-wrapper {
+  height: 600px;
+}
+
+/* line 213, ../sass/dev/_section.scss */
+
+/* line 219, ../sass/dev/_section.scss */
+
+.grid-view .item {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+/* line 224, ../sass/dev/_section.scss */
+
+.grid-view .item span[class*="icon-vivex-icons-"] {
+  display: inline-block;
+}
+
+/* line 227, ../sass/dev/_section.scss */
+
+.grid-view .item a {
+  text-decoration: none;
+  opacity: 0.65;
+  transition: opacity 0.5s;
+}
+
+/* line 235, ../sass/dev/_section.scss */
+
+.grid-view .item a .title {
+  color: #00b5e2;
+}
+
+/* line 239, ../sass/dev/_section.scss */
+
+.grid-view .item a:hover {
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+
+/* line 252, ../sass/dev/_section.scss */
+
+/* line 266, ../sass/dev/_section.scss */
+
+.grid-view .item .title {
+  color: #00b5e2;
+  font-size: 18px;
+  font-weight: bold;
+  transition: color 0.5s;
+}
+
+/* line 272, ../sass/dev/_section.scss */
+
+.grid-view .item p {
+  text-align: left;
+  max-width: 280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 277, ../sass/dev/_section.scss */
+
+.grid-view .item p.title {
+  text-align: center;
+}
+
+/* line 2, ../sass/dev/_faq.scss */
+
+/* line 6, ../sass/dev/_faq.scss */
+
+/* line 2, ../sass/dev/_team.scss */
+
+main#team,main#accelerator {
+  padding-bottom: 0;
+}
+
+/* line 5, ../sass/dev/_team.scss */
+
+main#team > .section:nth-of-type(3n+1),main#accelerator > .section:nth-of-type(3n+1) {
+  background: #fff;
+}
+
+/* line 9, ../sass/dev/_team.scss */
+
+main#team > .section:nth-of-type(3n+2),main#accelerator > .section:nth-of-type(3n+2) {
+  background: #eee;
+}
+
+/* line 13, ../sass/dev/_team.scss */
+
+main#team > .section:nth-of-type(3n+0),main#accelerator > .section:nth-of-type(3n+0) {
+  background: #f2f2f2;
+}
+
+/* line 17, ../sass/dev/_team.scss */
+
+main#team .section,main#accelerator .section {
+  position: relative;
+}
+
+/* line 19, ../sass/dev/_team.scss */
+
+/* line 22, ../sass/dev/_team.scss */
+
+/* line 24, ../sass/dev/_team.scss */
+
+/* line 27, ../sass/dev/_team.scss */
+
+/* line 30, ../sass/dev/_team.scss */
+
+/* line 40, ../sass/dev/_team.scss */
+
+@media (min-width: 1024px) {
+  /* line 40, ../sass/dev/_team.scss */
+}
+
+@media (max-width: 767px) and (min-width: 600px) {
+  /* line 40, ../sass/dev/_team.scss */
+}
+
+/* line 59, ../sass/dev/_team.scss */
+
+/* line 63, ../sass/dev/_team.scss */
+
+@media (max-width: 479px) {
+  /* line 63, ../sass/dev/_team.scss */
+}
+
+/* line 84, ../sass/dev/_team.scss */
+
+/* line 87, ../sass/dev/_team.scss */
+
+/* line 91, ../sass/dev/_team.scss */
+
+/* line 100, ../sass/dev/_team.scss */
+
+/* line 111, ../sass/dev/_team.scss */
+
+.section-container,.section-container .section-container {
+  min-width: 0;
+}
+
+/* line 2, ../sass/dev/_accelerator.scss */
+
+/* line 7, ../sass/dev/_accelerator.scss */
+
+/* line 10, ../sass/dev/_accelerator.scss */
+
+/* line 1, ../sass/dev/_apply.scss */
+
+.apply {
+  text-align: center;
+  background: transparent;
+  padding-bottom: 220px;
+  padding-top: 220px;
+  position: relative;
+}
+
+@media (max-width: 1269px) {
+  /* line 1, ../sass/dev/_apply.scss */
+
+  .apply {
+    padding-bottom: 120px;
+    padding-top: 120px;
+  }
+}
+
+@media (max-width: 1023px) {
+  /* line 1, ../sass/dev/_apply.scss */
+
+  .apply {
+    padding-bottom: 80px;
+    padding-top: 80px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 1, ../sass/dev/_apply.scss */
+
+  .apply {
+    padding-bottom: 50px;
+    padding-top: 50px;
+  }
+}
+
+/* line 22, ../sass/dev/_apply.scss */
+
+.apply:before {
+  /*background-image: url(../images/banner/apply-bg.jpg);*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+
+/* line 36, ../sass/dev/_apply.scss */
+
+.apply-header {
+  margin-bottom: 20px;
+  color: #fff;
+  font-weight: bold;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* line 61, ../sass/dev/_apply.scss */
+
+/* line 62, ../sass/dev/_apply.scss */
+
+/* line 68, ../sass/dev/_apply.scss */
+
+/* line 77, ../sass/dev/_apply.scss */
+
+/* line 80, ../sass/dev/_apply.scss */
+
+/* line 86, ../sass/dev/_apply.scss */
+
+#applyModal {
+  font-size: 15px;
+}
+
+/* line 87, ../sass/dev/_apply.scss */
+
+#applyModal .modal-header {
+  text-align: center;
+}
+
+/* line 91, ../sass/dev/_apply.scss */
+
+#applyModal .modal-header h2 {
+  margin-top: 50px;
+}
+
+/* line 98, ../sass/dev/_apply.scss */
+
+#applyModal .modal-title {
+  letter-spacing: 2px;
+}
+
+/* line 120, ../sass/dev/_apply.scss */
+
+/* line 122, ../sass/dev/_apply.scss */
+
+/* line 127, ../sass/dev/_apply.scss */
+
+/* line 132, ../sass/dev/_apply.scss */
+
+/* line 136, ../sass/dev/_apply.scss */
+
+/* line 144, ../sass/dev/_apply.scss */
+
+/* line 149, ../sass/dev/_apply.scss */
+
+/* line 154, ../sass/dev/_apply.scss */
+
+/* line 160, ../sass/dev/_apply.scss */
+
+/* line 165, ../sass/dev/_apply.scss */
+
+@media (min-width: 1024px) {
+  /* line 169, ../sass/dev/_apply.scss */
+}
+
+/* line 175, ../sass/dev/_apply.scss */
+
+/* line 180, ../sass/dev/_apply.scss */
+
+/* line 188, ../sass/dev/_apply.scss */
+
+/* line 193, ../sass/dev/_apply.scss */
+
+/* line 199, ../sass/dev/_apply.scss */
+
+/* line 2, ../sass/dev/_home.scss */
+
+/* line 6, ../sass/dev/_home.scss */
+
+@media (max-width: 1499px) {
+  /* line 6, ../sass/dev/_home.scss */
+}
+
+@media (max-width: 1269px) {
+  /* line 6, ../sass/dev/_home.scss */
+}
+
+@media (max-width: 1023px) {
+  /* line 6, ../sass/dev/_home.scss */
+}
+
+/* line 32, ../sass/dev/_home.scss */
+
+/* line 39, ../sass/dev/_home.scss */
+
+@media (min-width: 1024px) {
+  /* line 32, ../sass/dev/_home.scss */
+}
+
+/* line 51, ../sass/dev/_home.scss */
+
+/* line 56, ../sass/dev/_home.scss */
+
+@media (max-width: 1499px) {
+  /* line 56, ../sass/dev/_home.scss */
+}
+
+@media (max-width: 1269px) {
+  /* line 56, ../sass/dev/_home.scss */
+}
+
+@media (max-width: 1023px) {
+  /* line 56, ../sass/dev/_home.scss */
+}
+
+/* line 83, ../sass/dev/_home.scss */
+
+/* line 88, ../sass/dev/_home.scss */
+
+@media (max-width: 1269px) {
+  /* line 88, ../sass/dev/_home.scss */
+}
+
+@media (max-width: 1023px) {
+  /* line 88, ../sass/dev/_home.scss */
+}
+
+/* line 121, ../sass/dev/_home.scss */
+
+@media (max-width: 1499px) {
+  /* line 121, ../sass/dev/_home.scss */
+}
+
+/* line 130, ../sass/dev/_home.scss */
+
+/* line 136, ../sass/dev/_home.scss */
+
+p.more {
+  font-size: 15px;
+}
+
+@font-face {
+  font-family: "vivefont";
+  src: url("../fonts/vivefont.eot");
+  src: url("../fonts/vivefont.eot?#iefix") format("embedded-opentype"), url("../fonts/vivefont.woff") format("woff"), url("../fonts/vivefont.ttf") format("truetype"), url("../fonts/vivefont.svg#vivefont") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 15, ../sass/dev/_font.scss */
+
+[data-icon]:before {
+  font-family: "vivefont" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 28, ../sass/dev/_font.scss */
+
+[class^="vfont-"]:before,[class*=" vfont-"]:before {
+  font-family: "vivefont" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 41, ../sass/dev/_font.scss */
+
+/* line 44, ../sass/dev/_font.scss */
+
+/* line 47, ../sass/dev/_font.scss */
+
+/* line 50, ../sass/dev/_font.scss */
+
+/* line 53, ../sass/dev/_font.scss */
+
+/* line 56, ../sass/dev/_font.scss */
+
+/* line 59, ../sass/dev/_font.scss */
+
+/* line 62, ../sass/dev/_font.scss */
+
+/* line 65, ../sass/dev/_font.scss */
+
+/* line 68, ../sass/dev/_font.scss */
+
+/* line 71, ../sass/dev/_font.scss */
+
+/* line 74, ../sass/dev/_font.scss */
+
+/* line 77, ../sass/dev/_font.scss */
+
+/* line 80, ../sass/dev/_font.scss */
+
+/* line 83, ../sass/dev/_font.scss */
+
+/* line 86, ../sass/dev/_font.scss */
+
+/* line 89, ../sass/dev/_font.scss */
+
+/* line 92, ../sass/dev/_font.scss */
+
+/* line 95, ../sass/dev/_font.scss */
+
+/* line 98, ../sass/dev/_font.scss */
+
+/* line 101, ../sass/dev/_font.scss */
+
+/* line 104, ../sass/dev/_font.scss */
+
+/* line 107, ../sass/dev/_font.scss */
+
+@media (min-width: 1024px) {
+  /* line 112, ../sass/dev/_font.scss */
+
+  .grid-view .item:nth-child(3n+1) {
+    clear: both;
+  }
+}
+
+@media (max-width: 1023px) and (600px) {
+  /* line 120, ../sass/dev/_font.scss */
+
+  .grid-view .item:nth-child(odd) {
+    clear: both;
+  }
+}
+
+/*FAQ*/
+
+body.vivex-portfolio .margin-top-half {
+  margin-top: 60px !important;
+}
+@media (max-width: 1500px) {
+  body.vivex-portfolio .margin-top-half {
+    margin-top: 42.85714286px !important;
+  }
+}
+@media (max-width: 1270px) {
+  body.vivex-portfolio .margin-top-half {
+    margin-top: 30px !important;
+  }
+}
+@media (max-width: 1024px) {
+  body.vivex-portfolio .margin-top-half {
+    margin-top: 21.42857143px !important;
+  }
+}
+@media (max-width: 768px) {
+  body.vivex-portfolio .margin-top-half {
+    margin-top: 20px !important;
+  }
+}
+body.vivex-portfolio .margin-bottom-half {
+  margin-bottom: 60px !important;
+}
+@media (max-width: 1500px) {
+  body.vivex-portfolio .margin-bottom-half {
+    margin-bottom: 42.85714286px !important;
+  }
+}
+@media (max-width: 1270px) {
+  body.vivex-portfolio .margin-bottom-half {
+    margin-bottom: 30px !important;
+  }
+}
+@media (max-width: 1024px) {
+  body.vivex-portfolio .margin-bottom-half {
+    margin-bottom: 21.42857143px !important;
+  }
+}
+@media (max-width: 768px) {
+  body.vivex-portfolio .margin-bottom-half {
+    margin-bottom: 20px !important;
+  }
+}
+body.vivex-portfolio .margin-top-zero {
+  margin-top: 0 !important;
+}
+@media (max-width: 1500px) {
+  body.vivex-portfolio .margin-top-zero {
+    margin-top: 0 !important;
+  }
+}
+@media (max-width: 1270px) {
+  body.vivex-portfolio .margin-top-zero {
+    margin-top: 0 !important;
+  }
+}
+@media (max-width: 1024px) {
+  body.vivex-portfolio .margin-top-zero {
+    margin-top: 0 !important;
+  }
+}
+@media (max-width: 768px) {
+  body.vivex-portfolio .margin-top-zero {
+    margin-top: 0 !important;
+  }
+}
+body.vivex-portfolio .margin-bottom-zero {
+  margin-bottom: 0 !important;
+}
+@media (max-width: 1500px) {
+  body.vivex-portfolio .margin-bottom-zero {
+    margin-bottom: 0 !important;
+  }
+}
+@media (max-width: 1270px) {
+  body.vivex-portfolio .margin-bottom-zero {
+    margin-bottom: 0 !important;
+  }
+}
+@media (max-width: 1024px) {
+  body.vivex-portfolio .margin-bottom-zero {
+    margin-bottom: 0 !important;
+  }
+}
+@media (max-width: 768px) {
+  body.vivex-portfolio .margin-bottom-zero {
+    margin-bottom: 0 !important;
+  }
+}
+body.vivex-portfolio .margin-top-full {
+  margin-top: 120px !important;
+}
+@media (max-width: 1500px) {
+  body.vivex-portfolio .margin-top-full {
+    margin-top: 85.71428571px !important;
+  }
+}
+@media (max-width: 1270px) {
+  body.vivex-portfolio .margin-top-full {
+    margin-top: 60px !important;
+  }
+}
+@media (max-width: 1024px) {
+  body.vivex-portfolio .margin-top-full {
+    margin-top: 42.85714286px !important;
+  }
+}
+@media (max-width: 768px) {
+  body.vivex-portfolio .margin-top-full {
+    margin-top: 40px !important;
+  }
+}
+body.vivex-portfolio .margin-top-double {
+  margin-top: 240px !important;
+}
+@media (max-width: 1500px) {
+  body.vivex-portfolio .margin-top-double {
+    margin-top: 171.42857143px !important;
+  }
+}
+@media (max-width: 1270px) {
+  body.vivex-portfolio .margin-top-double {
+    margin-top: 120px !important;
+  }
+}
+@media (max-width: 1024px) {
+  body.vivex-portfolio .margin-top-double {
+    margin-top: 85.71428571px !important;
+  }
+}
+@media (max-width: 768px) {
+  body.vivex-portfolio .margin-top-double {
+    margin-top: 80px !important;
+  }
+}
+body.vivex-portfolio .margin-bottom-full {
+  margin-bottom: 120px !important;
+}
+@media (max-width: 1500px) {
+  body.vivex-portfolio .margin-bottom-full {
+    margin-bottom: 85.71428571px !important;
+  }
+}
+@media (max-width: 1270px) {
+  body.vivex-portfolio .margin-bottom-full {
+    margin-bottom: 60px !important;
+  }
+}
+@media (max-width: 1024px) {
+  body.vivex-portfolio .margin-bottom-full {
+    margin-bottom: 42.85714286px !important;
+  }
+}
+@media (max-width: 768px) {
+  body.vivex-portfolio .margin-bottom-full {
+    margin-bottom: 40px !important;
+  }
+}
+body.vivex-portfolio .padding-top-half {
+  padding-top: 60px !important;
+}
+@media (max-width: 1500px) {
+  body.vivex-portfolio .padding-top-half {
+    padding-top: 42.85714286px !important;
+  }
+}
+@media (max-width: 1270px) {
+  body.vivex-portfolio .padding-top-half {
+    padding-top: 30px !important;
+  }
+}
+@media (max-width: 1024px) {
+  body.vivex-portfolio .padding-top-half {
+    padding-top: 21.42857143px !important;
+  }
+}
+@media (max-width: 768px) {
+  body.vivex-portfolio .padding-top-half {
+    padding-top: 20px !important;
+  }
+}
+body.vivex-portfolio .padding-bottom-half {
+  padding-bottom: 60px !important;
+}
+@media (max-width: 1500px) {
+  body.vivex-portfolio .padding-bottom-half {
+    padding-bottom: 42.85714286px !important;
+  }
+}
+@media (max-width: 1270px) {
+  body.vivex-portfolio .padding-bottom-half {
+    padding-bottom: 30px !important;
+  }
+}
+@media (max-width: 1024px) {
+  body.vivex-portfolio .padding-bottom-half {
+    padding-bottom: 21.42857143px !important;
+  }
+}
+@media (max-width: 768px) {
+  body.vivex-portfolio .padding-bottom-half {
+    padding-bottom: 20px !important;
+  }
+}
+body.vivex-portfolio .padding-top-full {
+  padding-top: 120px !important;
+}
+@media (max-width: 1500px) {
+  body.vivex-portfolio .padding-top-full {
+    padding-top: 85.71428571px !important;
+  }
+}
+@media (max-width: 1270px) {
+  body.vivex-portfolio .padding-top-full {
+    padding-top: 60px !important;
+  }
+}
+@media (max-width: 1024px) {
+  body.vivex-portfolio .padding-top-full {
+    padding-top: 42.85714286px !important;
+  }
+}
+@media (max-width: 768px) {
+  body.vivex-portfolio .padding-top-full {
+    padding-top: 40px !important;
+  }
+}
+body.vivex-portfolio .padding-bottom-full {
+  padding-bottom: 120px !important;
+}
+@media (max-width: 1500px) {
+  body.vivex-portfolio .padding-bottom-full {
+    padding-bottom: 85.71428571px !important;
+  }
+}
+@media (max-width: 1270px) {
+  body.vivex-portfolio .padding-bottom-full {
+    padding-bottom: 60px !important;
+  }
+}
+@media (max-width: 1024px) {
+  body.vivex-portfolio .padding-bottom-full {
+    padding-bottom: 42.85714286px !important;
+  }
+}
+@media (max-width: 768px) {
+  body.vivex-portfolio .padding-bottom-full {
+    padding-bottom: 40px !important;
+  }
+}
+@media (max-width: 768px) {
+  body.vivex-portfolio .m-margin-bottom-zero {
+    margin-bottom: 0 !important;
+  }
+}
+body.vivex-portfolio .section-wrapper section {
+  clear: both;
+  position: relative;
+  top: 0;
+  margin: 0 0 120px;
+  margin-bottom: 120px !important;
+  background-repeat: no-repeat;
+  background-position: center center;
+  transition: 1s;
+}
+@media (max-width: 1500px) {
+  body.vivex-portfolio .section-wrapper section {
+    margin-bottom: 85.71428571px !important;
+  }
+}
+@media (max-width: 1270px) {
+  body.vivex-portfolio .section-wrapper section {
+    margin-bottom: 60px !important;
+  }
+}
+@media (max-width: 1024px) {
+  body.vivex-portfolio .section-wrapper section {
+    margin-bottom: 42.85714286px !important;
+  }
+}
+@media (max-width: 768px) {
+  body.vivex-portfolio .section-wrapper section {
+    margin-bottom: 40px !important;
+  }
+}
+@media (max-width: 768px) {
+  body.vivex-portfolio .section-wrapper section {
+    transition: 0s;
+  }
+}
+@media (max-width: 1024px) {
+}
+body.vivex-portfolio .section-wrapper section.last-section {
+  margin-top: 0 !important;
+}
+@media (max-width: 1500px) {
+  body.vivex-portfolio .section-wrapper section.last-section {
+    margin-top: 0 !important;
+  }
+}
+@media (max-width: 1270px) {
+  body.vivex-portfolio .section-wrapper section.last-section {
+    margin-top: 0 !important;
+  }
+}
+@media (max-width: 1024px) {
+  body.vivex-portfolio .section-wrapper section.last-section {
+    margin-top: 0 !important;
+  }
+}
+@media (max-width: 768px) {
+  body.vivex-portfolio .section-wrapper section.last-section {
+    margin-top: 0 !important;
+  }
+}
+body.vivex-portfolio .section-wrapper section.grey-bg {
+  background-color: #eee;
+}
+body.vivex-portfolio .section-wrapper section.margin-top-half {
+  margin-top: 60px !important;
+}
+@media (max-width: 1500px) {
+  body.vivex-portfolio .section-wrapper section.margin-top-half {
+    margin-top: 42.85714286px !important;
+  }
+}
+@media (max-width: 1270px) {
+  body.vivex-portfolio .section-wrapper section.margin-top-half {
+    margin-top: 30px !important;
+  }
+}
+@media (max-width: 1024px) {
+  body.vivex-portfolio .section-wrapper section.margin-top-half {
+    margin-top: 21.42857143px !important;
+  }
+}
+@media (max-width: 768px) {
+  body.vivex-portfolio .section-wrapper section.margin-top-half {
+    margin-top: 20px !important;
+  }
+}
+body.vivex-portfolio .section-wrapper section.margin-bottom-half {
+  margin-bottom: 60px !important;
+}
+@media (max-width: 1500px) {
+  body.vivex-portfolio .section-wrapper section.margin-bottom-half {
+    margin-bottom: 42.85714286px !important;
+  }
+}
+@media (max-width: 1270px) {
+  body.vivex-portfolio .section-wrapper section.margin-bottom-half {
+    margin-bottom: 30px !important;
+  }
+}
+@media (max-width: 1024px) {
+  body.vivex-portfolio .section-wrapper section.margin-bottom-half {
+    margin-bottom: 21.42857143px !important;
+  }
+}
+@media (max-width: 768px) {
+  body.vivex-portfolio .section-wrapper section.margin-bottom-half {
+    margin-bottom: 20px !important;
+  }
+}
+body.vivex-portfolio .section-wrapper section.margin-top-zero {
+  margin-top: 0 !important;
+}
+@media (max-width: 1500px) {
+  body.vivex-portfolio .section-wrapper section.margin-top-zero {
+    margin-top: 0 !important;
+  }
+}
+@media (max-width: 1270px) {
+  body.vivex-portfolio .section-wrapper section.margin-top-zero {
+    margin-top: 0 !important;
+  }
+}
+@media (max-width: 1024px) {
+  body.vivex-portfolio .section-wrapper section.margin-top-zero {
+    margin-top: 0 !important;
+  }
+}
+@media (max-width: 768px) {
+  body.vivex-portfolio .section-wrapper section.margin-top-zero {
+    margin-top: 0 !important;
+  }
+}
+body.vivex-portfolio .section-wrapper section.margin-bottom-zero {
+  margin-bottom: 0 !important;
+}
+@media (max-width: 1500px) {
+  body.vivex-portfolio .section-wrapper section.margin-bottom-zero {
+    margin-bottom: 0 !important;
+  }
+}
+@media (max-width: 1270px) {
+  body.vivex-portfolio .section-wrapper section.margin-bottom-zero {
+    margin-bottom: 0 !important;
+  }
+}
+@media (max-width: 1024px) {
+  body.vivex-portfolio .section-wrapper section.margin-bottom-zero {
+    margin-bottom: 0 !important;
+  }
+}
+@media (max-width: 768px) {
+  body.vivex-portfolio .section-wrapper section.margin-bottom-zero {
+    margin-bottom: 0 !important;
+  }
+}
+body.vivex-portfolio .section-wrapper section.margin-top-full {
+  margin-top: 120px !important;
+}
+@media (max-width: 1500px) {
+  body.vivex-portfolio .section-wrapper section.margin-top-full {
+    margin-top: 85.71428571px !important;
+  }
+}
+@media (max-width: 1270px) {
+  body.vivex-portfolio .section-wrapper section.margin-top-full {
+    margin-top: 60px !important;
+  }
+}
+@media (max-width: 1024px) {
+  body.vivex-portfolio .section-wrapper section.margin-top-full {
+    margin-top: 42.85714286px !important;
+  }
+}
+@media (max-width: 768px) {
+  body.vivex-portfolio .section-wrapper section.margin-top-full {
+    margin-top: 40px !important;
+  }
+}
+body.vivex-portfolio .section-wrapper section.margin-top-double {
+  margin-top: 240px !important;
+}
+@media (max-width: 1500px) {
+  body.vivex-portfolio .section-wrapper section.margin-top-double {
+    margin-top: 171.42857143px !important;
+  }
+}
+@media (max-width: 1270px) {
+  body.vivex-portfolio .section-wrapper section.margin-top-double {
+    margin-top: 120px !important;
+  }
+}
+@media (max-width: 1024px) {
+  body.vivex-portfolio .section-wrapper section.margin-top-double {
+    margin-top: 85.71428571px !important;
+  }
+}
+@media (max-width: 768px) {
+  body.vivex-portfolio .section-wrapper section.margin-top-double {
+    margin-top: 80px !important;
+  }
+}
+body.vivex-portfolio .section-wrapper section.margin-bottom-full {
+  margin-bottom: 120px !important;
+}
+@media (max-width: 1500px) {
+  body.vivex-portfolio .section-wrapper section.margin-bottom-full {
+    margin-bottom: 85.71428571px !important;
+  }
+}
+@media (max-width: 1270px) {
+  body.vivex-portfolio .section-wrapper section.margin-bottom-full {
+    margin-bottom: 60px !important;
+  }
+}
+@media (max-width: 1024px) {
+  body.vivex-portfolio .section-wrapper section.margin-bottom-full {
+    margin-bottom: 42.85714286px !important;
+  }
+}
+@media (max-width: 768px) {
+  body.vivex-portfolio .section-wrapper section.margin-bottom-full {
+    margin-bottom: 40px !important;
+  }
+}
+body.vivex-portfolio .section-wrapper section.padding-top-half {
+  padding-top: 60px !important;
+}
+@media (max-width: 1500px) {
+  body.vivex-portfolio .section-wrapper section.padding-top-half {
+    padding-top: 42.85714286px !important;
+  }
+}
+@media (max-width: 1270px) {
+  body.vivex-portfolio .section-wrapper section.padding-top-half {
+    padding-top: 30px !important;
+  }
+}
+@media (max-width: 1024px) {
+  body.vivex-portfolio .section-wrapper section.padding-top-half {
+    padding-top: 21.42857143px !important;
+  }
+}
+@media (max-width: 768px) {
+  body.vivex-portfolio .section-wrapper section.padding-top-half {
+    padding-top: 20px !important;
+  }
+}
+body.vivex-portfolio .section-wrapper section.padding-bottom-half {
+  padding-bottom: 60px !important;
+}
+@media (max-width: 1500px) {
+  body.vivex-portfolio .section-wrapper section.padding-bottom-half {
+    padding-bottom: 42.85714286px !important;
+  }
+}
+@media (max-width: 1270px) {
+  body.vivex-portfolio .section-wrapper section.padding-bottom-half {
+    padding-bottom: 30px !important;
+  }
+}
+@media (max-width: 1024px) {
+  body.vivex-portfolio .section-wrapper section.padding-bottom-half {
+    padding-bottom: 21.42857143px !important;
+  }
+}
+@media (max-width: 768px) {
+  body.vivex-portfolio .section-wrapper section.padding-bottom-half {
+    padding-bottom: 20px !important;
+  }
+}
+body.vivex-portfolio .section-wrapper section.padding-top-full {
+  padding-top: 120px !important;
+}
+@media (max-width: 1500px) {
+  body.vivex-portfolio .section-wrapper section.padding-top-full {
+    padding-top: 85.71428571px !important;
+  }
+}
+@media (max-width: 1270px) {
+  body.vivex-portfolio .section-wrapper section.padding-top-full {
+    padding-top: 60px !important;
+  }
+}
+@media (max-width: 1024px) {
+  body.vivex-portfolio .section-wrapper section.padding-top-full {
+    padding-top: 42.85714286px !important;
+  }
+}
+@media (max-width: 768px) {
+  body.vivex-portfolio .section-wrapper section.padding-top-full {
+    padding-top: 40px !important;
+  }
+}
+body.vivex-portfolio .section-wrapper section.padding-bottom-full {
+  padding-bottom: 120px !important;
+}
+@media (max-width: 1500px) {
+  body.vivex-portfolio .section-wrapper section.padding-bottom-full {
+    padding-bottom: 85.71428571px !important;
+  }
+}
+@media (max-width: 1270px) {
+  body.vivex-portfolio .section-wrapper section.padding-bottom-full {
+    padding-bottom: 60px !important;
+  }
+}
+@media (max-width: 1024px) {
+  body.vivex-portfolio .section-wrapper section.padding-bottom-full {
+    padding-bottom: 42.85714286px !important;
+  }
+}
+@media (max-width: 768px) {
+  body.vivex-portfolio .section-wrapper section.padding-bottom-full {
+    padding-bottom: 40px !important;
+  }
+}
+@media (max-width: 768px) {
+  body.vivex-portfolio .section-wrapper section.m-margin-bottom-zero {
+    margin-bottom: 0 !important;
+  }
+}
+body.vivex-portfolio .section-wrapper section h1.bold,
+body.vivex-portfolio .section-wrapper section h2.bold,
+body.vivex-portfolio .section-wrapper section h3.bold,
+body.vivex-portfolio .section-wrapper section h4.bold,
+body.vivex-portfolio .section-wrapper section h5.bold,
+body.vivex-portfolio .section-wrapper section h6.bold,
+body.vivex-portfolio .section-wrapper section p.bold {
+  font-weight: bold;
+}
+body.vivex-portfolio .section-wrapper section h1.grey,
+body.vivex-portfolio .section-wrapper section h2.grey,
+body.vivex-portfolio .section-wrapper section h3.grey,
+body.vivex-portfolio .section-wrapper section h4.grey,
+body.vivex-portfolio .section-wrapper section h5.grey,
+body.vivex-portfolio .section-wrapper section h6.grey,
+body.vivex-portfolio .section-wrapper section p.grey {
+  color: #3c3c3c;
+}
+body.vivex-portfolio .section-wrapper section h1.white,
+body.vivex-portfolio .section-wrapper section h2.white,
+body.vivex-portfolio .section-wrapper section h3.white,
+body.vivex-portfolio .section-wrapper section h4.white,
+body.vivex-portfolio .section-wrapper section h5.white,
+body.vivex-portfolio .section-wrapper section h6.white,
+body.vivex-portfolio .section-wrapper section p.white {
+  color: #fff;
+}
+body.vivex-portfolio .section-wrapper section h1 .left-quote,
+body.vivex-portfolio .section-wrapper section h2 .left-quote,
+body.vivex-portfolio .section-wrapper section h3 .left-quote,
+body.vivex-portfolio .section-wrapper section h4 .left-quote,
+body.vivex-portfolio .section-wrapper section h5 .left-quote,
+body.vivex-portfolio .section-wrapper section h6 .left-quote,
+body.vivex-portfolio .section-wrapper section p .left-quote {
+  display: none;
+}
+@media (max-width: 768px) {
+  body.vivex-portfolio .section-wrapper section h1 .left-quote,
+  body.vivex-portfolio .section-wrapper section h2 .left-quote,
+  body.vivex-portfolio .section-wrapper section h3 .left-quote,
+  body.vivex-portfolio .section-wrapper section h4 .left-quote,
+  body.vivex-portfolio .section-wrapper section h5 .left-quote,
+  body.vivex-portfolio .section-wrapper section h6 .left-quote,
+  body.vivex-portfolio .section-wrapper section p .left-quote {
+    display: inline;
+  }
+}
+body.vivex-portfolio .section-wrapper section h1,
+body.vivex-portfolio .section-wrapper section h2 {
+  margin: 0 0 26px -1px;
+  padding: 0;
+  font-size: 34px;
+  font-weight: 100;
+  color: #3c3c3c;
+  border: none;
+  text-rendering: optimizeSpeed;
+}
+@media (max-width: 1500px) {
+  body.vivex-portfolio .section-wrapper section h1,
+  body.vivex-portfolio .section-wrapper section h2 {
+    font-size: 34px;
+    line-height: 39px;
+  }
+}
+@media (max-width: 1270px) {
+  body.vivex-portfolio .section-wrapper section h1,
+  body.vivex-portfolio .section-wrapper section h2 {
+    font-size: 31px;
+    line-height: 35px;
+  }
+}
+@media (max-width: 1024px) {
+  body.vivex-portfolio .section-wrapper section h1,
+  body.vivex-portfolio .section-wrapper section h2 {
+    font-size: 28px;
+    line-height: 32px;
+  }
+}
+@media (max-width: 768px) {
+  body.vivex-portfolio .section-wrapper section h1,
+  body.vivex-portfolio .section-wrapper section h2 {
+    margin: 0 0 12px 0;
+    font-size: 24px;
+    line-height: 28px;
+  }
+}
+body.vivex-portfolio .section-wrapper section h3,
+body.vivex-portfolio .section-wrapper section h4 {
+  font-weight: 100;
+}
+body.vivex-portfolio .section-wrapper section h3 {
+  margin: 0 0 0 -1px;
+  padding: 0;
+  font-size: 22px;
+  font-weight: 100;
+  color: #3c3c3c;
+  line-height: 1.2;
+  border: none;
+  text-rendering: optimizeSpeed;
+}
+@media (max-width: 1500px) {
+  body.vivex-portfolio .section-wrapper section h3 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 1270px) {
+  body.vivex-portfolio .section-wrapper section h3 {
+    font-size: 18px;
+  }
+}
+@media (max-width: 1024px) {
+  body.vivex-portfolio .section-wrapper section h3 {
+    font-size: 16px;
+  }
+}
+@media (max-width: 768px) {
+  body.vivex-portfolio .section-wrapper section h3 {
+    margin: 0 0 10px 0;
+  }
+}
+body.vivex-portfolio .section-wrapper section p {
+  margin: 0 ;
+  padding: 0;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.04em;
+  color: #3c3c3c;
+  text-rendering: optimizeSpeed;
+}
+@media (max-width: 1500px) {
+  body.vivex-portfolio .section-wrapper section p {
+    font-size: 16px;
+    line-height: 27px;
+  }
+}
+@media (max-width: 1270px) {
+  body.vivex-portfolio .section-wrapper section p {
+    line-height: 24px;
+  }
+}
+@media (max-width: 768px) {
+  body.vivex-portfolio .section-wrapper section p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+body.vivex-portfolio .section-wrapper section p.grey {
+  color: #3c3c3c;
+}
+body.vivex-portfolio .section-wrapper section p.white {
+  color: #fff;
+}
+body.vivex-portfolio .section-wrapper section .button-area {
+  margin: 26px 0 0;
+  padding: 0;
+}
+@media (max-width: 768px) {
+  body.vivex-portfolio .section-wrapper section .button-area {
+    margin: 12px auto 0;
+  }
+}
+body.vivex-portfolio .section-wrapper section .corner-text {
+  position: absolute;
+  z-index: 1000;
+  top: -78px;
+  right: 0;
+  padding: 40px 0 40px 40px;
+  background-color: #fff;
+}
+@media (max-width: 1500px) {
+  body.vivex-portfolio .section-wrapper section .corner-text {
+    padding: 30px 0 30px 30px;
+  }
+}
+@media (max-width: 1270px) {
+  body.vivex-portfolio .section-wrapper section .corner-text {
+    top: -60px;
+    padding: 20px 0 20px 20px;
+  }
+}
+@media (max-width: 768px) {
+  body.vivex-portfolio .section-wrapper section .corner-text {
+    position: relative;
+    right: auto;
+    padding: 40px 20px 40px 20px;
+    text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  body.vivex-portfolio .section-wrapper section .corner-text br {
+    display: none;
+  }
+}
+body.vivex-portfolio .section-wrapper section .corner-text h2 {
+  position: relative;
+  z-index: 250;
+  margin-bottom: 0;
+  font-weight: 100;
+}
+body.vivex-portfolio .section-wrapper section .corner-text:before {
+  position: absolute;
+  z-index: 225;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  display: block;
+  width: 4000px;
+  content: '';
+  background-color: #fff;
+}
+@media (max-width: 768px) {
+  body.vivex-portfolio .section-wrapper section .corner-text:before {
+    display: none;
+  }
+}
+body.vivex-portfolio .section-wrapper section .corner-text.alt {
+  right: auto;
+  left: auto;
+  padding: 40px 40px 40px 0;
+}
+@media (max-width: 1500px) {
+  body.vivex-portfolio .section-wrapper section .corner-text.alt {
+    padding: 30px 30px 30px 0;
+  }
+}
+@media (max-width: 1270px) {
+  body.vivex-portfolio .section-wrapper section .corner-text.alt {
+    padding: 20px 20px 20px 0;
+  }
+}
+@media (max-width: 768px) {
+  body.vivex-portfolio .section-wrapper section .corner-text.alt {
+    min-width: auto;
+  }
+}
+body.vivex-portfolio .section-wrapper section .corner-text.alt:before {
+  right: 0;
+  left: auto;
+}
+body.vivex-portfolio .section-wrapper section .corner-text.quote {
+  color: #3c3c3c;
+}
+body.vivex-portfolio .section-wrapper section .corner-text.quote h2 {
+  font-size: 42px;
+  line-height: 48px;
+}
+@media (max-width: 1500px) {
+  body.vivex-portfolio .section-wrapper section .corner-text.quote h2 {
+    font-size: 34px;
+    line-height: 39px;
+  }
+}
+@media (max-width: 1270px) {
+  body.vivex-portfolio .section-wrapper section .corner-text.quote h2 {
+    font-size: 28px;
+    line-height: 32px;
+  }
+}
+@media (max-width: 1024px) {
+  body.vivex-portfolio .section-wrapper section .corner-text.quote h2 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+}
+@media (max-width: 768px) {
+  body.vivex-portfolio .section-wrapper section .corner-text.quote h2 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+body.vivex-portfolio .section-wrapper section .corner-text.quote h2:before {
+  position: absolute;
+  top: 0;
+  left: -16px;
+  display: block;
+}
+@media (max-width: 1500px) {
+  body.vivex-portfolio .section-wrapper section .corner-text.quote h2:before {
+    left: -13px;
+  }
+}
+@media (max-width: 1270px) {
+  body.vivex-portfolio .section-wrapper section .corner-text.quote h2:before {
+    left: -11px;
+  }
+}
+@media (max-width: 1024px) {
+  body.vivex-portfolio .section-wrapper section .corner-text.quote h2:before {
+    left: -10px;
+  }
+}
+@media (max-width: 768px) {
+  body.vivex-portfolio .section-wrapper section .corner-text.quote h2:before {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  body.vivex-portfolio .section-wrapper section .corner-text.quote br {
+    display: none;
+  }
+}
+body.vivex-portfolio .section-wrapper section .corner-text.quote span {
+  font-size: 20px;
+  line-height: 32px;
+  position: relative;
+  z-index: 250;
+  display: block;
+  float: left;
+  clear: both;
+  font-weight: 100;
+}
+@media (max-width: 1500px) {
+  body.vivex-portfolio .section-wrapper section .corner-text.quote span {
+    font-size: 16px;
+    line-height: 27px;
+  }
+}
+@media (max-width: 1270px) {
+  body.vivex-portfolio .section-wrapper section .corner-text.quote span {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+@media (max-width: 768px) {
+  body.vivex-portfolio .section-wrapper section .corner-text.quote span {
+    font-size: 14px;
+    line-height: 20px;
+    float: none;
+  }
+}
+body.vivex-portfolio .section-wrapper section .corner-text.remove-top-padding {
+  top: 0;
+  padding-top: 0;
+}
+body.vivex-portfolio .section-wrapper section .corner-text.instance-g {
+  background-color: #2f2f2f;
+}
+@media (max-width: 768px) {
+  body.vivex-portfolio .section-wrapper section .corner-text.instance-g {
+    background-color: #fff;
+  }
+}
+body.vivex-portfolio .section-wrapper section .corner-text.instance-g h2 {
+  color: #e9eaeb;
+}
+@media (max-width: 768px) {
+  body.vivex-portfolio .section-wrapper section .corner-text.instance-g h2 {
+    color: #919090;
+  }
+}
+body.vivex-portfolio .section-wrapper section .corner-text.instance-g span {
+  color: #e9eaeb;
+}
+@media (max-width: 768px) {
+  body.vivex-portfolio .section-wrapper section .corner-text.instance-g span {
+    color: #919090;
+  }
+}
+body.vivex-portfolio .section-wrapper section .corner-text.instance-g:before {
+  background-color: #2f2f2f;
+}
+body.vivex-portfolio .section-wrapper section .corner-text.instance-g-dev {
+  bottom: 906px;
+  background-color: #2f2f2f;
+}
+@media (max-width: 1500px) {
+  body.vivex-portfolio .section-wrapper section .corner-text.instance-g-dev {
+    bottom: 790px;
+  }
+}
+@media (max-width: 1270px) {
+  body.vivex-portfolio .section-wrapper section .corner-text.instance-g-dev {
+    bottom: 680px;
+  }
+}
+@media (max-width: 1024px) {
+  body.vivex-portfolio .section-wrapper section .corner-text.instance-g-dev {
+    bottom: 512px;
+  }
+}
+@media (max-width: 768px) {
+  body.vivex-portfolio .section-wrapper section .corner-text.instance-g-dev {
+    position: relative;
+    bottom: auto;
+  }
+}
+body.vivex-portfolio .section-wrapper section .corner-text.instance-g-dev h2 {
+  color: #e9eaeb;
+}
+body.vivex-portfolio .section-wrapper section .corner-text.instance-g-dev span {
+  color: #e9eaeb;
+}
+body.vivex-portfolio .section-wrapper section .corner-text.instance-g-dev:before {
+  background-color: #2f2f2f;
+}
+body.vivex-portfolio .section-wrapper section .caption-block {
+  position: absolute;
+  display: block;
+  -webkit-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  z-index: 2;
+}
+@media (max-width: 768px) {
+}
+body.vivex-portfolio .section-wrapper section .caption-block.light h1,
+body.vivex-portfolio .section-wrapper section .caption-block.light h2,
+body.vivex-portfolio .section-wrapper section .caption-block.light h3,
+body.vivex-portfolio .section-wrapper section .caption-block.light p {
+  color: #e9eaeb;
+}
+body.vivex-portfolio .section-wrapper section .caption-block.dark h1,
+body.vivex-portfolio .section-wrapper section .caption-block.dark h2,
+body.vivex-portfolio .section-wrapper section .caption-block.dark h3,
+body.vivex-portfolio .section-wrapper section .caption-block.dark p {
+  color: #3c3c3c;
+}
+body.vivex-portfolio .section-wrapper section .caption-block.bg-white {
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+@media (max-width: 768px) {
+  body.vivex-portfolio .section-wrapper section .caption-block.bg-white {
+    padding: 30px 0 30px 0;
+  }
+}
+body.vivex-portfolio .section-wrapper section .caption-block.bg-black {
+  padding: 30px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+@media (max-width: 768px) {
+  body.vivex-portfolio .section-wrapper section .caption-block.bg-black {
+    padding: 30px 0 30px 0;
+  }
+}
+body.vivex-portfolio .section-wrapper section .caption-block.align-top-right {
+  top: 40%;
+  right: 6%;
+  width: 35%;
+}
+body.vivex-portfolio .section-wrapper section .caption-block.align-middle-right,
+body.vivex-portfolio .section-wrapper section .caption-block.align-right {
+  top: 50%;
+  right: 6%;
+  width: 35%;
+}
+body.vivex-portfolio .section-wrapper section .caption-block.align-bottom-right {
+  right: 6%;
+  bottom: -10%;
+  width: 35%;
+}
+body.vivex-portfolio .section-wrapper section .caption-block.align-top-center {
+  top: 40%;
+  left: 50%;
+  width: 35%;
+  transform: translate(-50%, -50%);
+}
+body.vivex-portfolio .section-wrapper section .caption-block.align-middle-center,
+body.vivex-portfolio .section-wrapper section .caption-block.align-center {
+  top: 50%;
+  left: 50%;
+  width: 35%;
+  transform: translate(-50%, -50%);
+}
+body.vivex-portfolio .section-wrapper section .caption-block.align-bottom-center {
+  bottom: -10%;
+  left: 50%;
+  width: 35%;
+  transform: translate(-50%, -50%);
+}
+body.vivex-portfolio .section-wrapper section .caption-block.align-top-left {
+  top: 40%;
+  left: 6%;
+  width: 35%;
+}
+body.vivex-portfolio .section-wrapper section .caption-block.align-middle-left,
+body.vivex-portfolio .section-wrapper section .caption-block.align-left {
+  top: 50%;
+  left: 6%;
+  width: 35%;
+}
+body.vivex-portfolio .section-wrapper section .caption-block.align-bottom-left {
+  bottom: -10%;
+  left: 6%;
+  width: 35%;
+}
+body.vivex-portfolio .section-wrapper section .caption-block.width-40 {
+  width: 40% !important;
+}
+body.vivex-portfolio .section-wrapper section .caption-block.width-60 {
+  width: 60% !important;
+}
+body.vivex-portfolio .section-wrapper section .caption-block.width-80 {
+  width: 80% !important;
+}
+body.vivex-portfolio .section-wrapper section .caption-block.text-left h1,
+body.vivex-portfolio .section-wrapper section .caption-block.text-align-left h1,
+body.vivex-portfolio .section-wrapper section .caption-block.text-left h2,
+body.vivex-portfolio .section-wrapper section .caption-block.text-align-left h2,
+body.vivex-portfolio .section-wrapper section .caption-block.text-left h3,
+body.vivex-portfolio .section-wrapper section .caption-block.text-align-left h3,
+body.vivex-portfolio .section-wrapper section .caption-block.text-left h4,
+body.vivex-portfolio .section-wrapper section .caption-block.text-align-left h4,
+body.vivex-portfolio .section-wrapper section .caption-block.text-left h5,
+body.vivex-portfolio .section-wrapper section .caption-block.text-align-left h5,
+body.vivex-portfolio .section-wrapper section .caption-block.text-left h6,
+body.vivex-portfolio .section-wrapper section .caption-block.text-align-left h6,
+body.vivex-portfolio .section-wrapper section .caption-block.text-left p,
+body.vivex-portfolio .section-wrapper section .caption-block.text-align-left p,
+body.vivex-portfolio .section-wrapper section .caption-block.text-left .button-area,
+body.vivex-portfolio .section-wrapper section .caption-block.text-align-left .button-area {
+  text-align: left;
+}
+body.vivex-portfolio .section-wrapper section .caption-block.text-center h1,
+body.vivex-portfolio .section-wrapper section .caption-block.text-align-center h1,
+body.vivex-portfolio .section-wrapper section .caption-block.text-center h2,
+body.vivex-portfolio .section-wrapper section .caption-block.text-align-center h2,
+body.vivex-portfolio .section-wrapper section .caption-block.text-center h3,
+body.vivex-portfolio .section-wrapper section .caption-block.text-align-center h3,
+body.vivex-portfolio .section-wrapper section .caption-block.text-center h4,
+body.vivex-portfolio .section-wrapper section .caption-block.text-align-center h4,
+body.vivex-portfolio .section-wrapper section .caption-block.text-center h5,
+body.vivex-portfolio .section-wrapper section .caption-block.text-align-center h5,
+body.vivex-portfolio .section-wrapper section .caption-block.text-center h6,
+body.vivex-portfolio .section-wrapper section .caption-block.text-align-center h6,
+body.vivex-portfolio .section-wrapper section .caption-block.text-center p,
+body.vivex-portfolio .section-wrapper section .caption-block.text-align-center p,
+body.vivex-portfolio .section-wrapper section .caption-block.text-center .button-area,
+body.vivex-portfolio .section-wrapper section .caption-block.text-align-center .button-area {
+  text-align: center;
+}
+body.vivex-portfolio .section-wrapper section .caption-block.text-right h1,
+body.vivex-portfolio .section-wrapper section .caption-block.text-align-right h1,
+body.vivex-portfolio .section-wrapper section .caption-block.text-right h2,
+body.vivex-portfolio .section-wrapper section .caption-block.text-align-right h2,
+body.vivex-portfolio .section-wrapper section .caption-block.text-right h3,
+body.vivex-portfolio .section-wrapper section .caption-block.text-align-right h3,
+body.vivex-portfolio .section-wrapper section .caption-block.text-right h4,
+body.vivex-portfolio .section-wrapper section .caption-block.text-align-right h4,
+body.vivex-portfolio .section-wrapper section .caption-block.text-right h5,
+body.vivex-portfolio .section-wrapper section .caption-block.text-align-right h5,
+body.vivex-portfolio .section-wrapper section .caption-block.text-right h6,
+body.vivex-portfolio .section-wrapper section .caption-block.text-align-right h6,
+body.vivex-portfolio .section-wrapper section .caption-block.text-right p,
+body.vivex-portfolio .section-wrapper section .caption-block.text-align-right p,
+body.vivex-portfolio .section-wrapper section .caption-block.text-right .button-area,
+body.vivex-portfolio .section-wrapper section .caption-block.text-align-right .button-area {
+  text-align: right;
+}
+body.vivex-portfolio .section-wrapper section.top-banner .image-block {
+  position: relative;
+  background-color: #e9e9e9;
+  height: 700px;
+}
+@media (max-width: 768px) {
+  body.vivex-portfolio .section-wrapper section.top-banner .image-block {
+    height: 350px;
+  }
+}
+body.vivex-portfolio .section-wrapper section.top-banner .image-block img {
+  width: 100%;
+}
+body.vivex-portfolio .section-wrapper section.top-banner .center-column {
+  position: absolute;
+  top: 50%;
+  margin: 0;
+  width: 100%;
+  text-align: center;
+  transform: translateY(-50%);
+}
+@media (max-width: 768px) {
+  body.vivex-portfolio .section-wrapper section.top-banner .center-column {
+    top: 60%;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+  }
+}
+body.vivex-portfolio .section-wrapper section.top-banner .center-column h1,
+body.vivex-portfolio .section-wrapper section.top-banner .center-column p {
+  display: block;
+  margin: 0;
+  font-weight: normal;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  letter-spacing: normal;
+  line-height: 1.2em;
+  color: #fff;
+}
+body.vivex-portfolio .section-wrapper section.top-banner .center-column h1 {
+  font-size: 44px;
+}
+@media (max-width: 768px) {
+  body.vivex-portfolio .section-wrapper section.top-banner .center-column h1 {
+    font-size: 36px;
+  }
+}
+body.vivex-portfolio .section-wrapper section.top-banner .center-column p {
+  font-size: 22px;
+}
+@media (max-width: 768px) {
+  body.vivex-portfolio .section-wrapper section.top-banner .center-column p {
+    font-size: 18px;
+  }
+}
+body.vivex-portfolio .section-wrapper section.vivex-portfolio-list {
+  margin-bottom: 80px !important;
+}
+body.vivex-portfolio .section-wrapper section.vivex-portfolio-list .flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+body.vivex-portfolio .section-wrapper section.vivex-portfolio-list .flex-container .item-block {
+  box-sizing: border-box;
+  margin-bottom: 60px;
+  padding: 15px;
+  border: solid 1px #d2d2d2;
+  width: 22%;
+  text-align: center;
+  text-decoration: none;
+  color: #3c3c3c;
+}
+@media (max-width: 1024px) {
+  body.vivex-portfolio .section-wrapper section.vivex-portfolio-list .flex-container .item-block {
+    width: 30%;
+  }
+}
+@media (max-width: 768px) {
+  body.vivex-portfolio .section-wrapper section.vivex-portfolio-list .flex-container .item-block {
+    width: 46%;
+  }
+}
+@media (max-width: 480px) {
+  body.vivex-portfolio .section-wrapper section.vivex-portfolio-list .flex-container .item-block {
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 10px;
+  }
+}
+body.vivex-portfolio .section-wrapper section.vivex-portfolio-list .flex-container .item-block .image-block {
+  display: block;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  body.vivex-portfolio .section-wrapper section.vivex-portfolio-list .flex-container .item-block .image-block {
+    height: auto;
+    line-height: normal;
+  }
+}
+body.vivex-portfolio .section-wrapper section.vivex-portfolio-list .flex-container .item-block .image-block img {
+  border: none;
+  width: 100%;
+  vertical-align: middle;
+}
+body.vivex-portfolio .section-wrapper section.vivex-portfolio-list .flex-container .item-block .name-block {
+  display: block;
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.2;
+}
+@media (max-width: 480px) {
+  body.vivex-portfolio .section-wrapper section.vivex-portfolio-list .flex-container .item-block .name-block {
+    font-size: 28px;
+  }
+}
+body.vivex-portfolio .section-wrapper section.vivex-portfolio-list .flex-container .item-block .desc-block {
+  display: block;
+  margin-top: 20px;
+  font-size: 16px;
+  line-height: 1.4;
+}
+@media (max-width: 480px) {
+  body.vivex-portfolio .section-wrapper section.vivex-portfolio-list .flex-container .item-block .desc-block {
+    font-size: 18px;
+  }
+}
+body.vivex-portfolio .section-wrapper section.vivex-portfolio-list .flex-container .item-block.buffer-item {
+  border: none;
+  margin-bottom: 0;
+  padding: 0;
+  height: 0;
+}

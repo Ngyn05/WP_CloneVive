@@ -1,0 +1,55 @@
+{
+  "id": 10039427334461,
+  "title": "Link Box for VIVE Pro",
+  "handle": "2104033",
+  "body_html": "<div class=\"main-product-description py-3\">The link between the VIVE Pro / VIVE Pro Eye headset and your computer that makes the magic of virtual reality possible. Easy to turn on and off with the click of a button.</div>\n<div class=\"main-product-description py-3\"></div>\n<div class=\"txt-disclaimer\">*Power adapter not included.<br>*Compatible with the following products:<br>VIVE Pro &amp; VIVE Pro Eye<br>VIVE Cosmos Series<br>*Not Compatible with VIVE Pro 2, which requires VIVE Link Box (2.0)</div>",
+  "published_at": "2025-11-10T17:57:48-08:00",
+  "created_at": "2025-08-27T23:14:22-07:00",
+  "updated_at": "2026-09-05T09:35:04-07:00",
+  "vendor": "HTC VIVE Online Store",
+  "product_type": "Simple",
+  "tags": [],
+  "variants": [
+    {
+      "id": 50674044240189,
+      "title": "Default Title",
+      "option1": "Default Title",
+      "option2": null,
+      "option3": null,
+      "sku": "99HAMH001-00",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": null,
+      "available": true,
+      "price": "47.99",
+      "grams": 1000,
+      "compare_at_price": null,
+      "position": 1,
+      "product_id": 10039427334461,
+      "created_at": "2025-08-27T23:14:22-07:00",
+      "updated_at": "2026-09-05T09:35:04-07:00"
+    }
+  ],
+  "images": [
+    {
+      "id": 58918142837053,
+      "created_at": "2025-08-27T23:46:46-07:00",
+      "position": 1,
+      "updated_at": "2025-08-27T23:46:48-07:00",
+      "product_id": 10039427334461,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0926/0489/1453/files/linkbox.png?v=1756363608",
+      "width": 510,
+      "height": 286
+    }
+  ],
+  "options": [
+    {
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Default Title"
+      ]
+    }
+  ]
+}

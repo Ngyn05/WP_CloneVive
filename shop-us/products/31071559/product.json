@@ -1,0 +1,66 @@
+{
+  "id": 10039430250813,
+  "title": "Battery for VIVE Focus Series",
+  "handle": "31071559",
+  "body_html": "<div class=\"ewa-rteLine\">Extend your virtual reality sessions with a spare headset battery. Lets you continue using your VIVE Focus Vision1 or VIVE Focus 3 while its main battery is charging. The swappable battery design enables easy charging for all-day VR headset use.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">1. VIVE Focus Vision has a built-in reserve battery, allowing you to swap the VIVE Battery for Focus Series in the rear battery case without losing power for up to 20 minutes.</div>",
+  "published_at": "2026-03-05T10:00:17-08:00",
+  "created_at": "2025-08-27T23:18:52-07:00",
+  "updated_at": "2026-09-05T09:35:04-07:00",
+  "vendor": "HTC VIVE Online Store",
+  "product_type": "Simple",
+  "tags": [],
+  "variants": [
+    {
+      "id": 50674056495421,
+      "title": "Default Title",
+      "option1": "Default Title",
+      "option2": null,
+      "option3": null,
+      "sku": "99H12361-00",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": null,
+      "available": true,
+      "price": "139.00",
+      "grams": 1000,
+      "compare_at_price": null,
+      "position": 1,
+      "product_id": 10039430250813,
+      "created_at": "2025-08-27T23:18:52-07:00",
+      "updated_at": "2026-09-05T09:35:04-07:00"
+    }
+  ],
+  "images": [
+    {
+      "id": 60886578069821,
+      "created_at": "2025-12-02T10:31:15-08:00",
+      "position": 1,
+      "updated_at": "2025-12-02T10:31:24-08:00",
+      "product_id": 10039430250813,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0926/0489/1453/files/shopify_acc_30_focus-series-battery.jpg?v=1764700284",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "id": 60886478225725,
+      "created_at": "2025-12-02T10:23:19-08:00",
+      "position": 2,
+      "updated_at": "2025-12-02T10:31:24-08:00",
+      "product_id": 10039430250813,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0926/0489/1453/files/focus-series-battery-2.jpg?v=1764700284",
+      "width": 2000,
+      "height": 2000
+    }
+  ],
+  "options": [
+    {
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Default Title"
+      ]
+    }
+  ]
+}

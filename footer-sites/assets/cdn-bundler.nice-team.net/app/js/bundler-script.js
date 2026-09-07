@@ -1,0 +1,1 @@
+Shop parameter is missing.

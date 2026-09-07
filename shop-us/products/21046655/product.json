@@ -1,0 +1,55 @@
+{
+  "id": 10039428809021,
+  "title": "Vive 30W Adaptor for XR Series",
+  "handle": "21046655",
+  "body_html": "",
+  "published_at": "2025-11-10T17:57:38-08:00",
+  "created_at": "2025-08-27T23:16:34-07:00",
+  "updated_at": "2026-09-05T09:35:04-07:00",
+  "vendor": "HTC VIVE Online Store",
+  "product_type": "Simple",
+  "tags": [],
+  "variants": [
+    {
+      "id": 50674046239037,
+      "title": "Default Title",
+      "option1": "Default Title",
+      "option2": null,
+      "option3": null,
+      "sku": "99H12306-00",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": null,
+      "available": false,
+      "price": "20.00",
+      "grams": 1000,
+      "compare_at_price": null,
+      "position": 1,
+      "product_id": 10039428809021,
+      "created_at": "2025-08-27T23:16:34-07:00",
+      "updated_at": "2026-09-05T09:35:04-07:00"
+    }
+  ],
+  "images": [
+    {
+      "id": 58918179897661,
+      "created_at": "2025-08-27T23:50:01-07:00",
+      "position": 1,
+      "updated_at": "2025-08-27T23:50:03-07:00",
+      "product_id": 10039428809021,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0926/0489/1453/files/xr_elite_adapter-us-800x800.png?v=1756363803",
+      "width": 800,
+      "height": 800
+    }
+  ],
+  "options": [
+    {
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Default Title"
+      ]
+    }
+  ]
+}

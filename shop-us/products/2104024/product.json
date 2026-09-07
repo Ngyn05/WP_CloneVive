@@ -1,0 +1,55 @@
+{
+  "id": 10039426875709,
+  "title": "Face Cushion Set for VIVE Pro Series",
+  "handle": "2104024",
+  "body_html": "<div class=\"main-product-description py-3\">Face Cushion Sets for VIVE Pro Series<br>Interchangeable face cushion, fabric headset strap and cushion set for the VIVE Pro series to keep you comfortable while you play.\n<ul>\n<li>Includes wide face cushion, single adjustable fabric headset strap, one pair of side cushions (right and left) and rear head cushion.</li>\n</ul>\n</div>\n<div class=\"txt-disclaimer\">*Compatible with the following products:<br><meta charset=\"utf-8\">VIVE Pro Series<br>\n</div>",
+  "published_at": "2025-11-10T17:57:50-08:00",
+  "created_at": "2025-08-27T23:12:07-07:00",
+  "updated_at": "2026-09-05T09:35:04-07:00",
+  "vendor": "HTC VIVE Online Store",
+  "product_type": "Simple",
+  "tags": [],
+  "variants": [
+    {
+      "id": 50674033393981,
+      "title": "Default Title",
+      "option1": "Default Title",
+      "option2": null,
+      "option3": null,
+      "sku": "99H20531-00",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": null,
+      "available": true,
+      "price": "59.99",
+      "grams": 1000,
+      "compare_at_price": null,
+      "position": 1,
+      "product_id": 10039426875709,
+      "created_at": "2025-08-27T23:12:07-07:00",
+      "updated_at": "2026-09-05T09:35:04-07:00"
+    }
+  ],
+  "images": [
+    {
+      "id": 58918138020157,
+      "created_at": "2025-08-27T23:46:17-07:00",
+      "position": 1,
+      "updated_at": "2025-08-27T23:46:19-07:00",
+      "product_id": 10039426875709,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0926/0489/1453/files/cushion.png?v=1756363579",
+      "width": 592,
+      "height": 421
+    }
+  ],
+  "options": [
+    {
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Default Title"
+      ]
+    }
+  ]
+}

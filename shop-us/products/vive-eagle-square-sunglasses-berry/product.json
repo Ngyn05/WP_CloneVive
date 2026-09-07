@@ -1,0 +1,198 @@
+{
+  "id": 10452136886589,
+  "title": "*Coming Soon* HTC Vive Eagle Square Sunglass Lens (Berry)",
+  "handle": "vive-eagle-square-sunglasses-berry",
+  "body_html": "<p><span>Meet VIVE Eagle — AI glasses built for the everyday explorer. Starting at just 48.5g, enjoy exceptional open-ear audio, hands-free controls, and privacy-first AI assistance, so you can capture inspiration and stay connected to the world.</span><sup>1,2</sup></p>",
+  "published_at": "2026-09-03T00:31:21-07:00",
+  "created_at": "2026-08-03T18:30:04-07:00",
+  "updated_at": "2026-09-05T09:35:04-07:00",
+  "vendor": "VIVE Store | United States",
+  "product_type": "Simple",
+  "tags": [],
+  "variants": [
+    {
+      "id": 52783697920317,
+      "title": "Default Title",
+      "option1": "Default Title",
+      "option2": null,
+      "option3": null,
+      "sku": "99HAUU002-00",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": null,
+      "available": false,
+      "price": "499.00",
+      "grams": 290,
+      "compare_at_price": "499.00",
+      "position": 1,
+      "product_id": 10452136886589,
+      "created_at": "2026-08-03T18:30:04-07:00",
+      "updated_at": "2026-09-05T09:35:04-07:00"
+    }
+  ],
+  "images": [
+    {
+      "id": 65515513577789,
+      "created_at": "2026-08-03T18:32:08-07:00",
+      "position": 1,
+      "updated_at": "2026-08-03T18:32:11-07:00",
+      "product_id": 10452136886589,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0926/0489/1453/files/Eagle_Square_Berry_Sun_1.png?v=1785807131",
+      "width": 3840,
+      "height": 2395
+    },
+    {
+      "id": 65515513676093,
+      "created_at": "2026-08-03T18:32:08-07:00",
+      "position": 2,
+      "updated_at": "2026-08-03T18:32:10-07:00",
+      "product_id": 10452136886589,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0926/0489/1453/files/Eagle_Square_Berry_Sun_4.png?v=1785807130",
+      "width": 3840,
+      "height": 2395
+    },
+    {
+      "id": 65515513643325,
+      "created_at": "2026-08-03T18:32:08-07:00",
+      "position": 3,
+      "updated_at": "2026-08-03T18:32:11-07:00",
+      "product_id": 10452136886589,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0926/0489/1453/files/Eagle_Square_Berry_Sun_3.png?v=1785807131",
+      "width": 3840,
+      "height": 2395
+    },
+    {
+      "id": 65515513610557,
+      "created_at": "2026-08-03T18:32:08-07:00",
+      "position": 4,
+      "updated_at": "2026-08-03T18:32:11-07:00",
+      "product_id": 10452136886589,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0926/0489/1453/files/Eagle_Square_Berry_Sun_2.png?v=1785807131",
+      "width": 3840,
+      "height": 2395
+    },
+    {
+      "id": 65515513741629,
+      "created_at": "2026-08-03T18:32:08-07:00",
+      "position": 5,
+      "updated_at": "2026-08-03T18:32:10-07:00",
+      "product_id": 10452136886589,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0926/0489/1453/files/Eagle_Square_Berry_Sun_6.png?v=1785807130",
+      "width": 3840,
+      "height": 2395
+    },
+    {
+      "id": 65515513708861,
+      "created_at": "2026-08-03T18:32:08-07:00",
+      "position": 6,
+      "updated_at": "2026-08-03T18:32:11-07:00",
+      "product_id": 10452136886589,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0926/0489/1453/files/Eagle_Square_Berry_Sun_5.png?v=1785807131",
+      "width": 3840,
+      "height": 2395
+    },
+    {
+      "id": 66229137965373,
+      "created_at": "2026-09-02T18:50:05-07:00",
+      "position": 7,
+      "updated_at": "2026-09-02T18:50:07-07:00",
+      "product_id": 10452136886589,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0926/0489/1453/files/retail-carousel-2-square.png?v=1788400207",
+      "width": 1500,
+      "height": 1500
+    },
+    {
+      "id": 66257527603517,
+      "created_at": "2026-09-04T10:46:17-07:00",
+      "position": 8,
+      "updated_at": "2026-09-04T10:46:19-07:00",
+      "product_id": 10452136886589,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0926/0489/1453/files/retail-carousel-3-v2.png?v=1788543979",
+      "width": 2250,
+      "height": 2250
+    },
+    {
+      "id": 66229138030909,
+      "created_at": "2026-09-02T18:50:05-07:00",
+      "position": 9,
+      "updated_at": "2026-09-02T18:50:07-07:00",
+      "product_id": 10452136886589,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0926/0489/1453/files/retail-carousel-4-square.png?v=1788400207",
+      "width": 1500,
+      "height": 1500
+    },
+    {
+      "id": 66229137834301,
+      "created_at": "2026-09-02T18:50:03-07:00",
+      "position": 10,
+      "updated_at": "2026-09-02T18:50:05-07:00",
+      "product_id": 10452136886589,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0926/0489/1453/files/retail-carousel-5-square.png?v=1788400205",
+      "width": 1500,
+      "height": 1500
+    },
+    {
+      "id": 66229137998141,
+      "created_at": "2026-09-02T18:50:05-07:00",
+      "position": 11,
+      "updated_at": "2026-09-02T18:50:07-07:00",
+      "product_id": 10452136886589,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0926/0489/1453/files/retail-carousel-6-square.png?v=1788400207",
+      "width": 1500,
+      "height": 1500
+    },
+    {
+      "id": 66229137867069,
+      "created_at": "2026-09-02T18:50:04-07:00",
+      "position": 12,
+      "updated_at": "2026-09-02T18:50:06-07:00",
+      "product_id": 10452136886589,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0926/0489/1453/files/retail-carousel-7-ai-shopify_0c4d6095-d428-4efb-b36e-72dbe2828b40.png?v=1788400206",
+      "width": 2250,
+      "height": 2250
+    },
+    {
+      "id": 66229137801533,
+      "created_at": "2026-09-02T18:50:03-07:00",
+      "position": 13,
+      "updated_at": "2026-09-02T18:50:05-07:00",
+      "product_id": 10452136886589,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0926/0489/1453/files/retail-carousel-8-square.png?v=1788400205",
+      "width": 1500,
+      "height": 1500
+    },
+    {
+      "id": 66229137899837,
+      "created_at": "2026-09-02T18:50:04-07:00",
+      "position": 14,
+      "updated_at": "2026-09-02T18:50:06-07:00",
+      "product_id": 10452136886589,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0926/0489/1453/files/retail-carousel-9-square.png?v=1788400206",
+      "width": 1500,
+      "height": 1500
+    }
+  ],
+  "options": [
+    {
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Default Title"
+      ]
+    }
+  ]
+}

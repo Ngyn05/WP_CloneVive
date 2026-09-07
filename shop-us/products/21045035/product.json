@@ -1,0 +1,55 @@
+{
+  "id": 10039428284733,
+  "title": "Multi Battery Charger for VIVE Focus Series",
+  "handle": "21045035",
+  "body_html": "<p>A 4-in-1 charger for Battery for VIVE Focus Series. Simultaneously charges up to four batteries in under two hours. Eliminate downtime and easily swap out your VIVE Focus Vision or VIVE Focus 3's battery to ensure uninterrupted, 24/7 use.2 Perfect for maximizing the length of your VR sessions.</p>\n<p>Charges Battery for VIVE Focus Series from 0% to 100% in under two hours.<br>120 W charger ensures full-speed fast charging on all four batteries.<br>Includes a status indicator on the battery.</p>\n<p>1. Battery for VIVE Focus Series sold separately.<br>2. VIVE Focus Vision has a built-in reserve battery, allowing you to swap the rear headset battery without losing power for up to 20 minutes.<br></p>",
+  "published_at": "2025-11-10T17:57:41-08:00",
+  "created_at": "2025-08-27T23:15:56-07:00",
+  "updated_at": "2026-09-05T09:35:04-07:00",
+  "vendor": "HTC VIVE Online Store",
+  "product_type": "Simple",
+  "tags": [],
+  "variants": [
+    {
+      "id": 50674045649213,
+      "title": "Default Title",
+      "option1": "Default Title",
+      "option2": null,
+      "option3": null,
+      "sku": "99H20733-00",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": null,
+      "available": false,
+      "price": "139.00",
+      "grams": 1000,
+      "compare_at_price": null,
+      "position": 1,
+      "product_id": 10039428284733,
+      "created_at": "2025-08-27T23:15:56-07:00",
+      "updated_at": "2026-09-05T09:35:04-07:00"
+    }
+  ],
+  "images": [
+    {
+      "id": 58918172393789,
+      "created_at": "2025-08-27T23:49:23-07:00",
+      "position": 1,
+      "updated_at": "2025-08-27T23:49:25-07:00",
+      "product_id": 10039428284733,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0926/0489/1453/files/4_in_1-dock-1-570.png?v=1756363765",
+      "width": 570,
+      "height": 389
+    }
+  ],
+  "options": [
+    {
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Default Title"
+      ]
+    }
+  ]
+}

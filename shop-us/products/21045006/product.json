@@ -1,0 +1,88 @@
+{
+  "id": 10039428186429,
+  "title": "Facial Tracker for VIVE Focus Series",
+  "handle": "21045006",
+  "body_html": "<h2 class=\"f-subtitle-1 txt-color-white text-fix-widow\">Expressive interactions in VR.</h2>\n<div class=\"f-body-1 txt-color-white text-fix-widow\">Bring accurate face tracking to VIVE Focus Vision and VIVE Focus 3 headsets. Enjoy lifelike expressions in VR with this user-friendly accessory.<sup>1</sup>\n</div>\n<p> </p>\n<p><span><meta charset=\"utf-8\">Easy to connect. Capture with precision. Liven up your VRChat avatar and VTuber content with smooth, real-time face tracking.<sup>1,2</sup></span></p>\n<h3><span><br><meta charset=\"utf-8\">High accuracy. Low Latency.<br></span></h3>\n<p><span>Track facial movements via 38 blend shapes across your lips, teeth, tongue, jaw, cheeks, and chin at 60 Hz.<br><br>*Supports standalone and PC VR versions of VRChat and a variety of immersive experiences.<sup>2</sup></span></p>\n<h3>In-box items</h3>\n<ul>\n<li>Facial Tracker for VIVE Focus Series</li>\n<li>Safety guide</li>\n<li>Warranty card</li>\n</ul>\n<h3><span>Specs</span></h3>\n<ul>\n<li>\n<strong>Headset compatibility: </strong>VIVE Focus Vision</li>\n<li>\n<strong style=\"font-family: -apple-system, BlinkMacSystemFont, 'San Francisco', 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif; font-size: 0.875rem;\">Sensor:</strong><span style=\"font-family: -apple-system, BlinkMacSystemFont, 'San Francisco', 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif; font-size: 0.875rem;\"> Mono camera at 60 Hz, Diagonal field of view 151°<br></span><strong style=\"font-family: -apple-system, BlinkMacSystemFont, 'San Francisco', 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif; font-size: 0.875rem;\">SDK support: </strong><span style=\"font-family: -apple-system, BlinkMacSystemFont, 'San Francisco', 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif; font-size: 0.875rem;\">Unity, Unreal Engine, and Native support</span>\n</li>\n<li>\n<strong style=\"font-family: -apple-system, BlinkMacSystemFont, 'San Francisco', 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif; font-size: 0.875rem;\">Connectivity: </strong><span style=\"font-family: -apple-system, BlinkMacSystemFont, 'San Francisco', 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif; font-size: 0.875rem;\">USB Type-C</span>\n</li>\n<li>\n<strong style=\"font-family: -apple-system, BlinkMacSystemFont, 'San Francisco', 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif; font-size: 0.875rem;\">Weight: </strong><span style=\"font-family: -apple-system, BlinkMacSystemFont, 'San Francisco', 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif; font-size: 0.875rem;\">11.6 g +/-1 g</span>\n</li>\n<li>\n<strong style=\"font-family: -apple-system, BlinkMacSystemFont, 'San Francisco', 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif; font-size: 0.875rem;\">All-in-one VR support: </strong><span style=\"font-family: -apple-system, BlinkMacSystemFont, 'San Francisco', 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif; font-size: 0.875rem;\">VIVE Wave SDK</span>\n</li>\n<li>\n<strong style=\"font-family: -apple-system, BlinkMacSystemFont, 'San Francisco', 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif; font-size: 0.875rem;\">PC VR support: </strong><span style=\"font-family: -apple-system, BlinkMacSystemFont, 'San Francisco', 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif; font-size: 0.875rem;\">OpenXR over VIVE Streaming</span>\n</li>\n</ul>\n<h3>\n<span></span><br>\n</h3>\n<h3><span>Frequently Asked Questions</span></h3>\n<div>\n<strong>What is the Facial Tracker for VIVE Focus Series?</strong><br><span>The Facial Tracker is an accessory that adds real-time facial expression tracking to supported VIVE headsets. It captures movements like lips, jaw, cheeks, and tongue to bring more lifelike expressions to avatars, VRChat interactions, and VTuber content.</span>\n</div>\n<div>\n<span></span><br>\n</div>\n<div>\n<strong>Which headsets are it compatible with?</strong><br><span>It works with </span><span>VIVE Focus Vision</span><span> and </span><span>VIVE Focus 3</span><span> headsets.</span>\n</div>\n<div>\n<span></span><br>\n</div>\n<div>\n<strong>What does the tracker measure?</strong><br><span>The tracker uses a mono camera to read facial movements using </span><span>38 blend shapes</span><span> across areas like lips, jaw, cheeks, chin, teeth, and tongue at a </span><span>60 Hz tracking rate</span><span> for smooth, low-latency performance.</span>\n</div>\n<div>\n<span></span><br>\n</div>\n<div>\n<strong>How do I connect it to my headset?</strong><br><span>It connects directly via the headset’s built-in </span><span>USB-Type-C port</span><span>—no extra adapters or cables required.</span>\n</div>\n<div>\n<span></span><br>\n</div>\n<div>\n<strong>What software or content do I need to make it work?</strong><br><span>You need content that supports face tracking (e.g., VRChat avatars with face tracking support). Compatible software must also meet system requirements.</span>\n</div>\n<div>\n<span></span><br>\n</div>\n<div>\n<strong>Does it work with PC VR apps?</strong><br><span>Yes, when streaming PC VR or using apps that support facial tracking via OpenXR extensions or compatible SDKs, you can use the tracker in supported PC VR titles.</span>\n</div>\n<div>\n<span></span><br>\n</div>\n<div>\n<strong>What development support is available?</strong><br><span>SDK support is provided for Unity, Unreal Engine, and native development. Developers can integrate facial tracking into their apps using available SDKs and runtimes.</span>\n</div>\n<div>\n<span></span><br>\n</div>\n<div>\n<strong>Does face tracking also work in VRChat on PC?</strong><br><span>You can enable facial tracking for VRChat avatars that support the VRCFaceTracking protocol. In PC VR setups, you’ll often need to configure VIVE Hub and VRChat’s OSC/VRCFT settings to route the tracker data.</span>\n</div>\n<div>\n<span></span><br>\n</div>\n<div>\n<strong>Can this be used for content creation or training?</strong><br><span>Yes, facial tracking enhances non-verbal communication, avatar performance capture, soft skills training, VR collaboration, and creative applications.</span>\n</div>\n<div>\n<span></span><br>\n</div>\n<div>\n<span></span><br>\n</div>\n<div>\n<span></span><br>\n</div>\n<p><iframe title=\"How to Connect Facial Tracker to VRChat for PC VR (Quick Tutorial)\" src=\"https://www.youtube.com/embed/8vsshE3Gx7I\" height=\"820\" width=\"1458\"></iframe></p>\n<p> </p>\n<p> </p>\n<p><span><meta charset=\"utf-8\">1. Content compatibility required. Compatible content and devices sold separately. System requirements must be met.<br><br>2. VRChat avatars must support VRCFaceTracking to work with Facial Tracker for VIVE Focus Series.</span></p>",
+  "published_at": "2025-11-10T17:57:41-08:00",
+  "created_at": "2025-08-27T23:15:50-07:00",
+  "updated_at": "2026-09-05T09:35:04-07:00",
+  "vendor": "HTC VIVE Online Store",
+  "product_type": "Simple",
+  "tags": [],
+  "variants": [
+    {
+      "id": 50674045550909,
+      "title": "Default Title",
+      "option1": "Default Title",
+      "option2": null,
+      "option3": null,
+      "sku": "99HATH003-00",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": null,
+      "available": true,
+      "price": "119.00",
+      "grams": 1000,
+      "compare_at_price": null,
+      "position": 1,
+      "product_id": 10039428186429,
+      "created_at": "2025-08-27T23:15:50-07:00",
+      "updated_at": "2026-09-05T09:35:04-07:00"
+    }
+  ],
+  "images": [
+    {
+      "id": 61125441814845,
+      "created_at": "2025-12-15T17:14:18-08:00",
+      "position": 1,
+      "updated_at": "2025-12-15T17:14:39-08:00",
+      "product_id": 10039428186429,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0926/0489/1453/files/focus-vision-facial-tracker-main.png?v=1765847679",
+      "width": 1500,
+      "height": 1500
+    },
+    {
+      "id": 61125188682045,
+      "created_at": "2025-12-15T16:43:29-08:00",
+      "position": 2,
+      "updated_at": "2025-12-15T17:14:39-08:00",
+      "product_id": 10039428186429,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0926/0489/1453/files/focus-vision-facial-tracker.jpg?v=1765847679",
+      "width": 2520,
+      "height": 2520
+    },
+    {
+      "id": 61125388828989,
+      "created_at": "2025-12-15T17:07:20-08:00",
+      "position": 3,
+      "updated_at": "2025-12-15T17:14:39-08:00",
+      "product_id": 10039428186429,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0926/0489/1453/files/focus-vision-facial-tracker-back.webp?v=1765847679",
+      "width": 1500,
+      "height": 1500
+    },
+    {
+      "id": 61125401706813,
+      "created_at": "2025-12-15T17:09:01-08:00",
+      "position": 4,
+      "updated_at": "2025-12-15T17:14:39-08:00",
+      "product_id": 10039428186429,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0926/0489/1453/files/focus-vision-facial-tracker-front.webp?v=1765847679",
+      "width": 1500,
+      "height": 1500
+    }
+  ],
+  "options": [
+    {
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Default Title"
+      ]
+    }
+  ]
+}

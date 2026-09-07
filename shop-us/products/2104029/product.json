@@ -1,0 +1,66 @@
+{
+  "id": 10039427236157,
+  "title": "20m Extension Solution for VIVE Pro",
+  "handle": "2104029",
+  "body_html": "<div class=\"ewa-rteLine\">Best for arcade to setup your VIVE Pro and VIVE Pro Eye without considering the computer placement.</div>\n<div class=\"ewa-rteLine\">includes one 20m(65.6') DisplayPort to DisplayPort cable.</div>\n<div class=\"ewa-rteLine\">includes one mini-DisplayPort to DisplayPort dongle.</div>\n<div class=\"ewa-rteLine\">includes one 20m(65.6') USB3.0 cable.</div>",
+  "published_at": "2025-11-10T17:57:49-08:00",
+  "created_at": "2025-08-27T23:14:12-07:00",
+  "updated_at": "2026-09-05T09:35:04-07:00",
+  "vendor": "HTC VIVE Online Store",
+  "product_type": "Simple",
+  "tags": [],
+  "variants": [
+    {
+      "id": 50674044109117,
+      "title": "Default Title",
+      "option1": "Default Title",
+      "option2": null,
+      "option3": null,
+      "sku": "99H20585-00",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": null,
+      "available": true,
+      "price": "359.00",
+      "grams": 2000,
+      "compare_at_price": "599.00",
+      "position": 1,
+      "product_id": 10039427236157,
+      "created_at": "2025-08-27T23:14:12-07:00",
+      "updated_at": "2026-09-05T09:35:04-07:00"
+    }
+  ],
+  "images": [
+    {
+      "id": 58918140510525,
+      "created_at": "2025-08-27T23:46:30-07:00",
+      "position": 1,
+      "updated_at": "2025-08-27T23:46:32-07:00",
+      "product_id": 10039427236157,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0926/0489/1453/files/20m_extensionpackage_240-us.png?v=1756363592",
+      "width": 240,
+      "height": 163
+    },
+    {
+      "id": 58918140543293,
+      "created_at": "2025-08-27T23:46:30-07:00",
+      "position": 2,
+      "updated_at": "2025-08-27T23:46:32-07:00",
+      "product_id": 10039427236157,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0926/0489/1453/files/20m-extensionpackage.png?v=1756363592",
+      "width": 576,
+      "height": 576
+    }
+  ],
+  "options": [
+    {
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Default Title"
+      ]
+    }
+  ]
+}

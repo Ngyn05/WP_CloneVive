@@ -1,0 +1,1347 @@
+<!DOCTYPE html>
+<html lang="vi" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>VIVE Blog - Tin tức VR, Góc nhìn &amp; Đột phá từ HTC</title>
+    <meta name="description" content="Khám phá các tin tức mới nhất về kính thực tế ảo VR, giải pháp không gian VIVERSE và công nghệ XR đột phá từ HTC VIVE.">
+    <link rel="shortcut icon" type="image/png" href="https://blog.vive.com/express_static/vive_blog/img/favicon.ico"/>
+    
+    <link rel="stylesheet" type="text/css" href="/static/app/dist_2020/other-styles.css?v=202608100232">
+    <link rel="stylesheet" type="text/css" href="/static/app/dist_2020/original-styles.css?v=202608100232">
+    <link rel="stylesheet" type="text/css" href="/static/app/dist_2020/new-styles.css?v=202608100232">
+    <link rel="stylesheet" type="text/css" href="/media/filer_public/fed-assets/revamp-20/css/critical.css?v=202407301200">
+    <link rel="stylesheet" type="text/css" href="/media/filer_public/fed-assets/revamp-20/css/default.css?v=202605071200">
+    
+    <script type="text/javascript" src="/static/js/vendor/jquery-3.6.3.min.js"></script>
+    <script type="text/javascript" src="/static/js/vendor/jquery-migrate-3.4.0.min.js"></script>
+    
+    <style>
+        .blog-main-layout {
+            max-width: 1240px;
+            margin: 82px auto 80px;
+            padding: 0 24px;
+            display: flex;
+            flex-direction: row;
+            gap: 40px;
+            min-height: 800px;
+            visibility: hidden;
+        }
+
+        .blog-main-layout.blog-data-ready {
+            visibility: visible;
+        }
+        
+        .sidebar-tags-col {
+            width: 210px;
+            flex-shrink: 0;
+        }
+        .sidebar-tags-title {
+            font-size: 16px;
+            font-weight: 800;
+            color: #111111;
+            margin-bottom: 22px;
+            letter-spacing: -0.2px;
+        }
+        .sidebar-tag-item {
+            margin-bottom: 15px;
+        }
+        .sidebar-tag-btn {
+            font-size: 14px;
+            color: #4b5563;
+            background: none;
+            border: none;
+            padding: 0;
+            cursor: pointer;
+            text-align: left;
+            line-height: 1.4;
+            display: inline-block;
+            transition: color 0.15s ease;
+            outline: none !important;
+        }
+        .sidebar-tag-btn:hover {
+            color: #000000;
+        }
+        .sidebar-tag-btn.active-tag {
+            color: #000000;
+            font-weight: 800;
+        }
+        
+        .blog-content-col {
+            flex: 1;
+            min-width: 0;
+        }
+        
+        .featured-article-card {
+            background: #ffffff;
+            border-radius: 6px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+            border: 1px solid #f0f0f0;
+            overflow: hidden;
+            display: flex;
+            flex-direction: row;
+            text-decoration: none !important;
+            color: inherit !important;
+            margin-bottom: 35px;
+            min-height: 310px;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .featured-article-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 28px rgba(0, 0, 0, 0.12);
+        }
+        .featured-article-info {
+            width: 50%;
+            padding: 32px 28px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .featured-article-tags {
+            font-size: 12px;
+            font-weight: 600;
+            color: #00b4d8;
+            margin-bottom: 12px;
+            line-height: 1.3;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        .featured-article-title {
+            font-size: 24px;
+            font-weight: 800;
+            line-height: 1.3;
+            color: #111111;
+            margin: 0;
+            letter-spacing: -0.4px;
+            display: -webkit-box;
+            -webkit-line-clamp: 4;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+        .featured-article-meta {
+            font-size: 13px;
+            color: #6b7280;
+            line-height: 1.5;
+            margin-top: 20px;
+        }
+        .featured-article-img {
+            width: 50%;
+            min-height: 280px;
+            background: #1e293b;
+        }
+        .featured-article-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+        
+        .posts-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+        }
+        .grid-article-card {
+            background: #ffffff;
+            border-radius: 6px;
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+            border: 1px solid #f0f0f0;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            text-decoration: none !important;
+            color: inherit !important;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .grid-article-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+        }
+        .grid-article-img {
+            width: 100%;
+            height: 190px;
+            background: #1e293b;
+            overflow: hidden;
+        }
+        .grid-article-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+        .grid-article-info {
+            padding: 20px 18px 22px;
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+        }
+        .grid-article-tags {
+            font-size: 11px;
+            font-weight: 600;
+            color: #00b4d8;
+            margin-bottom: 8px;
+            line-height: 1.3;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        .grid-article-title {
+            font-size: 16px;
+            font-weight: 800;
+            line-height: 1.4;
+            color: #111111;
+            margin: 0 0 16px;
+            letter-spacing: -0.3px;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+        .grid-article-meta {
+            font-size: 12px;
+            color: #6b7280;
+            line-height: 1.5;
+            margin-top: auto;
+        }
+        
+        @media (max-width: 991px) {
+            .blog-main-layout {
+                flex-direction: column;
+                margin-top: 82px;
+            }
+            .sidebar-tags-col {
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                gap: 10px;
+            }
+            .sidebar-tag-item {
+                margin-bottom: 0;
+            }
+            .sidebar-tag-btn {
+                padding: 6px 14px;
+                background: #f3f4f6;
+                border-radius: 16px;
+            }
+            .sidebar-tag-btn.active-tag {
+                background: #000000;
+                color: #ffffff !important;
+            }
+            .posts-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .featured-article-card {
+                flex-direction: column-reverse;
+                height: auto;
+            }
+            .featured-article-info {
+                width: 100%;
+            }
+            .featured-article-img {
+                width: 100%;
+                height: 220px;
+            }
+        }
+        @media (max-width: 600px) {
+            .posts-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body class="www us gfont-support productpdp revamp-2020" data-search-index="blog" data-search-vhost="www.vive.com" data-site="us" data-site-id="6214">
+
+<header data-login-extra-links="[]" data-my-account-link="None" data-my-order-link="None" data-my-user-html="" data-search-index='[{"index": "cms_prod_www_us_content", "display_name": "Products", "version": "v1", "tags": "product", "mapping_key": "product"}, {"index": "cms_prod_www_us_support", "display_name": "Support", "version": "v1", "tags": "support", "mapping_key": "support"}, {"index": "cms_blog_us_prod_wagtail", "display_name": "BLOG", "version": "0", "tags": "0", "mapping_key": "blog"}, {"index": "cms_prod_developer_resources", "display_name": "Developer", "version": "v1", "tags": "resources", "mapping_key": "resources"}, {"index": "cms_prod_www_us_order", "display_name": "Orders", "version": "v1", "tags": "others", "mapping_key": "others"}]'>
+<div id="nav20-main-menu">
+<div class="nav20-desktop-menu">
+<button aria-label="menu-toggle-btn" class="nav20-menu-btn js-nav20-menu-toggle-btn btn">
+<div class="menu-icon"></div>
+</button>
+<div class="nav20-logo-block">
+<a aria-label="VIVE" class="nav20-logo-block__image" href="/us/"></a>
+</div>
+<div class="nav20-center-content">
+<div class="nav20-main-list-content">
+<div class="nav20-main-list nav20-list--left">
+<div class="nav20-link-1-item">
+<a class="nav20-link-1 nav20-txt-title nav20-sub-link" href="/us/product/" id="func3" rel="" target="_self">
+<span>Products</span>
+</a>
+<div class="nav20-link-2-content">
+<div class="nav20-link-2-item">
+<a class="nav20-link-2 nav20-txt-series" href="/us/product/vive-eagle/overview/" id="func14652" rel="" target="_self">
+<span>VIVE Eagle</span>
+<span class="nav20-txt-new">New</span>
+</a>
+</div>
+<div class="nav20-link-2-item">
+<a class="nav20-link-2 nav20-txt-series nav20-sun-link nav-icon nav-icon__vive-focus" href="/us/product/#focus%20series" id="func8398" rel="" target="_self">
+<span>VIVE Focus Series</span>
+</a>
+<div class="nav20-link-3-content func8398">
+<button aria-label="close" class="nav20-sun-close btn"></button>
+<a class="nav20-link-3 nav20-txt-items-title" href="/us/product/#focus%20series" rel="" target="_self">
+<span>VIVE Focus Series</span>
+</a>
+<a class="nav20-link-3 nav20-txt-items" href="/us/product/vive-focus-vision/overview/" rel="" target="_self">
+<span>Focus Vision</span>
+</a>
+</div>
+</div>
+<div class="nav20-link-2-item">
+<a class="nav20-link-2 nav20-txt-series" href="/us/product/vive-flow/overview" id="func11480" rel="" target="_self">
+<span>VIVE Flow</span>
+</a>
+</div>
+<div class="nav20-link-2-item">
+<a class="nav20-link-2 nav20-txt-series nav20-sun-link nav-icon nav-icon__accessory" href="/us/accessory-comparison/" id="func498" rel="" target="_self">
+<span>VIVE Tracking</span>
+</a>
+<div class="nav20-link-3-content func498">
+<button aria-label="close" class="nav20-sun-close btn"></button>
+<a class="nav20-link-3 nav20-txt-items-title" href="/us/accessory-comparison/" rel="" target="_self">
+<span>VIVE Tracking</span>
+</a>
+<a class="nav20-link-3 nav20-txt-items" href="/us/accessory/vive-ultimate-tracker/" rel="" target="_self">
+<span>Ultimate Tracker</span>
+</a>
+<a class="nav20-link-3 nav20-txt-items" href="/us/accessory/facial-tracker-for-vive-focus-series/" rel="" target="_self">
+<span>Facial Tracker for VIVE Focus Series</span>
+</a>
+<a class="nav20-link-3 nav20-txt-items" href="/us/accessory/tracker3/" rel="" target="_self">
+<span>Tracker (3.0)</span>
+</a>
+<a class="nav20-link-3 nav20-txt-items" href="/us/accessory/base-station2/" rel="" target="_self">
+<span>Base Station 2.0</span>
+</a>
+</div>
+</div>
+<div class="nav20-link-2-item">
+<a class="nav20-link-2 nav20-txt-series" href="/us/accessory/" id="func14674" rel="" target="_self">
+<span>All Accessories</span>
+</a>
+</div>
+<div class="nav20-link-2-item">
+<a class="nav20-link-2 nav20-txt-series nav20-sun-link" href="/us/product/" id="func10681" rel="" target="_self">
+<span>All products</span>
+</a>
+<div class="nav20-link-3-content func10681">
+<button aria-label="close" class="nav20-sun-close btn"></button>
+<a class="nav20-link-3 nav20-txt-items-title" href="/us/product/" rel="" target="_self">
+<span>All products</span>
+</a>
+<a class="nav20-link-3 nav20-txt-items" href="/us/product/comparison/" rel="" target="_self">
+<span>Compare products</span>
+</a>
+<a class="nav20-link-3 nav20-txt-items" href="/us/accessory-comparison/" rel="" target="_self">
+<span>Compare trackers</span>
+</a>
+</div>
+</div>
+<div class="nav20-link-2-item">
+<a class="nav20-link-2 nav20-txt-series" href="/us/solution/location-based-experiences/" id="func14658" rel="" target="_self">
+<span>LBE VR Entertainment</span>
+<span class="nav20-txt-new">New</span>
+</a>
+</div>
+<div class="nav20-link-2-item">
+<a class="nav20-link-2 nav20-txt-series nav20-sun-link" href="/us/solution/vive-streaming/" id="func14148" rel="" target="_self">
+<span>Solutions for VR Products</span>
+</a>
+<div class="nav20-link-3-content func14148">
+<button aria-label="close" class="nav20-sun-close btn"></button>
+<a class="nav20-link-3 nav20-txt-items-title" href="/us/solution/vive-streaming/" rel="" target="_self">
+<span>Solutions for VR Products</span>
+</a>
+<a class="nav20-link-3 nav20-txt-items" href="/us/solution/vive-streaming/" rel="" target="_self">
+<span>VIVE Streaming</span>
+</a>
+<a class="nav20-link-3 nav20-txt-items" href="/us/solution/vive-desk/" rel="" target="_self">
+<span>VIVE Desk</span>
+</a>
+</div>
+</div>
+<div class="nav20-link-2-item">
+<a class="nav20-link-2 nav20-txt-series nav20-sun-link" href="https://mars.vive.com" id="func13460" rel="noreferrer noopener" target="_blank">
+<span>Virtual Production</span>
+</a>
+<div class="nav20-link-3-content func13460">
+<button aria-label="close" class="nav20-sun-close btn"></button>
+<a class="nav20-link-3 nav20-txt-items-title" href="https://mars.vive.com" rel="noreferrer noopener" target="_blank">
+<span>Virtual Production</span>
+</a>
+<a class="nav20-link-3 nav20-txt-items" href="https://mars.vive.com" rel="noreferrer noopener" target="_blank">
+<span>VIVE Mars CamTrack</span>
+</a>
+</div>
+</div>
+<div class="nav20-link-2-item">
+<a class="nav20-link-2 nav20-txt-series" href="https://roundtable.vive.com/" id="func14774" rel="noreferrer noopener" target="_blank">
+<span>VIVE Roundtable Beta</span>
+<span class="nav20-txt-new">New</span>
+</a>
+</div>
+</div>
+</div>
+<div class="nav20-link-1-item">
+<a class="nav20-link-1 nav20-txt-title" href="//www.viverse.com/?utm_source=vive.com&amp;utm_medium=header&amp;utm_campaign=header-220803" id="func13319" rel="noreferrer noopener" target="_blank">
+<span>VIVERSE</span>
+</a>
+</div>
+<div class="nav20-link-1-item">
+<a class="nav20-link-1 nav20-txt-title" href="https://business.vive.com/us" id="func13320" rel="noreferrer noopener" target="_blank">
+<span>Business</span>
+</a>
+</div>
+<div class="nav20-link-1-item">
+<a class="nav20-link-1 nav20-txt-title nav20-sub-link" href="/us/support/" id="func36" rel="" target="_self">
+<span>Support</span>
+</a>
+<div class="nav20-link-2-content">
+<div class="nav20-link-2-item">
+<a class="nav20-link-2 nav20-txt-series" href="/us/support/" id="func10697" rel="" target="_self">
+<span>Support</span>
+</a>
+</div>
+<div class="nav20-link-2-item">
+<a class="nav20-link-2 nav20-txt-series" href="/us/setup/" id="func960" rel="" target="_self">
+<span>Setup | Download</span>
+</a>
+</div>
+<div class="nav20-link-2-item">
+<a class="nav20-link-2 nav20-txt-series" href="https://contact.vive.com/hc/en-us" id="func965" rel="noreferrer noopener" target="_blank">
+<span>Contact Us</span>
+</a>
+</div>
+</div>
+</div>
+<div class="nav20-link-1-item">
+<a class="nav20-link-1 nav20-txt-title nav20-sub-link" href="https://shop-us.vive.com/pages/best-vr-deals" id="func13876" rel="noreferrer noopener" target="_blank">
+<span>Shop | Deals</span>
+</a>
+<div class="nav20-link-2-content">
+<div class="nav20-link-2-item">
+<a class="nav20-link-2 nav20-txt-series" href="https://shop-us.vive.com/pages/best-vr-deals" id="func14692" rel="noreferrer noopener" target="_blank">
+<span>Best Deals</span>
+</a>
+</div>
+<div class="nav20-link-2-item">
+<a class="nav20-link-2 nav20-txt-series" href="https://shop-us.vive.com/" id="func14693" rel="noreferrer noopener" target="_blank">
+<span>Store</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="nav20-main-list nav20-list--right">
+<div class="nav20-link-1-item nav20-link-1-item--mobile">
+<a class="nav20-link-1 nav20-txt-title nav20-sub-link" href="#" target="_self">
+<span>My Profile</span>
+</a>
+</div>
+</div>
+</div>
+<div class="nav20-search-content">
+<div class="search-box" id="search-box"></div>
+</div>
+</div>
+<div class="nav20-right-content" data-order-help="None" data-orders="None">
+<a class="nav20-mini-cart nav20-right-item" href="https://shop-us.vive.com/cart/" rel="nofollow noopener noreferrer" target="_blank"></a>
+</div>
+</div>
+</div>
+<div class="jqmWindow vive-modal ec-select-country ec-select-country-func">
+<div class="centered">
+<a class="jqmClose" href="#"></a>
+<div class="content-block">
+<div class="contry-list-block">
+<div class="earth-icon"></div>
+<div class="select-your-country">
+<div class="h2 mb-4">Please Select Your Location</div>
+</div>
+<div class="country-list">
+<div class="flex-item">
+<span data-cart-provider-type="MAGENTO" data-countrycode="AU" data-currency="AUD" data-ec-locale="vive_au" data-enable-json="0" data-english-country-name="Australia" data-fiter-country="en_au_M2_0924" data-locale="vive_au" data-mini-cart-api-link="{'key': '5hmTykNvjCM5CCAd05TV3W9GFMq1My84AoSwdnAd', 'addItem': 'https://myshop-apac.vive.com/vive_au/rest/V1/api/minicart/add/product/', 'getCart': 'https://myshop-apac.vive.com/vive_au/rest/V1/api/minicart/', 'getProduct': 'https://customer-api-au.vive.com/cache-api/v1/prodinfo', 'removeItem': 'https://myshop-apac.vive.com/vive_au/rest/V1/api/minicart/delete/product/{pid}'}" data-outer-link="" data-site-id="au" data-store-locale="en_au_M2_0924" data-theme-id="40383500">
+                                    Australia
+                                </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="MAGENTO" data-countrycode="AT" data-currency="EUR" data-ec-locale="vive_de" data-enable-json="0" data-english-country-name="Austria" data-fiter-country="en_at_m2_0312" data-locale="vive_de" data-mini-cart-api-link="{'key': '8wYf3jL2522rDNAQSbiKs1C7vRhiKSwS9oR69d8F', 'addItem': 'https://myshop.vive.com/vive_de/rest/V1/api/minicart/add/product/', 'getCart': 'https://myshop.vive.com/vive_de/rest/V1/api/minicart/', 'getProduct': 'https://customer-api-eu.vive.com/cache-api/v1/prodinfo', 'removeItem': 'https://myshop.vive.com/vive_de/rest/V1/api/minicart/delete/product/{pid}'}" data-outer-link="" data-site-id="de" data-store-locale="en_at_m2_0312" data-theme-id="40354400">
+                                    Österreich
+                                </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="MAGENTO" data-countrycode="BE" data-currency="EUR" data-ec-locale="vive_eu" data-enable-json="0" data-english-country-name="Belgium" data-fiter-country="en_be_m2_0312" data-locale="vive_eu" data-mini-cart-api-link="{'key': '8wYf3jL2522rDNAQSbiKs1C7vRhiKSwS9oR69d8F', 'addItem': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/add/product/', 'getCart': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/', 'getProduct': 'https://customer-api-eu.vive.com/cache-api/v1/prodinfo', 'removeItem': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/delete/product/{pid}'}" data-outer-link="" data-site-id="eu" data-store-locale="en_be_m2_0312" data-theme-id="40354400">
+                                    België
+                                </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="SHOPIFY" data-countrycode="CA-SHOPIFY" data-currency="CAD" data-ec-locale="vive_ca_shopify" data-enable-json="0" data-english-country-name="Canada" data-fiter-country="en_ca_s1_v1_0526" data-locale="vive_ca_shopify" data-mini-cart-api-link="{'key': '1865f9d7f9560f4173b0709e5176b9f3', 'addItem': '', 'getCart': 'https://shop-ca.vive.com/api/2025-01/graphql.json', 'getProduct': ' https://vive-store-ca.myshopify.com/api/2025-01/graphql.json', 'removeItem': ''}" data-outer-link="" data-site-id="ca" data-store-locale="en_ca_s1_v1_0526" data-theme-id="4773718000">
+                                    Canada
+                                </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="SHOPIFY" data-countrycode="CA-FR-SHOPIFY" data-currency="CAD" data-ec-locale="vive_cafr_shopify" data-enable-json="0" data-english-country-name="Canada French" data-fiter-country="fr_ca_s1_v1_0526" data-locale="vive_cafr_shopify" data-mini-cart-api-link="{'key': '1865f9d7f9560f4173b0709e5176b9f3', 'addItem': '', 'getCart': 'https://shop-ca.vive.com/api/2025-01/graphql.json', 'getProduct': ' https://vive-store-ca.myshopify.com/api/2025-01/graphql.json', 'removeItem': ''}" data-outer-link="" data-site-id="ca-fr" data-store-locale="fr_ca_s1_v1_0526" data-theme-id="4773718000">
+                                    Canada - Français
+                                </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="" data-countrycode="CN" data-currency="RMB" data-ec-locale="zh_cn" data-enable-json="0" data-english-country-name="China" data-fiter-country="zh_cn_0312" data-locale="zh_cn" data-mini-cart-api-link="{}" data-outer-link="" data-site-id="cn" data-store-locale="zh_cn_0312" data-theme-id="123456789">
+                                    中国
+                                </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="MAGENTO" data-countrycode="CZ" data-currency="EUR" data-ec-locale="vive_eu" data-enable-json="0" data-english-country-name="Czech Republic" data-fiter-country="en_cz_m2_0312" data-locale="vive_eu" data-mini-cart-api-link="{'key': '8wYf3jL2522rDNAQSbiKs1C7vRhiKSwS9oR69d8F', 'addItem': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/add/product/', 'getCart': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/', 'getProduct': 'https://customer-api-eu.vive.com/cache-api/v1/prodinfo', 'removeItem': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/delete/product/{pid}'}" data-outer-link="" data-site-id="eu" data-store-locale="en_cz_m2_0312" data-theme-id="40354400">
+                                    Česká republika
+                                </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="MAGENTO" data-countrycode="DK" data-currency="DKK" data-ec-locale="vive_dk" data-enable-json="0" data-english-country-name="Denmark" data-fiter-country="en_dk_m2_0312" data-locale="vive_dk" data-mini-cart-api-link="{'key': '8wYf3jL2522rDNAQSbiKs1C7vRhiKSwS9oR69d8F', 'addItem': 'https://myshop.vive.com/vive_dk/rest/V1/api/minicart/add/product/', 'getCart': 'https://myshop.vive.com/vive_dk/rest/V1/api/minicart/', 'getProduct': 'https://customer-api-eu.vive.com/cache-api/v1/prodinfo', 'removeItem': 'https://myshop.vive.com/vive_dk/rest/V1/api/minicart/delete/product/{pid}'}" data-outer-link="" data-site-id="eu" data-store-locale="en_dk_m2_0312" data-theme-id="40354400">
+                                    Denmark
+                                </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="MAGENTO" data-countrycode="DE" data-currency="EUR" data-ec-locale="vive_de" data-enable-json="0" data-english-country-name="Deutschland" data-fiter-country="de_de_m2_0312" data-locale="vive_de" data-mini-cart-api-link="{'key': '8wYf3jL2522rDNAQSbiKs1C7vRhiKSwS9oR69d8F', 'addItem': 'https://myshop.vive.com/vive_de/rest/V1/api/minicart/add/product/', 'getCart': 'https://myshop.vive.com/vive_de/rest/V1/api/minicart/', 'getProduct': 'https://customer-api-eu.vive.com/cache-api/v1/prodinfo', 'removeItem': 'https://myshop.vive.com/vive_de/rest/V1/api/minicart/delete/product/{pid}'}" data-outer-link="" data-site-id="de" data-store-locale="de_de_m2_0312" data-theme-id="40354400">
+                                    Deutschland
+                                </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="MAGENTO" data-countrycode="FR" data-currency="EUR" data-ec-locale="vive_fr" data-enable-json="0" data-english-country-name="France" data-fiter-country="fr_fr_m2_03121" data-locale="vive_fr" data-mini-cart-api-link="{'key': '8wYf3jL2522rDNAQSbiKs1C7vRhiKSwS9oR69d8F', 'addItem': 'https://myshop.vive.com/vive_fr/rest/V1/api/minicart/add/product/', 'getCart': 'https://myshop.vive.com/vive_fr/rest/V1/api/minicart/', 'getProduct': 'https://customer-api-eu.vive.com/cache-api/v1/prodinfo', 'removeItem': 'https://myshop.vive.com/vive_fr/rest/V1/api/minicart/delete/product/{pid}'}" data-outer-link="" data-site-id="fr" data-store-locale="fr_fr_m2_03121" data-theme-id="40354400">
+                                    France
+                                </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="MAGENTO" data-countrycode="HK" data-currency="HKD" data-ec-locale="hk_en" data-enable-json="0" data-english-country-name="Hong Kong" data-fiter-country="hk_en_M2_0604" data-locale="hk_en" data-mini-cart-api-link="{'key': 'OmEFVn9Bng88TtvvoUUmY7uUNFKz9c1c56WoLxoK', 'addItem': 'https://myhtcstore.htc.com/hk_en/rest/V1/api/minicart/add/product/', 'getCart': 'https://myhtcstore.htc.com/hk_en/rest/V1/api/minicart/', 'getProduct': 'https://customer-api2.vive.com/cache-api/v1/prodinfo', 'removeItem': 'https://myhtcstore.htc.com/hk_en/rest/V1/api/minicart/delete/product/{pid}'}" data-outer-link="" data-site-id="hk" data-store-locale="hk_en_M2_0604" data-theme-id="40383500">
+                                    HongKong
+                                </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="MAGENTO" data-countrycode="IS" data-currency="EUR" data-ec-locale="vive_eu" data-enable-json="0" data-english-country-name="Iceland" data-fiter-country="en_is_m2_0312" data-locale="vive_eu" data-mini-cart-api-link="{'key': '8wYf3jL2522rDNAQSbiKs1C7vRhiKSwS9oR69d8F', 'addItem': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/add/product/', 'getCart': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/', 'getProduct': 'https://customer-api-eu.vive.com/cache-api/v1/prodinfo', 'removeItem': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/delete/product/{pid}'}" data-outer-link="" data-site-id="eu" data-store-locale="en_is_m2_0312" data-theme-id="40354400">
+                                    Iceland
+                                </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="MAGENTO" data-countrycode="IE" data-currency="EUR" data-ec-locale="vive_ie" data-enable-json="0" data-english-country-name="Ireland" data-fiter-country="en_ie_m2_0312" data-locale="vive_ie" data-mini-cart-api-link="{'key': '8wYf3jL2522rDNAQSbiKs1C7vRhiKSwS9oR69d8F', 'addItem': 'https://myshop.vive.com/vive_ie/rest/V1/api/minicart/add/product/', 'getCart': 'https://myshop.vive.com/vive_ie/rest/V1/api/minicart/', 'getProduct': 'https://customer-api-eu.vive.com/cache-api/v1/prodinfo', 'removeItem': 'https://myshop.vive.com/vive_ie/rest/V1/api/minicart/delete/product/{pid}'}" data-outer-link="" data-site-id="eu" data-store-locale="en_ie_m2_0312" data-theme-id="40354400">
+                                    Ireland
+                                </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="MAGENTO" data-countrycode="IT" data-currency="EUR" data-ec-locale="vive_it" data-enable-json="0" data-english-country-name="Italia" data-fiter-country="it_it_m2_0312" data-locale="vive_it" data-mini-cart-api-link="{'key': '8wYf3jL2522rDNAQSbiKs1C7vRhiKSwS9oR69d8F', 'addItem': 'https://myshop.vive.com/vive_it/rest/V1/api/minicart/add/product/', 'getCart': 'https://myshop.vive.com/vive_it/rest/V1/api/minicart/', 'getProduct': 'https://customer-api-eu.vive.com/cache-api/v1/prodinfo', 'removeItem': 'https://myshop.vive.com/vive_it/rest/V1/api/minicart/delete/product/{pid}'}" data-outer-link="" data-site-id="eu" data-store-locale="it_it_m2_0312" data-theme-id="40354400">
+                                    Italia
+                                </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="MAGENTO" data-countrycode="JP" data-currency="JPY" data-ec-locale="vive_jp" data-enable-json="0" data-english-country-name="Japan" data-fiter-country="ja_jp_m2_031201" data-locale="vive_jp" data-mini-cart-api-link="{'key': '5hmTykNvjCM5CCAd05TV3W9GFMq1My84AoSwdnAd', 'addItem': 'https://myshop-apac.vive.com/vive_jp/rest/V1/api/minicart/add/product/', 'getCart': 'https://myshop-apac.vive.com/vive_jp/rest/V1/api/minicart/', 'getProduct': 'https://customer-api-au.vive.com/cache-api/v1/prodinfo', 'removeItem': 'https://myshop-apac.vive.com/vive_jp/rest/V1/api/minicart/delete/product/{pid}'}" data-outer-link="" data-site-id="jp" data-store-locale="ja_jp_m2_031201" data-theme-id="40383500">
+                                    日本
+                                </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="MAGENTO" data-countrycode="KR" data-currency="KRW" data-ec-locale="vive_kr" data-enable-json="0" data-english-country-name="Korea" data-fiter-country="ko_kr_M2_0901" data-locale="vive_kr" data-mini-cart-api-link="{'key': '5hmTykNvjCM5CCAd05TV3W9GFMq1My84AoSwdnAd', 'addItem': 'https://myshop-apac.vive.com/vive_kr/rest/V1/api/minicart/add/product/', 'getCart': 'https://myshop-apac.vive.com/vive_kr/rest/V1/api/minicart/', 'getProduct': 'https://customer-api-au.vive.com/cache-api/v1/prodinfo', 'removeItem': 'https://myshop-apac.vive.com/vive_kr/rest/V1/api/minicart/delete/product/{pid}'}" data-outer-link="" data-site-id="kr" data-store-locale="ko_kr_M2_0901" data-theme-id="40354400">
+                                    Korea
+                                </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="MAGENTO" data-countrycode="LV" data-currency="EUR" data-ec-locale="vive_eu" data-enable-json="0" data-english-country-name="Latvija" data-fiter-country="en_lv_m2_0312" data-locale="vive_eu" data-mini-cart-api-link="{'key': '8wYf3jL2522rDNAQSbiKs1C7vRhiKSwS9oR69d8F', 'addItem': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/add/product/', 'getCart': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/', 'getProduct': 'https://customer-api-eu.vive.com/cache-api/v1/prodinfo', 'removeItem': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/delete/product/{pid}'}" data-outer-link="" data-site-id="eu" data-store-locale="en_lv_m2_0312" data-theme-id="40354400">
+                                    Latvija
+                                </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="MAGENTO" data-countrycode="LT" data-currency="EUR" data-ec-locale="vive_eu" data-enable-json="0" data-english-country-name="Lietuva" data-fiter-country="en_lt_m2_0312" data-locale="vive_eu" data-mini-cart-api-link="{'key': '8wYf3jL2522rDNAQSbiKs1C7vRhiKSwS9oR69d8F', 'addItem': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/add/product/', 'getCart': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/', 'getProduct': 'https://customer-api-eu.vive.com/cache-api/v1/prodinfo', 'removeItem': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/delete/product/{pid}'}" data-outer-link="" data-site-id="eu" data-store-locale="en_lt_m2_0312" data-theme-id="40354400">
+                                    Lietuva
+                                </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="MAGENTO" data-countrycode="LU" data-currency="EUR" data-ec-locale="vive_eu" data-enable-json="0" data-english-country-name="Luxembourg" data-fiter-country="en_lu_m2_0312" data-locale="vive_eu" data-mini-cart-api-link="{'key': '8wYf3jL2522rDNAQSbiKs1C7vRhiKSwS9oR69d8F', 'addItem': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/add/product/', 'getCart': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/', 'getProduct': 'https://customer-api-eu.vive.com/cache-api/v1/prodinfo', 'removeItem': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/delete/product/{pid}'}" data-outer-link="" data-site-id="eu" data-store-locale="en_lu_m2_0312" data-theme-id="40354400">
+                                    Lëtzebuerg
+                                </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="MAGENTO" data-countrycode="MT" data-currency="EUR" data-ec-locale="vive_eu" data-enable-json="0" data-english-country-name="Malta" data-fiter-country="en_mt_m2_0312" data-locale="vive_eu" data-mini-cart-api-link="{'key': '8wYf3jL2522rDNAQSbiKs1C7vRhiKSwS9oR69d8F', 'addItem': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/add/product/', 'getCart': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/', 'getProduct': 'https://customer-api-eu.vive.com/cache-api/v1/prodinfo', 'removeItem': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/delete/product/{pid}'}" data-outer-link="" data-site-id="eu" data-store-locale="en_mt_m2_0312" data-theme-id="40354400">
+                                    Malta
+                                </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="" data-countrycode="sa" data-currency="SAR" data-ec-locale="mea_sa" data-enable-json="0" data-english-country-name="Middle East Arabic" data-fiter-country="mea_sa" data-locale="mea_sa" data-mini-cart-api-link="" data-outer-link="" data-site-id="mea-ar" data-store-locale="mea_sa" data-theme-id="">
+                                    المملكة العربية السعودية (Arabic)
+                                </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="MAGENTO" data-countrycode="NL" data-currency="EUR" data-ec-locale="vive_eu" data-enable-json="0" data-english-country-name="Nederland" data-fiter-country="en_nl_m2_0312" data-locale="vive_eu" data-mini-cart-api-link="{'key': '8wYf3jL2522rDNAQSbiKs1C7vRhiKSwS9oR69d8F', 'addItem': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/add/product/', 'getCart': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/', 'getProduct': 'https://customer-api-eu.vive.com/cache-api/v1/prodinfo', 'removeItem': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/delete/product/{pid}'}" data-outer-link="" data-site-id="eu" data-store-locale="en_nl_m2_0312" data-theme-id="40354400">
+                                    Nederland
+                                </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="" data-countrycode="NZ" data-currency="USD" data-ec-locale="en_nz" data-enable-json="0" data-english-country-name="New Zealand" data-fiter-country="en_nz_0312" data-locale="en_nz" data-mini-cart-api-link="{}" data-outer-link="" data-site-id="nz" data-store-locale="en_nz_0312" data-theme-id="40383500">
+                                    New Zealand
+                                </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="MAGENTO" data-countrycode="NO" data-currency="NOK" data-ec-locale="vive_no" data-enable-json="0" data-english-country-name="Norge" data-fiter-country="no_no_m2_0312" data-locale="vive_no" data-mini-cart-api-link="{'key': '8wYf3jL2522rDNAQSbiKs1C7vRhiKSwS9oR69d8F', 'addItem': 'https://myshop.vive.com/vive_no/rest/V1/api/minicart/add/product/', 'getCart': 'https://myshop.vive.com/vive_no/rest/V1/api/minicart/', 'getProduct': 'https://customer-api-eu.vive.com/cache-api/v1/prodinfo', 'removeItem': 'https://myshop.vive.com/vive_no/rest/V1/api/minicart/delete/product/{pid}'}" data-outer-link="" data-site-id="eu" data-store-locale="no_no_m2_0312" data-theme-id="40354400">
+                                    Norge
+                                </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="MAGENTO" data-countrycode="PL" data-currency="PLN" data-ec-locale="vive_pl" data-enable-json="0" data-english-country-name="Polska" data-fiter-country="en_pl_m2_0312" data-locale="vive_pl" data-mini-cart-api-link="{'key': '8wYf3jL2522rDNAQSbiKs1C7vRhiKSwS9oR69d8F', 'addItem': 'https://myshop.vive.com/vive_pl/rest/V1/api/minicart/add/product/', 'getCart': 'https://myshop.vive.com/vive_pl/rest/V1/api/minicart/', 'getProduct': 'https://customer-api-eu.vive.com/cache-api/v1/prodinfo', 'removeItem': 'https://myshop.vive.com/vive_pl/rest/V1/api/minicart/delete/product/{pid}'}" data-outer-link="" data-site-id="eu" data-store-locale="en_pl_m2_0312" data-theme-id="40354400">
+                                    Polska
+                                </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="MAGENTO" data-countrycode="PT" data-currency="EUR" data-ec-locale="vive_eu" data-enable-json="0" data-english-country-name="Portugal" data-fiter-country="en_pt_m2_0312" data-locale="vive_eu" data-mini-cart-api-link="{'key': '8wYf3jL2522rDNAQSbiKs1C7vRhiKSwS9oR69d8F', 'addItem': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/add/product/', 'getCart': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/', 'getProduct': 'https://customer-api-eu.vive.com/cache-api/v1/prodinfo', 'removeItem': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/delete/product/{pid}'}" data-outer-link="" data-site-id="eu" data-store-locale="en_pt_m2_0312" data-theme-id="40354400">
+                                    Portugal
+                                </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="" data-countrycode="RU" data-currency="RUB" data-ec-locale="ru" data-enable-json="0" data-english-country-name="Russia" data-fiter-country="ru_ru" data-locale="ru" data-mini-cart-api-link="{}" data-outer-link="" data-site-id="cis" data-store-locale="ru_ru" data-theme-id="">
+                                    Russia
+                                </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="" data-countrycode="MEA-EN" data-currency="UAE" data-ec-locale="mea_en" data-enable-json="0" data-english-country-name="Saudi Arabia" data-fiter-country="mea_en_v8" data-locale="mea_en" data-mini-cart-api-link="" data-outer-link="" data-site-id="mea-en" data-store-locale="mea_en_v8" data-theme-id="">
+                                    Saudi Arabia
+                                </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="" data-countrycode="SEA" data-currency="USD" data-ec-locale="en_sea" data-enable-json="0" data-english-country-name="Southeast Asia" data-fiter-country="en_sea_031201" data-locale="en_sea" data-mini-cart-api-link="{}" data-outer-link="" data-site-id="sea" data-store-locale="en_sea_031201" data-theme-id="40354400">
+                                    Southeast Asia
+                                </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="MAGENTO" data-countrycode="ES" data-currency="EUR" data-ec-locale="vive_es" data-enable-json="0" data-english-country-name="Spain" data-fiter-country="es_es_m2_0319" data-locale="vive_es" data-mini-cart-api-link="{'key': '8wYf3jL2522rDNAQSbiKs1C7vRhiKSwS9oR69d8F', 'addItem': 'https://myshop.vive.com/vive_es/rest/V1/api/minicart/add/product/', 'getCart': 'https://myshop.vive.com/vive_es/rest/V1/api/minicart/', 'getProduct': 'https://customer-api-eu.vive.com/cache-api/v1/prodinfo', 'removeItem': 'https://myshop.vive.com/vive_es/rest/V1/api/minicart/delete/product/{pid}'}" data-outer-link="" data-site-id="eu" data-store-locale="es_es_m2_0319" data-theme-id="40354400">
+                                    España
+                                </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="MAGENTO" data-countrycode="CH" data-currency="CHF" data-ec-locale="vive_ch" data-enable-json="0" data-english-country-name="Suisse" data-fiter-country="de_ch_m2_0312" data-locale="vive_ch" data-mini-cart-api-link="{'key': '8wYf3jL2522rDNAQSbiKs1C7vRhiKSwS9oR69d8F', 'addItem': 'https://myshop.vive.com/vive_ch/rest/V1/api/minicart/add/product/', 'getCart': 'https://myshop.vive.com/vive_ch/rest/V1/api/minicart/', 'getProduct': 'https://customer-api-eu.vive.com/cache-api/v1/prodinfo', 'removeItem': 'https://myshop.vive.com/vive_ch/rest/V1/api/minicart/delete/product/{pid}'}" data-outer-link="" data-site-id="eu" data-store-locale="de_ch_m2_0312" data-theme-id="40354400">
+                                    Suisse
+                                </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="MAGENTO" data-countrycode="FI" data-currency="EUR" data-ec-locale="vive_eu" data-enable-json="0" data-english-country-name="Suomi" data-fiter-country="en_fi_m2_0312" data-locale="vive_eu" data-mini-cart-api-link="{'key': '8wYf3jL2522rDNAQSbiKs1C7vRhiKSwS9oR69d8F', 'addItem': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/add/product/', 'getCart': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/', 'getProduct': 'https://customer-api-eu.vive.com/cache-api/v1/prodinfo', 'removeItem': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/delete/product/{pid}'}" data-outer-link="" data-site-id="eu" data-store-locale="en_fi_m2_0312" data-theme-id="40354400">
+                                    Suomi
+                                </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="MAGENTO" data-countrycode="SE" data-currency="SEK" data-ec-locale="vive_se" data-enable-json="0" data-english-country-name="Sverige" data-fiter-country="en_se_m2_0312" data-locale="vive_se" data-mini-cart-api-link="{'key': '8wYf3jL2522rDNAQSbiKs1C7vRhiKSwS9oR69d8F', 'addItem': 'https://myshop.vive.com/vive_se/rest/V1/api/minicart/add/product/', 'getCart': 'https://myshop.vive.com/vive_se/rest/V1/api/minicart/', 'getProduct': 'https://customer-api-eu.vive.com/cache-api/v1/prodinfo', 'removeItem': 'https://myshop.vive.com/vive_se/rest/V1/api/minicart/delete/product/{pid}'}" data-outer-link="" data-site-id="eu" data-store-locale="en_se_m2_0312" data-theme-id="40354400">
+                                    Sverige
+                                </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="MAGENTO" data-countrycode="TW" data-currency="TWD" data-ec-locale="vive_tw" data-enable-json="0" data-english-country-name="Taiwan" data-fiter-country="zh_tw_M2_0312" data-locale="vive_tw" data-mini-cart-api-link="{'key': 'OmEFVn9Bng88TtvvoUUmY7uUNFKz9c1c56WoLxoK', 'addItem': 'https://myhtcstore.vive.com/vive_tw/rest/V1/api/minicart/add/product/', 'getCart': 'https://myhtcstore.vive.com/vive_tw/rest/V1/api/minicart/', 'getProduct': 'https://customer-api2.vive.com/cache-api/v1/prodinfo', 'removeItem': 'https://myhtcstore.vive.com/vive_tw/rest/V1/api/minicart/delete/product/{pid}'}" data-outer-link="" data-site-id="tw" data-store-locale="zh_tw_M2_0312" data-theme-id="123456789">
+                                    台灣
+                                </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="" data-countrycode="ua" data-currency="UAH" data-ec-locale="ua" data-enable-json="0" data-english-country-name="Ukraine" data-fiter-country="uk" data-locale="ua" data-mini-cart-api-link="{}" data-outer-link="" data-site-id="ua" data-store-locale="uk" data-theme-id="">
+                                    Ukraine
+                                </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="MAGENTO" data-countrycode="GB" data-currency="GBP" data-ec-locale="vive_uk" data-enable-json="0" data-english-country-name="United Kingdom" data-fiter-country="en_gb_m2_0312" data-locale="vive_uk" data-mini-cart-api-link="{'key': '8wYf3jL2522rDNAQSbiKs1C7vRhiKSwS9oR69d8F', 'addItem': 'https://myshop.vive.com/vive_uk/rest/V1/api/minicart/add/product/', 'getCart': 'https://myshop.vive.com/vive_uk/rest/V1/api/minicart/', 'getProduct': 'https://customer-api-eu.vive.com/cache-api/v1/prodinfo', 'removeItem': 'https://myshop.vive.com/vive_uk/rest/V1/api/minicart/delete/product/{pid}'}" data-outer-link="" data-site-id="uk" data-store-locale="en_gb_m2_0312" data-theme-id="40354400">
+                                    United Kingdom
+                                </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="SHOPIFY" data-countrycode="US_S1_V5" data-currency="USD" data-ec-locale="vive_us" data-enable-json="0" data-english-country-name="United States" data-fiter-country="en_us_s1_v5" data-locale="vive_us" data-mini-cart-api-link="{'key': '3db903952988a3ec38e7d7574e18efbb', 'addItem': '', 'getCart': 'https://shop-us.vive.com/api/2025-04/graphql.json', 'getProduct': 'https://shop-us.vive.com/api/2025-04/graphql.json', 'removeItem': ''}" data-outer-link="" data-site-id="us" data-store-locale="en_us_s1_v5" data-theme-id="">
+                                    United States
+                                </span>
+</div>
+<div class="flex-item buffer-item">
+</div>
+<div class="flex-item buffer-item">
+</div>
+<div class="flex-item buffer-item">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jqmWindow vive-modal ec-select-country eu-select-country-shop">
+<div class="centered">
+<a class="jqmClose" href="#"></a>
+<div class="content-block">
+<div class="contry-list-block">
+<div class="earth-icon"></div>
+<div class="select-your-country">
+<div class="h2 mb-4">Please Select Your Location</div>
+</div>
+<div class="country-list">
+<div class="flex-item">
+<span data-cart-provider-type="MAGENTO" data-countrycode="" data-currency="EUR" data-ec-locale="vive_eu" data-enable-json="0" data-english-country-name="Belgium" data-fiter-country="en_be_m2_0312" data-locale="vive_eu" data-mini-cart-api-link="{'key': '8wYf3jL2522rDNAQSbiKs1C7vRhiKSwS9oR69d8F', 'addItem': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/add/product/', 'getCart': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/', 'getProduct': 'https://customer-api-eu.vive.com/cache-api/v1/prodinfo', 'removeItem': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/delete/product/{pid}'}" data-outer-link="" data-site-id="eu" data-store-locale="en_be_m2_0312" data-theme-id="40354400">
+                                    België
+                            </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="MAGENTO" data-countrycode="" data-currency="EUR" data-ec-locale="vive_eu" data-enable-json="0" data-english-country-name="Czech Republic" data-fiter-country="en_cz_m2_0312" data-locale="vive_eu" data-mini-cart-api-link="{'key': '8wYf3jL2522rDNAQSbiKs1C7vRhiKSwS9oR69d8F', 'addItem': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/add/product/', 'getCart': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/', 'getProduct': 'https://customer-api-eu.vive.com/cache-api/v1/prodinfo', 'removeItem': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/delete/product/{pid}'}" data-outer-link="" data-site-id="eu" data-store-locale="en_cz_m2_0312" data-theme-id="40354400">
+                                    Česká republika
+                            </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="MAGENTO" data-countrycode="" data-currency="DKK" data-ec-locale="vive_dk" data-enable-json="0" data-english-country-name="Denmark" data-fiter-country="en_dk_m2_0312" data-locale="vive_dk" data-mini-cart-api-link="{'key': '8wYf3jL2522rDNAQSbiKs1C7vRhiKSwS9oR69d8F', 'addItem': 'https://myshop.vive.com/vive_dk/rest/V1/api/minicart/add/product/', 'getCart': 'https://myshop.vive.com/vive_dk/rest/V1/api/minicart/', 'getProduct': 'https://customer-api-eu.vive.com/cache-api/v1/prodinfo', 'removeItem': 'https://myshop.vive.com/vive_dk/rest/V1/api/minicart/delete/product/{pid}'}" data-outer-link="" data-site-id="eu" data-store-locale="en_dk_m2_0312" data-theme-id="40354400">
+                                    Denmark
+                            </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="MAGENTO" data-countrycode="" data-currency="EUR" data-ec-locale="vive_eu" data-enable-json="0" data-english-country-name="Iceland" data-fiter-country="en_is_m2_0312" data-locale="vive_eu" data-mini-cart-api-link="{'key': '8wYf3jL2522rDNAQSbiKs1C7vRhiKSwS9oR69d8F', 'addItem': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/add/product/', 'getCart': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/', 'getProduct': 'https://customer-api-eu.vive.com/cache-api/v1/prodinfo', 'removeItem': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/delete/product/{pid}'}" data-outer-link="" data-site-id="eu" data-store-locale="en_is_m2_0312" data-theme-id="40354400">
+                                    Iceland
+                            </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="MAGENTO" data-countrycode="" data-currency="EUR" data-ec-locale="vive_ie" data-enable-json="0" data-english-country-name="Ireland" data-fiter-country="en_ie_m2_0312" data-locale="vive_ie" data-mini-cart-api-link="{'key': '8wYf3jL2522rDNAQSbiKs1C7vRhiKSwS9oR69d8F', 'addItem': 'https://myshop.vive.com/vive_ie/rest/V1/api/minicart/add/product/', 'getCart': 'https://myshop.vive.com/vive_ie/rest/V1/api/minicart/', 'getProduct': 'https://customer-api-eu.vive.com/cache-api/v1/prodinfo', 'removeItem': 'https://myshop.vive.com/vive_ie/rest/V1/api/minicart/delete/product/{pid}'}" data-outer-link="" data-site-id="eu" data-store-locale="en_ie_m2_0312" data-theme-id="40354400">
+                                    Ireland
+                            </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="MAGENTO" data-countrycode="" data-currency="EUR" data-ec-locale="vive_it" data-enable-json="0" data-english-country-name="Italia" data-fiter-country="it_it_m2_0312" data-locale="vive_it" data-mini-cart-api-link="{'key': '8wYf3jL2522rDNAQSbiKs1C7vRhiKSwS9oR69d8F', 'addItem': 'https://myshop.vive.com/vive_it/rest/V1/api/minicart/add/product/', 'getCart': 'https://myshop.vive.com/vive_it/rest/V1/api/minicart/', 'getProduct': 'https://customer-api-eu.vive.com/cache-api/v1/prodinfo', 'removeItem': 'https://myshop.vive.com/vive_it/rest/V1/api/minicart/delete/product/{pid}'}" data-outer-link="" data-site-id="eu" data-store-locale="it_it_m2_0312" data-theme-id="40354400">
+                                    Italia
+                            </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="MAGENTO" data-countrycode="" data-currency="EUR" data-ec-locale="vive_eu" data-enable-json="0" data-english-country-name="Latvija" data-fiter-country="en_lv_m2_0312" data-locale="vive_eu" data-mini-cart-api-link="{'key': '8wYf3jL2522rDNAQSbiKs1C7vRhiKSwS9oR69d8F', 'addItem': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/add/product/', 'getCart': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/', 'getProduct': 'https://customer-api-eu.vive.com/cache-api/v1/prodinfo', 'removeItem': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/delete/product/{pid}'}" data-outer-link="" data-site-id="eu" data-store-locale="en_lv_m2_0312" data-theme-id="40354400">
+                                    Latvija
+                            </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="MAGENTO" data-countrycode="" data-currency="EUR" data-ec-locale="vive_eu" data-enable-json="0" data-english-country-name="Lietuva" data-fiter-country="en_lt_m2_0312" data-locale="vive_eu" data-mini-cart-api-link="{'key': '8wYf3jL2522rDNAQSbiKs1C7vRhiKSwS9oR69d8F', 'addItem': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/add/product/', 'getCart': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/', 'getProduct': 'https://customer-api-eu.vive.com/cache-api/v1/prodinfo', 'removeItem': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/delete/product/{pid}'}" data-outer-link="" data-site-id="eu" data-store-locale="en_lt_m2_0312" data-theme-id="40354400">
+                                    Lietuva
+                            </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="MAGENTO" data-countrycode="" data-currency="EUR" data-ec-locale="vive_eu" data-enable-json="0" data-english-country-name="Luxembourg" data-fiter-country="en_lu_m2_0312" data-locale="vive_eu" data-mini-cart-api-link="{'key': '8wYf3jL2522rDNAQSbiKs1C7vRhiKSwS9oR69d8F', 'addItem': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/add/product/', 'getCart': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/', 'getProduct': 'https://customer-api-eu.vive.com/cache-api/v1/prodinfo', 'removeItem': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/delete/product/{pid}'}" data-outer-link="" data-site-id="eu" data-store-locale="en_lu_m2_0312" data-theme-id="40354400">
+                                    Lëtzebuerg
+                            </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="MAGENTO" data-countrycode="" data-currency="EUR" data-ec-locale="vive_eu" data-enable-json="0" data-english-country-name="Malta" data-fiter-country="en_mt_m2_0312" data-locale="vive_eu" data-mini-cart-api-link="{'key': '8wYf3jL2522rDNAQSbiKs1C7vRhiKSwS9oR69d8F', 'addItem': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/add/product/', 'getCart': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/', 'getProduct': 'https://customer-api-eu.vive.com/cache-api/v1/prodinfo', 'removeItem': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/delete/product/{pid}'}" data-outer-link="" data-site-id="eu" data-store-locale="en_mt_m2_0312" data-theme-id="40354400">
+                                    Malta
+                            </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="MAGENTO" data-countrycode="" data-currency="EUR" data-ec-locale="vive_eu" data-enable-json="0" data-english-country-name="Nederland" data-fiter-country="en_nl_m2_0312" data-locale="vive_eu" data-mini-cart-api-link="{'key': '8wYf3jL2522rDNAQSbiKs1C7vRhiKSwS9oR69d8F', 'addItem': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/add/product/', 'getCart': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/', 'getProduct': 'https://customer-api-eu.vive.com/cache-api/v1/prodinfo', 'removeItem': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/delete/product/{pid}'}" data-outer-link="" data-site-id="eu" data-store-locale="en_nl_m2_0312" data-theme-id="40354400">
+                                    Nederland
+                            </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="MAGENTO" data-countrycode="" data-currency="NOK" data-ec-locale="vive_no" data-enable-json="0" data-english-country-name="Norge" data-fiter-country="no_no_m2_0312" data-locale="vive_no" data-mini-cart-api-link="{'key': '8wYf3jL2522rDNAQSbiKs1C7vRhiKSwS9oR69d8F', 'addItem': 'https://myshop.vive.com/vive_no/rest/V1/api/minicart/add/product/', 'getCart': 'https://myshop.vive.com/vive_no/rest/V1/api/minicart/', 'getProduct': 'https://customer-api-eu.vive.com/cache-api/v1/prodinfo', 'removeItem': 'https://myshop.vive.com/vive_no/rest/V1/api/minicart/delete/product/{pid}'}" data-outer-link="" data-site-id="eu" data-store-locale="no_no_m2_0312" data-theme-id="40354400">
+                                    Norge
+                            </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="MAGENTO" data-countrycode="" data-currency="PLN" data-ec-locale="vive_pl" data-enable-json="0" data-english-country-name="Polska" data-fiter-country="en_pl_m2_0312" data-locale="vive_pl" data-mini-cart-api-link="{'key': '8wYf3jL2522rDNAQSbiKs1C7vRhiKSwS9oR69d8F', 'addItem': 'https://myshop.vive.com/vive_pl/rest/V1/api/minicart/add/product/', 'getCart': 'https://myshop.vive.com/vive_pl/rest/V1/api/minicart/', 'getProduct': 'https://customer-api-eu.vive.com/cache-api/v1/prodinfo', 'removeItem': 'https://myshop.vive.com/vive_pl/rest/V1/api/minicart/delete/product/{pid}'}" data-outer-link="" data-site-id="eu" data-store-locale="en_pl_m2_0312" data-theme-id="40354400">
+                                    Polska
+                            </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="MAGENTO" data-countrycode="" data-currency="EUR" data-ec-locale="vive_eu" data-enable-json="0" data-english-country-name="Portugal" data-fiter-country="en_pt_m2_0312" data-locale="vive_eu" data-mini-cart-api-link="{'key': '8wYf3jL2522rDNAQSbiKs1C7vRhiKSwS9oR69d8F', 'addItem': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/add/product/', 'getCart': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/', 'getProduct': 'https://customer-api-eu.vive.com/cache-api/v1/prodinfo', 'removeItem': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/delete/product/{pid}'}" data-outer-link="" data-site-id="eu" data-store-locale="en_pt_m2_0312" data-theme-id="40354400">
+                                    Portugal
+                            </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="MAGENTO" data-countrycode="" data-currency="EUR" data-ec-locale="vive_es" data-enable-json="0" data-english-country-name="Spain" data-fiter-country="es_es_m2_0319" data-locale="vive_es" data-mini-cart-api-link="{'key': '8wYf3jL2522rDNAQSbiKs1C7vRhiKSwS9oR69d8F', 'addItem': 'https://myshop.vive.com/vive_es/rest/V1/api/minicart/add/product/', 'getCart': 'https://myshop.vive.com/vive_es/rest/V1/api/minicart/', 'getProduct': 'https://customer-api-eu.vive.com/cache-api/v1/prodinfo', 'removeItem': 'https://myshop.vive.com/vive_es/rest/V1/api/minicart/delete/product/{pid}'}" data-outer-link="" data-site-id="eu" data-store-locale="es_es_m2_0319" data-theme-id="40354400">
+                                    España
+                            </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="MAGENTO" data-countrycode="" data-currency="CHF" data-ec-locale="vive_ch" data-enable-json="0" data-english-country-name="Suisse" data-fiter-country="de_ch_m2_0312" data-locale="vive_ch" data-mini-cart-api-link="{'key': '8wYf3jL2522rDNAQSbiKs1C7vRhiKSwS9oR69d8F', 'addItem': 'https://myshop.vive.com/vive_ch/rest/V1/api/minicart/add/product/', 'getCart': 'https://myshop.vive.com/vive_ch/rest/V1/api/minicart/', 'getProduct': 'https://customer-api-eu.vive.com/cache-api/v1/prodinfo', 'removeItem': 'https://myshop.vive.com/vive_ch/rest/V1/api/minicart/delete/product/{pid}'}" data-outer-link="" data-site-id="eu" data-store-locale="de_ch_m2_0312" data-theme-id="40354400">
+                                    Suisse
+                            </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="MAGENTO" data-countrycode="" data-currency="EUR" data-ec-locale="vive_eu" data-enable-json="0" data-english-country-name="Suomi" data-fiter-country="en_fi_m2_0312" data-locale="vive_eu" data-mini-cart-api-link="{'key': '8wYf3jL2522rDNAQSbiKs1C7vRhiKSwS9oR69d8F', 'addItem': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/add/product/', 'getCart': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/', 'getProduct': 'https://customer-api-eu.vive.com/cache-api/v1/prodinfo', 'removeItem': 'https://myshop.vive.com/vive_eu/rest/V1/api/minicart/delete/product/{pid}'}" data-outer-link="" data-site-id="eu" data-store-locale="en_fi_m2_0312" data-theme-id="40354400">
+                                    Suomi
+                            </span>
+</div>
+<div class="flex-item">
+<span data-cart-provider-type="MAGENTO" data-countrycode="" data-currency="SEK" data-ec-locale="vive_se" data-enable-json="0" data-english-country-name="Sverige" data-fiter-country="en_se_m2_0312" data-locale="vive_se" data-mini-cart-api-link="{'key': '8wYf3jL2522rDNAQSbiKs1C7vRhiKSwS9oR69d8F', 'addItem': 'https://myshop.vive.com/vive_se/rest/V1/api/minicart/add/product/', 'getCart': 'https://myshop.vive.com/vive_se/rest/V1/api/minicart/', 'getProduct': 'https://customer-api-eu.vive.com/cache-api/v1/prodinfo', 'removeItem': 'https://myshop.vive.com/vive_se/rest/V1/api/minicart/delete/product/{pid}'}" data-outer-link="" data-site-id="eu" data-store-locale="en_se_m2_0312" data-theme-id="40354400">
+                                    Sverige
+                            </span>
+</div>
+<div class="flex-item buffer-item">
+</div>
+<div class="flex-item buffer-item">
+</div>
+<div class="flex-item buffer-item">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</header>
+
+<div class="main">
+    <div class="blog-main-layout">
+        <!-- Cột bên trái: Danh mục Chủ đề -->
+        <div class="sidebar-tags-col">
+            <div class="sidebar-tags-title">Chủ đề</div>
+            <div class="sidebar-tags-list">
+                
+    <div class="sidebar-tag-item">
+        <button type="button" class="sidebar-tag-btn active-tag" onclick="filterBlogCategory('all', this)">
+            Tất cả
+        </button>
+    </div>
+    
+
+    <div class="sidebar-tag-item">
+        <button type="button" class="sidebar-tag-btn " onclick="filterBlogCategory('Tin tức doanh nghiệp', this)">
+            Tin tức doanh nghiệp
+        </button>
+    </div>
+    
+
+    <div class="sidebar-tag-item">
+        <button type="button" class="sidebar-tag-btn " onclick="filterBlogCategory('Thông báo sản phẩm', this)">
+            Thông báo sản phẩm
+        </button>
+    </div>
+    
+
+    <div class="sidebar-tag-item">
+        <button type="button" class="sidebar-tag-btn " onclick="filterBlogCategory('Kính thực tế ảo', this)">
+            Kính thực tế ảo
+        </button>
+    </div>
+    
+
+    <div class="sidebar-tag-item">
+        <button type="button" class="sidebar-tag-btn " onclick="filterBlogCategory('Vũ trụ ảo (Metaverse)', this)">
+            Vũ trụ ảo (Metaverse)
+        </button>
+    </div>
+    
+
+    <div class="sidebar-tag-item">
+        <button type="button" class="sidebar-tag-btn " onclick="filterBlogCategory('Thực tế mở rộng (XR)', this)">
+            Thực tế mở rộng (XR)
+        </button>
+    </div>
+    
+
+    <div class="sidebar-tag-item">
+        <button type="button" class="sidebar-tag-btn " onclick="filterBlogCategory('Trí tuệ nhân tạo (AI)', this)">
+            Trí tuệ nhân tạo (AI)
+        </button>
+    </div>
+    
+
+    <div class="sidebar-tag-item">
+        <button type="button" class="sidebar-tag-btn " onclick="filterBlogCategory('Sự kiện & Tin nổi bật', this)">
+            Sự kiện & Tin nổi bật
+        </button>
+    </div>
+    
+
+    <div class="sidebar-tag-item">
+        <button type="button" class="sidebar-tag-btn " onclick="filterBlogCategory('Giải pháp doanh nghiệp', this)">
+            Giải pháp doanh nghiệp
+        </button>
+    </div>
+    
+
+    <div class="sidebar-tag-item">
+        <button type="button" class="sidebar-tag-btn " onclick="filterBlogCategory('Trò chơi & Ứng dụng', this)">
+            Trò chơi & Ứng dụng
+        </button>
+    </div>
+    
+            </div>
+        </div>
+
+        <!-- Cột bên phải: Bài viết nổi bật & Lưới bài viết -->
+        <div class="blog-content-col">
+            <div id="featured-article-area"></div>
+            <div class="posts-grid" id="grid-articles-area"></div>
+        </div>
+    </div>
+</div>
+
+<footer class="footer">
+<div class="marketo-form-pop-up-section">
+<div id="chatbot-root"></div>
+<div data-legal="https://www.htc.com/us/terms/privacy/" data-privacy="https://dl.vive.com/EULA/unified_eula_20230721_eng.pdf" data-vhost="www" id="marketo-form"></div>
+</div>
+<div class="nav20-cookie-notice-block" id="vive-cookie-notice">
+<div class="nav20-cookie-notice-bg"></div>
+<div class="nav20-cookie-notice-content">
+<div class="nav20-cookie-notice-left">This site uses cookies to optimize website functionality, analyze website performance, and provide personalized experience and advertisement. You can accept our cookies by clicking on the button below or manage your preference on Cookie Preferences. You can also find more information about our <a class="text-vive" href="https://www.htc.com/us/terms/cookies/" target="_blank">Cookie Policy</a> here.</div>
+<div class="nav20-cookie-notice-right">
+<div aria-label="Accept" class="vive20-btn close-button" id="close-button">Accept</div>
+<a aria-label="Cookie preferences" class="settings-button vive20-get-detail vive20-get-detail--white" href="/us/cookie-preferences/" id="btn-cookie-preferences">Cookie preferences</a>
+</div>
+</div>
+</div>
+<div class="nav20-main-footer">
+<div class="nav20-footer-top-content">
+<div class="nav20-footer-link-1-item">
+<div class="nav20-footer-link-1 nav20-txt-footer-title">
+<span>Shop</span>
+</div>
+<div class="nav20-footer-link-2-content">
+<div class="nav20-link-2-item nav20-txt-footer-item">
+<a class="nav20-link-2 nav20-txt-footer-item" href="/us/product/" rel="" target="_self">
+<span>All products</span>
+</a>
+</div>
+<div class="nav20-link-2-item nav20-txt-footer-item">
+<a class="nav20-link-2 nav20-txt-footer-item" href="/tw/product/vive-eagle/overview/" rel="" target="_self">
+<span>VIVE Eagle</span>
+</a>
+</div>
+<div class="nav20-link-2-item nav20-txt-footer-item">
+<a class="nav20-link-2 nav20-txt-footer-item" href="/us/product/vive-xr-elite/overview/" rel="" target="_self">
+<span>VIVE XR Elite</span>
+</a>
+</div>
+<div class="nav20-link-2-item nav20-txt-footer-item">
+<a class="nav20-link-2 nav20-txt-footer-item" href="/us/product/vive-flow/overview" rel="" target="_self">
+<span>VIVE Flow</span>
+</a>
+</div>
+<div class="nav20-link-2-item nav20-txt-footer-item">
+<a class="nav20-link-2 nav20-txt-footer-item" href="/us/product/#focus%20series" rel="" target="_self">
+<span>Focus series</span>
+</a>
+</div>
+<div class="nav20-link-2-item nav20-txt-footer-item">
+<a class="nav20-link-2 nav20-txt-footer-item" href="/us/product/#pro%20series" rel="" target="_self">
+<span>Pro series</span>
+</a>
+</div>
+<div class="nav20-link-2-item nav20-txt-footer-item">
+<a class="nav20-link-2 nav20-txt-footer-item" href="/us/product/comparison/" rel="" target="_self">
+<span>Compare products</span>
+</a>
+</div>
+<div class="nav20-link-2-item nav20-txt-footer-item">
+<a class="nav20-link-2 nav20-txt-footer-item" href="/us/accessory/" rel="" target="_self">
+<span>Accessories</span>
+</a>
+</div>
+<div class="nav20-link-2-item nav20-txt-footer-item">
+<a class="nav20-link-2 nav20-txt-footer-item" href="//www.vive.com/us/ready/" rel="" target="_self">
+<span>VIVE ready</span>
+</a>
+</div>
+<div class="nav20-link-2-item nav20-txt-footer-item">
+<a class="nav20-link-2 nav20-txt-footer-item" href="https://www.vive.com/us/rental/" rel="" target="_self">
+<span>Rental</span>
+</a>
+</div>
+<div class="nav20-link-2-item nav20-txt-footer-item">
+<a class="nav20-link-2 nav20-txt-footer-item" href="https://shop-us.vive.com/pages/faq" rel="noreferrer noopener" target="_blank">
+<span>Order Help</span>
+</a>
+</div>
+</div>
+</div>
+<div class="nav20-footer-link-1-item">
+<div class="nav20-footer-link-1 nav20-txt-footer-title">
+<span>For business</span>
+</div>
+<div class="nav20-footer-link-2-content">
+<div class="nav20-link-2-item nav20-txt-footer-item">
+<a class="nav20-link-2 nav20-txt-footer-item" href="//business.vive.com/us/" rel="noreferrer noopener" target="_blank">
+<span>Solutions</span>
+</a>
+</div>
+<div class="nav20-link-2-item nav20-txt-footer-item">
+<a class="nav20-link-2 nav20-txt-footer-item" href="//business.vive.com/isv/program/" rel="noreferrer noopener" target="_blank">
+<span>ISV partners</span>
+</a>
+</div>
+<div class="nav20-link-2-item nav20-txt-footer-item">
+<a class="nav20-link-2 nav20-txt-footer-item" href="//business.vive.com/us/stories/" rel="noreferrer noopener" target="_blank">
+<span>Stories</span>
+</a>
+</div>
+</div>
+</div>
+<div class="nav20-footer-link-1-item">
+<div class="nav20-footer-link-1 nav20-txt-footer-title">
+<span>For developer</span>
+</div>
+<div class="nav20-footer-link-2-content">
+<div class="nav20-link-2-item nav20-txt-footer-item">
+<a class="nav20-link-2 nav20-txt-footer-item" href="https://developer.vive.com/resources/" rel="" target="_self">
+<span>Resources</span>
+</a>
+</div>
+<div class="nav20-link-2-item nav20-txt-footer-item">
+<a class="nav20-link-2 nav20-txt-footer-item" href="https://developer.vive.com/resources/downloads/" rel="" target="_self">
+<span>Download SDKs</span>
+</a>
+</div>
+</div>
+</div>
+<div class="nav20-footer-link-1-item">
+<div class="nav20-footer-link-1 nav20-txt-footer-title">
+<span>Support</span>
+</div>
+<div class="nav20-footer-link-2-content">
+<div class="nav20-link-2-item nav20-txt-footer-item">
+<a class="nav20-link-2 nav20-txt-footer-item" href="/us/support/" rel="" target="_self">
+<span>Product support</span>
+</a>
+</div>
+<div class="nav20-link-2-item nav20-txt-footer-item">
+<a class="nav20-link-2 nav20-txt-footer-item" href="https://contact.vive.com/hc/en-us" rel="noreferrer noopener" target="_blank">
+<span>Contact us</span>
+</a>
+</div>
+<div class="nav20-link-2-item nav20-txt-footer-item">
+<a class="nav20-link-2 nav20-txt-footer-item" href="//www.vive.com/us/setup/" rel="" target="_self">
+<span>Setup | Download</span>
+</a>
+</div>
+<div class="nav20-link-2-item nav20-txt-footer-item">
+<a class="nav20-link-2 nav20-txt-footer-item" href="//www.vive.com/release-notes/" rel="noreferrer noopener" target="_blank">
+<span>Release Notes</span>
+</a>
+</div>
+<div class="nav20-link-2-item nav20-txt-footer-item">
+<a class="nav20-link-2 nav20-txt-footer-item" href="//www.vive.com/us/warranty/" rel="" target="_self">
+<span>Warranty</span>
+</a>
+</div>
+<div class="nav20-link-2-item nav20-txt-footer-item">
+<a class="nav20-link-2 nav20-txt-footer-item" href="https://www.htc.com/us/terms/do-not-sell-or-share-my-personal-information/" rel="noreferrer noopener" target="_blank">
+<span>Do Not Sell or Share My Personal Information / Limit the Use of My Sensitive Personal Information</span>
+</a>
+</div>
+</div>
+</div>
+<div class="nav20-footer-link-1-item">
+<div class="nav20-footer-link-1 nav20-txt-footer-title">
+<span>More VIVE</span>
+</div>
+<div class="nav20-footer-link-2-content">
+<div class="nav20-link-2-item nav20-txt-footer-item">
+<a class="nav20-link-2 nav20-txt-footer-item" href="//www.vive.com/us/newsroom/" rel="" target="_self">
+<span>Press room</span>
+</a>
+</div>
+<div class="nav20-link-2-item nav20-txt-footer-item">
+<a class="nav20-link-2 nav20-txt-footer-item" href="//blog.vive.com/us/" rel="" target="_self">
+<span>Blog</span>
+</a>
+</div>
+<div class="nav20-link-2-item nav20-txt-footer-item">
+<a class="nav20-link-2 nav20-txt-footer-item" href="//www.viveport.com/" rel="noreferrer noopener" target="_blank">
+<span>Viveport ↗</span>
+</a>
+</div>
+<div class="nav20-link-2-item nav20-txt-footer-item">
+<a class="nav20-link-2 nav20-txt-footer-item" href="https://arts.vive.com/us/" rel="noreferrer noopener" target="_blank">
+<span>VIVE Arts ↗</span>
+</a>
+</div>
+<div class="nav20-link-2-item nav20-txt-footer-item">
+<a class="nav20-link-2 nav20-txt-footer-item" href="https://mars.vive.com" rel="noreferrer noopener" target="_blank">
+<span>VIVE Mars</span>
+</a>
+</div>
+<div class="nav20-link-2-item nav20-txt-footer-item">
+<a class="nav20-link-2 nav20-txt-footer-item" href="//sync.vive.com" rel="" target="_self">
+<span>VIVE Sync</span>
+</a>
+</div>
+<div class="nav20-link-2-item nav20-txt-footer-item">
+<a class="nav20-link-2 nav20-txt-footer-item" href="//vivex.vive.com/us/" rel="" target="_self">
+<span>VIVE X</span>
+</a>
+</div>
+<div class="nav20-link-2-item nav20-txt-footer-item">
+<a class="nav20-link-2 nav20-txt-footer-item" href="https://vr4impact.com/" rel="noreferrer noopener" target="_blank">
+<span>VR for Impact ↗</span>
+</a>
+</div>
+<div class="nav20-link-2-item nav20-txt-footer-item">
+<a class="nav20-link-2 nav20-txt-footer-item" href="//www.vive.com/us/7-miracles/" rel="" target="_self">
+<span>Media</span>
+</a>
+</div>
+<div class="nav20-link-2-item nav20-txt-footer-item">
+<a class="nav20-link-2 nav20-txt-footer-item" href="https://www.htc.com/us/terms/privacy/" rel="" target="_self">
+<span>Privacy policy</span>
+</a>
+</div>
+<div class="nav20-link-2-item nav20-txt-footer-item">
+<a class="nav20-link-2 nav20-txt-footer-item" href="https://dl.htc.com/report_materials/htc_security_and_privacy_whitepaper.pdf" rel="" target="_self">
+<span>Security and Privacy Whitepaper</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="nav20-footer-bottom-content">
+<div class="nav20-footer-social-location">
+<div class="region-selector">
+<div class="nav20-footer-language nav20-txt-footer-link">
+<label class="nav20-footer-language-label" for="language">
+                        Location
+                        <div class="nav20-footer-i-triangle"></div>
+<select id="language" name="language">
+<option data-short="kr" value="kr">
+                                    한국
+                                </option>
+<option data-short="au" value="au">
+                                    Australia
+                                </option>
+<option data-short="ca" value="ca">
+                                    Canada - En
+                                </option>
+<option data-short="ca-fr" value="ca-fr">
+                                    Canada - Français
+                                </option>
+<option data-short="de" value="de">
+                                    Deutschland
+                                </option>
+<option data-short="eu" value="eu">
+                                    European Union
+                                </option>
+<option data-short="fr" value="fr">
+                                    France
+                                </option>
+<option data-short="hk" value="hk">
+                                    Hong Kong
+                                </option>
+<option data-short="mea-en" value="mea-en">
+                                    Middle East
+                                </option>
+<option data-short="mea-ar" value="mea-ar">
+                                    Middle East Arabic
+                                </option>
+<option data-short="nz" value="nz">
+                                    New Zealand
+                                </option>
+<option data-short="sea" value="sea">
+                                    Southeast Asia
+                                </option>
+<option data-short="ua" value="ua">
+                                    Ukraine
+                                </option>
+<option data-short="uk" value="uk">
+                                    United Kingdom
+                                </option>
+<option data-short="us" selected="selected" value="us">
+                                    USA
+                                </option>
+<option data-short="cis" value="cis">
+                                    СНГ
+                                </option>
+<option data-short="cn" value="cn">
+                                    中国
+                                </option>
+<option data-short="tw" value="tw">
+                                    台灣
+                                </option>
+<option data-short="jp" value="jp">
+                                    日本
+                                </option>
+</select>
+</label>
+</div>
+</div>
+<div class="nav20-footer-social">
+<a aria-label="Facebook" href="//www.facebook.com/HTCVive" rel="nofollow noopener noreferrer" target="_blank">
+<i class="fa fa fa-facebook"></i>
+</a>
+<a aria-label="Twitter" href="//twitter.com/htcvive" rel="nofollow noopener noreferrer" target="_blank">
+<svg class="bi bi-twitter-x" fill="currentColor" height="14" viewbox="0 0 16 16" width="14" xmlns="http://www.w3.org/2000/svg"> <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"></path> </svg>
+</a>
+<a aria-label="Instagram" href="//www.instagram.com/htcvive/" rel="nofollow noopener noreferrer" target="_blank">
+<i class="fa fa-instagram"></i>
+</a>
+<a aria-label="Discord" href="https://discord.com/invite/QAtV6xXT5t" rel="nofollow noopener noreferrer" target="_blank">
+<i class="fa-icon fa-icon-discord"></i>
+</a>
+<a aria-label="TikTok" href="https://www.tiktok.com/@htc_vive" rel="nofollow noopener noreferrer" target="_blank">
+<i class="fa-icon fa-icon-tiktok"></i>
+</a>
+<div class="nav20-footer-social-bottom">
+<a aria-label="YouTube" href="https://www.youtube.com/htcvive" rel="nofollow noopener noreferrer" target="_blank">
+<i class="fa fa-youtube-play"></i>
+</a>
+<a aria-label="SteamVR" class="" href="//store.steampowered.com/steamvr" rel="noreferrer noopener" target="_blank">
+<i class="icon-img icon-img_steamvr-logo"></i>
+</a>
+</div>
+</div>
+</div>
+<div class="nav20-footer-info">
+<div class="nav20-footer-info-top">
+<a aria-label="HTC" class="nav20-footer-logo-link" href="//www.htc.com" rel="noreferrer noopener" target="_blank">
+<i class="icon-img icon-img_htc-logo-white"></i>
+</a>
+<div class="nav20-footer-link-content">
+<div class="nav20-txt-footer-link nav20-copyright-link">
+                        © 2011-2026 HTC Corporation
+                    </div>
+<div class="nav20-footer-legal-content">
+<div class="nav20-txt-footer-link">
+<a class="nav20-copyright-link nav20-txt-footer-link-hover" href="/us/legal/" target="_self">Legal Terms</a>
+</div>
+<div class="nav20-txt-footer-link">
+<a class="nav20-txt-footer-link-hover" href="/us/cookie-preferences/">Cookies</a>
+</div>
+</div>
+</div>
+</div>
+<div class="nav20-footer-info-bottom">
+<br/><br/>
+Privacy Contact: <a href="mailto:Global-Privacy@htc.com">Global-Privacy@htc.com</a>
+</div>
+</div>
+</div>
+</div>
+<section class="js-i18n-data d-none" data-lang="en" lng-add-to-cart="Buy" lng-all-accessories="All accessories" lng-app-type-all="All Products" lng-app-type-vive="VIVE" lng-app-type-vive-focus="VIVE Focus" lng-app-type-vive-pro="VIVE Pro" lng-back-order="Back Order" lng-be-the-first-to-know="Be the first to know." lng-buy-now="Buy" lng-cart-remainder="Looks like you forgot something in your cart." lng-change-location="Change Location" lng-change-your-location="Change your location" lng-close="Close" lng-coming-soon="Coming Soon" lng-dont-miss-a-thing="Don’t miss a thing!" lng-e-mail="Email" lng-error-wrong-size="To add this item to your basket, choose a size." lng-external-url-notice-message="Please be aware that you are leaving www.vive.com and will be redirected to a third party web site. HTC Vive has no control over information at any third party site accessed from www.vive.com. In no event shall HTC Vive be responsible for your use of a third party site." lng-first-name="First name" lng-from="{{price}}" lng-get-details="Get details" lng-get-exclusive-deals="Get exclusive offers and updates on HTC VIVE products and services." lng-gtm-cta="Keep me posted" lng-gtm-desc="Be the first to find out about our upcoming events, product updates, and more!" lng-gtm-title="Get the latest on the VIVE XR Elite." lng-hi="Hi" lng-hi-user="Hi, {firstName}" lng-learn-more="Get Details" lng-login="Login" lng-logout="Logout" lng-mini-cart-order-help="Order Help" lng-mini-cart-orders="My Orders" lng-my-account="My Profile" lng-my-order="My Orders" lng-new="New" lng-new-releases="New Releases" lng-nothing-in-cart="Nothing's in my cart" lng-notify-me="Notify me" lng-out-of-stock="Out of Stock" lng-privacy-policy="Privacy Policy" lng-privacy-terms-checkbox="I have read and agree to HTC VIVE’s {{terms-of-use}} and {{privacy-policy}}" lng-register-interest="Register Interest" lng-result-for="{{count}} Result for {{cat}} :" lng-result-for_plural="{{count}} Results for {{cat}} :" lng-search="Search" lng-section-all="All" lng-section-art="Arts" lng-section-blog="Blog" lng-section-product="Product" lng-section-support="Support" lng-section-vive-port="VIVEPORT" lng-ship-to="Ship to" lng-sign-in="Sign in" lng-sign-out="Sign out" lng-size="Option" lng-sticky-btn="Buy {{productName}}" lng-subscribe="Get the latest news »" lng-subscription-disclaimer="By submitting this form, you agree to receive promotional emails from HTC VIVE. You can unsubscribe at any time via the unsubscribe like in each email." lng-terms-of-use="Terms and Conditions" lng-thank-you="Thank you!" lng-view-cart="View cart" lng-view-cart-remainder="Go to my cart" lng-view-more="View more {{count}} item" lng-view-more_plural="View {{count}} more items"></section>
+</footer>
+
+<script defer src="/media/filer_public/fed-assets/revamp-20/js/vendor.js?v=202309011500"></script>
+<script defer src="/media/filer_public/fed-assets/revamp-20/js/default.js?v=202309011500"></script>
+
+<script>
+var allBlogPosts = [{"slug":"cineon-secures-world-first-caa-approval-for-vr-pilot-walkaround-trainer","title":"Cineon đảm bảo sự chấp thuận CAA đầu tiên trên thế giới cho huấn luyện viên đi bộ thí điểm VR","tags":["Thực tế mở rộng (XR)","Trí tuệ nhân tạo (AI)","Việc kinh doanh"],"tags_str":"Thực tế mở rộng (XR) | Trí tuệ nhân tạo (AI) | Việc kinh doanh","author":"VIVE Team","date":"2026-03-10","read_time":"5 phút đọc","image":"/express_media/images/Screenshot_2026-03-10_at_09.43.12_ILpplCq.max-688x400.png"},{"slug":"htc-viverse-hits-1-million-users-announces-winners-of-first-global-spark-hackathon","title":"HTC VIVERSE đạt 1 triệu người dùng, công bố người chiến thắng cuộc thi Hackathon “Spark” toàn cầu đầu tiên","tags":["Tin tức doanh nghiệp","Trò chơi &amp; Giải trí","Vũ trụ ảo (Metaverse)"],"tags_str":"Tin tức doanh nghiệp | Trò chơi &amp; Giải trí | Vũ trụ ảo (Metaverse)","author":"VIVE Team","date":"2025-12-10","read_time":"5 phút đọc","image":"/express_media/images/VIVERSE-Spark-Announcement-1x1.max-688x400.jpg"},{"slug":"hololight-and-htc-announce-strategic-partnership-to-power-5g-xr-streaming","title":"Hololight và HTC công bố quan hệ đối tác chiến lược để hỗ trợ truyền phát 5G XR","tags":["Thực tế mở rộng (XR)","Tin tức Vive","Việc kinh doanh"],"tags_str":"Thực tế mở rộng (XR) | Tin tức Vive | Việc kinh doanh","author":"VIVE Team","date":"2025-11-17","read_time":"5 phút đọc","image":"/express_media/images/IITSEC_Hololight.max-688x400.png"},{"slug":"from-image-to-immersive-generate-3d-virtual-production-scenes-in-real-time-with-marble-and-vive-mars","title":"Từ hình ảnh đến sống động: Tạo cảnh sản xuất ảo 3D trong thời gian thực với Marble và VIVE Mars","tags":["Câu chuyện thành công của doanh nghiệp","Thông báo sản phẩm","Việc kinh doanh"],"tags_str":"Câu chuyện thành công của doanh nghiệp | Thông báo sản phẩm | Việc kinh doanh","author":"VIVE Team","date":"2025-11-12","read_time":"5 phút đọc","image":"/express_media/images/website-banner.max-688x400.jpg"},{"slug":"embark-on-lbe-adventures-at-iaapa-europe-2025-with-vex-solutions-and-htc-vive","title":"Bắt tay vào Cuộc phiêu lưu của LBE tại IAAPA Châu Âu 2025 với VEX Solutions và HTC VIVE","tags":["Tin tức chung"],"tags_str":"Tin tức chung","author":"VIVE Team","date":"2025-09-22","read_time":"5 phút đọc","image":"/express_media/images/VIVE-IAAPA_KV_1080x1080.max-688x400.jpg"},{"slug":"taiwans-xr-black-wave-future-of-immersive-creation","title":"Làn sóng đen XR của Đài Loan: Tương lai của sự sáng tạo đắm chìm","tags":["Tin tức chung"],"tags_str":"Tin tức chung","author":"VIVE Team","date":"2025-09-22","read_time":"5 phút đọc","image":"https://www.vivepostwave.com/wp-content/uploads/2025/09/%E6%AD%B8%E4%BE%86%E7%86%B1%E8%98%AD%E9%81%AE02.webp"},{"slug":"brain-computer-interface-apple-amazon-partner-with-synchron","title":"Giao diện não-máy tính: Apple, Amazon hợp tác với Synchron","tags":["Trí tuệ nhân tạo (AI)"],"tags_str":"Trí tuệ nhân tạo (AI)","author":"VIVE POST-WAVE Team","date":"2025-09-17","read_time":"5 phút đọc","image":"https://www.vivepostwave.com/wp-content/uploads/2025/08/result_would-you-get-a-cyberized-brain-v0-ibphn6ue37vb1.jpg"},{"slug":"deepmind-unveils-genie-3-googles-world-model-toward-agi","title":"DeepMind tiết lộ Genie 3, Mô hình thế giới của Google hướng tới AGI","tags":["Trí tuệ nhân tạo (AI)"],"tags_str":"Trí tuệ nhân tạo (AI)","author":"VIVE POST-WAVE Team","date":"2025-09-16","read_time":"7 phút đọc","image":"https://www.vivepostwave.com/wp-content/uploads/2025/08/genie3-Large.jpeg"},{"slug":"experience-the-future-of-free-roam-xr-at-iaapa-europe-2025","title":"Trải nghiệm tương lai của XR chuyển vùng miễn phí tại IAAPA Châu Âu 2025","tags":["Thực tế mở rộng (XR)"],"tags_str":"Thực tế mở rộng (XR)","author":"VIVE Team","date":"2025-09-12","read_time":"5 phút đọc","image":"/express_media/images/Design_Studio_donning-VFV-1-web.max-688x400.jpg"},{"slug":"roblox-beats-steam-but-which-games-attracted-4729-million-players-at-once","title":"Roblox đánh bại Steam, nhưng trò chơi nào thu hút 47,29 triệu người chơi cùng một lúc?","tags":["Vũ trụ ảo (Metaverse)"],"tags_str":"Vũ trụ ảo (Metaverse)","author":"VIVE POST-WAVE Team","date":"2025-09-11","read_time":"5 phút đọc","image":"https://www.vivepostwave.com/wp-content/uploads/2025/08/roblox-ccu.jpg"},{"slug":"what-is-face-tracking-in-vr-and-why-does-it-matter","title":"Theo dõi khuôn mặt trong VR là gì và tại sao nó lại quan trọng?","tags":["Kính thực tế ảo (Headset)","Thực tế mở rộng (XR)"],"tags_str":"Kính thực tế ảo (Headset) | Thực tế mở rộng (XR)","author":"VIVE Team","date":"2025-09-08","read_time":"5 phút đọc","image":"/express_media/images/face_tracking_action.max-688x400.png"},{"slug":"i-took-the-vive-eagle-to-seoul-for-charli-xcx-a-first-person-view-of-brat-summers-finale","title":"Tôi đã mang VIVE Eagle đến Seoul để xem Charli XCX - Góc nhìn thứ nhất về phần cuối của Brat Summer","tags":["Kính thực tế ảo (Headset)","Trí tuệ nhân tạo (AI)"],"tags_str":"Kính thực tế ảo (Headset) | Trí tuệ nhân tạo (AI)","author":"VIVE POST-WAVE Team","date":"2025-09-05","read_time":"5 phút đọc","image":"https://www.vivepostwave.com/wp-content/uploads/2025/08/Fotor-%E5%9B%BE%E7%89%87%E7%BC%96%E8%BE%91%E5%B7%A5%E5%85%B7-1.jpg"},{"slug":"unists-dogrecon-ai-turns-a-single-photo-into-a-lifelike-moving-3d-dog","title":"DogRecon AI của UNIST biến một bức ảnh thành chú chó 3D chuyển động giống như thật","tags":["Thực tế mở rộng (XR)"],"tags_str":"Thực tế mở rộng (XR)","author":"VIVE POST-WAVE Team","date":"2025-09-03","read_time":"3 phút đọc","image":"https://www.vivepostwave.com/wp-content/uploads/2025/08/%E7%8B%97%E5%8B%BEcover.png"},{"slug":"stanford-launches-agents4science-2025-first-ai-only-academic-conference","title":"Stanford ra mắt Agents4Science 2025, Hội nghị học thuật đầu tiên chỉ dành cho AI","tags":["Trí tuệ nhân tạo (AI)"],"tags_str":"Trí tuệ nhân tạo (AI)","author":"VIVE POST-WAVE Team","date":"2025-09-01","read_time":"5 phút đọc","image":"https://www.vivepostwave.com/wp-content/uploads/2025/07/Fotor-%E8%B0%83%E6%95%B4%E7%85%A7%E7%89%87%E5%B0%BA%E5%AF%B8%E7%BB%93%E6%9E%9C.jpg"},{"slug":"holoearth-launches-join-the-creator-economy-today","title":"Holoearth ra mắt: Tham gia nền kinh tế sáng tạo ngay hôm nay","tags":["Tin tức chung"],"tags_str":"Tin tức chung","author":"VIVE POST-WAVE Team","date":"2025-08-27","read_time":"5 phút đọc","image":"https://www.vivepostwave.com/wp-content/uploads/2025/04/holoearth_web-e1745488184542.jpeg"},{"slug":"5-things-you-should-know-about-k-pop-demon-hunters","title":"5 điều bạn nên biết về K-Pop: Thợ săn quỷ","tags":["Sự kiện hiện tại"],"tags_str":"Sự kiện hiện tại","author":"VIVE POST-WAVE Team","date":"2025-08-22","read_time":"6 phút đọc","image":"https://www.vivepostwave.com/wp-content/uploads/2025/06/%E5%AF%8C%E5%AF%B6%E6%84%9F%E8%AC%9D%E6%82%A8%E7%94%9F%E6%97%A5%E5%BF%AB%E6%A8%82-2-2.jpg"},{"slug":"la-magie-opera-heads-to-venice-immersive","title":"La Magie Opéra hướng tới Venice đắm chìm","tags":["Thực tế mở rộng (XR)"],"tags_str":"Thực tế mở rộng (XR)","author":"VIVE Team","date":"2025-08-20","read_time":"5 phút đọc","image":"/express_media/images/Image06.max-688x400.png"},{"slug":"fanum-tax-and-kai-cenat-exploring-tax-evasion-rooms","title":"Fanum Tax và Kai Cenat: Khám phá phòng trốn thuế","tags":["Thực tế mở rộng (XR)"],"tags_str":"Thực tế mở rộng (XR)","author":"VIVE Team","date":"2025-08-20","read_time":"5 phút đọc","image":"https://www.vivepostwave.com/wp-content/uploads/2025/05/Fanum-tax.jpg"},{"slug":"introducing-vive-eagle-smart-glasses-built-for-everyday-life","title":"Giới thiệu VIVE Eagle: Kính thông minh được thiết kế cho cuộc sống hàng ngày","tags":["Ra mắt sản phẩm","Thông báo sản phẩm","Trí tuệ nhân tạo (AI)"],"tags_str":"Ra mắt sản phẩm | Thông báo sản phẩm | Trí tuệ nhân tạo (AI)","author":"VIVE Team","date":"2025-08-15","read_time":"5 phút đọc","image":"/express_media/images/VIVE_Eagle_Blog.max-688x400.png"},{"slug":"robloxs-new-licensing-platform-lets-creators-build-games-with-stranger-things-blue-lock-and-more","title":"Nền tảng cấp phép mới của Roblox cho phép người sáng tạo xây dựng trò chơi với Stranger Things, Blue Lock, v.v.","tags":["Thực tế mở rộng (XR)"],"tags_str":"Thực tế mở rộng (XR)","author":"VIVE POST-WAVE Team","date":"2025-08-14","read_time":"8 phút đọc","image":"/express_media/images/Roblox-Creator-Dashboard.max-688x400.png"},{"slug":"vtubers-surpass-real-life-streamers-in-2025-youtubes-top-trends","title":"VTuber vượt qua những người truyền phát ngoài đời thực vào năm 2025: Xu hướng hàng đầu của YouTube","tags":["Vũ trụ ảo (Metaverse)"],"tags_str":"Vũ trụ ảo (Metaverse)","author":"VIVE POST-WAVE Team","date":"2025-08-12","read_time":"5 phút đọc","image":"/express_media/images/image-9.max-688x400.png"},{"slug":"report-students-let-ai-do-the-thinkingshould-we-be-worried","title":"Báo cáo: Học sinh để AI thực hiện việc suy nghĩ—Chúng ta có nên lo lắng không?","tags":["Trí tuệ nhân tạo (AI)"],"tags_str":"Trí tuệ nhân tạo (AI)","author":"VIVE POST-WAVE Team","date":"2025-08-07","read_time":"6 phút đọc","image":"https://www.vivepostwave.com/wp-content/uploads/2025/04/download-12.jpg"},{"slug":"why-the-japanese-trust-ai-more-a-cross-cultural-experiment","title":"Tại sao người Nhật tin tưởng AI hơn - Một thử nghiệm đa văn hóa","tags":["Trí tuệ nhân tạo (AI)"],"tags_str":"Trí tuệ nhân tạo (AI)","author":"VIVE POST-WAVE Team","date":"2025-08-06","read_time":"5 phút đọc","image":"https://www.vivepostwave.com/wp-content/uploads/2025/04/ai-agent-japan-Large-e1745219919589.jpeg"},{"slug":"columbia-dropouts-ai-tool-cluely-cheats-on-everythingand-we-tried-it","title":"Công cụ AI của Columbia Dropout có thể lừa dối mọi thứ một cách khôn ngoan—và chúng tôi đã thử nó","tags":["Trí tuệ nhân tạo (AI)"],"tags_str":"Trí tuệ nhân tạo (AI)","author":"VIVE POST-WAVE Team","date":"2025-08-05","read_time":"6 phút đọc","image":"https://www.vivepostwave.com/wp-content/uploads/2025/04/roy-lee-neel-e1745389388500.jpg"},{"slug":"terracotta-warriors-discover-the-untouched-chambers-of-the-first-emperors-tomb","title":"Chiến binh đất nung: Khám phá căn phòng hoang sơ của lăng mộ vị hoàng đế đầu tiên","tags":["Thực tế mở rộng (XR)"],"tags_str":"Thực tế mở rộng (XR)","author":"VIVE Team","date":"2025-08-04","read_time":"5 phút đọc","image":"/express_media/images/warriors_blog_image.max-688x400.png"},{"slug":"japan-turns-its-massive-underground-flood-temple-into-a-minecraft-map","title":"Nhật Bản biến ngôi đền lũ lụt khổng lồ dưới lòng đất thành bản đồ Minecraft","tags":["Vũ trụ ảo (Metaverse)"],"tags_str":"Vũ trụ ảo (Metaverse)","author":"VIVE POST-WAVE Team","date":"2025-08-04","read_time":"3 phút đọc","image":"https://www.vivepostwave.com/wp-content/uploads/2025/05/batch_minecraft-20250523-340160-003.webp"},{"slug":"eclipso-expands-to-seville-with-a-new-immersive-venue-powered-by-vive","title":"Eclipso mở ra không gian sống động mới được triển khai bằng công nghệ VIVE ở Seville","tags":["Thực tế mở rộng (XR)"],"tags_str":"Thực tế mở rộng (XR)","author":"VIVE Team","date":"2025-07-30","read_time":"giá trị 5 phút","image":"/express_media/images/Blog_Image.max-688x400.jpg"},{"slug":"eclipso-expands-to-seville-with-a-new-immersive-venue-powered-by-vive","title":"Eclipso mở rộng đến Seville với một địa điểm hòa nhập mới được cung cấp bởi VIVE","tags":["Thực tế mở rộng (XR)"],"tags_str":"Thực tế mở rộng (XR)","author":"VIVE Team","date":"2025-07-30","read_time":"5 phút đọc","image":"/express_media/images/Blog_Image.max-688x400.jpg"},{"slug":"meet-velvet-sundown-the-viral-ai-band-on-spotify","title":"Gặp gỡ Velvet Sundown, Ban nhạc AI lan truyền trên Spotify","tags":["Sự kiện hiện tại","Trí tuệ nhân tạo (AI)"],"tags_str":"Sự kiện hiện tại | Trí tuệ nhân tạo (AI)","author":"VIVE POST-WAVE Team","date":"2025-07-29","read_time":"6 phút đọc","image":"https://www.vivepostwave.com/wp-content/uploads/2025/07/THE-BEATLES-1.jpg"},{"slug":"announcing-playing-with-fire-an-immersive-odyssey-with-yuja-wang","title":"Thông báo Chơi với lửa: Một cuộc phiêu lưu nhập vai cùng Yuja Wang","tags":["Thực tế mở rộng (XR)"],"tags_str":"Thực tế mở rộng (XR)","author":"VIVE Team","date":"2025-07-23","read_time":"5 phút đọc","image":"/express_media/images/Yuja_1.max-688x400.jpg"},{"slug":"can-you-use-a-vr-headset-with-glasses-learn-how-htc-vive-headsets-support-glasses-wearers-and-what-you-need-to-consider-for-comfort-in-virtual-reality","title":"Đeo kính có được không? Hướng dẫn sử dụng tai nghe, kính VIVE","tags":["Thực tế mở rộng (XR)"],"tags_str":"Thực tế mở rộng (XR)","author":"Patrick R.","date":"2025-07-22","read_time":"giá trị 5 phút","image":"/express_media/images/With_glasses_1.max-688x400.jpg"},{"slug":"can-you-use-a-vr-headset-with-glasses-learn-how-htc-vive-headsets-support-glasses-wearers-and-what-you-need-to-consider-for-comfort-in-virtual-reality","title":"VR với kính: Sử dụng tai nghe VIVE nếu bạn đeo kính mắt","tags":["Thực tế mở rộng (XR)"],"tags_str":"Thực tế mở rộng (XR)","author":"VIVE Team","date":"2025-07-22","read_time":"5 phút đọc","image":"/express_media/images/With_glasses_1.max-688x400.jpg"},{"slug":"how-to-get-started-in-game-development-for-viverse","title":"Cách bắt đầu phát triển trò chơi cho VIVERSE","tags":["Thực tế mở rộng (XR)"],"tags_str":"Thực tế mở rộng (XR)","author":"VIVE Team","date":"2025-07-16","read_time":"5 phút đọc","image":"/express_media/images/How_to_Get_Started_in_Game_Development_for_V.max-688x400.jpg"},{"slug":"claude-4-will-snitchall-for-the-sake-of-safety","title":"Claude 4 Will Snitch—Tất cả vì sự an toàn","tags":["Trí tuệ nhân tạo (AI)"],"tags_str":"Trí tuệ nhân tạo (AI)","author":"VIVE POST-WAVE Team","date":"2025-07-16","read_time":"4 phút đọc","image":"https://www.vivepostwave.com/wp-content/uploads/2025/05/7ab6c000-28c1-4184-bf62-987948cb7058.jpg"},{"slug":"anthropic-probed-claudes-mind-turns-out-its-just-a-really-nice-ai","title":"Nhân loại đã thăm dò tâm trí của Claude - Hóa ra đó chỉ là một AI thực sự tốt","tags":["Trí tuệ nhân tạo (AI)"],"tags_str":"Trí tuệ nhân tạo (AI)","author":"VIVE POST-WAVE Team","date":"2025-06-30","read_time":"5 phút đọc","image":"https://www.vivepostwave.com/wp-content/uploads/2025/04/9000a155-d040-49e9-ba3f-4ee149cd53b4.jpg"},{"slug":"the-secret-ai-experiment-that-fooled-reddit-users","title":"Thí nghiệm AI bí mật đánh lừa người dùng Reddit","tags":["Trí tuệ nhân tạo (AI)"],"tags_str":"Trí tuệ nhân tạo (AI)","author":"VIVE POST-WAVE Team","date":"2025-06-23","read_time":"5 phút đọc","image":"https://www.vivepostwave.com/wp-content/uploads/2025/05/bef77979-e9f9-45b2-93f4-e14d3e988340.jpg"},{"slug":"not-just-gemini-and-veo-3google-beam-is-finally-here","title":"Không chỉ Gemini và Veo 3—Google Beam cuối cùng cũng có mặt","tags":["Thực tế mở rộng (XR)"],"tags_str":"Thực tế mở rộng (XR)","author":"VIVE POST-WAVE Team","date":"2025-06-20","read_time":"6 phút đọc","image":"https://www.vivepostwave.com/wp-content/uploads/2025/05/googleio2025_googlebeam.jpeg"},{"slug":"htc-viverse-webxr","title":"HTC VIVERSE là thiết bị đầu tiên trên thế giới hỗ trợ đầy đủ các công cụ trò chơi WebXR chính thống","tags":["Thông báo sản phẩm","Vũ trụ ảo (Metaverse)"],"tags_str":"Thông báo sản phẩm | Vũ trụ ảo (Metaverse)","author":"VIVERSE Team","date":"2025-06-18","read_time":"5 phút đọc","image":"/express_media/images/VIVERSE-Studio-Create-Anywhere.max-688x400.jpg"},{"slug":"olfactory-vr-shows-promise-in-preventing-dementia-study-finds","title":"Olfactory VR cho thấy triển vọng trong việc ngăn ngừa chứng mất trí nhớ, kết quả nghiên cứu","tags":["Thực tế mở rộng (XR)"],"tags_str":"Thực tế mở rộng (XR)","author":"VIVE Team","date":"2025-06-17","read_time":"5 phút đọc","image":"https://www.vivepostwave.com/wp-content/uploads/2025/06/%E5%AF%8C%E5%AF%B6%E6%84%9F%E8%AC%9D%E6%82%A8%E7%94%9F%E6%97%A5%E5%BF%AB%E6%A8%82-2.jpg"},{"slug":"around-the-world-in-xr-gsmas-virtual-balloon-ride-at-mwc-2025","title":"Vòng quanh thế giới bằng XR - Chuyến đi khinh khí cầu ảo của GSMA tại MWC 2025","tags":["Thực tế mở rộng (XR)"],"tags_str":"Thực tế mở rộng (XR)","author":"VIVE Team","date":"2025-06-16","read_time":"5 phút đọc","image":"/express_media/images/GSMA_MWC.max-688x400.png"},{"slug":"skater-xl-developer-returns-with-vr-skateboarding-game","title":"Nhà phát triển Skater XL trở lại với trò chơi trượt ván VR","tags":["Thực tế mở rộng (XR)","Trò chơi &amp; Giải trí"],"tags_str":"Thực tế mở rộng (XR) | Trò chơi &amp; Giải trí","author":"VIVE POST-WAVE Team","date":"2025-06-16","read_time":"5 phút đọc","image":"https://www.vivepostwave.com/wp-content/uploads/2025/04/VirtualSkateCoverArtFinal-Large.jpeg"},{"slug":"how-to-use-full-body-tracking-in-vrchat","title":"Cách sử dụng tính năng Theo dõi toàn thân trong VRChat: Thiết lập, Phần cứng & Mẹo","tags":["Thực tế mở rộng (XR)"],"tags_str":"Thực tế mở rộng (XR)","author":"VIVE Team","date":"2025-06-13","read_time":"10 phút đọc","image":"/express_media/images/vive_ultimate_tracker_blog_hero_4.max-688x400.jpg"},{"slug":"chiikawa-takes-over-shinjuku-3d-billboard-with-usagi-chasing-butterflies","title":"Chiikawa thống lĩnh bảng quảng cáo 3D của Shinjuku với Usagi đuổi bắt bướm","tags":["Thực tế mở rộng (XR)"],"tags_str":"Thực tế mở rộng (XR)","author":"VIVE Team","date":"2025-06-13","read_time":"2 phút đọc","image":"https://www.vivepostwave.com/wp-content/uploads/2025/04/%E6%9C%AA%E5%91%BD%E5%90%8D%E8%A8%AD%E8%A8%88-2.jpg"},{"slug":"excited-about-xr-survey-of-teens-shows-that-immersive-tech-is-poised-to-transform-the-classroom","title":"Vui mừng về XR: Khảo sát thanh thiếu niên cho thấy công nghệ nhập vai sẵn sàng biến đổi lớp học","tags":["Sự kiện hiện tại","Việc kinh doanh","Vũ trụ ảo (Metaverse)"],"tags_str":"Sự kiện hiện tại | Việc kinh doanh | Vũ trụ ảo (Metaverse)","author":"VIVE Team","date":"2025-06-10","read_time":"5 phút đọc","image":"/express_media/images/XRA-header-youth-infographic.max-688x400.png"},{"slug":"ino-vr-and-vive-host-simplifying-xr-deployment-for-training-at-scale","title":"Máy chủ INO VR và VIVE - Đơn giản hóa việc triển khai XR cho đào tạo trên quy mô lớn","tags":["Thực tế mở rộng (XR)"],"tags_str":"Thực tế mở rộng (XR)","author":"VIVE Team","date":"2025-06-09","read_time":"5 phút đọc","image":"/express_media/images/INO_VR_LAVAL.max-688x400.png"},{"slug":"mri-for-ai-anthropic-cracked-open-claudes-brain","title":"MRI cho AI? Nhân chủng học đã phá vỡ bộ não của Claude","tags":["trí tuệ nhân tạo","Trí tuệ nhân tạo (AI)"],"tags_str":"trí tuệ nhân tạo | Trí tuệ nhân tạo (AI)","author":"VIVE POST-WAVE Team","date":"2025-06-03","read_time":"7 phút đọc","image":"https://www.vivepostwave.com/wp-content/uploads/2025/04/download-10.jpg"},{"slug":"the-electric-states-ai-origin-story-is-darker-than-you-think","title":"Câu chuyện về nguồn gốc AI của bang điện lực đen tối hơn bạn nghĩ","tags":["Sự kiện hiện tại","Thực tế mở rộng (XR)","Trí tuệ nhân tạo (AI)"],"tags_str":"Sự kiện hiện tại | Thực tế mở rộng (XR) | Trí tuệ nhân tạo (AI)","author":"VIVE POST-WAVE Team","date":"2025-06-02","read_time":"6 phút đọc","image":"https://www.vivepostwave.com/wp-content/uploads/2025/03/download-7.jpg"},{"slug":"20-best-mixed-reality-games-to-play-in-2025","title":"20 trò chơi thực tế hỗn hợp hay nhất để chơi năm 2025","tags":["Trò chơi &amp; Giải trí"],"tags_str":"Trò chơi &amp; Giải trí","author":"Patrick R.","date":"2025-05-29","read_time":"10 phút đọc","image":"/express_media/images/MR_cover_YUKI.max-688x400.jpg"},{"slug":"from-classroom-to-cockpit-speedernet-and-htc-vive-power-the-future-of-industrial-training","title":"Từ lớp học đến buồng lái – Speedernet và HTC VIVE tạo sức mạnh cho tương lai của đào tạo công nghiệp","tags":["Thực tế mở rộng (XR)"],"tags_str":"Thực tế mở rộng (XR)","author":"VIVE Team","date":"2025-05-28","read_time":"5 phút đọc","image":"/express_media/images/SPEEDERNET_LAVAL.max-688x400.png"},{"slug":"-texas-immersive-institutetxix-viverse-webxr","title":"Khi lớp học trở thành hành tinh ảo: Đại học Texas ở Austin - Texas Immersive Institute (TXI) x VIVERSE tạo ra một thế giới giả tưởng WebXR","tags":["Thực tế mở rộng (XR)","Tin tức doanh nghiệp","Vũ trụ ảo (Metaverse)"],"tags_str":"Thực tế mở rộng (XR) | Tin tức doanh nghiệp | Vũ trụ ảo (Metaverse)","author":"VIVERSE Team","date":"2025-05-26","read_time":"5 phút đọc","image":"/express_media/images/UT_KV.max-688x400.jpg"},{"slug":"murray-shanahans-view-on-ai-consciousness-and-the-illusion-of-self","title":"Quan điểm của Murray Shanahan về AI, Ý thức và Ảo tưởng về Bản thân","tags":["Trí tuệ nhân tạo (AI)"],"tags_str":"Trí tuệ nhân tạo (AI)","author":"VIVE POST-WAVE Team","date":"2025-05-26","read_time":"7 phút đọc","image":"https://www.vivepostwave.com/wp-content/uploads/2025/03/download-8.jpg"},{"slug":"chatgpt-memory-available-to-free-users-with-custom-controls","title":"Bộ nhớ ChatGPT có sẵn cho người dùng miễn phí với các điều khiển tùy chỉnh","tags":["Trí tuệ nhân tạo (AI)"],"tags_str":"Trí tuệ nhân tạo (AI)","author":"VIVE POST-WAVE Team","date":"2025-05-23","read_time":"7 phút đọc","image":"https://www.vivepostwave.com/wp-content/uploads/2025/04/chatgptmemory-catmeme.jpg"},{"slug":"googles-new-ai-model-dolphingemma-can-communicate-with-dolphins","title":"Mô hình AI mới của Google DolphinGemma có thể giao tiếp với cá heo","tags":["Trí tuệ nhân tạo (AI)"],"tags_str":"Trí tuệ nhân tạo (AI)","author":"VIVE POST-WAVE Team","date":"2025-05-21","read_time":"5 phút đọc","image":"https://www.vivepostwave.com/wp-content/uploads/2025/04/batch_06251801_UW_CassiewithFused_Workkshot_HeadOn_BA-1024x683-1-e1744713437171.webp"},{"slug":"20-best-free-vr-games-on-viveport-and-steam-2025","title":"20 game VR miễn phí hay nhất trên VIVEPORT và Steam 2025","tags":["Thực tế mở rộng (XR)","Trò chơi &amp; Giải trí"],"tags_str":"Thực tế mở rộng (XR) | Trò chơi &amp; Giải trí","author":"David Okano","date":"2025-05-20","read_time":"5 phút đọc","image":"/express_media/images/BestFreeVRGamesThumb.max-688x400.png"},{"slug":"empowering-scalable-xr-training-with-inversive-and-vive-focus-vision","title":"Tăng cường đào tạo XR có thể mở rộng với VIVE Focus Vision và Inversive","tags":["Thực tế mở rộng (XR)"],"tags_str":"Thực tế mở rộng (XR)","author":"VIVE Team","date":"2025-05-19","read_time":"giá trị 5 phút","image":"/express_media/images/INVERSIVE_LAVAL.max-688x400.png"},{"slug":"empowering-scalable-xr-training-with-inversive-and-vive-focus-vision","title":"Trao quyền cho việc đào tạo XR có thể mở rộng với Tầm nhìn tập trung nghịch đảo và VIVE","tags":["Thực tế mở rộng (XR)"],"tags_str":"Thực tế mở rộng (XR)","author":"VIVE Team","date":"2025-05-19","read_time":"5 phút đọc","image":"/express_media/images/INVERSIVE_LAVAL.max-688x400.png"},{"slug":"how-to-make-a-vrchat-avatar-in-2025-beginners-guide","title":"Cách tạo Hình đại diện VRChat vào năm 2025 [Hướng dẫn cho người mới bắt đầu]","tags":["Thực tế mở rộng (XR)","Trò chơi &amp; Giải trí"],"tags_str":"Thực tế mở rộng (XR) | Trò chơi &amp; Giải trí","author":"Patrick R.","date":"2025-05-19","read_time":"9 phút đọc","image":"/express_media/images/vrc_avatar_1.max-688x400.png"},{"slug":"vpwt-agatha-christie-returns-as-a-digital-teacher-in-bbcs-ai-powered-writing-course","title":"Agatha Christie trở lại với tư cách là giáo viên kỹ thuật số trong khóa học viết trên nền tảng AI của BBC","tags":["Vũ trụ ảo (Metaverse)"],"tags_str":"Vũ trụ ảo (Metaverse)","author":"VIVE POST-WAVE Team","date":"2025-05-16","read_time":"5 phút đọc","image":"https://www.vivepostwave.com/wp-content/uploads/2025/05/c94290de-d430-4557-8178-8fb8f9581d65-1.jpg"},{"slug":"vpwt-portalgraph-brings-vtuber-dancing-to-your-desk-in-3d-without-glasses","title":"Portalgraph mang VTuber nhảy đến bàn làm việc của bạn ở chế độ 3D không cần kính","tags":["Thực tế mở rộng (XR)"],"tags_str":"Thực tế mở rộng (XR)","author":"VIVE Team","date":"2025-05-15","read_time":"5 phút đọc","image":"https://www.vivepostwave.com/wp-content/uploads/2025/04/portalgraph-CaptainMarine.jpeg"},{"slug":"vpwt-ai-powered-dolls-face-off-in-m3gan-20-trailer","title":"Búp bê được hỗ trợ bởi AI đối mặt trong đoạn giới thiệu 'M3GAN 2.0'","tags":["Trí tuệ nhân tạo (AI)"],"tags_str":"Trí tuệ nhân tạo (AI)","author":"VIVE POST-WAVE Team","date":"2025-05-14","read_time":"2 phút đọc","image":"https://www.vivepostwave.com/wp-content/uploads/2025/04/m3gan-2.0.jpg"},{"slug":"transforming-education-with-xr-highlights-from-learntec-2025","title":"Chuyển đổi giáo dục bằng XR: Điểm nổi bật từ LearnTec 2025","tags":["Thực tế mở rộng (XR)"],"tags_str":"Thực tế mở rộng (XR)","author":"VIVE Team","date":"2025-05-09","read_time":"5 phút đọc","image":"/express_media/images/Image_dunno.max-688x400.png"},{"slug":"htc-vive-palais-garnier","title":"HTC VIVE Arts và Paris Opera hợp tác ra mắt trải nghiệm VR sống động \"Magic Opera\"","tags":["Sự kiện &amp; Hoạt động","Tin tức doanh nghiệp"],"tags_str":"Sự kiện &amp; Hoạt động | Tin tức doanh nghiệp","author":"VIVE Team","date":"2025-05-08","read_time":"5 phút đọc","image":"/express_media/images/HTCXinWenTu-VR_Magie_Opera_HP-DESKTOP_w_MENT.max-688x400.jpg"},{"slug":"vpwt-will-ai-ever-truly-understand-a-look-at-microsofts-kblam","title":"AI có thực sự hiểu được không? Nhìn vào KBLaM của Microsoft","tags":["Trí tuệ nhân tạo (AI)"],"tags_str":"Trí tuệ nhân tạo (AI)","author":"VIVE POST-WAVE Team","date":"2025-05-08","read_time":"7 phút đọc","image":"https://www.vivepostwave.com/wp-content/uploads/2025/04/soularchivesa-e1743500995515.jpeg"},{"slug":"vpwt-microsoft-creates-real-time-ai-generated-quake-ii-but-runs-at-10fps","title":"Microsoft tạo Quake II do AI tạo theo thời gian thực, nhưng chạy ở tốc độ 10FPS","tags":["Trí tuệ nhân tạo (AI)"],"tags_str":"Trí tuệ nhân tạo (AI)","author":"VIVE Team","date":"2025-05-05","read_time":"7 phút đọc","image":"https://www.vivepostwave.com/wp-content/uploads/2025/04/whamm-gameplay.jpg"},{"slug":"vpwt-meet-plave-the-k-pop-virtual-idol-boy-band-in-webtoon-style","title":"Hãy cùng tìm hiểu về thần tượng ảo ‘Play’ trong webtoon","tags":["trí tuệ nhân tạo","Vũ trụ ảo (Metaverse)"],"tags_str":"trí tuệ nhân tạo | Vũ trụ ảo (Metaverse)","author":"VIVE POST-WAVE Team","date":"2025-05-02","read_time":"trị giá 10 phút","image":"https://www.vivepostwave.com/wp-content/uploads/2025/04/PLAVE-1.jpg"},{"slug":"vpwt-meet-plave-the-k-pop-virtual-idol-boy-band-in-webtoon-style","title":"Gặp gỡ PLAVE: Nhóm nhạc nam thần tượng ảo K-pop theo phong cách Webtoon","tags":["Câu chuyện thành công của doanh nghiệp","Thực tế mở rộng (XR)","Trí tuệ nhân tạo (AI)"],"tags_str":"Câu chuyện thành công của doanh nghiệp | Thực tế mở rộng (XR) | Trí tuệ nhân tạo (AI)","author":"VIVE POST-WAVE Team","date":"2025-05-02","read_time":"10 phút đọc","image":"https://www.vivepostwave.com/wp-content/uploads/2025/04/PLAVE-1.jpg"},{"slug":"ohio-university-htc-vive-and-virtualware-launch-immersive-digital-enterprise-hub-to-power-manufacturing-innovation-in-ohio","title":"Một trung tâm đổi mới phong phú đã ra đời ở Ohio! HTC VIVE và Virtualware hợp tác với các trường đại học","tags":["Thực tế mở rộng (XR)"],"tags_str":"Thực tế mở rộng (XR)","author":"VIVE Team","date":"2025-05-01","read_time":"giá trị 5 phút","image":"/express_media/images/VIROO_App_-_Simumatik_1.max-688x400.jpg"},{"slug":"ls-group-transforming-industrial-prototyping-with-xr-twin-and-vive-focus-vision","title":"LS Group - Chuyển đổi nguyên mẫu công nghiệp với XR Twin và VIVE Focus Vision","tags":["Thực tế mở rộng (XR)"],"tags_str":"Thực tế mở rộng (XR)","author":"VIVE Team","date":"2025-05-01","read_time":"5 phút đọc","image":"/express_media/images/ls_group_blog.max-688x400.jpg"},{"slug":"ohio-university-htc-vive-and-virtualware-launch-immersive-digital-enterprise-hub-to-power-manufacturing-innovation-in-ohio","title":"Đại học Ohio, HTC VIVE và Virtualware ra mắt Trung tâm doanh nghiệp kỹ thuật số toàn diện nhằm thúc đẩy đổi mới sản xuất ở Ohio","tags":["Thực tế mở rộng (XR)","Việc kinh doanh"],"tags_str":"Thực tế mở rộng (XR) | Việc kinh doanh","author":"VIVE Team","date":"2025-05-01","read_time":"5 phút đọc","image":"/express_media/images/VIROO_App_-_Simumatik_1.max-688x400.jpg"},{"slug":"la-magie-opera-a-new-kind-of-magic-at-the-paris-opera","title":"La Magie Opéra: Một loại phép thuật mới tại Nhà hát Opera Paris","tags":["Thực tế mở rộng (XR)"],"tags_str":"Thực tế mở rộng (XR)","author":"VIVE Team","date":"2025-04-30","read_time":"5 phút đọc","image":"/express_media/images/use_4.max-688x400.png"},{"slug":"htcvr","title":"HTC và Paris Opera ra mắt trải nghiệm VR sống động \"Magic Opera\"","tags":["Tin tức chung"],"tags_str":"Tin tức chung","author":"HTC Vive Team","date":"2025-04-30","read_time":"5 phút đọc","image":"/express_media/images/MoHuanGeJuYuan.max-688x400.jpg"},{"slug":"vpwt-goodbye-dalle-3-chatgpt-gets-image-creation-upgrade-with-gpt-4o","title":"Tạm biệt DALL·E 3, ChatGPT được nâng cấp tạo hình ảnh với GPT-4o","tags":["Trí tuệ nhân tạo (AI)"],"tags_str":"Trí tuệ nhân tạo (AI)","author":"VIVE POST-WAVE Team","date":"2025-04-30","read_time":"7 phút đọc","image":"https://www.vivepostwave.com/wp-content/uploads/2025/03/gpt4o.jpeg"},{"slug":"experience-the-future-of-learning-at-learntec-2025","title":"Trải nghiệm tương lai của việc học tại LearnTec 2025","tags":["Tin tức chung"],"tags_str":"Tin tức chung","author":"VIVE Team","date":"2025-04-29","read_time":"5 phút đọc","image":"/express_media/images/VIVE-Experience-Vision-ALL-Linkedin_QjS17wW.max-688x400.jpg"},{"slug":"vpwt-reviving-web-games-from-flash-nostalgia-to-viverse-3d-worlds","title":"Hồi sinh trò chơi web: Từ nỗi nhớ Flash đến thế giới VIVERSE 3D","tags":["Trò chơi &amp; Giải trí"],"tags_str":"Trò chơi &amp; Giải trí","author":"VIVE POST-WAVE Team","date":"2025-04-25","read_time":"5 phút đọc","image":"https://www.vivepostwave.com/wp-content/uploads/2025/03/neopets.jpeg"},{"slug":"htcattxr-150","title":"HTC hợp tác với gã khổng lồ viễn thông Hoa Kỳ AT&T để thúc đẩy dự án điều trị XR, bao gồm 150 viện dưỡng lão đầu tiên","tags":["Tin tức chung"],"tags_str":"Tin tức chung","author":"HTC Vive Team","date":"2025-04-24","read_time":"5 phút đọc","image":"/express_media/images/HTCXieShouMeiGuoDianXinJuTouATTTuiGuangXRZhi.max-688x400.jpg"},{"slug":"vpwt-how-does-ai-jam-taste-hands-on-cooking-with-chatgpt","title":"AI Jam có vị như thế nào? Thực hành nấu ăn với ChatGPT","tags":["Trí tuệ nhân tạo (AI)"],"tags_str":"Trí tuệ nhân tạo (AI)","author":"VIVE POST-WAVE Team","date":"2025-04-23","read_time":"5 phút đọc","image":"https://www.vivepostwave.com/wp-content/uploads/2025/03/DSC00694-e1742956661599.webp"},{"slug":"vpwt-explore-versailles-lost-gardens-in-a-multi-user-vr-journey","title":"Khám phá Khu vườn bị mất của Versailles trong hành trình VR nhiều người dùng","tags":["Thực tế mở rộng (XR)","Tin tức doanh nghiệp"],"tags_str":"Thực tế mở rộng (XR) | Tin tức doanh nghiệp","author":"VIVE POST-WAVE Team","date":"2025-04-22","read_time":"3 phút đọc","image":"https://www.vivepostwave.com/wp-content/uploads/2025/03/download-1.jpg"},{"slug":"vpwt-xr-game-based-on-neon-genesis-evangelion-coming-next-year","title":"Game Evangelion XR dự kiến ​​ra mắt vào năm sau","tags":["Thực tế mở rộng (XR)","trò chơi"],"tags_str":"Thực tế mở rộng (XR) | trò chơi","author":"VIVE POST-WAVE Team","date":"2025-04-21","read_time":"trị giá 2 phút","image":"https://www.vivepostwave.com/wp-content/uploads/2025/02/Evangelion-Origins.jpg"},{"slug":"vpwt-xr-game-based-on-neon-genesis-evangelion-coming-next-year","title":"Trò chơi XR dựa trên Neon Genesis Evangelion sẽ ra mắt vào năm tới","tags":["Thực tế mở rộng (XR)","Trò chơi &amp; Giải trí"],"tags_str":"Thực tế mở rộng (XR) | Trò chơi &amp; Giải trí","author":"VIVE POST-WAVE Team","date":"2025-04-21","read_time":"2 phút đọc","image":"https://www.vivepostwave.com/wp-content/uploads/2025/02/Evangelion-Origins.jpg"},{"slug":"vr-motion-sickness-explained-causes-fixes-and-how-vive-helps","title":"Giải thích về chứng say tàu xe VR: Nguyên nhân, cách khắc phục và cách VIVE giúp đỡ","tags":["Thực tế mở rộng (XR)","Trò chơi &amp; Giải trí"],"tags_str":"Thực tế mở rộng (XR) | Trò chơi &amp; Giải trí","author":"David Okano","date":"2025-04-16","read_time":"5 phút đọc","image":"/express_media/images/vr-sickness-hero.max-688x400.jpg"},{"slug":"laval-virtual-2025-our-largest-showcase-yet","title":"Laval Virtual 2025 - Triển lãm lớn nhất của chúng tôi","tags":["Thực tế mở rộng (XR)"],"tags_str":"Thực tế mở rộng (XR)","author":"VIVE Team","date":"2025-04-15","read_time":"5 phút đọc","image":"/express_media/images/DJI_20250410_143332_522.max-688x400.jpg"},{"slug":"preserving-notre-dame-through-vr-how-500000-people-stepped-inside-a-cathedral-under-restoration","title":"Bảo tồn nhà thờ Đức Bà thông qua VR - Cách 400.000 người bước vào nhà thờ đang được trùng tu","tags":["Tin tức chung"],"tags_str":"Tin tức chung","author":"VIVE Team","date":"2025-04-15","read_time":"5 phút đọc","image":"/express_media/images/ZsdADkaF0TcGJQXg_2_afDYA-ezgif.com-webp-to-p.max-688x400.png"},{"slug":"vpwt-enter-jack-and-roses-world-in-titanic-echoes-from-the-past","title":"Titanic: Echoes VR — Cùng nhau du hành vào thế giới của Jack và Rose","tags":["Sự kiện &amp; Hoạt động","Thực tế mở rộng (XR)"],"tags_str":"Sự kiện &amp; Hoạt động | Thực tế mở rộng (XR)","author":"VIVE POST-WAVE Team","date":"2025-04-14","read_time":"trị giá 3 phút","image":"https://www.vivepostwave.com/wp-content/uploads/2025/03/download-2.jpg"},{"slug":"vpwt-enter-jack-and-roses-world-in-titanic-echoes-from-the-past","title":"Bước vào thế giới của Jack và Rose trong Titanic: Tiếng vọng từ quá khứ","tags":["Thực tế mở rộng (XR)"],"tags_str":"Thực tế mở rộng (XR)","author":"VIVE POST-WAVE Team","date":"2025-04-14","read_time":"2 phút đọc","image":"https://www.vivepostwave.com/wp-content/uploads/2025/03/download-2.jpg"},{"slug":"mickey-17-review-clones-ai-agents-and-the-ship-of-theseus","title":"Đánh giá Mickey 17: Bản sao, Đặc vụ AI và Con tàu của Theseus","tags":["Trí tuệ nhân tạo (AI)"],"tags_str":"Trí tuệ nhân tạo (AI)","author":"VIVE POST-WAVE Team","date":"2025-04-11","read_time":"5 phút đọc","image":"https://www.vivepostwave.com/wp-content/uploads/2025/03/mickey-17-cover.jpg"},{"slug":"vr-5-viveport-steam","title":"Danh sách phim VR phải xem: 5 siêu phẩm đề xuất không thể bỏ lỡ (nền tảng VIVEPORT và Steam)","tags":["Kính thực tế ảo (Headset)","Thông báo sản phẩm"],"tags_str":"Kính thực tế ảo (Headset) | Thông báo sản phẩm","author":"Wen Li Teng","date":"2025-04-07","read_time":"5 phút đọc","image":"/express_media/images/Blog_VR_movie.max-688x400.jpg"},{"slug":"best-vr-movie-picks-5-must-watch-on-viveport-and-steam","title":"Lựa chọn phim VR hay nhất: 5 phim phải xem trên VIVEPORT và Steam","tags":["Thực tế mở rộng (XR)","Trò chơi &amp; Giải trí"],"tags_str":"Thực tế mở rộng (XR) | Trò chơi &amp; Giải trí","author":"Wen Li Teng","date":"2025-04-07","read_time":"5 phút đọc","image":"/express_media/images/Blog_VR_movie.max-688x400.jpg"},{"slug":"the-last-stronghold-carcassonne-step-into-medieval-france","title":"Thành trì cuối cùng – Carcassonne: Bước vào nước Pháp thời trung cổ","tags":["Thực tế mở rộng (XR)"],"tags_str":"Thực tế mở rộng (XR)","author":"VIVE Team","date":"2025-04-04","read_time":"5 phút đọc","image":"/express_media/images/tlsc.max-688x400.png"},{"slug":"viverse-creator-program","title":"Thứ tự kêu gọi của người sáng tạo: Tham gia Chương trình người sáng tạo VIVERSE và tạo ra thế giới ảo của bạn!","tags":["Thực tế mở rộng (XR)","Vũ trụ ảo (Metaverse)"],"tags_str":"Thực tế mở rộng (XR) | Vũ trụ ảo (Metaverse)","author":"VIVE Team","date":"2025-04-03","read_time":"5 phút đọc","image":"/express_media/images/viverse_create.max-688x400.png"},{"slug":"calling-all-creators-build-your-virtual-worlds-with-the-viverse-creator-program","title":"Kêu gọi tất cả người sáng tạo: Xây dựng thế giới ảo của bạn với Chương trình người sáng tạo VIVERSE","tags":["Thực tế mở rộng (XR)"],"tags_str":"Thực tế mở rộng (XR)","author":"VIVE Team","date":"2025-04-03","read_time":"5 phút đọc","image":"/express_media/images/viverse_create.max-688x400.png"},{"slug":"can-you-find-van-gogh-at-laval-virtual-the-first-european-showcase-of-finding-vincentcan-you-find-van-gogh-at-laval-virtual-the-first-european-showcase-of-finding-vincent","title":"Tìm kiếm Van Gogh ra mắt ở châu Âu, ngay tại đây trên Laval Virtual!","tags":["Sự kiện &amp; Hoạt động","Thực tế mở rộng (XR)"],"tags_str":"Sự kiện &amp; Hoạt động | Thực tế mở rộng (XR)","author":"VIVE Team","date":"2025-04-02","read_time":"5 phút đọc","image":"/express_media/images/Finding_Vincent_UNIVERSE_VR_experience_Starr.max-688x400.png"},{"slug":"transforming-real-world-decisions-with-virtual-twins-for-industrial-training-dassault-systemes","title":"Thay đổi các quyết định trong thế giới thực bằng cặp song sinh ảo cho đào tạo công nghiệp: Dassault Systèmes","tags":["Thực tế mở rộng (XR)"],"tags_str":"Thực tế mở rộng (XR)","author":"VIVE Team","date":"2025-04-02","read_time":"5 phút đọc","image":"/express_media/images/DASSAULT_MWC.max-688x400.jpg"},{"slug":"can-you-find-van-gogh-at-laval-virtual-the-first-european-showcase-of-finding-vincentcan-you-find-van-gogh-at-laval-virtual-the-first-european-showcase-of-finding-vincent","title":"Bạn có thể tìm thấy Van Gogh tại Laval Virtual không? Triển lãm Châu Âu đầu tiên về \"Tìm Vincent\"","tags":["Thực tế mở rộng (XR)"],"tags_str":"Thực tế mở rộng (XR)","author":"VIVE Team","date":"2025-04-02","read_time":"5 phút đọc","image":"/express_media/images/Finding_Vincent_UNIVERSE_VR_experience_Starr.max-688x400.png"},{"slug":"more-than-a-vtuber-meet-vrchat-enthusiast-hiodoshi-ao","title":"Giới thiệu Ao Hiodoshi, con quỷ của VRChat, người không chỉ là một người đứng đầu!","tags":["Thực tế mở rộng (XR)","Vũ trụ ảo (Metaverse)"],"tags_str":"Thực tế mở rộng (XR) | Vũ trụ ảo (Metaverse)","author":"VIVE POST-WAVE Team","date":"2025-04-01","read_time":"2 phút đọc","image":"https://www.vivepostwave.com/wp-content/uploads/2025/02/vket-e1740650909839.jpg"},{"slug":"more-than-a-vtuber-meet-vrchat-enthusiast-hiodoshi-ao","title":"Hơn cả một VTuber? Gặp gỡ người đam mê VRChat Hiodoshi Ao","tags":["Thực tế mở rộng (XR)"],"tags_str":"Thực tế mở rộng (XR)","author":"VIVE POST-WAVE Team","date":"2025-04-01","read_time":"2 phút đọc","image":"https://www.vivepostwave.com/wp-content/uploads/2025/02/vket-e1740650909839.jpg"},{"slug":"htcai","title":"HTC hợp tác với Tzu Chi để quảng bá các ứng dụng giáo dục và chăm sóc y tế cho bệnh nhân ảo AI","tags":["Tin tức chung"],"tags_str":"Tin tức chung","author":"HTC Vive Team","date":"2025-03-28","read_time":"5 phút đọc","image":"/express_media/images/HTCXinWenZhao-TuYiZuoQiHuaLianCiYuanJiaoXueB.max-688x400.jpg"},{"slug":"top-5-books-about-virtual-reality-to-read-and-why","title":"5 cuốn sách hay nhất về thực tế ảo nên đọc và tại sao","tags":["Thực tế mở rộng (XR)","Trí tuệ nhân tạo (AI)","Vũ trụ ảo (Metaverse)"],"tags_str":"Thực tế mở rộng (XR) | Trí tuệ nhân tạo (AI) | Vũ trụ ảo (Metaverse)","author":"VIVE Team","date":"2025-03-26","read_time":"5 phút đọc","image":"/express_media/images/Books.max-688x400.jpg"},{"slug":"experience-versailles-lost-gardens-in-vr-now-open-to-the-public","title":"Hãy xem những khu vườn bị mất của Versailles được tái hiện sống động trong VR ngay bây giờ!","tags":["Sự kiện &amp; Hoạt động","Thực tế mở rộng (XR)"],"tags_str":"Sự kiện &amp; Hoạt động | Thực tế mở rộng (XR)","author":"VIVE Team","date":"2025-03-25","read_time":"giá trị 5 phút","image":"/express_media/images/Thetys_Grotto_copyright_GEDEON_Experiences_S.max-688x400.jpg"},{"slug":"experience-versailles-lost-gardens-in-vr-now-open-to-the-public","title":"Trải nghiệm Khu vườn bị mất của Versailles trong VR - Hiện đã mở cửa cho công chúng!","tags":["Thực tế mở rộng (XR)"],"tags_str":"Thực tế mở rộng (XR)","author":"VIVE Team","date":"2025-03-25","read_time":"5 phút đọc","image":"/express_media/images/Thetys_Grotto_copyright_GEDEON_Experiences_S.max-688x400.jpg"},{"slug":"htc-palace-of-versailles","title":"\"Versailles: The Lost Garden of the Sun King\", sản phẩm hợp tác giữa HTC và Cung điện Versailles, chính thức ra mắt","tags":["Sự kiện &amp; Hoạt động","Tin tức doanh nghiệp"],"tags_str":"Sự kiện &amp; Hoạt động | Tin tức doanh nghiệp","author":"VIVE Team","date":"2025-03-25","read_time":"5 phút đọc","image":"/express_media/images/HuangJiaDongWuYuanRoyal_Menagerie_copyright_.max-688x400.jpg"}];
+
+function renderBlogUI(filterTag) {
+    var filtered = allBlogPosts;
+    if (filterTag && filterTag !== 'all') {
+        filtered = allBlogPosts.filter(function(p) {
+            return p.tags && p.tags.includes(filterTag);
+        });
+    }
+    
+    if (filtered.length === 0) {
+        $('#featured-article-area').html('');
+        $('#grid-articles-area').html('<div style="grid-column: 1/-1; padding: 40px; text-align: center; color: #6b7280; font-size: 15px;">Không có bài viết nào trong chủ đề này.</div>');
+        return;
+    }
+    
+    // Bài viết đầu tiên là Featured Card
+    var feat = filtered[0];
+    var featCleanSlug = feat.slug.replace(/^\/+/, '').replace(/\/+$/, '');
+    var featUrl = '/blog/' + featCleanSlug + '/';
+    var featHtml = `
+        <a href="${featUrl}" class="featured-article-card">
+            <div class="featured-article-info">
+                <div>
+                    <div class="featured-article-tags">${feat.tags_str}</div>
+                    <h2 class="featured-article-title">${feat.title}</h2>
+                </div>
+                <div class="featured-article-meta">
+                    <div>${feat.author}</div>
+                    <div>${feat.date} · ${feat.read_time}</div>
+                </div>
+            </div>
+            <div class="featured-article-img">
+                <img src="${feat.image}" alt="${feat.title}" onerror="this.onerror=null; this.src='https://blog.vive.com/express_media/images/Asset1-cover.scale-100.jpg';">
+            </div>
+        </a>
+    `;
+    $('#featured-article-area').html(featHtml);
+    
+    // Các bài viết còn lại trong Grid 3 cột
+    var gridHtml = '';
+    for (var i = 1; i < filtered.length; i++) {
+        var item = filtered[i];
+        var itemCleanSlug = item.slug.replace(/^\/+/, '').replace(/\/+$/, '');
+        var itemUrl = '/blog/' + itemCleanSlug + '/';
+        gridHtml += `
+            <a href="${itemUrl}" class="grid-article-card">
+                <div class="grid-article-img">
+                    <img src="${item.image}" alt="${item.title}" onerror="this.onerror=null; this.src='https://blog.vive.com/express_media/images/Asset1-cover.scale-100.jpg';">
+                </div>
+                <div class="grid-article-info">
+                    <div class="grid-article-tags">${item.tags_str}</div>
+                    <h3 class="grid-article-title">${item.title}</h3>
+                    <div class="grid-article-meta">
+                        <div>${item.author}</div>
+                        <div>${item.date} · ${item.read_time}</div>
+                    </div>
+                </div>
+            </a>
+        `;
+    }
+    $('#grid-articles-area').html(gridHtml);
+}
+
+function filterBlogCategory(tag, btnElem) {
+    $('.sidebar-tag-btn').removeClass('active-tag');
+    if (btnElem) {
+        $(btnElem).addClass('active-tag');
+    }
+    renderBlogUI(tag);
+}
+
+function syncBlogCategorySidebar() {
+    var categories = [
+        'Thực tế mở rộng (XR)',
+        'Trí tuệ nhân tạo (AI)',
+        'Vũ trụ ảo (Metaverse)',
+        'Trò chơi & Giải trí',
+        'Doanh nghiệp',
+        'Tin tức VIVE',
+        'Sản phẩm',
+        'Sự kiện & Hoạt động'
+    ];
+    var list = $('.sidebar-tags-list');
+    if (!list.length) return;
+    var html = '<div class="sidebar-tag-item"><button type="button" class="sidebar-tag-btn active-tag" data-blog-category="all">Tất cả (' + allBlogPosts.length + ')</button></div>';
+    categories.forEach(function(category) {
+        var count = allBlogPosts.filter(function(post) {
+            return Array.isArray(post.tags) && post.tags.includes(category);
+        }).length;
+        html += '<div class="sidebar-tag-item"><button type="button" class="sidebar-tag-btn" data-blog-category="' + category.replace(/"/g, '&quot;') + '">' + category + ' (' + count + ')</button></div>';
+    });
+    list.html(html);
+    list.off('click.themeViveBlog').on('click.themeViveBlog', '[data-blog-category]', function() {
+        filterBlogCategory($(this).attr('data-blog-category'), this);
+    });
+}
+
+$(document).ready(function() {
+    // Always refresh the static mirror with the latest published WordPress posts.
+    // The embedded list remains as a fallback if the local API is unavailable.
+    fetch('/api/v2/vive-blog/?limit=1000', { cache: 'no-store' })
+        .then(function(response) {
+            if (!response.ok) throw new Error('Blog API returned ' + response.status);
+            return response.json();
+        })
+        .then(function(payload) {
+            if (!payload || !Array.isArray(payload.items)) throw new Error('Invalid Blog API response');
+            var decodeEntities = function(value) {
+                var textarea = document.createElement('textarea');
+                textarea.innerHTML = value || '';
+                return textarea.value;
+            };
+            allBlogPosts = payload.items.map(function(item) {
+                var tags = Array.isArray(item.tags) ? item.tags.map(function(tag) {
+                    return decodeEntities(tag.title);
+                }) : [];
+                var htmlUrl = item.meta && item.meta.html_url ? item.meta.html_url : '';
+                return {
+                    slug: htmlUrl.replace(/^https?:\/\/[^/]+\/blog\//, '').replace(/^\/+|\/+$/g, ''),
+                    title: item.title || 'N/A',
+                    tags: tags,
+                    tags_str: tags.join(' | '),
+                    author: item.author && item.author.name ? item.author.name : 'VIVE Team',
+                    date: item.publish_date || '',
+                    read_time: item.x_minute_read || '5 phut doc',
+                    image: item.cover_thumbnail || item.cover_url || 'https://blog.vive.com/express_media/images/Asset1-cover.scale-100.jpg'
+                };
+            });
+            syncBlogCategorySidebar();
+            renderBlogUI('all');
+            $('.blog-main-layout').addClass('blog-data-ready');
+        })
+        .catch(function(error) {
+            console.warn('Could not refresh blog posts:', error);
+            syncBlogCategorySidebar();
+            renderBlogUI('all');
+            $('.blog-main-layout').addClass('blog-data-ready');
+        });
+});
+</script>
+
+</body>
+</html>

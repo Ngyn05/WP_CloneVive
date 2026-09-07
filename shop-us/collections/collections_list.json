@@ -1,0 +1,87 @@
+[
+  {
+    "handle": "accessories",
+    "url": "https://shop-us.vive.com/collections/accessories",
+    "status": "ALREADY EXISTS (372242 bytes)"
+  },
+  {
+    "handle": "all",
+    "url": "https://shop-us.vive.com/collections/all",
+    "status": "ALREADY EXISTS (535788 bytes)"
+  },
+  {
+    "handle": "battery_included",
+    "url": "https://shop-us.vive.com/collections/battery_included",
+    "status": "ALREADY EXISTS (222770 bytes)"
+  },
+  {
+    "handle": "focus-series",
+    "url": "https://shop-us.vive.com/collections/focus-series",
+    "status": "ALREADY EXISTS (385764 bytes)"
+  },
+  {
+    "handle": "headsets",
+    "url": "https://shop-us.vive.com/collections/headsets",
+    "status": "ALREADY EXISTS (310804 bytes)"
+  },
+  {
+    "handle": "on-sale",
+    "url": "https://shop-us.vive.com/collections/on-sale",
+    "status": "ALREADY EXISTS (215644 bytes)"
+  },
+  {
+    "handle": "pro-series",
+    "url": "https://shop-us.vive.com/collections/pro-series",
+    "status": "ALREADY EXISTS (262778 bytes)"
+  },
+  {
+    "handle": "vive-eagle-1",
+    "url": "https://shop-us.vive.com/collections/vive-eagle-1",
+    "status": "ALREADY EXISTS (469595 bytes)"
+  },
+  {
+    "handle": "vive-eagle-out-now",
+    "url": "https://shop-us.vive.com/collections/vive-eagle-out-now",
+    "status": "ALREADY EXISTS (297905 bytes)"
+  },
+  {
+    "handle": "vive-flow",
+    "url": "https://shop-us.vive.com/collections/vive-flow",
+    "status": "ALREADY EXISTS (237048 bytes)"
+  },
+  {
+    "handle": "vive-flow-for-business",
+    "url": "https://shop-us.vive.com/collections/vive-flow-for-business",
+    "status": "ALREADY EXISTS (195969 bytes)"
+  },
+  {
+    "handle": "vive-focus-series-for-business",
+    "url": "https://shop-us.vive.com/collections/vive-focus-series-for-business",
+    "status": "ALREADY EXISTS (271412 bytes)"
+  },
+  {
+    "handle": "vive-mars-series",
+    "url": "https://shop-us.vive.com/collections/vive-mars-series",
+    "status": "ALREADY EXISTS (198080 bytes)"
+  },
+  {
+    "handle": "vive-pro-series-for-business",
+    "url": "https://shop-us.vive.com/collections/vive-pro-series-for-business",
+    "status": "ALREADY EXISTS (172523 bytes)"
+  },
+  {
+    "handle": "vive-ultimate-tracker",
+    "url": "https://shop-us.vive.com/collections/vive-ultimate-tracker",
+    "status": "ALREADY EXISTS (242878 bytes)"
+  },
+  {
+    "handle": "vive-xr-elite-for-business",
+    "url": "https://shop-us.vive.com/collections/vive-xr-elite-for-business",
+    "status": "ALREADY EXISTS (194244 bytes)"
+  },
+  {
+    "handle": "xr-series",
+    "url": "https://shop-us.vive.com/collections/xr-series",
+    "status": "ALREADY EXISTS (277332 bytes)"
+  }
+]

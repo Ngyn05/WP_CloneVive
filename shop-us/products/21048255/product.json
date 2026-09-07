@@ -1,0 +1,55 @@
+{
+  "id": 10039429169469,
+  "title": "VIVE Wireless Dongle",
+  "handle": "21048255",
+  "body_html": "<p><meta charset=\"utf-8\"><span>Wirelessly connect your standalone or PC VR headset with VIVE Ultimate Tracker for an elite positional tracking experience.</span><sup>1</sup><span></span><br><br><span>Using a proprietary low-latency 2.4 GHz connection, VIVE Wireless Dongle can pair a compatible device with up to 5 VIVE Ultimate Trackers for full-body tracking and object tracking.</span><sup>2</sup><span></span><br><br><span>Plugs into your VIVE standalone VR headset or PC via USB Type-C.</span><sup>3</sup><span></span><br><br><span>Compatible with: VIVE Focus Vision, VIVE Focus 3, VIVE XR Elite, and third-party SteamVR-supported headsets.</span><br><span></span><span></span></p>\n<p><span>In-box items:</span></p>\n<ul>\n<li><span>VIVE Wireless Dongle</span></li>\n<li><span>Cable clip</span></li>\n<li><span>Extension cable</span></li>\n<li>\n<span>Extension cradle</span><br><br>\n</li>\n</ul>\n<div class=\"txt-disclaimer\">\n<ol>\n<li>Device compatibility required. A VIVE Wireless Dongle is required to connect VIVE Ultimate Tracker with compatible devices. VIVE Ultimate Tracker and compatible devices sold separately.</li>\n<li>Content compatibility required. Compatible content and devices sold separately. PC VR titles are available on VIVE Focus Vision and VIVE XR Elite via VIVE Streaming and on VIVE Focus 3 via VIVE Business Streaming. Third-party VR headsets must access compatible SteamVR content via VIVE Hub (beta). System requirements must be met.</li>\n<li>For VIVE Focus Vision, VIVE Focus 3, and VIVE XR Elite, VIVE Wireless Dongle can be plugged directly into the headset for standalone VR content or PC VR content using wireless streaming. It should be plugged into the PC for PC VR content using wired streaming. For third-party SteamVR-supported headsets, VIVE Wireless Dongle must be plugged into the PC. When VIVE Wireless Dongle is plugged into the PC, VIVE Ultimate Tracker must be paired using SteamVR via VIVE Hub.</li>\n</ol>\n</div>",
+  "published_at": "2025-11-10T17:57:35-08:00",
+  "created_at": "2025-08-27T23:17:07-07:00",
+  "updated_at": "2026-09-05T09:35:04-07:00",
+  "vendor": "HTC VIVE Online Store",
+  "product_type": "Simple",
+  "tags": [],
+  "variants": [
+    {
+      "id": 50674048794941,
+      "title": "Default Title",
+      "option1": "Default Title",
+      "option2": null,
+      "option3": null,
+      "sku": "99HATU003-00",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": null,
+      "available": true,
+      "price": "39.00",
+      "grams": 1000,
+      "compare_at_price": null,
+      "position": 1,
+      "product_id": 10039429169469,
+      "created_at": "2025-08-27T23:17:07-07:00",
+      "updated_at": "2026-09-05T09:35:04-07:00"
+    }
+  ],
+  "images": [
+    {
+      "id": 58918189072701,
+      "created_at": "2025-08-27T23:50:53-07:00",
+      "position": 1,
+      "updated_at": "2025-12-05T13:31:08-08:00",
+      "product_id": 10039429169469,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0926/0489/1453/files/vive-wireless-dongle-800.png?v=1764970268",
+      "width": 800,
+      "height": 800
+    }
+  ],
+  "options": [
+    {
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Default Title"
+      ]
+    }
+  ]
+}

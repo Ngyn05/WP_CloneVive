@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+  <head>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+    <meta content="width=device-width, initial-scale=1" name="viewport"/>
+    <style>
+
+      body {
+      background-color: black;
+      margin: 0;
+      padding: 0;
+      }
+
+      .maintenance {
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 100vh;
+      }
+
+
+      @media (max-width: 768px) {
+
+
+      .maintenance {
+      background-image: url(./maintenance.jpg);
+      }
+      }
+
+      @media (min-width: 769px) {
+
+      .maintenance {
+      background-image: url(./maintenance.jpg);
+      }
+
+
+      }
+    </style>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-78366313-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-78366313-1');
+    </script>
+
+  </head>
+
+  <body>
+    <div class="maintenance"></div>
+  </body>
+
+</html>

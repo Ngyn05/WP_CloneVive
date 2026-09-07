@@ -1,0 +1,55 @@
+{
+  "id": 10039428776253,
+  "title": "VIVE Face Gasket for XR Series",
+  "handle": "21046455",
+  "body_html": "",
+  "published_at": "2025-11-10T17:57:38-08:00",
+  "created_at": "2025-08-27T23:16:30-07:00",
+  "updated_at": "2026-09-05T09:35:04-07:00",
+  "vendor": "HTC VIVE Online Store",
+  "product_type": "Simple",
+  "tags": [],
+  "variants": [
+    {
+      "id": 50674046206269,
+      "title": "Default Title",
+      "option1": "Default Title",
+      "option2": null,
+      "option3": null,
+      "sku": "99H12297-00",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": null,
+      "available": true,
+      "price": "30.00",
+      "grams": 1000,
+      "compare_at_price": null,
+      "position": 1,
+      "product_id": 10039428776253,
+      "created_at": "2025-08-27T23:16:30-07:00",
+      "updated_at": "2026-09-05T09:35:04-07:00"
+    }
+  ],
+  "images": [
+    {
+      "id": 58918178619709,
+      "created_at": "2025-08-27T23:49:55-07:00",
+      "position": 1,
+      "updated_at": "2025-08-27T23:49:58-07:00",
+      "product_id": 10039428776253,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0926/0489/1453/files/xr_elite_face_gasket_493x493_82e70a2e-a31c-479b-9991-77727f3b1337.png?v=1756363798",
+      "width": 493,
+      "height": 493
+    }
+  ],
+  "options": [
+    {
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Default Title"
+      ]
+    }
+  ]
+}
