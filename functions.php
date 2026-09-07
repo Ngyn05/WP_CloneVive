@@ -1279,6 +1279,7 @@ function theme_vive_render( $file ) {
 	if ( ! $file || ! is_readable( $file ) ) { return ''; }
 	$html = file_get_contents( $file ); // phpcs:ignore WordPress.WP.AlternativeFunctions
 	$source_host = theme_vive_source_host( $file );
+	$is_shop_mirror = 'shop-us.vive.com' === $source_host || 'shop' === $source_host;
 	if ( 'blog.vive.com' === $source_host || theme_vive_is_blog_request() || 'shop-us.vive.com' === $source_host || 'shop' === $source_host ) {
 		$html = theme_vive_use_homepage_chrome( $html );
 		if ( 'blog.vive.com' === $source_host || theme_vive_is_blog_request() ) {
@@ -1308,6 +1309,56 @@ function theme_vive_render( $file ) {
 	$html = preg_replace( '#<noscript\b[^>]*>\s*<iframe\b[^>]*(?:googletagmanager\.com|google-analytics\.com)[^>]*>.*?</iframe>\s*</noscript>#is', '', $html );
 	// Remove Shopify bootstrap files that only work inside its hosted checkout.
 	$html = preg_replace( '#<script\b[^>]*\bsrc=["\'][^"\']*(?:/checkouts/internal/preloads\.js|shop\.app/checkouts/)[^"\']*["\'][^>]*>\s*</script>#is', '', $html );
+	if ( $is_shop_mirror ) {
+		// The archived homepage has a one-character casing typo. Its component
+		// scripts consistently read window.KROWN, so restore the original global.
+		$html = preg_replace( '#(<script\b[^>]*>\s*)Krown\s*=#i', '$1KROWN =', $html );
+		// Shopify telemetry, hosted checkout and account helpers cannot operate on
+		// the mirrored origin. They do not render storefront content, but they do
+		// generate CORS, CSP, missing pixel and rejected-promise console errors.
+		$html = preg_replace(
+			'#<script\b[^>]*\bsrc=["\'][^"\']*(?:/cdn/wpm/|/cdn/shopifycloud/(?:privacy-banner|perf-kit|shop-js|portable-wallets|storefront/)|cdn\.shopify\.com/(?:shopifycloud/shop-js|storefront/)|shop_events_listener|event_observer_reporter|standard-actions\.js)[^"\']*["\'][^>]*>\s*</script>#is',
+			'',
+			$html
+		);
+		$html = preg_replace_callback( '#<script\b[^>]*>.*?</script>#is', static function ( $match ) {
+			$script = $match[0];
+			$markers = array(
+				'cdn.shopify.com/shopifycloud/storefront',
+				'window.ShopifyAnalytics',
+				'window.__TREKKIE_SHIM_QUEUE',
+				'var wpmLoader=',
+				'shopify.event_observer.bootstrap',
+				'window.ShopifyPay',
+				'shopify.dynamic_checkout',
+				'portableWallets',
+				'cart-shipping-calculator-pro',
+				'cdn-bundler.nice-team.net',
+			);
+			foreach ( $markers as $marker ) {
+				if ( false !== stripos( $script, $marker ) ) { return ''; }
+			}
+			return $script;
+		}, (string) $html );
+		// This legacy VIVE homepage bundle aborts immediately because its
+		// ScrollMagic dependency is not part of the shop snapshot. No shop UI is
+		// initialized by it, so omit the dead request and exception.
+		$html = preg_replace(
+			'#<script\b[^>]*\bsrc=["\'][^"\']*/revamp-20/js/default\.js[^"\']*["\'][^>]*>\s*</script>#is',
+			'',
+			$html
+		);
+		$html = preg_replace( '#<link\b[^>]*(?:shop\.app|shopify-accelerated-checkout|portable-wallets)[^>]*>#i', '', $html );
+		$html = preg_replace( '#<style\b[^>]*\bid=["\']shopify-accelerated-checkout[^"\']*["\'][^>]*>.*?</style>#is', '', $html );
+		// The header cart is intentionally absent on the local mirror. Guarding
+		// this obsolete observer by removing it avoids observing a null node and
+		// cannot change visible content.
+		$html = preg_replace(
+			'#<script\b[^>]*>\s*new\s+MutationObserver\s*\(.*?\.observe\s*\(\s*document\.querySelector\s*\(\s*["\']\.cart-form["\']\s*\).*?</script>#is',
+			'',
+			$html
+		);
+	}
 	// These snapshot tags point at video pages rather than JavaScript files;
 	// browsers otherwise try to parse the returned HTML as JavaScript.
 	$html = preg_replace( '#<script\b[^>]*\bsrc=["\'](?:(?:https?:)?//)?(?:www\.)?(?:youtube\.com/watch|player\.youku\.com/jsapi)[^"\']*["\'][^>]*>\s*</script>#is', '', $html );
@@ -1317,7 +1368,7 @@ function theme_vive_render( $file ) {
 	$html = preg_replace( '#/wp-content/themes/theme_vive/footer-sites/assets/[^"\']*?(?<url>https?://[^"\']+)#i', '$1', $html );
 	// Serve crawled Shopify images locally. The shop homepage can come from the
 	// legacy footer-sites tree while its refreshed assets live in shop-us/assets.
-	$html = preg_replace_callback( '#(?:(?:https?:)?//)shop-us\.vive\.com(?<path>/cdn/shop/[^"\'\s<>\),;]+)#i', static function ( $match ) {
+	$html = preg_replace_callback( '#(?:(?:https?:)?//)shop-us\.vive\.com(?<path>/cdn/(?:shop|fonts)/[^"\'\s<>\),;]+)#i', static function ( $match ) {
 		$asset_path = rawurldecode( (string) wp_parse_url( $match['path'], PHP_URL_PATH ) );
 		$local_file = get_template_directory() . '/shop-us/assets/shop-us.vive.com' . $asset_path;
 		if ( ! is_file( $local_file ) ) { return $match[0]; }
@@ -1733,15 +1784,22 @@ function theme_vive_render( $file ) {
 	$html = preg_replace( '#</body>#i', $guard . $hook . '</body>', $html, 1 );
 	// The speculative-loading block may also be registered for wp_footer().
 	$html = preg_replace( '#<script\b[^>]*\btype=["\']speculationrules["\'][^>]*>.*?</script>#is', '', $html );
-	if ( ! empty( $is_shop_collection ) ) {
+	if ( $is_shop_mirror ) {
 		// These Shopify services provide analytics, consent UI, account and cart
 		// synchronization for the remote store. Collection browsing and filters
 		// use the mirrored local assets and do not depend on them.
 		$html = preg_replace(
-			'#<script\b[^>]*\bsrc=["\'](?:https?:)?//(?:shop-us\.vive\.com/cdn/(?:wpm|shopifycloud/(?:privacy-banner|perf-kit))/|cdn\.shopify\.com/(?:shopifycloud/shop-js|storefront/))[^"\']*["\'][^>]*>\s*</script>#is',
+			'#<script\b[^>]*\bsrc=["\'](?:https?:)?//(?:shop-us\.vive\.com/cdn/(?:wpm|shopifycloud/(?:privacy-banner|perf-kit|shop-js|portable-wallets|storefront/))/|cdn\.shopify\.com/(?:shopifycloud/shop-js|storefront/))[^"\']*["\'][^>]*>\s*</script>#is',
 			'',
 			$html
 		);
+		// WordPress hooks above may print commerce integrations after the first
+		// cleanup pass, so apply the same non-visual cleanup to the final document.
+		$html = preg_replace_callback( '#<script\b[^>]*>.*?</script>#is', static function ( $match ) {
+			return preg_match( '#(?:shopify\.event_observer|ShopifyAnalytics|__TREKKIE|wpmLoader|ShopifyPay|shopify\.dynamic_checkout|portableWallets|init-shop-cart-sync|Shopify\.featureAssets|shop\.app/pay|cart-shipping-calculator-pro)#i', $match[0] ) ? '' : $match[0];
+		}, (string) $html );
+		$html = preg_replace( '#<link\b[^>]*(?:shop\.app|shopify-accelerated-checkout|portable-wallets)[^>]*>#i', '', $html );
+		$html = preg_replace( '#<style\b[^>]*\bid=["\']shopify-accelerated-checkout[^"\']*["\'][^>]*>.*?</style>#is', '', $html );
 	}
 	// A few plugins and legacy templates add anchors during wp_head/wp_footer,
 	// after the main href rewrite above. Normalize those late links as well.
