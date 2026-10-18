@@ -616,6 +616,68 @@ function theme_vive_product_template_file() {
 	return ! empty( $files ) ? $files[0] : false;
 }
 
+/** Build a self-contained related-products section for mirrored shop pages. */
+function theme_vive_related_products_html( $product, $limit = 8 ) {
+	if ( ! $product instanceof WC_Product || ! function_exists( 'wc_get_products' ) ) { return ''; }
+
+	$product_id = $product->get_id();
+	$ids = function_exists( 'wc_get_related_products' )
+		? wc_get_related_products( $product_id, $limit, array( $product_id ) )
+		: array();
+
+	// Some imported products do not yet have WooCommerce related-product data.
+	// Fill the row from their categories, then from the rest of the catalogue.
+	if ( count( $ids ) < $limit ) {
+		$category_slugs = wp_get_post_terms( $product_id, 'product_cat', array( 'fields' => 'slugs' ) );
+		$args = array(
+			'status'  => 'publish',
+			'limit'   => $limit * 2,
+			'exclude' => array_merge( array( $product_id ), $ids ),
+			'return'  => 'ids',
+		);
+		if ( ! empty( $category_slugs ) && ! is_wp_error( $category_slugs ) ) {
+			$args['category'] = $category_slugs;
+		}
+		$ids = array_merge( $ids, wc_get_products( $args ) );
+	}
+	if ( count( $ids ) < $limit ) {
+		$ids = array_merge( $ids, wc_get_products( array(
+			'status'  => 'publish',
+			'limit'   => $limit * 2,
+			'exclude' => array_merge( array( $product_id ), $ids ),
+			'orderby' => 'rand',
+			'return'  => 'ids',
+		) ) );
+	}
+
+	$cards = array();
+	foreach ( array_unique( array_map( 'absint', $ids ) ) as $related_id ) {
+		$related = wc_get_product( $related_id );
+		if ( ! $related || ! $related->is_visible() ) { continue; }
+		$related_slug = (string) get_post_meta( $related_id, THEME_VIVE_PRODUCT_META, true ) ?: $related->get_slug();
+		if ( preg_match( '#^(?:htc-)?vive-eagle-(?:pantos|square|glossy)-#i', $related_slug ) ) { continue; }
+
+		$image_url = $related->get_image_id() ? wp_get_attachment_image_url( $related->get_image_id(), 'medium_large' ) : get_post_meta( $related_id, '_theme_vive_image', true );
+		if ( empty( $image_url ) || false !== strpos( $image_url, 'Asset1-cover' ) ) {
+			$local_images = glob( get_template_directory() . '/assets/media/products/' . $related_slug . '.*' );
+			if ( ! empty( $local_images ) ) {
+				$image_url = get_template_directory_uri() . '/assets/media/products/' . basename( $local_images[0] );
+			}
+		}
+		$url = home_url( '/shop/products/' . $related_slug . '/' );
+		$cards[] = '<article class="theme-vive-related__card">'
+			. '<a class="theme-vive-related__image" href="' . esc_url( $url ) . '"><img src="' . esc_url( $image_url ) . '" alt="' . esc_attr( $related->get_name() ) . '" loading="lazy"></a>'
+			. '<h3><a href="' . esc_url( $url ) . '">' . esc_html( $related->get_name() ) . '</a></h3>'
+			. '</article>';
+		if ( count( $cards ) >= $limit ) { break; }
+	}
+
+	if ( empty( $cards ) ) { return ''; }
+	return '<section class="theme-vive-related" aria-labelledby="theme-vive-related-title">'
+		. '<div class="theme-vive-related__inner"><h2 id="theme-vive-related-title">Có thể bạn cũng thích</h2>'
+		. '<div class="theme-vive-related__grid">' . implode( '', $cards ) . '</div></div></section>';
+}
+
 function theme_vive_product_render_html( $html, $product ) {
 	if ( ! $product instanceof WC_Product ) { return $html; }
 
@@ -721,6 +783,13 @@ function theme_vive_product_render_html( $html, $product ) {
 	$html = preg_replace( '#<product-recommendations\b[^>]*>[\s\S]*?</product-recommendations>#is', '', $html );
 	$html = preg_replace( '#<sticky-add-to-cart\b[^>]*>[\s\S]*?</sticky-add-to-cart>#is', '', $html );
 	$html = preg_replace( '#<div\b[^>]*id=["\']shopify-section-template--[0-9]+__product-recommendations["\'][^>]*>[\s\S]*?</div>\s*(?=<div\b[^>]*id=["\']shopify-section-sections|<footer|\z)#is', '', $html );
+
+	// Shopify's recommendation endpoint is unavailable in the mirror. Replace it
+	// with WooCommerce products so the section is present on every detail page.
+	$related_html = theme_vive_related_products_html( $product );
+	if ( $related_html && false === strpos( $html, 'class="theme-vive-related"' ) ) {
+		$html = preg_replace( '#<footer\b#i', $related_html . '<footer', $html, 1 );
+	}
 
 	// Clean up any remaining show-more buttons or toggles
 	$html .= '<style>.theme-vive-product-description-toggle,show-more>.js-show-more,.show-more_toggler{display:none!important}</style>';
@@ -1200,6 +1269,26 @@ function theme_vive_products_prepare_html( $html, $file ) {
 		'nonce'=>wp_create_nonce( 'theme_vive_submit_order' ),
 		'recaptchaSiteKey'=>theme_vive_recaptcha_site_key(),
 	);
+	// Archived product snapshots already have their own source file, so they do
+	// not pass through theme_vive_product_render_html(). Replace Shopify's empty
+	// asynchronous recommendation placeholder while preparing those pages.
+	if ( $is_shop_product && $detail_slug && false === strpos( $html, 'class="theme-vive-related"' ) ) {
+		$related_product = theme_vive_find_product( $detail_slug );
+		$related_html = $related_product ? theme_vive_related_products_html( $related_product ) : '';
+		if ( $related_html ) {
+			$replaced = 0;
+			$html = preg_replace(
+				'#<div\b[^>]*id=["\']shopify-section-template--[0-9]+__product-recommendations["\'][^>]*>[\s\S]*</div>\s*(?=</main>)#is',
+				$related_html,
+				$html,
+				1,
+				$replaced
+			);
+			if ( ! $replaced ) {
+				$html = preg_replace( '#</main>#i', $related_html . '</main>', $html, 1 );
+			}
+		}
+	}
 	$recaptcha_script = theme_vive_recaptcha_enabled()
 		? '<script src="https://www.google.com/recaptcha/api.js?hl=vi" async defer></script>'
 		: '';

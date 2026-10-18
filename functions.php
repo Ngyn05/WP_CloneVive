@@ -384,7 +384,7 @@ add_action( 'admin_notices', static function () {
 	echo '<div class="notice notice-success is-dismissible"><p>' . esc_html( $message ) . '</p></div>';
 } );
 add_action( 'wp_enqueue_scripts', static function () {
-	wp_enqueue_style( 'theme-vive', get_stylesheet_uri(), array(), '3.3.14' );
+	wp_enqueue_style( 'theme-vive', get_stylesheet_uri(), array(), '3.3.16' );
 } );
 
 // WordPress only prints a favicon when a Site Icon has been configured in the
@@ -1930,7 +1930,7 @@ function theme_vive_prepare_fallback_html( $html, $file ) {
 		$attrs = preg_replace( '#\s+(?:lang|dir)\s*=\s*(?:["\'][^"\']*["\']|[^\s>]+)#i', '', $match['attrs'] );
 		return '<html' . $attrs . ' lang="vi" dir="ltr">';
 	}, $html, 1 );
-	$theme_css = add_query_arg( 'ver', '3.3.14', get_stylesheet_uri() );
+	$theme_css = add_query_arg( 'ver', '3.3.16', get_stylesheet_uri() );
 	$head = '<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>'
 		. '<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">'
 		. '<link rel="stylesheet" href="' . esc_url( $theme_css ) . '">'
