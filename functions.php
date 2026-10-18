@@ -9,6 +9,56 @@ require_once get_template_directory() . '/inc/blog-cms.php';
 require_once get_template_directory() . '/inc/rest-api.php';
 require_once get_template_directory() . '/inc/product-cms.php';
 
+/** reCAPTCHA v2 keys are defined in wp-config.php, outside the theme. */
+function theme_vive_recaptcha_site_key() {
+	return defined( 'THEME_VIVE_RECAPTCHA_SITE_KEY' ) ? trim( (string) THEME_VIVE_RECAPTCHA_SITE_KEY ) : '';
+}
+
+function theme_vive_recaptcha_secret_key() {
+	return defined( 'THEME_VIVE_RECAPTCHA_SECRET_KEY' ) ? trim( (string) THEME_VIVE_RECAPTCHA_SECRET_KEY ) : '';
+}
+
+function theme_vive_recaptcha_enabled() {
+	return '' !== theme_vive_recaptcha_site_key() && '' !== theme_vive_recaptcha_secret_key();
+}
+
+function theme_vive_recaptcha_field() {
+	if ( ! theme_vive_recaptcha_enabled() ) { return ''; }
+	return '<div class="theme-vive-recaptcha"><div class="g-recaptcha" data-sitekey="' . esc_attr( theme_vive_recaptcha_site_key() ) . '"></div></div>';
+}
+
+function theme_vive_verify_recaptcha() {
+	if ( ! theme_vive_recaptcha_enabled() ) {
+		return new WP_Error( 'recaptcha_not_configured', 'CAPTCHA chưa được cấu hình.' );
+	}
+	$token = sanitize_text_field( wp_unslash( $_POST['g-recaptcha-response'] ?? '' ) );
+	if ( '' === $token ) {
+		return new WP_Error( 'recaptcha_missing', 'Vui lòng xác nhận bạn không phải là người máy.' );
+	}
+	$response = wp_remote_post( 'https://www.google.com/recaptcha/api/siteverify', array(
+		'timeout' => 10,
+		'body'    => array(
+			'secret'   => theme_vive_recaptcha_secret_key(),
+			'response' => $token,
+			'remoteip' => sanitize_text_field( wp_unslash( $_SERVER['REMOTE_ADDR'] ?? '' ) ),
+		),
+	) );
+	if ( is_wp_error( $response ) ) {
+		return new WP_Error( 'recaptcha_unavailable', 'Không thể kiểm tra CAPTCHA. Vui lòng thử lại.' );
+	}
+	$result = json_decode( wp_remote_retrieve_body( $response ), true );
+	if ( empty( $result['success'] ) ) {
+		return new WP_Error( 'recaptcha_invalid', 'CAPTCHA không hợp lệ hoặc đã hết hạn. Vui lòng thử lại.' );
+	}
+	return true;
+}
+
+add_action( 'wp_enqueue_scripts', static function () {
+	if ( theme_vive_recaptcha_enabled() ) {
+		wp_enqueue_script( 'google-recaptcha-v2', 'https://www.google.com/recaptcha/api.js?hl=vi', array(), null, true );
+	}
+}, 20 );
+
 function theme_vive_is_blog_landing_request() {
 	if ( is_admin() ) { return false; }
 	$path = wp_parse_url( wp_unslash( $_SERVER['REQUEST_URI'] ?? '/' ), PHP_URL_PATH ); // phpcs:ignore WordPress.Security.ValidatedSanitizedInput
@@ -333,7 +383,9 @@ add_action( 'admin_notices', static function () {
 	delete_transient( $key );
 	echo '<div class="notice notice-success is-dismissible"><p>' . esc_html( $message ) . '</p></div>';
 } );
-add_action( 'wp_enqueue_scripts', static function () { wp_enqueue_style( 'theme-vive', get_stylesheet_uri(), array(), '3.3.13' ); } );
+add_action( 'wp_enqueue_scripts', static function () {
+	wp_enqueue_style( 'theme-vive', get_stylesheet_uri(), array(), '3.3.14' );
+} );
 
 // WordPress only prints a favicon when a Site Icon has been configured in the
 // database. Use the mirrored VIVE favicon as a reliable fallback for native

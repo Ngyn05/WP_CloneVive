@@ -1024,7 +1024,9 @@ function theme_vive_products_prepare_html( $html, $file ) {
 			. '<input type="hidden" name="product_id" value="' . esc_attr( $product_info['id'] ?? 0 ) . '">'
 			. '<input type="hidden" name="product_slug" value="' . esc_attr( $detail_slug ) . '">'
 			. '<strong>Hãy để lại số điện thoại, chúng tôi sẽ gọi tư vấn miễn phí!</strong>'
-			. '<div><input name="phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="Nhập số điện thoại..." required><button type="submit">GỬI ĐI</button></div>'
+			. '<div class="vive-woo-product__callback-fields"><input name="phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="Nhập số điện thoại..." required>'
+			. theme_vive_recaptcha_field()
+			. '<button type="submit">GỬI ĐI</button></div>'
 			. '<p class="vive-woo-product__callback-message" aria-live="polite"></p>'
 			. '</form>';
 
@@ -1120,6 +1122,7 @@ function theme_vive_products_prepare_html( $html, $file ) {
 	}
 	$style = '<style id="theme-vive-woo-product-buttons">.tryon__cta,.tryon__modal,.tryon-block,[class*="tryon"],[id*="tryon"],.shopify-model-viewer-ui,[data-shopify-model-viewer-ui],model-viewer,.model-viewer,[class*="restock"],[id*="restock"],[class*="stoq"],[id*="stoq"],.preorder-button-description,[class*="preorder-button-description"],[class*="shipping-text"],[class*="preorder-badge"],[class*="preorder_button"],.shipping-info,[data-shipping],[data-preorder],.product-form__shipping{display:none!important;visibility:hidden!important;opacity:0!important;pointer-events:none!important;height:0!important;width:0!important;overflow:hidden!important;margin:0!important;padding:0!important}.vive-in-stock-badge{display:inline-flex!important;align-items:center!important;gap:6px!important;color:#0d8a4f!important;font-weight:700!important;font-size:18px!important;line-height:1.3!important}.vive-in-stock-badge::before{content:"✓";display:inline-flex;align-items:center;justify-content:center;width:20px;height:20px;border-radius:50%;background:#e6f4ea;color:#0d8a4f;font-size:13px;font-weight:900}.theme-vive-product-actions{display:flex!important;align-items:center;flex-wrap:wrap;gap:12px;margin-top:22px}.theme-vive-product-actions a{display:inline-flex!important;align-items:center;justify-content:center;box-sizing:border-box;min-width:132px;padding:11px 24px;border:1px solid #00b5e2;border-radius:2px;font:600 15px/1.35 "Be Vietnam Pro",Arial,sans-serif;text-decoration:none!important;transition:background .2s,border-color .2s,color .2s}.theme-vive-detail-button{background:#fff;color:#008fb3!important}.theme-vive-buy-button{background:#00b5e2;color:#fff!important}.theme-vive-detail-buy-button{display:inline-flex!important;align-items:center;justify-content:center;align-self:center;box-sizing:border-box;margin:0 22px 0 0;padding:8px 20px;border:1px solid #00b5e2;border-radius:2px;background:#00b5e2;color:#fff!important;font:600 14px/1.35 "Be Vietnam Pro",Arial,sans-serif;white-space:nowrap;cursor:pointer;transition:background .2s,border-color .2s}.theme-vive-detail-buy-button:hover,.theme-vive-detail-buy-button:focus{border-color:#008fb3;background:#008fb3}.theme-vive-product-actions a:hover,.theme-vive-product-actions a:focus{border-color:#008fb3;background:#008fb3;color:#fff!important}.product-list .theme-vive-product-actions{justify-content:center;margin-top:16px}.theme-vive-order-modal[hidden]{display:none!important}.theme-vive-order-modal{position:fixed;z-index:2147483640;inset:0;display:flex!important;align-items:center;justify-content:center;padding:20px;background:rgba(0,0,0,.62)}.theme-vive-order-dialog{position:relative;box-sizing:border-box;width:min(560px,100%);max-height:calc(100vh - 40px);overflow:auto;padding:30px;border-radius:8px;background:#fff;color:#202124;box-shadow:0 20px 60px rgba(0,0,0,.35)}.theme-vive-order-close{position:absolute;top:10px;right:12px;border:0;background:transparent;font-size:30px;line-height:1;cursor:pointer}.theme-vive-order-dialog h2{margin:0 35px 20px 0;font-size:25px}.theme-vive-order-product{display:grid;grid-template-columns:118px 1fr;gap:16px;align-items:center;margin-bottom:18px;padding:14px;border-radius:6px;background:#f5f7f8}.theme-vive-order-product img{display:block;width:118px;height:90px;margin:0!important;object-fit:contain}.theme-vive-order-product h3{margin:0 0 5px;font-size:19px}.theme-vive-order-product p{margin:0 0 5px;font-size:14px;line-height:1.45}.theme-vive-order-product-meta{color:#697077;font-size:12px}.theme-vive-order-dialog label{display:block;margin:12px 0 5px;font-weight:600}.theme-vive-order-dialog input,.theme-vive-order-dialog textarea{box-sizing:border-box;width:100%;padding:11px 12px;border:1px solid #c8cdd0;border-radius:4px;font:inherit}.theme-vive-order-quantity{max-width:120px}.theme-vive-order-submit{width:100%;margin-top:20px;padding:12px;border:0;border-radius:4px;background:#00b5e2;color:#fff;font-weight:700;cursor:pointer}.theme-vive-order-message{margin:14px 0 0}.theme-vive-order-message.is-error{color:#b42318}@media(max-width:767px){.theme-vive-product-actions{margin-top:16px}.theme-vive-product-actions a{padding:10px 20px}.theme-vive-detail-buy-button{margin-right:10px;padding:7px 12px;font-size:12px}.theme-vive-order-dialog{padding:24px 20px}.theme-vive-order-product{grid-template-columns:88px 1fr}.theme-vive-order-product img{width:88px;height:76px}}</style>';
 	// Actions, variants & callback styling
+	$style .= '<style id="theme-vive-recaptcha-layer-fix">.theme-vive-order-modal{z-index:1000000!important}@media(max-height:900px){iframe[src*="/recaptcha/api2/bframe"]{transform:scale(.78)!important;transform-origin:center top!important}}@media(max-height:720px){iframe[src*="/recaptcha/api2/bframe"]{transform:scale(.68)!important}}</style>';
 	$style .= '<style id="theme-vive-shop-actions-style">'
 		. '.show-block-if-variant-selected,.product-variants,.product-variants.no-js-hidden,.sidebar-widget,.sidebar-widget--outline,.sidebar-widget__content,.product-variant,.product-actions{display:block!important;visibility:visible!important;opacity:1!important}'
 		. '.sidebar-widget--outline{border:1px solid #e1e8ed!important;background:#f9fbfc!important;padding:18px!important;border-radius:6px!important;margin:18px 0!important}'
@@ -1150,14 +1153,16 @@ function theme_vive_products_prepare_html( $html, $file ) {
 		. '.vive-woo-product__action:hover,.vive-woo-product__action:focus{border-color:#008fb3;background:#008fb3;color:#fff!important;transform:translateY(-1px)}'
 		. '.vive-woo-product__callback{margin-top:20px;margin-bottom:25px;padding:22px;border:1px solid #dce7eb;border-top:4px solid #00b5e2;border-radius:4px;background:#f5f8f9;color:#202124;box-shadow:0 4px 16px rgba(17,25,30,.05)}'
 		. '.vive-woo-product__callback strong{display:block;margin-bottom:12px;font-size:15px;line-height:1.5;color:#111}'
-		. '.vive-woo-product__callback>div{display:grid;grid-template-columns:1fr auto;gap:8px}'
+		. '.vive-woo-product__callback-fields{display:grid;grid-template-columns:1fr auto;gap:8px}'
+		. '.vive-woo-product__callback-fields .theme-vive-recaptcha{grid-column:1/-1}'
+		. '.vive-woo-product__callback .g-recaptcha{width:113.636%;transform:scale(.88);transform-origin:0 0;margin-bottom:-9px}'
 		. '.vive-woo-product__callback input{min-width:0;padding:13px 16px;border:1px solid #c8d2d6;border-radius:4px;background:#fff;font:inherit;outline:none}'
 		. '.vive-woo-product__callback input:focus{border-color:#00b5e2;box-shadow:0 0 0 3px rgba(0,181,226,.14)}'
 		. '.vive-woo-product__callback button{padding:0 26px;border:1px solid #00b5e2;border-radius:4px;background:#00b5e2;color:#fff;font-weight:800;font-size:14px;text-transform:uppercase;cursor:pointer;transition:background .2s,border-color .2s}'
 		. '.vive-woo-product__callback button:hover,.vive-woo-product__callback button:focus{border-color:#008fb3;background:#008fb3}'
 		. '.vive-woo-product__callback-message{margin:10px 0 0;color:#087d9d;font-weight:600}'
 		. '.vive-woo-product__callback-message.is-error{color:#b42318}'
-		. '@media(max-width:600px){.vive-woo-product__actions{grid-template-columns:1fr}.vive-woo-product__callback>div{grid-template-columns:1fr}.vive-woo-product__callback button{min-height:44px}}'
+		. '@media(max-width:600px){.vive-woo-product__actions{grid-template-columns:1fr}.vive-woo-product__callback-fields{grid-template-columns:1fr}.vive-woo-product__callback button{min-height:44px}}'
 		. '.breadcrumb-main,.breadcrumb-main--scroll,.breadcrumb-main--smaller,.breadcrumb-main--margin,.breadcrumb-container,.breadcrumb{overflow:visible!important;white-space:normal!important;width:auto!important;max-width:100%!important;mask-image:none!important;-webkit-mask-image:none!important}'
 		. '.breadcrumb{display:flex!important;flex-wrap:wrap!important;align-items:center!important;gap:4px 6px!important;line-height:1.5!important;padding:4px 0!important}'
 		. '.breadcrumb__current,.breadcrumb__link,.breadcrumb__separator{display:inline-flex!important;align-items:center!important;white-space:normal!important;text-overflow:unset!important;overflow:visible!important;max-width:none!important;width:auto!important;word-break:normal!important;font-size:13px!important;line-height:1.4!important}'
@@ -1193,12 +1198,20 @@ function theme_vive_products_prepare_html( $html, $file ) {
 		'products'=>$catalogue,
 		'endpoint'=>admin_url( 'admin-post.php' ),
 		'nonce'=>wp_create_nonce( 'theme_vive_submit_order' ),
+		'recaptchaSiteKey'=>theme_vive_recaptcha_site_key(),
 	);
-	$script = '<script id="theme-vive-woo-products">window.themeViveProductOrder=' . wp_json_encode( $config, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES ) . ';</script><script src="' . esc_url( get_template_directory_uri() . '/inc/product-order.js?v=' . ( file_exists( get_template_directory() . '/inc/product-order.js' ) ? filemtime( get_template_directory() . '/inc/product-order.js' ) : '20260907' ) ) . '" defer></script>';
+	$recaptcha_script = theme_vive_recaptcha_enabled()
+		? '<script src="https://www.google.com/recaptcha/api.js?hl=vi" async defer></script>'
+		: '';
+	$script = '<script id="theme-vive-woo-products">window.themeViveProductOrder=' . wp_json_encode( $config, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES ) . ';</script>' . $recaptcha_script . '<script src="' . esc_url( get_template_directory_uri() . '/inc/product-order.js?v=' . ( file_exists( get_template_directory() . '/inc/product-order.js' ) ? filemtime( get_template_directory() . '/inc/product-order.js' ) : '20260907' ) ) . '" defer></script>';
 	return preg_replace( '#</body>#i', $style . $script . '</body>', $html, 1 );
 }
 
 function theme_vive_submit_product_order() {
+	$recaptcha = theme_vive_verify_recaptcha();
+	if ( is_wp_error( $recaptcha ) ) {
+		wp_send_json_error( array( 'message' => $recaptcha->get_error_message() ), 403 );
+	}
 	if ( ! wp_verify_nonce( sanitize_text_field( wp_unslash( $_POST['nonce'] ?? '' ) ), 'theme_vive_submit_order' ) ) {
 		wp_send_json_error( array( 'message'=>'Phiên gửi đã hết hạn. Vui lòng tải lại trang.' ), 403 );
 	}
@@ -1311,6 +1324,10 @@ function theme_vive_register_callback_request_type() {
 add_action( 'init', 'theme_vive_register_callback_request_type' );
 
 function theme_vive_submit_callback() {
+	$recaptcha = theme_vive_verify_recaptcha();
+	if ( is_wp_error( $recaptcha ) ) {
+		wp_send_json_error( array( 'message' => $recaptcha->get_error_message() ), 403 );
+	}
 	if ( ! wp_verify_nonce( sanitize_text_field( wp_unslash( $_POST['nonce'] ?? '' ) ), 'theme_vive_submit_callback' ) ) {
 		wp_send_json_error( array( 'message'=>'Phiên gửi đã hết hạn. Vui lòng tải lại trang.' ), 403 );
 	}

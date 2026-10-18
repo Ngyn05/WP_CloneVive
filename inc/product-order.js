@@ -4,6 +4,23 @@
   var products = config.products || {};
   var modal;
 
+  function renderRecaptcha(container, attempt) {
+    if (!container || container.dataset.rendered === '1') return;
+    if (window.grecaptcha && typeof window.grecaptcha.render === 'function') {
+      window.grecaptcha.render(container, { sitekey: config.recaptchaSiteKey });
+      container.dataset.rendered = '1';
+      return;
+    }
+    if ((attempt || 0) < 20) window.setTimeout(function () { renderRecaptcha(container, (attempt || 0) + 1); }, 250);
+  }
+
+  function resetRecaptchas() {
+    if (!window.grecaptcha) return;
+    for (var i = 0; i < 10; i++) {
+      try { window.grecaptcha.reset(i); } catch (error) { break; }
+    }
+  }
+
   function createModal() {
     modal = document.createElement('div');
     modal.className = 'theme-vive-order-modal';
@@ -20,8 +37,20 @@
       '<label>Số lượng</label><input class="theme-vive-order-quantity" name="quantity" type="number" value="1" min="1" max="99">' +
       '<label>Địa chỉ nhận hàng</label><textarea name="address" rows="2" autocomplete="street-address" placeholder="Địa chỉ giao hàng..."></textarea>' +
       '<label>Ghi chú đơn hàng</label><textarea name="note" rows="3" placeholder="Yêu cầu thêm về thời gian giao hàng, tư vấn..."></textarea>' +
+	  (config.recaptchaSiteKey ? '<div class="theme-vive-recaptcha"><div class="g-recaptcha" data-sitekey="' + config.recaptchaSiteKey + '"></div></div>' : '') +
       '<button class="theme-vive-order-submit" type="submit">Gửi đơn hàng</button><p class="theme-vive-order-message" aria-live="polite"></p></form></div>';
     document.body.appendChild(modal);
+	var recaptcha = modal.querySelector('.g-recaptcha');
+	if (recaptcha) renderRecaptcha(recaptcha, 0);
+	var recaptchaWrap = modal.querySelector('.theme-vive-recaptcha');
+	if (recaptchaWrap) {
+	  var revealRecaptcha = function () {
+		recaptchaWrap.scrollIntoView({ behavior: 'auto', block: 'center' });
+	  };
+	  recaptchaWrap.addEventListener('pointerenter', revealRecaptcha);
+	  recaptchaWrap.addEventListener('touchstart', revealRecaptcha, { passive: true });
+	  recaptchaWrap.addEventListener('focusin', revealRecaptcha);
+	}
     modal.querySelector('[name="nonce"]').value = config.nonce || '';
     modal.querySelector('.theme-vive-order-close').onclick = closeModal;
     modal.addEventListener('click', function (event) { if (event.target === modal) closeModal(); });
@@ -100,6 +129,7 @@
         message.textContent = result.data && result.data.message ? result.data.message : 'Đã gửi yêu cầu.';
         if (!result.success) message.classList.add('is-error');
         if (result.success) {
+		  resetRecaptchas();
           form.reset();
           form.querySelector('[name="nonce"]').value = config.nonce || '';
           form.querySelector('[name="product_id"]').value = modal.dataset.productId || '';
@@ -134,6 +164,7 @@
           if (!res.success) msg.classList.add('is-error');
         }
         if (res.success) {
+		  resetRecaptchas();
           var phoneInput = form.querySelector('input[name="phone"]');
           if (phoneInput) phoneInput.value = '';
         }

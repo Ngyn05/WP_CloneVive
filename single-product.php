@@ -137,7 +137,11 @@ while ( have_posts() ) :
 					<input type="hidden" name="nonce" value="<?php echo esc_attr( wp_create_nonce( 'theme_vive_submit_callback' ) ); ?>">
 					<input type="hidden" name="product_id" value="<?php echo esc_attr( $product->get_id() ); ?>">
 					<strong>Hãy để lại số điện thoại, chúng tôi sẽ gọi tư vấn miễn phí!</strong>
-					<div><input name="phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="Nhập số điện thoại..." required><button type="submit">Gửi đi</button></div>
+					<div class="vive-woo-product__callback-fields">
+						<input name="phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="Nhập số điện thoại..." required>
+						<?php echo theme_vive_recaptcha_field(); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
+						<button type="submit">Gửi đi</button>
+					</div>
 					<p class="vive-woo-product__callback-message" aria-live="polite"></p>
 				</form>
 			</div>
@@ -254,19 +258,20 @@ while ( have_posts() ) :
 		if(location.hash==='#danh-gia')openTab('danh-gia',false);
 	})();
 	</script>
-	<script>window.themeViveProductOrder=<?php echo wp_json_encode( array( 'products'=>theme_vive_catalogue_products(), 'endpoint'=>admin_url( 'admin-post.php' ), 'nonce'=>wp_create_nonce( 'theme_vive_submit_order' ) ), JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES ); ?>;</script>
+	<script>window.themeViveProductOrder=<?php echo wp_json_encode( array( 'products'=>theme_vive_catalogue_products(), 'endpoint'=>admin_url( 'admin-post.php' ), 'nonce'=>wp_create_nonce( 'theme_vive_submit_order' ), 'recaptchaSiteKey'=>theme_vive_recaptcha_site_key() ), JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES ); ?>;</script>
 	<script src="<?php echo esc_url( get_template_directory_uri() . '/inc/product-order.js?v=' . ( file_exists( get_template_directory() . '/inc/product-order.js' ) ? filemtime( get_template_directory() . '/inc/product-order.js' ) : '20260907' ) ); ?>"></script>
 	<script>
 	(function(){
 		var form=document.querySelector('[data-vive-callback-form]');
 		if(!form)return;
+		form._viveBound=true;
 		form.addEventListener('submit',function(event){
 			event.preventDefault();
 			var button=form.querySelector('button'),message=form.querySelector('.vive-woo-product__callback-message');
 			button.disabled=true;button.textContent='Đang gửi…';message.className='vive-woo-product__callback-message';message.textContent='';
 			fetch(form.getAttribute('action'),{method:'POST',body:new FormData(form),credentials:'same-origin'}).then(function(response){return response.text().then(function(text){try{return JSON.parse(text);}catch(error){throw new Error('Máy chủ trả về lỗi '+response.status+'.');}});}).then(function(result){
 				message.textContent=result.data&&result.data.message?result.data.message:'Đã gửi yêu cầu.';
-				if(!result.success)message.classList.add('is-error');else form.querySelector('[name="phone"]').value='';
+				if(!result.success)message.classList.add('is-error');else {form.querySelector('[name="phone"]').value='';if(window.grecaptcha)window.grecaptcha.reset();}
 			}).catch(function(error){message.textContent=error&&error.message?error.message:'Không thể gửi yêu cầu. Vui lòng thử lại.';message.classList.add('is-error');}).finally(function(){button.disabled=false;button.textContent='Gửi đi';});
 		});
 	})();

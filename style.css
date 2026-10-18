@@ -96,15 +96,15 @@ body.single-product{margin:0;background:#f4f6f7;color:#17191b}
 .vive-woo-product__action:hover,.vive-woo-product__action:focus{border-color:#008fb3;background:#008fb3;color:#fff!important;transform:translateY(-1px)}
 .vive-woo-product__callback{margin-top:28px;padding:22px;border:1px solid #dce7eb;border-top:4px solid #00b5e2;border-radius:4px;background:#f5f8f9;color:#202124;box-shadow:0 8px 24px rgba(17,25,30,.07)}
 .vive-woo-product__callback strong{display:block;margin-bottom:12px;line-height:1.5}
-.vive-woo-product__callback>div{display:grid;grid-template-columns:1fr auto;gap:8px}
+.vive-woo-product__callback-fields{display:grid;grid-template-columns:1fr auto;gap:8px}.vive-woo-product__callback-fields .theme-vive-recaptcha{grid-column:1/-1}.vive-woo-product__callback .g-recaptcha{width:113.636%;transform:scale(.88);transform-origin:0 0;margin-bottom:-9px}
 .vive-woo-product__callback input{min-width:0;padding:13px 16px;border:1px solid #c8d2d6;border-radius:3px;background:#fff;font:inherit;outline:none}.vive-woo-product__callback input:focus{border-color:#00b5e2;box-shadow:0 0 0 3px rgba(0,181,226,.14)}
 .vive-woo-product__callback button{padding:0 26px;border:1px solid #00b5e2;border-radius:3px;background:#00b5e2;color:#fff;font-weight:800;text-transform:uppercase;cursor:pointer;transition:background .2s,border-color .2s}.vive-woo-product__callback button:hover,.vive-woo-product__callback button:focus{border-color:#008fb3;background:#008fb3}
 .vive-woo-product__callback-message{margin:10px 0 0;color:#087d9d;font-weight:600}.vive-woo-product__callback-message.is-error{color:#b42318}
-.theme-vive-order-modal[hidden]{display:none!important}.theme-vive-order-modal{position:fixed;z-index:2147483640;inset:0;display:flex;align-items:center;justify-content:center;padding:20px;background:rgba(0,0,0,.62)}
+.theme-vive-order-modal[hidden]{display:none!important}.theme-vive-order-modal{position:fixed;z-index:1000000;inset:0;display:flex;align-items:center;justify-content:center;padding:20px;background:rgba(0,0,0,.62)}
 .theme-vive-order-dialog{position:relative;box-sizing:border-box;width:min(560px,100%);max-height:calc(100vh - 40px);overflow:auto;padding:30px;border-radius:10px;background:#fff;color:#202124;box-shadow:0 20px 60px rgba(0,0,0,.35)}
 .theme-vive-order-close{position:absolute;top:10px;right:12px;border:0;background:transparent;font-size:30px;cursor:pointer}.theme-vive-order-dialog h2{margin:0 35px 20px 0}.theme-vive-order-product{display:grid;grid-template-columns:118px 1fr;gap:16px;align-items:center;margin-bottom:18px;padding:14px;border-radius:6px;background:#f5f7f8}.theme-vive-order-product img{width:118px;height:90px;object-fit:contain}.theme-vive-order-product h3,.theme-vive-order-product p{margin:0 0 5px}.theme-vive-order-dialog label{display:block;margin:12px 0 5px;font-weight:600}.theme-vive-order-dialog input,.theme-vive-order-dialog textarea{box-sizing:border-box;width:100%;padding:11px 12px;border:1px solid #c8cdd0;border-radius:4px;font:inherit}.theme-vive-order-quantity{max-width:120px}.theme-vive-order-submit{width:100%;margin-top:20px;padding:12px;border:0;border-radius:4px;background:#00b5e2;color:#fff;font-weight:700;cursor:pointer}.theme-vive-order-message.is-error{color:#b42318}
 .theme-vive-order-notice{display:grid;grid-template-columns:22px 1fr;gap:10px;margin:0 0 18px;padding:12px 14px;border:1px solid #a9d7e7;border-radius:4px;background:#edf8fc;color:#263a43;font-size:14px;line-height:1.55}.theme-vive-order-notice>span{display:flex;align-items:center;justify-content:center;width:18px;height:18px;margin-top:2px;border-radius:2px;background:#008fb3;color:#fff;font-weight:800;font-style:normal}.theme-vive-order-notice p{margin:0}.theme-vive-order-notice strong{color:#17191b}
-@media(max-width:600px){.vive-woo-product__actions{grid-template-columns:1fr}.vive-woo-product__callback>div{grid-template-columns:1fr}.vive-woo-product__callback button{min-height:44px}.theme-vive-order-dialog{padding:24px 20px}.theme-vive-order-product{grid-template-columns:88px 1fr}.theme-vive-order-product img{width:88px;height:76px}}
+@media(max-width:600px){.vive-woo-product__actions{grid-template-columns:1fr}.vive-woo-product__callback-fields{grid-template-columns:1fr}.vive-woo-product__callback button{min-height:44px}.theme-vive-order-dialog{padding:24px 20px}.theme-vive-order-product{grid-template-columns:88px 1fr}.theme-vive-order-product img{width:88px;height:76px}}
 .vive-woo-product{box-sizing:border-box;min-height:100vh;padding:38px 24px 80px;background:radial-gradient(circle at 12% 8%,rgba(0,181,226,.12),transparent 26%),linear-gradient(180deg,#f8fafb 0,#eef2f4 100%)}
 .vive-woo-product__bar,.vive-woo-product__card,.vive-woo-product__description,.vive-woo-product__details{width:min(1180px,100%);margin-right:auto;margin-left:auto}
 .vive-woo-product__bar{display:flex;align-items:center;justify-content:space-between;margin-bottom:28px}
@@ -2512,7 +2512,7 @@ body.template-product .product-text .vive-woo-product__callback {
 	box-shadow: none !important;
 }
 
-body.template-product .product-text .vive-woo-product__callback > div {
+body.template-product .product-text .vive-woo-product__callback-fields {
 	display: grid !important;
 	grid-template-columns: minmax(0, 1fr) !important;
 	gap: 10px !important;
@@ -2557,7 +2557,7 @@ body.template-product .product-text .star-rating {
 		grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
 	}
 
-	body.template-product .product-text .vive-woo-product__callback > div {
+	body.template-product .product-text .vive-woo-product__callback-fields {
 		grid-template-columns: 1fr !important;
 	}
 
@@ -2925,6 +2925,26 @@ facet-filters-form,
 	display: none !important;
 }
 
+.theme-vive-recaptcha {
+	clear: both;
+	margin: 16px 0;
+	overflow: hidden;
+}
+
+/* Keep Google's image challenge, including its Verify button, inside short viewports. */
+@media (max-height: 900px) {
+	iframe[src*="/recaptcha/api2/bframe"] {
+		transform: scale(.78) !important;
+		transform-origin: center top !important;
+	}
+}
+
+@media (max-height: 720px) {
+	iframe[src*="/recaptcha/api2/bframe"] {
+		transform: scale(.68) !important;
+	}
+}
+
 /* VIVE Flow & Overview Footnote dark block styling */
 .vive-flow-2022-page .section-footnote,
 .section-footnote {
@@ -2955,8 +2975,3 @@ facet-filters-form,
 	margin-left: auto !important;
 	margin-right: auto !important;
 }
-
-
-
-
-
